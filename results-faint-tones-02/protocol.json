@@ -1,0 +1,72 @@
+{
+ "study": "results-faint-tones-02",
+ "rerun_of": "results-faint-tones-01 (crashed before any score was saved; settings, seeds and bars unchanged)",
+ "utc": "2026-11-06T06:18:03.084409+00:00",
+ "settings": {
+  "window_seconds": 4.0,
+  "segment_seconds": 1.0,
+  "floor_hz": 20.0,
+  "min_db": 7.0,
+  "max_width_hz": 6.0,
+  "history": 24,
+  "acquire": 20,
+  "release": 8,
+  "associate_hz": 2.0,
+  "update_seconds": 0.25,
+  "band": [
+   35.0,
+   350.0
+  ],
+  "max_tones": 3
+ },
+ "seeds": [
+  2001,
+  2002,
+  2003,
+  2004,
+  2005,
+  2006,
+  2007,
+  2008,
+  2009,
+  2010
+ ],
+ "seconds_per_case": 60,
+ "hum_levels_db": [
+  -25,
+  -20,
+  -15,
+  -10
+ ],
+ "bars": {
+  "noise": "white and pink noise: no faint tone active in any update, on every seed",
+  "voice": "voice-like sound (with and without background noise): faint tone active in at most 10% of updates on at least 8 of 10 seeds",
+  "hum": "hum at -15 dB in pink noise: locked within 3 Hz of 200 Hz in at least 80% of updates after 15 s, and first lock by 15 s, on at least 8 of 10 seeds",
+  "rooms": "the 14 stored rooms: every tone the frozen detector reports is still reported at every update",
+  "timing": "one combined update (both detectors) p99 at most 2 ms on this machine, CPU only"
+ },
+ "reported_only": "hum at -25/-20/-10 dB in pink and every hum under voices; Sid's recording; the real recordings in external-audio/; gate-open share for the faint engine on the hums",
+ "real_files": [
+  "external-audio\\wikimedia-commons-2026-10-16\\Air_conditioner_hum_2_Gravity_Sound_.wav",
+  "external-audio\\wikimedia-commons-2026-10-16\\Air_conditioner_hum_Gravity_Sound_.wav",
+  "external-audio\\wikimedia-commons-2026-10-16\\Fan_Gravity_Sound_.wav",
+  "external-audio\\wikimedia-commons-2026-10-16\\Sounds_made_by_a_fan.wav",
+  "external-audio\\wikimedia-commons-fresh-02\\60-hz.wav",
+  "external-audio\\wikimedia-commons-fresh-02\\Lille_subway_noise.wav",
+  "external-audio\\wikimedia-commons-fresh-02\\Siemens_Combino_Engine_Sound.wav",
+  "external-audio\\wikimedia-commons-fresh-02\\The_Sound_of_MOXIE_at_Work_on_Mars_(PIA26041).wav",
+  "external-audio\\wikimedia-commons-fresh-04\\Wiki_Motor_lancha.wav",
+  "external-audio\\wikimedia-commons-fresh-05\\Propeller-plane-flying-steady-01.wav",
+  "external-audio\\wikimedia-commons-selector-fresh-01\\fresh-007.wav",
+  "external-audio\\wikimedia-commons-selector-fresh-01\\small\\fresh-007.wav",
+  "external-audio\\wikimedia-commons-selector-fresh-01\\small\\fresh-021.wav",
+  "external-audio\\wikimedia-commons-tuning-fresh-02\\tg-014.wav"
+ ],
+ "hashes": {
+  "anc_lab/faint_tones.py": "740d0012b0fce7f5e5fc2939f5ca36858fad01f3a30bc785f0bb525185a118e5",
+  "anc_lab/live_engine.py": "12614333e2e2a93775828f810a51ae6e6b04bcd093372107440e4862ec065364",
+  "anc_lab/tone_selection.py": "45c4e543f096ed82d63a3ce8f8a6d5ac7da181cc76777dbdf7fc8a6c1d35a3cf",
+  "anc_lab/antihum.py": "599bd571cf75c3c18719540e7c32dd0a1f67f3fca6c761273bce2ce955d01c23",
+  "research-tools/faint_tones_study.py": "f9705fd2f1a55376e5fada40d7e34547c0d0e567feaab4e4154665eb3159b50c"
+ }
+}

@@ -1,0 +1,110 @@
+{
+  "id": "fresh-033",
+  "title": "File:Steam locomotive P-36 at the Pavlovskyi Posad station.webm",
+  "cohort": "transport engine",
+  "acoustic": true,
+  "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-033.npz",
+  "arrays_sha256": "f7363e712047dd7acb0da908ed2ee0ed982ffb0c04a473aae34941f0e5be6a43",
+  "reference_sha256": "99fef0e7d156f7bf1811a6c970ffc75fdd56d23097242f448a8ef0823fdef5b3",
+  "seconds": 89.9735,
+  "prefix_seconds": 35.989,
+  "counts": {
+    "frames_after_warmup": 8847,
+    "v2_components_before_gate": 1590,
+    "bank_components_before_gate": 1593,
+    "frames_both_gates_open": 8847,
+    "bank_components_without_v2_match": 224,
+    "eligible_v2_components": 1590,
+    "matched_tone_frames": 1369,
+    "v2_without_bank_match": 221
+  },
+  "all": {
+    "matched_tone_frames": 1369,
+    "mismatch": {
+      "p05": 0.112460539622648,
+      "p50": 0.527169310575367,
+      "p95": 1.311619946334933,
+      "p99": 1.7824637460301862,
+      "max": 2.7441231999276705
+    },
+    "ramped_mismatch": {
+      "p05": 0.112460539622648,
+      "p50": 0.527169310575367,
+      "p95": 1.311619946334933,
+      "p99": 1.7824637460301862,
+      "max": 2.7441231999276705
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.3561598479376475,
+      "p50": 5.560997606965251,
+      "p95": 18.98001208013211,
+      "p99": 26.801532339891242,
+      "max": 49.95392642014394
+    },
+    "fraction_mismatch_above_0_1": 0.9620160701241782,
+    "fraction_mismatch_above_1": 0.14901387874360847,
+    "v2_energy_weighted_rms_mismatch": 0.8758770079588689,
+    "absolute_phase_difference_deg": {
+      "p05": 2.2929834542384064,
+      "p50": 24.926418642264746,
+      "p95": 93.10019294547969,
+      "p99": 135.8067732002195,
+      "max": 175.69872534696376
+    },
+    "amplitude_ratio": {
+      "p05": 0.25948943661281093,
+      "p50": 0.90481420750145,
+      "p95": 1.4097465035514625,
+      "p99": 1.7969293200897802,
+      "max": 2.996382020114672
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 233,
+    "mismatch": {
+      "p05": 0.1151351811148938,
+      "p50": 0.5474673448431278,
+      "p95": 1.6523710038976454,
+      "p99": 2.0283658580795176,
+      "max": 2.21928855233049
+    },
+    "ramped_mismatch": {
+      "p05": 0.1151351811148938,
+      "p50": 0.5474673448431278,
+      "p95": 1.6523710038976454,
+      "p99": 2.0283658580795176,
+      "max": 2.21928855233049
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -4.362011504813187,
+      "p50": 5.2328356074696565,
+      "p95": 18.78674688411196,
+      "p99": 23.888689183592106,
+      "max": 49.95392642014394
+    },
+    "fraction_mismatch_above_0_1": 0.9613733905579399,
+    "fraction_mismatch_above_1": 0.2317596566523605,
+    "v2_energy_weighted_rms_mismatch": 0.7017213754307963,
+    "absolute_phase_difference_deg": {
+      "p05": 2.5714151522397444,
+      "p50": 30.659452722383275,
+      "p95": 104.9881177210353,
+      "p99": 136.78473743480563,
+      "max": 156.42003437580732
+    },
+    "amplitude_ratio": {
+      "p05": 0.658355270775955,
+      "p50": 0.9273080809615213,
+      "p95": 1.3817009012616182,
+      "p99": 1.6432484157611293,
+      "max": 2.730938141993351
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\fresh-033.npz",
+  "ratio_arrays_sha256": "42a45296dbcbbd21561a1d96c1117007fca3660f81639c027e2f88212d3c179b"
+}

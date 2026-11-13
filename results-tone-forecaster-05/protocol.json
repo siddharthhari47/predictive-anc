@@ -1,0 +1,921 @@
+{
+  "kind": "tone_forecaster_05_frozen_protocol",
+  "created_utc": "2026-10-19T08:13:29.199473+00:00",
+  "development_run": "results-tone-forecaster-05/development/dev-01",
+  "rule": "Written after the diagnostic trials on development material (results-tone-forecaster-05/diagnosis) and before the formal development run. Candidates, all gated: the joint band check of study 02 with each tone fading in and out of every output setting instead of switching: raised-cosine fades of 0.05, 0.1 and 0.2 s; a 0.1 s linear fade; a 0.1 s fade plus a 0.3 s cross-fade when the check changes its setting; and a 0.1 s fade with a 0.2 s start floor instead of 0.1 s. Development material: the eight study-01 development recordings, the 44 development synthetic scenes and study 03's 8 buzz scenes. A boost is a third-octave band 1 dB or more louder; a near-boost 0.5 dB or more; both are counted over development recordings (either horizon) plus late synthetic windows. The change scenes are tone_appears_9s, tones_stop_9s and source_change_9s. Eligible only if: (a) fewer boosts than joint + gate; (b) fewer boosts on the change scenes than joint + gate; (c) no more near-boosts than joint + gate; (d) no more whole-band boosts (whole 35-350 Hz band below -0.5 dB on a development recording) than joint + gate; (e) the tone gain over v2 is kept: the median, over development acoustic recordings with reference tones, of the tone-bin gain averaged over both horizons is at least v2 + gate's plus half of the amount by which joint + gate exceeds v2 + gate; (f) the median whole-band gain over development acoustic recordings, averaged over both horizons, is at least joint + gate's minus 0.1 dB; (g) the mean synthetic objective is at least joint + gate's minus 0.5 dB and its synthetic windows below -0.5 dB are no more than joint + gate has; (h) its own compute time per 10 ms block at the 99th percentile, median over runs, is within 0.5 ms of joint's in the same run. Study 03 used the worst run instead, which swings with the shared machine's load: in the study-05 trial the fade code with one-block fades (the joint check's own forecasts) was 2.5 ms slower than the joint check on its worst run, while timed side by side in one process, after the output step was made an array step, it is about 0.1 ms slower on average and 0.3-0.4 ms at the median 99th percentile (diagnosis timing01, timing02). Among eligible candidates, pick the one with the fewest boosts, then the fewest near-boosts, then the higher tone-bin median. If none is eligible, nothing is frozen: the joint check and v2 are unchanged, and there is nothing to test.",
+  "rule_table": [
+    {
+      "candidate": "fade0.05",
+      "options": {
+        "fade_in_seconds": 0.05,
+        "fade_out_seconds": 0.05
+      },
+      "tone_bin_needed_db": 4.354585572862783,
+      "p99_block_ms": 3.8086499858764,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_fewer_change_boosts": true,
+        "c_near_boosts": true,
+        "d_whole_band_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": true,
+      "boosts": 18,
+      "near_boosts": 33,
+      "recording_boosts": 1,
+      "recording_near_boosts": 6,
+      "synthetic_late_boosts": 17,
+      "synthetic_late_near_boosts": 27,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.679716744073462,
+      "whole_band_median_db": 2.334244235248487,
+      "synthetic_objective_db": 7.0380742884535135,
+      "synthetic_windows_below_minus_half_db": 6,
+      "change_scene_boosts": 10
+    },
+    {
+      "candidate": "fade0.1",
+      "options": {
+        "fade_in_seconds": 0.1,
+        "fade_out_seconds": 0.1
+      },
+      "tone_bin_needed_db": 4.354585572862783,
+      "p99_block_ms": 3.8399224904424063,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_fewer_change_boosts": true,
+        "c_near_boosts": true,
+        "d_whole_band_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": true,
+      "boosts": 15,
+      "near_boosts": 28,
+      "recording_boosts": 1,
+      "recording_near_boosts": 6,
+      "synthetic_late_boosts": 14,
+      "synthetic_late_near_boosts": 22,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.666773016259582,
+      "whole_band_median_db": 2.3566869221643816,
+      "synthetic_objective_db": 7.03341886683475,
+      "synthetic_windows_below_minus_half_db": 6,
+      "change_scene_boosts": 7
+    },
+    {
+      "candidate": "fade0.2",
+      "options": {
+        "fade_in_seconds": 0.2,
+        "fade_out_seconds": 0.2
+      },
+      "tone_bin_needed_db": 4.354585572862783,
+      "p99_block_ms": 3.896515000815274,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_fewer_change_boosts": true,
+        "c_near_boosts": true,
+        "d_whole_band_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": true,
+      "boosts": 16,
+      "near_boosts": 25,
+      "recording_boosts": 1,
+      "recording_near_boosts": 4,
+      "synthetic_late_boosts": 15,
+      "synthetic_late_near_boosts": 21,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.5894601770460275,
+      "whole_band_median_db": 2.3569512072164054,
+      "synthetic_objective_db": 7.025924738368253,
+      "synthetic_windows_below_minus_half_db": 6,
+      "change_scene_boosts": 7
+    },
+    {
+      "candidate": "fade0.1_linear",
+      "options": {
+        "fade_in_seconds": 0.1,
+        "fade_out_seconds": 0.1,
+        "shape": "linear"
+      },
+      "tone_bin_needed_db": 4.354585572862783,
+      "p99_block_ms": 3.972310002427551,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_fewer_change_boosts": true,
+        "c_near_boosts": true,
+        "d_whole_band_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": true,
+      "boosts": 15,
+      "near_boosts": 26,
+      "recording_boosts": 1,
+      "recording_near_boosts": 6,
+      "synthetic_late_boosts": 14,
+      "synthetic_late_near_boosts": 20,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.729153838178242,
+      "whole_band_median_db": 2.3473300593237294,
+      "synthetic_objective_db": 7.043083584771346,
+      "synthetic_windows_below_minus_half_db": 6,
+      "change_scene_boosts": 7
+    },
+    {
+      "candidate": "fade0.1_switch0.3",
+      "options": {
+        "fade_in_seconds": 0.1,
+        "fade_out_seconds": 0.1,
+        "switch_fade_seconds": 0.3
+      },
+      "tone_bin_needed_db": 4.354585572862783,
+      "p99_block_ms": 3.887059998669433,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_fewer_change_boosts": true,
+        "c_near_boosts": true,
+        "d_whole_band_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": true,
+      "boosts": 15,
+      "near_boosts": 27,
+      "recording_boosts": 1,
+      "recording_near_boosts": 6,
+      "synthetic_late_boosts": 14,
+      "synthetic_late_near_boosts": 21,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.664460984128787,
+      "whole_band_median_db": 2.352731163421297,
+      "synthetic_objective_db": 7.02612491176425,
+      "synthetic_windows_below_minus_half_db": 6,
+      "change_scene_boosts": 7
+    },
+    {
+      "candidate": "fade0.1_start0.2",
+      "options": {
+        "fade_in_seconds": 0.1,
+        "fade_out_seconds": 0.1,
+        "start": [
+          0.2,
+          false
+        ]
+      },
+      "tone_bin_needed_db": 4.354585572862783,
+      "p99_block_ms": 3.916362504969593,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_fewer_change_boosts": true,
+        "c_near_boosts": true,
+        "d_whole_band_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": false,
+        "h_time": true
+      },
+      "eligible": false,
+      "boosts": 14,
+      "near_boosts": 27,
+      "recording_boosts": 0,
+      "recording_near_boosts": 5,
+      "synthetic_late_boosts": 14,
+      "synthetic_late_near_boosts": 22,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.666773016259582,
+      "whole_band_median_db": 2.358289953404192,
+      "synthetic_objective_db": 6.450015728641925,
+      "synthetic_windows_below_minus_half_db": 6,
+      "change_scene_boosts": 7
+    }
+  ],
+  "rule_reference": {
+    "joint": {
+      "p99_block_ms": 3.723310000350479,
+      "boosts": 25,
+      "near_boosts": 40,
+      "recording_boosts": 1,
+      "recording_near_boosts": 8,
+      "synthetic_late_boosts": 24,
+      "synthetic_late_near_boosts": 32,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.5567346997913845,
+      "whole_band_median_db": 1.5934124877326798,
+      "synthetic_objective_db": 7.051303908085871,
+      "synthetic_windows_below_minus_half_db": 6,
+      "change_scene_boosts": 14
+    },
+    "v2": {
+      "p99_block_ms": null,
+      "boosts": 54,
+      "near_boosts": 74,
+      "recording_boosts": 9,
+      "recording_near_boosts": 11,
+      "synthetic_late_boosts": 45,
+      "synthetic_late_near_boosts": 63,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 3.1524364459341827,
+      "whole_band_median_db": 0.9815704366270679,
+      "synthetic_objective_db": 7.024630240764883,
+      "synthetic_windows_below_minus_half_db": 6,
+      "change_scene_boosts": 14
+    },
+    "bank_wide_lines": {
+      "p99_block_ms": 2.427495012670988,
+      "boosts": 54,
+      "near_boosts": 72,
+      "recording_boosts": 4,
+      "recording_near_boosts": 12,
+      "synthetic_late_boosts": 50,
+      "synthetic_late_near_boosts": 60,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 6.290407211327659,
+      "whole_band_median_db": 2.322356170898141,
+      "synthetic_objective_db": 7.620400569368195,
+      "synthetic_windows_below_minus_half_db": 6,
+      "change_scene_boosts": 15
+    }
+  },
+  "frozen_candidate": {
+    "name": "fade0.1_linear",
+    "kind": "react",
+    "nb_tau": 0.0,
+    "lines": true,
+    "options": {
+      "fade_in_seconds": 0.1,
+      "fade_out_seconds": 0.1,
+      "shape": "linear"
+    }
+  },
+  "primary_question": "Only if a candidate is frozen. On fresh material the project has never used: (1) does the frozen candidate + gate have fewer late boost windows (a band 1 dB or more louder, either horizon) than joint + gate on the fresh synthetic change scenes? (2) On the fresh recordings, does it have no more third-octave boosts and no more whole-band boosts than joint + gate? (3) Is its median tone-bin gain at 20 ms, over the fresh acoustic recordings with reference tones, above v2 + gate's? Answered separately. Secondary, reported but not part of the question: the whole-band gain against joint + gate, which the fades raised on two development recordings.",
+  "comparators": [
+    {
+      "name": "v2",
+      "kind": "v2",
+      "window_seconds": 0.3
+    },
+    {
+      "name": "prefix_ar",
+      "kind": "prefix_ar"
+    },
+    {
+      "name": "online_ar",
+      "kind": "online_ar"
+    },
+    {
+      "name": "bank_wide_lines",
+      "kind": "bank",
+      "nb_tau": 0.0,
+      "lines": true
+    },
+    {
+      "name": "joint",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {}
+    }
+  ],
+  "candidates": [
+    {
+      "name": "fade0.05",
+      "kind": "react",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "fade_in_seconds": 0.05,
+        "fade_out_seconds": 0.05
+      }
+    },
+    {
+      "name": "fade0.1",
+      "kind": "react",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "fade_in_seconds": 0.1,
+        "fade_out_seconds": 0.1
+      }
+    },
+    {
+      "name": "fade0.2",
+      "kind": "react",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "fade_in_seconds": 0.2,
+        "fade_out_seconds": 0.2
+      }
+    },
+    {
+      "name": "fade0.1_linear",
+      "kind": "react",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "fade_in_seconds": 0.1,
+        "fade_out_seconds": 0.1,
+        "shape": "linear"
+      }
+    },
+    {
+      "name": "fade0.1_switch0.3",
+      "kind": "react",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "fade_in_seconds": 0.1,
+        "fade_out_seconds": 0.1,
+        "switch_fade_seconds": 0.3
+      }
+    },
+    {
+      "name": "fade0.1_start0.2",
+      "kind": "react",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "fade_in_seconds": 0.1,
+        "fade_out_seconds": 0.1,
+        "start": [
+          0.2,
+          false
+        ]
+      }
+    }
+  ],
+  "code_sha256": {
+    "tone_forecasters.py": "2b0499a2963a1fe245a48f3b28eb3afe369d1a649e9fe8063dedc5e4abc193bd",
+    "forecaster_study.py": "40bf7d2a804ad75bed59af71debde1a1e85c18cb9afa02b17e7f478b81de6386",
+    "tone_selection.py": "45c4e543f096ed82d63a3ce8f8a6d5ac7da181cc76777dbdf7fc8a6c1d35a3cf",
+    "predictors.py": "9a9c0a34939450e983b28ae0237e80b45169ed4171fe63b5f9b21d0a1249e36d",
+    "real_hum_study.py": "82709997723aacc38ebe7881fec4687acb311dc7ae9456611ffc45cbc696e686",
+    "release_study.py": "99902b2d94820ad33b49f9d3cda66df496da7a35d78a6ade5d5268c6bd51bbef",
+    "selection_study.py": "97d66a392b21f57ac4461405cccce6b5dad35e6b904f6d55166de93eb30255bd",
+    "assessment.py": "e8f1585b5e93d31b2414d3584b775a5a190f3c5e2464d9e01c08d7f039d3f7c6",
+    "generalization.py": "68cad42262ea32dceff43481077180577229dcb826b12767987f3ca350d8ce21",
+    "tone_floors.py": "75af3cfc5a326ced876108aefa97066487873c2136b0d28a29587278af0eeedc",
+    "forecaster_study_02.py": "2dd895b877935d1af1d9e409dc45fe0ba2b0f82a96425d3d4ca0f7f4196a2507",
+    "forecaster_report_02.py": "e2472ca8643412caceddeecfd80191a93a064402f6dcdcddd1916466ebaecd37",
+    "tone_cap.py": "071afd02a41a87930f6d3e255980f8f76b2c7179644ad27bf35d0f6d0dcbdbab",
+    "forecaster_study_03.py": "8a19d0b1ae664c58a18dd8914d176625278057cf4f9bd10ee7850d01ee8e593e",
+    "forecaster_report_03.py": "34e81eda0449832249568c89e6154894603fdfeee00961e01b8e3e50a37158dc",
+    "tone_react.py": "8c038a65a0c78bd1fd30feef3ede4c600802befed25947dfeeeff5418c2d51e1",
+    "forecaster_study_05.py": "2d0a883d5ae3fffe5af02b18c7a6dd5d957324cb555d76b675129499d9e838c2",
+    "forecaster_report_05.py": "10d1791ba90959b9077699daa96864119298497ef8ec228dceab742bee4aff75"
+  },
+  "decision": "fade0.1_linear met the development rule and is frozen for one test.",
+  "v2": {
+    "selector": {
+      "alpha": 0.01,
+      "acquire": 2,
+      "history": 3,
+      "release": 4
+    },
+    "forecaster": {
+      "window_seconds": 0.3,
+      "release_ratio": 0.5,
+      "release_window_seconds": 0.1
+    },
+    "gate": {
+      "min_gain_db": -1.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": 0
+    }
+  },
+  "fresh_recordings": [
+    {
+      "file": "Ventilador.ogg",
+      "title": "File:Ventilador.ogg",
+      "sha1": "84b94581ae006dc547c725379a5ea1d4217b26e1",
+      "bytes": 148132,
+      "seconds": 18.4,
+      "author": "Armartinell",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": true,
+      "note": "A fan; the description says the clip includes switching it on and off."
+    },
+    {
+      "file": "Akkuschrauber_\u2013_Cordless_Screwdriver.ogg",
+      "title": "File:Akkuschrauber \u2013 Cordless Screwdriver.ogg",
+      "sha1": "fef3b7832aaeba1cb37ed6c2768a480c32a6ba2d",
+      "bytes": 1789738,
+      "seconds": 39.3,
+      "author": "Maximilian Sch\u00f6nherr",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": true,
+      "note": "An electric motor; the description says switched on, low, higher and maximum power, then shutdown."
+    },
+    {
+      "file": "\u00d6BB_Taurus_Start-Up.ogg",
+      "title": "File:\u00d6BB Taurus Start-Up.ogg",
+      "sha1": "2be522bc0e5b69ae31f6122bd288ad56d1d74475",
+      "bytes": 445281,
+      "seconds": 17.0,
+      "author": "3LM6wjuS",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": true,
+      "note": "Start-up of an electric locomotive."
+    },
+    {
+      "file": "Son_d\u00e9marrage_Mp14-8.ogg",
+      "title": "File:Son d\u00e9marrage Mp14-8.ogg",
+      "sha1": "025d33a0f369d1c87546a3dd9a04cc44e25885b5",
+      "bytes": 347102,
+      "seconds": 25.4,
+      "author": "Loda\u00ef",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": true,
+      "note": "Start-up of a Paris metro train."
+    },
+    {
+      "file": "Elektrorasur-01.ogg",
+      "title": "File:Elektrorasur-01.ogg",
+      "sha1": "06b7d6ea9cdb7ed36de0efaf2b09af4232a29ab1",
+      "bytes": 546625,
+      "seconds": 20.0,
+      "author": "Priwo",
+      "licence": "Public domain",
+      "acoustic": true
+    },
+    {
+      "file": "Propeller-plane-flying-steady-01.wav",
+      "title": "File:Propeller-plane-flying-steady-01.wav",
+      "sha1": "ac14ff5431e8986507dee2353f745a1feae102e3",
+      "bytes": 5761156,
+      "seconds": 20.0,
+      "author": "Versatile Virtuoso",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": true
+    },
+    {
+      "file": "Sewerage_pumping_station_(Starnberg-Leutstetten_PW83)_c.ogg",
+      "title": "File:Sewerage pumping station (Starnberg-Leutstetten PW83) c.ogg",
+      "sha1": "01f9c17e7ab81cde924ab3ae7e8ed0ac66eeef89",
+      "bytes": 1000693,
+      "seconds": 99.9,
+      "author": "PaulSch",
+      "licence": "CC0",
+      "acoustic": true,
+      "note": "Pumping and flushing, recorded outside the building."
+    },
+    {
+      "file": "Noise-Pollution-Filters-Bird-Communities-Based-on-Vocal-Frequency-pone.0027052.s001.ogg",
+      "title": "File:Noise-Pollution-Filters-Bird-Communities-Based-on-Vocal-Frequency-pone.0027052.s001.ogg",
+      "sha1": "47a3e0bed15145750a15d630dd8c3e73f471284d",
+      "bytes": 124059,
+      "seconds": 15.1,
+      "author": "Francis C, Ortega C, Cruz A",
+      "licence": "CC BY 2.5",
+      "acoustic": true,
+      "note": "Background noise 100 m from a gas compressor exhaust (PLOS ONE supplement)."
+    }
+  ],
+  "fresh_folder": "external-audio/wikimedia-commons-fresh-05",
+  "fresh_independence": "Independent of all earlier work in this project: the eight recordings were chosen on 19 Oct 2026 by their Commons title, description, length, licence and author only, from a metadata search kept in results-tone-forecaster-05/fresh-metadata. None was downloaded, played or analysed before this protocol was frozen. No author also made a development recording, a study-01 recording or a study-02 fresh recording, and none comes from the Work With Sounds collection that supplied three development recordings. Four were chosen because their descriptions say the sound starts, stops or changes speed (the fan, the screwdriver and the two train start-ups), since this study is about sudden changes and starts.",
+  "fresh_missing_rule": "A recording that cannot be downloaded is reported as missing and is not replaced; a present file whose size or SHA-1 differs stops the test.",
+  "synthetic_test": {
+    "standard_seed": 20261022,
+    "standard_repeats": 6,
+    "standard_scene_seeds": "13100+100*repeat+scene index",
+    "wander_seed": 20261023,
+    "wander_repeats": 3,
+    "wander_scene_seeds": "14100+100*repeat+scene index",
+    "parity": 1,
+    "parity_note": "odd 10 Hz bands (development used even)",
+    "forbidden_within_hz": 2.0,
+    "forbidden_frequencies": [
+      41.2,
+      41.3,
+      44.6,
+      46.9,
+      47.3,
+      47.5,
+      57.6,
+      60.2,
+      62.8,
+      66.2,
+      68.4,
+      74.4,
+      77.0,
+      79.7,
+      82.4,
+      82.6,
+      85.3,
+      87.5,
+      90.1,
+      103.2,
+      106.9,
+      113.7,
+      120.4,
+      122.6,
+      123.0,
+      123.1,
+      123.6,
+      123.7,
+      123.9,
+      126.4,
+      133.9,
+      137.2,
+      141.2,
+      143.5,
+      144.6,
+      147.2,
+      154.8,
+      159.4,
+      160.8,
+      162.02,
+      162.08,
+      162.8,
+      163.5,
+      163.6,
+      164.2,
+      164.7,
+      165.0,
+      165.2,
+      165.9,
+      168.02,
+      168.08,
+      170.6,
+      171.3,
+      180.6,
+      182.5,
+      182.8,
+      183.1,
+      183.2,
+      183.6,
+      183.7,
+      184.1,
+      184.4,
+      184.6,
+      187.4,
+      197.7,
+      203.2,
+      203.4,
+      203.9,
+      205.5,
+      208.9,
+      223.6,
+      231.2,
+      239.1,
+      242.7,
+      243.9,
+      245.2,
+      247.3,
+      255.9,
+      262.37,
+      263.7,
+      264.3,
+      265.6,
+      266.2,
+      267.9,
+      268.37,
+      276.5,
+      282.5,
+      285.6,
+      285.7,
+      285.8,
+      288.4,
+      302.42,
+      302.6,
+      303.2,
+      303.4,
+      303.8,
+      305.2,
+      305.3,
+      306.9,
+      307.3,
+      308.42,
+      311.8,
+      319.6,
+      322.5,
+      323.0,
+      323.8,
+      326.6,
+      327.3
+    ],
+    "not_excluded": "Study 02's synthetic test draws are not excluded: every odd-band frequency lies within 2 Hz of one of them, so excluding them leaves no room (checked before this freeze). No study-05 choice used them; the scenes here have new seeds, so new noise and phases.",
+    "standard_draws": [
+      {
+        "single": [
+          214.4
+        ],
+        "unrelated": [
+          175.6,
+          193.5,
+          233.6
+        ],
+        "appear": [
+          314.5
+        ],
+        "stop": [
+          234.7,
+          295.5
+        ],
+        "weak": [
+          177.1,
+          316.4
+        ],
+        "rumble": [
+          96.4,
+          213.8
+        ],
+        "harmonic": [
+          97.0,
+          194.0,
+          291.0
+        ],
+        "drift": [
+          92.36,
+          212.45
+        ],
+        "change_a": [
+          253.6
+        ],
+        "change_b": [
+          274.0,
+          296.8
+        ]
+      },
+      {
+        "single": [
+          296.8
+        ],
+        "unrelated": [
+          174.0,
+          212.8,
+          235.5
+        ],
+        "appear": [
+          274.0
+        ],
+        "stop": [
+          252.7,
+          314.8
+        ],
+        "weak": [
+          53.2,
+          233.5
+        ],
+        "rumble": [
+          213.1,
+          315.4
+        ],
+        "harmonic": [
+          97.6,
+          195.2,
+          292.8
+        ],
+        "drift": [
+          92.47,
+          292.43
+        ],
+        "change_a": [
+          316.6
+        ],
+        "change_b": [
+          54.1,
+          96.9
+        ]
+      },
+      {
+        "single": [
+          273.5
+        ],
+        "unrelated": [
+          94.5,
+          217.4,
+          253.3
+        ],
+        "appear": [
+          95.6
+        ],
+        "stop": [
+          234.9,
+          294.8
+        ],
+        "weak": [
+          54.5,
+          293.3
+        ],
+        "rumble": [
+          175.4,
+          215.9
+        ],
+        "harmonic": [
+          97.3,
+          194.6,
+          291.9
+        ],
+        "drift": [
+          212.33,
+          292.01
+        ],
+        "change_a": [
+          116.2
+        ],
+        "change_b": [
+          215.1,
+          316.1
+        ]
+      },
+      {
+        "single": [
+          317.2
+        ],
+        "unrelated": [
+          176.1,
+          216.4,
+          272.8
+        ],
+        "appear": [
+          96.3
+        ],
+        "stop": [
+          193.8,
+          235.6
+        ],
+        "weak": [
+          95.2,
+          293.5
+        ],
+        "rumble": [
+          236.4,
+          315.1
+        ],
+        "harmonic": [
+          97.2,
+          194.4,
+          291.6
+        ],
+        "drift": [
+          92.34,
+          292.31
+        ],
+        "change_a": [
+          292.9
+        ],
+        "change_b": [
+          96.2,
+          195.5
+        ]
+      },
+      {
+        "single": [
+          297.1
+        ],
+        "unrelated": [
+          194.6,
+          293.6,
+          315.3
+        ],
+        "appear": [
+          53.5
+        ],
+        "stop": [
+          235.5,
+          253.7
+        ],
+        "weak": [
+          54.3,
+          212.6
+        ],
+        "rumble": [
+          195.4,
+          236.5
+        ],
+        "harmonic": [
+          97.3,
+          194.6,
+          291.9
+        ],
+        "drift": [
+          212.29,
+          292.42
+        ],
+        "change_a": [
+          117.1
+        ],
+        "change_b": [
+          237.0,
+          253.7
+        ]
+      },
+      {
+        "single": [
+          316.8
+        ],
+        "unrelated": [
+          173.5,
+          272.7,
+          293.5
+        ],
+        "appear": [
+          194.8
+        ],
+        "stop": [
+          53.7,
+          212.9
+        ],
+        "weak": [
+          294.4,
+          316.0
+        ],
+        "rumble": [
+          152.6,
+          233.7
+        ],
+        "harmonic": [
+          97.5,
+          195.0,
+          292.5
+        ],
+        "drift": [
+          92.22,
+          212.39
+        ],
+        "change_a": [
+          215.6
+        ],
+        "change_b": [
+          174.2,
+          295.8
+        ]
+      }
+    ],
+    "wander_draws": [
+      {
+        "slow": [
+          97.4,
+          272.5
+        ],
+        "fast": [
+          95.6,
+          175.7
+        ],
+        "mixed": [
+          216.6,
+          296.7,
+          315.5
+        ],
+        "am": [
+          194.7,
+          235.0
+        ]
+      },
+      {
+        "slow": [
+          93.8,
+          176.8
+        ],
+        "fast": [
+          95.4,
+          176.3
+        ],
+        "mixed": [
+          95.3,
+          235.9,
+          273.1
+        ],
+        "am": [
+          195.2,
+          252.9
+        ]
+      },
+      {
+        "slow": [
+          54.9,
+          212.6
+        ],
+        "fast": [
+          116.1,
+          194.7
+        ],
+        "mixed": [
+          93.1,
+          194.9,
+          215.2
+        ],
+        "am": [
+          214.8,
+          253.7
+        ]
+      }
+    ]
+  }
+}

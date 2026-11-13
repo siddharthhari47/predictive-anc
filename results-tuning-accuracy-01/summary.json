@@ -1,0 +1,891 @@
+{
+  "completed_utc": "2026-10-26T16:16:00.239694+00:00",
+  "scope": "Seen-data primary 30 ms v2, simulated-ear single-tone ERB diagnosis",
+  "protocol_sha256": "24cf0bc6af08948e8fb1c4b2eea47956ef12299dee25f9cdcc5b2e1089e5cb8f",
+  "rooms_total": 72,
+  "groups": {
+    "all": {
+      "tones": 78,
+      "rooms": 37,
+      "sources": 14,
+      "absolute_phase_error_deg": {
+        "min": 0.005086769515799006,
+        "p25": 8.293644330712773,
+        "median": 26.684482653443325,
+        "p75": 67.66609649272411,
+        "p90": 132.20156554122568,
+        "max": 177.30352859261006
+      },
+      "gain_error_db": {
+        "min": -29.266041917560877,
+        "p25": -10.278156140464123,
+        "median": -2.1242949266084343,
+        "p75": 0.31108734543745314,
+        "p90": 4.753895691655028,
+        "max": 40.525241830664044
+      },
+      "absolute_gain_error_db": {
+        "min": 0.011140419745987841,
+        "p25": 1.351299084997649,
+        "median": 4.431293601893991,
+        "p75": 11.585257356207643,
+        "p90": 22.792465452198055,
+        "max": 40.525241830664044
+      },
+      "phase_over60": {
+        "tones": 21,
+        "rooms": 19,
+        "sources": 11
+      },
+      "phase_over25": {
+        "tones": 41,
+        "rooms": 28,
+        "sources": 13
+      },
+      "projected_component_db": {
+        "min": -40.49482589669351,
+        "p25": -0.5793879425359854,
+        "median": 1.9093583641887755,
+        "p75": 8.66909996716161,
+        "p90": 15.47847628835537,
+        "max": 32.75415614971597
+      },
+      "oracle_prefix_erb_db": {
+        "min": 0.004152152096876261,
+        "p25": 0.37627560409609306,
+        "median": 1.0505622303237876,
+        "p75": 2.429686137431117,
+        "p90": 3.8730528877714967,
+        "max": 16.80365690608364
+      },
+      "precheck_prefix_erb_db": {
+        "min": -30.214977464921976,
+        "p25": -0.07028672521354955,
+        "median": 0.19635154612133288,
+        "p75": 1.577869195527736,
+        "p90": 3.2776215886378353,
+        "max": 16.69694185386415
+      },
+      "precheck_suffix_erb_db": {
+        "min": -17.000722463421305,
+        "p25": -0.01964197963176205,
+        "median": 0.08971183775555264,
+        "p75": 0.9604990397183214,
+        "p90": 2.0231237936080406,
+        "max": 13.606612500120047
+      },
+      "same_interval_check_mean_benefit_db": {
+        "min": -24.71261990786597,
+        "p25": -0.07513454667237207,
+        "median": 0.18250605122010288,
+        "p75": 2.0123623023524204,
+        "p90": 4.8945456705426444,
+        "max": 17.131678025936303
+      },
+      "conditional_keep_probability": {
+        "min": 2.3073250851867616e-258,
+        "p25": 0.10351195422986055,
+        "median": 0.4787908471144918,
+        "p75": 0.9649290449085455,
+        "p90": 0.9997730824131704,
+        "max": 1.0
+      },
+      "noiseless_original_checks_keep": 39
+    },
+    "kept": {
+      "tones": 40,
+      "rooms": 26,
+      "sources": 12,
+      "absolute_phase_error_deg": {
+        "min": 0.005086769515799006,
+        "p25": 3.7705126212536797,
+        "median": 9.516855915540148,
+        "p75": 27.697674196202847,
+        "p90": 89.80675840717328,
+        "max": 169.39945560465375
+      },
+      "gain_error_db": {
+        "min": -27.566546587369483,
+        "p25": -3.6824601811857547,
+        "median": -1.4529023337366123,
+        "p75": -0.1903040894750751,
+        "p90": 1.6826103941973403,
+        "max": 7.945174735377205
+      },
+      "absolute_gain_error_db": {
+        "min": 0.0655699699654497,
+        "p25": 0.7298456036431256,
+        "median": 2.1242949266084343,
+        "p75": 4.406783944114555,
+        "p90": 9.709861472826649,
+        "max": 27.566546587369483
+      },
+      "phase_over60": {
+        "tones": 6,
+        "rooms": 6,
+        "sources": 6
+      },
+      "phase_over25": {
+        "tones": 12,
+        "rooms": 12,
+        "sources": 8
+      },
+      "projected_component_db": {
+        "min": -8.738544482402549,
+        "p25": 2.7569404541393396,
+        "median": 7.741972694886402,
+        "p75": 13.893282463752788,
+        "p90": 17.78106904298794,
+        "max": 32.75415614971597
+      },
+      "oracle_prefix_erb_db": {
+        "min": 0.025103522357137142,
+        "p25": 0.8773125475566151,
+        "median": 2.0937402879319267,
+        "p75": 2.9343419166325564,
+        "p90": 5.185721932690431,
+        "max": 16.80365690608364
+      },
+      "precheck_prefix_erb_db": {
+        "min": -1.834501974898759,
+        "p25": 0.2292963600541792,
+        "median": 1.4102250829332434,
+        "p75": 2.4655614377374433,
+        "p90": 5.003294576990783,
+        "max": 16.69694185386415
+      },
+      "precheck_suffix_erb_db": {
+        "min": -0.4694409524800216,
+        "p25": 0.09947703767738444,
+        "median": 0.8404097527969658,
+        "p75": 1.5934902893216236,
+        "p90": 3.295814545622742,
+        "max": 13.606612500120047
+      },
+      "same_interval_check_mean_benefit_db": {
+        "min": -0.8969141263662799,
+        "p25": 0.3471655576321293,
+        "median": 1.8665279774960277,
+        "p75": 3.5798311460053394,
+        "p90": 8.019415345286136,
+        "max": 17.131678025936303
+      },
+      "conditional_keep_probability": {
+        "min": 0.04478491358651748,
+        "p25": 0.8132245071838944,
+        "median": 0.9623856960001427,
+        "p75": 0.9993854672367771,
+        "p90": 0.999999913988956,
+        "max": 1.0
+      },
+      "noiseless_original_checks_keep": 36
+    },
+    "muted": {
+      "tones": 38,
+      "rooms": 24,
+      "sources": 14,
+      "absolute_phase_error_deg": {
+        "min": 0.630503595629591,
+        "p25": 27.420136236622845,
+        "median": 45.98160147185638,
+        "p75": 99.0221380737652,
+        "p90": 138.24702975456267,
+        "max": 177.30352859261006
+      },
+      "gain_error_db": {
+        "min": -29.266041917560877,
+        "p25": -15.93929242630392,
+        "median": -5.924003329386178,
+        "p75": 1.342258624826441,
+        "p90": 7.447950452660503,
+        "max": 40.525241830664044
+      },
+      "absolute_gain_error_db": {
+        "min": 0.011140419745987841,
+        "p25": 4.58633907444322,
+        "median": 9.80056235643304,
+        "p75": 19.453986152523733,
+        "p90": 25.094194195279478,
+        "max": 40.525241830664044
+      },
+      "phase_over60": {
+        "tones": 15,
+        "rooms": 14,
+        "sources": 10
+      },
+      "phase_over25": {
+        "tones": 29,
+        "rooms": 21,
+        "sources": 12
+      },
+      "projected_component_db": {
+        "min": -40.49482589669351,
+        "p25": -2.2844419597935905,
+        "median": 0.09350673462097031,
+        "p75": 1.4866578605127194,
+        "p90": 3.924956898389662,
+        "max": 15.005269274135529
+      },
+      "oracle_prefix_erb_db": {
+        "min": 0.004152152096876261,
+        "p25": 0.1871712547124745,
+        "median": 0.6843340510841789,
+        "p75": 1.1920581492191493,
+        "p90": 2.350190953908028,
+        "max": 7.447837791121868
+      },
+      "precheck_prefix_erb_db": {
+        "min": -30.214977464921976,
+        "p25": -0.13808481327360606,
+        "median": 0.0005840943231880261,
+        "p75": 0.1510399292164608,
+        "p90": 0.5016362080044412,
+        "max": 3.708118056638472
+      },
+      "precheck_suffix_erb_db": {
+        "min": -17.000722463421305,
+        "p25": -0.09217423240376252,
+        "median": -9.831480851018866e-05,
+        "p75": 0.06478577906847946,
+        "p90": 0.20995337762211538,
+        "max": 4.882410237932663
+      },
+      "same_interval_check_mean_benefit_db": {
+        "min": -24.71261990786597,
+        "p25": -0.2787195592169258,
+        "median": -0.005992351465571311,
+        "p75": 0.15286385842978767,
+        "p90": 0.6119140281641355,
+        "max": 7.942008171236704
+      },
+      "conditional_keep_probability": {
+        "min": 2.3073250851867616e-258,
+        "p25": 0.007301195102261604,
+        "median": 0.10648379981499922,
+        "p75": 0.25938484707771525,
+        "p90": 0.42163705035769233,
+        "max": 0.7257596128615873
+      },
+      "noiseless_original_checks_keep": 3
+    }
+  },
+  "harm_counts": [
+    {
+      "harm_db": 0.0,
+      "kept_prefix": {
+        "tones": 6,
+        "rooms": 6,
+        "sources": 6
+      },
+      "kept_suffix": {
+        "tones": 6,
+        "rooms": 6,
+        "sources": 6
+      },
+      "kept_both": {
+        "tones": 5,
+        "rooms": 5,
+        "sources": 5
+      }
+    },
+    {
+      "harm_db": 0.1,
+      "kept_prefix": {
+        "tones": 6,
+        "rooms": 6,
+        "sources": 6
+      },
+      "kept_suffix": {
+        "tones": 3,
+        "rooms": 3,
+        "sources": 3
+      },
+      "kept_both": {
+        "tones": 3,
+        "rooms": 3,
+        "sources": 3
+      }
+    },
+    {
+      "harm_db": 0.5,
+      "kept_prefix": {
+        "tones": 2,
+        "rooms": 2,
+        "sources": 2
+      },
+      "kept_suffix": {
+        "tones": 0,
+        "rooms": 0,
+        "sources": 0
+      },
+      "kept_both": {
+        "tones": 0,
+        "rooms": 0,
+        "sources": 0
+      }
+    },
+    {
+      "harm_db": 1.0,
+      "kept_prefix": {
+        "tones": 1,
+        "rooms": 1,
+        "sources": 1
+      },
+      "kept_suffix": {
+        "tones": 0,
+        "rooms": 0,
+        "sources": 0
+      },
+      "kept_both": {
+        "tones": 0,
+        "rooms": 0,
+        "sources": 0
+      }
+    }
+  ],
+  "mute_opportunity_counts": [
+    {
+      "benefit_db": 0.1,
+      "oracle_muted_prefix": {
+        "tones": 30,
+        "rooms": 19,
+        "sources": 11
+      },
+      "oracle_muted_prefix_and_suffix": {
+        "tones": 25,
+        "rooms": 17,
+        "sources": 10
+      },
+      "bounded_candidate_muted_prefix": {
+        "tones": 30,
+        "rooms": 19,
+        "sources": 11
+      },
+      "bounded_candidate_muted_prefix_and_suffix": {
+        "tones": 25,
+        "rooms": 17,
+        "sources": 10
+      },
+      "precheck_muted_prefix": {
+        "tones": 12,
+        "rooms": 11,
+        "sources": 8
+      },
+      "precheck_muted_prefix_and_suffix": {
+        "tones": 7,
+        "rooms": 7,
+        "sources": 5
+      },
+      "muted_good_oracle_but_precheck_below_threshold": {
+        "tones": 18,
+        "rooms": 14,
+        "sources": 9
+      }
+    },
+    {
+      "benefit_db": 0.5,
+      "oracle_muted_prefix": {
+        "tones": 21,
+        "rooms": 14,
+        "sources": 8
+      },
+      "oracle_muted_prefix_and_suffix": {
+        "tones": 13,
+        "rooms": 10,
+        "sources": 6
+      },
+      "bounded_candidate_muted_prefix": {
+        "tones": 21,
+        "rooms": 14,
+        "sources": 8
+      },
+      "bounded_candidate_muted_prefix_and_suffix": {
+        "tones": 13,
+        "rooms": 10,
+        "sources": 6
+      },
+      "precheck_muted_prefix": {
+        "tones": 4,
+        "rooms": 4,
+        "sources": 3
+      },
+      "precheck_muted_prefix_and_suffix": {
+        "tones": 2,
+        "rooms": 2,
+        "sources": 2
+      },
+      "muted_good_oracle_but_precheck_below_threshold": {
+        "tones": 17,
+        "rooms": 11,
+        "sources": 8
+      }
+    },
+    {
+      "benefit_db": 1.0,
+      "oracle_muted_prefix": {
+        "tones": 10,
+        "rooms": 9,
+        "sources": 5
+      },
+      "oracle_muted_prefix_and_suffix": {
+        "tones": 6,
+        "rooms": 6,
+        "sources": 4
+      },
+      "bounded_candidate_muted_prefix": {
+        "tones": 10,
+        "rooms": 9,
+        "sources": 5
+      },
+      "bounded_candidate_muted_prefix_and_suffix": {
+        "tones": 6,
+        "rooms": 6,
+        "sources": 4
+      },
+      "precheck_muted_prefix": {
+        "tones": 3,
+        "rooms": 3,
+        "sources": 3
+      },
+      "precheck_muted_prefix_and_suffix": {
+        "tones": 2,
+        "rooms": 2,
+        "sources": 2
+      },
+      "muted_good_oracle_but_precheck_below_threshold": {
+        "tones": 7,
+        "rooms": 6,
+        "sources": 5
+      }
+    },
+    {
+      "benefit_db": 3.0,
+      "oracle_muted_prefix": {
+        "tones": 3,
+        "rooms": 3,
+        "sources": 2
+      },
+      "oracle_muted_prefix_and_suffix": {
+        "tones": 1,
+        "rooms": 1,
+        "sources": 1
+      },
+      "bounded_candidate_muted_prefix": {
+        "tones": 3,
+        "rooms": 3,
+        "sources": 2
+      },
+      "bounded_candidate_muted_prefix_and_suffix": {
+        "tones": 1,
+        "rooms": 1,
+        "sources": 1
+      },
+      "precheck_muted_prefix": {
+        "tones": 1,
+        "rooms": 1,
+        "sources": 1
+      },
+      "precheck_muted_prefix_and_suffix": {
+        "tones": 1,
+        "rooms": 1,
+        "sources": 1
+      },
+      "muted_good_oracle_but_precheck_below_threshold": {
+        "tones": 2,
+        "rooms": 2,
+        "sources": 2
+      }
+    },
+    {
+      "benefit_db": 6.0,
+      "oracle_muted_prefix": {
+        "tones": 1,
+        "rooms": 1,
+        "sources": 1
+      },
+      "oracle_muted_prefix_and_suffix": {
+        "tones": 0,
+        "rooms": 0,
+        "sources": 0
+      },
+      "bounded_candidate_muted_prefix": {
+        "tones": 1,
+        "rooms": 1,
+        "sources": 1
+      },
+      "bounded_candidate_muted_prefix_and_suffix": {
+        "tones": 0,
+        "rooms": 0,
+        "sources": 0
+      },
+      "precheck_muted_prefix": {
+        "tones": 0,
+        "rooms": 0,
+        "sources": 0
+      },
+      "precheck_muted_prefix_and_suffix": {
+        "tones": 0,
+        "rooms": 0,
+        "sources": 0
+      },
+      "muted_good_oracle_but_precheck_below_threshold": {
+        "tones": 1,
+        "rooms": 1,
+        "sources": 1
+      }
+    }
+  ],
+  "oracle_outside_gain_bounds": 1,
+  "oracle_clips": 5,
+  "bounded_candidate_clips": 5,
+  "precheck_clips": 3,
+  "press_counts": {
+    "6": 28,
+    "5": 22,
+    "3": 2,
+    "4": 5,
+    "2": 20,
+    "1": 1
+  },
+  "sweep_turn_counts": {
+    "3": 57,
+    "1": 21
+  },
+  "condition": {
+    "min": 1.000045642984221,
+    "p25": 1.0002618362251927,
+    "median": 1.0006320706103402,
+    "p75": 1.0015367541350852,
+    "p90": 1.0034423240049795,
+    "max": 1.0088019311182321
+  },
+  "accepted_with_both_checks_locally_harmful": {
+    "tones": 1,
+    "rooms": 1,
+    "sources": 1
+  },
+  "kept_mean_local_check_benefit_below1": {
+    "tones": 17,
+    "rooms": 15,
+    "sources": 10
+  },
+  "kept_noise_only_accepts_fixed_presentations": {
+    "tones": 4,
+    "rooms": 4,
+    "sources": 3
+  },
+  "muted_noise_only_rejects_fixed_presentations": {
+    "tones": 3,
+    "rooms": 3,
+    "sources": 2
+  },
+  "trial_background_drift_absolute_db": {
+    "min": 0.0001915498625706391,
+    "p25": 0.2529794330830164,
+    "median": 0.687526761828277,
+    "p75": 1.5687053950319072,
+    "p90": 3.8667659497317217,
+    "max": 11.932966394432803
+  },
+  "kept_harm_details": [
+    {
+      "case_id": "fresh-021-r2",
+      "source_id": "fresh-021",
+      "file": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+      "tone_index": 2,
+      "frequency_hz": 195.01215614797533,
+      "kept": true,
+      "phase_error_deg": -59.435316364044425,
+      "absolute_phase_error_deg": 59.435316364044425,
+      "gain_error_db": 3.1430643604369997,
+      "projected_component_db": -2.0460189113806755,
+      "oracle_gain": 0.9637892572198006,
+      "oracle_phase_deg": 99.69177049663222,
+      "tuned_phase_deg": 40.25645413258779,
+      "precheck_gain": 1.3839974794951049,
+      "oracle_in_gain_range": true,
+      "oracle_condition": 1.000122377853448,
+      "presses": 6,
+      "sweep_turns": 3,
+      "questions": 15,
+      "conditional_keep_probability": 0.5942501665087802,
+      "noiseless_original_checks_keep": true,
+      "same_interval_check_mean_benefit_db": -0.07543995966304706,
+      "same_interval_check_min_benefit_db": -0.2718002218449058,
+      "same_interval_check_max_benefit_db": 0.17538092543211548,
+      "mean_sequential_background_drift_db": -0.7394366381306199,
+      "noise_sd_per_presentation_db": 1.0,
+      "noise_sd_difference_db": 1.4142135623730951,
+      "check1_answer": "same",
+      "check2_answer": "on",
+      "oracle_prefix_erb_db": 0.3713089363514443,
+      "oracle_suffix_erb_db": 0.031143265910217908,
+      "oracle_unclipped_drive_peak": 0.012679872080545359,
+      "oracle_clipped_fraction": 0.0,
+      "bounded_candidate_prefix_erb_db": 0.3713089363514443,
+      "bounded_candidate_suffix_erb_db": 0.031143265910217908,
+      "bounded_candidate_unclipped_drive_peak": 0.012679872080545357,
+      "bounded_candidate_clipped_fraction": 0.0,
+      "precheck_prefix_erb_db": -0.20904660463772234,
+      "precheck_suffix_erb_db": -0.046130441093965226,
+      "precheck_unclipped_drive_peak": 0.018092491426617063,
+      "precheck_clipped_fraction": 0.0,
+      "final_prefix_erb_db": -0.20904660463772234,
+      "final_suffix_erb_db": -0.046130441093965226,
+      "final_unclipped_drive_peak": 0.018092491426617063,
+      "final_clipped_fraction": 0.0
+    },
+    {
+      "case_id": "old-001-r0",
+      "source_id": "old-001",
+      "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+      "tone_index": 2,
+      "frequency_hz": 164.09083706443258,
+      "kept": true,
+      "phase_error_deg": 89.45971541797525,
+      "absolute_phase_error_deg": 89.45971541797525,
+      "gain_error_db": -0.3784819766920986,
+      "projected_component_db": -2.7648494367992438,
+      "oracle_gain": 1.5310068089611224,
+      "oracle_phase_deg": 116.77569946047736,
+      "tuned_phase_deg": 206.23541487845262,
+      "precheck_gain": 1.4657267817118127,
+      "oracle_in_gain_range": true,
+      "oracle_condition": 1.0032542467146548,
+      "presses": 2,
+      "sweep_turns": 1,
+      "questions": 15,
+      "conditional_keep_probability": 0.18088358800641088,
+      "noiseless_original_checks_keep": false,
+      "same_interval_check_mean_benefit_db": -0.41627895751694055,
+      "same_interval_check_min_benefit_db": -0.7963596796119745,
+      "same_interval_check_max_benefit_db": -0.03619823542190659,
+      "mean_sequential_background_drift_db": 0.0,
+      "noise_sd_per_presentation_db": 1.0,
+      "noise_sd_difference_db": 1.4142135623730951,
+      "check1_answer": "same",
+      "check2_answer": "on",
+      "oracle_prefix_erb_db": 0.39117560733003937,
+      "oracle_suffix_erb_db": 1.928654933106574e-15,
+      "oracle_unclipped_drive_peak": 0.00314485974686869,
+      "oracle_clipped_fraction": 0.0,
+      "bounded_candidate_prefix_erb_db": 0.39117560733003937,
+      "bounded_candidate_suffix_erb_db": 1.928654933106574e-15,
+      "bounded_candidate_unclipped_drive_peak": 0.00314485974686869,
+      "bounded_candidate_clipped_fraction": 0.0,
+      "precheck_prefix_erb_db": -0.32081839708216386,
+      "precheck_suffix_erb_db": 0.0,
+      "precheck_unclipped_drive_peak": 0.0030105120241777686,
+      "precheck_clipped_fraction": 0.0,
+      "final_prefix_erb_db": -0.32081839708216386,
+      "final_suffix_erb_db": 0.0,
+      "final_unclipped_drive_peak": 0.0030105120241777686,
+      "final_clipped_fraction": 0.0
+    },
+    {
+      "case_id": "old-003-r1",
+      "source_id": "old-003",
+      "file": "Inside_of_refrigerator.ogg",
+      "tone_index": 0,
+      "frequency_hz": 196.63580542317305,
+      "kept": true,
+      "phase_error_deg": -169.39945560465375,
+      "absolute_phase_error_deg": 169.39945560465375,
+      "gain_error_db": -9.357048118019035,
+      "projected_component_db": -2.5174234436842404,
+      "oracle_gain": 22.27163506309035,
+      "oracle_phase_deg": 348.76050679437316,
+      "tuned_phase_deg": 179.3610511897194,
+      "precheck_gain": 7.58402395075428,
+      "oracle_in_gain_range": true,
+      "oracle_condition": 1.001695610449618,
+      "presses": 2,
+      "sweep_turns": 1,
+      "questions": 15,
+      "conditional_keep_probability": 0.04478491358651748,
+      "noiseless_original_checks_keep": false,
+      "same_interval_check_mean_benefit_db": -0.7520997168324701,
+      "same_interval_check_min_benefit_db": -1.1709842095319871,
+      "same_interval_check_max_benefit_db": -0.0,
+      "mean_sequential_background_drift_db": 0.32334056924054977,
+      "noise_sd_per_presentation_db": 1.0,
+      "noise_sd_difference_db": 1.4142135623730951,
+      "check1_answer": "same",
+      "check2_answer": "on",
+      "oracle_prefix_erb_db": 1.1027287758412938,
+      "oracle_suffix_erb_db": 0.08735978000992793,
+      "oracle_unclipped_drive_peak": 0.025681338111594686,
+      "oracle_clipped_fraction": 0.0,
+      "bounded_candidate_prefix_erb_db": 1.1027287758412938,
+      "bounded_candidate_suffix_erb_db": 0.08735978000992793,
+      "bounded_candidate_unclipped_drive_peak": 0.025681338111594683,
+      "bounded_candidate_clipped_fraction": 0.0,
+      "precheck_prefix_erb_db": -0.7045338648000897,
+      "precheck_suffix_erb_db": -0.06634727527643433,
+      "precheck_unclipped_drive_peak": 0.008771183417241575,
+      "precheck_clipped_fraction": 0.0,
+      "final_prefix_erb_db": -0.7045338648000897,
+      "final_suffix_erb_db": -0.06634727527643433,
+      "final_unclipped_drive_peak": 0.008771183417241575,
+      "final_clipped_fraction": 0.0
+    },
+    {
+      "case_id": "old-004-r0",
+      "source_id": "old-004",
+      "file": "Microwave_oven.ogg",
+      "tone_index": 2,
+      "frequency_hz": 173.09501233768526,
+      "kept": true,
+      "phase_error_deg": -92.93014530995555,
+      "absolute_phase_error_deg": 92.93014530995555,
+      "gain_error_db": 7.945174735377205,
+      "projected_component_db": -8.738544482402549,
+      "oracle_gain": 0.12146657564873313,
+      "oracle_phase_deg": 80.60224509301116,
+      "tuned_phase_deg": 347.6720997830556,
+      "precheck_gain": 0.3031904551020825,
+      "oracle_in_gain_range": true,
+      "oracle_condition": 1.0004723321545406,
+      "presses": 5,
+      "sweep_turns": 3,
+      "questions": 13,
+      "conditional_keep_probability": 0.8813503791953461,
+      "noiseless_original_checks_keep": true,
+      "same_interval_check_mean_benefit_db": -0.19722079066300324,
+      "same_interval_check_min_benefit_db": -0.28153878980114655,
+      "same_interval_check_max_benefit_db": -0.0,
+      "mean_sequential_background_drift_db": -1.9488643903711989,
+      "noise_sd_per_presentation_db": 1.0,
+      "noise_sd_difference_db": 1.4142135623730951,
+      "check1_answer": "same",
+      "check2_answer": "on",
+      "oracle_prefix_erb_db": 0.025103522357137142,
+      "oracle_suffix_erb_db": 0.015375497300470942,
+      "oracle_unclipped_drive_peak": 0.00031991065206280725,
+      "oracle_clipped_fraction": 0.0,
+      "bounded_candidate_prefix_erb_db": 0.025103522357137142,
+      "bounded_candidate_suffix_erb_db": 0.015375497300470942,
+      "bounded_candidate_unclipped_drive_peak": 0.00031991065206280725,
+      "bounded_candidate_clipped_fraction": 0.0,
+      "precheck_prefix_erb_db": -0.1592263824744516,
+      "precheck_suffix_erb_db": -0.14254120122541622,
+      "precheck_unclipped_drive_peak": 0.0007981239439782815,
+      "precheck_clipped_fraction": 0.0,
+      "final_prefix_erb_db": -0.1592263824744516,
+      "final_suffix_erb_db": -0.14254120122541622,
+      "final_unclipped_drive_peak": 0.0007981239439782815,
+      "final_clipped_fraction": 0.0
+    },
+    {
+      "case_id": "old-013-r2",
+      "source_id": "old-013",
+      "file": "WWS_Aircompressor.ogg",
+      "tone_index": 0,
+      "frequency_hz": 193.9140033019022,
+      "kept": true,
+      "phase_error_deg": -152.5842076083115,
+      "absolute_phase_error_deg": 152.5842076083115,
+      "gain_error_db": -1.8759604836310482,
+      "projected_component_db": -4.884817109384279,
+      "oracle_gain": 0.7822798844150827,
+      "oracle_phase_deg": 204.26554042227266,
+      "tuned_phase_deg": 51.68133281396116,
+      "precheck_gain": 0.6303244285180472,
+      "oracle_in_gain_range": true,
+      "oracle_condition": 1.0001865433229369,
+      "presses": 6,
+      "sweep_turns": 3,
+      "questions": 13,
+      "conditional_keep_probability": 0.08298884346574739,
+      "noiseless_original_checks_keep": false,
+      "same_interval_check_mean_benefit_db": -0.8969141263662799,
+      "same_interval_check_min_benefit_db": -2.6606384569175603,
+      "same_interval_check_max_benefit_db": -0.0,
+      "mean_sequential_background_drift_db": 0.44816535327451135,
+      "noise_sd_per_presentation_db": 1.0,
+      "noise_sd_difference_db": 1.4142135623730951,
+      "check1_answer": "same",
+      "check2_answer": "on",
+      "oracle_prefix_erb_db": 1.2654444966025944,
+      "oracle_suffix_erb_db": 0.2523711974832366,
+      "oracle_unclipped_drive_peak": 0.009214968022008342,
+      "oracle_clipped_fraction": 0.0,
+      "bounded_candidate_prefix_erb_db": 1.2654444966025948,
+      "bounded_candidate_suffix_erb_db": 0.2523711974832366,
+      "bounded_candidate_unclipped_drive_peak": 0.009214968022008342,
+      "bounded_candidate_clipped_fraction": 0.0,
+      "precheck_prefix_erb_db": -1.834501974898759,
+      "precheck_suffix_erb_db": -0.4694409524800216,
+      "precheck_unclipped_drive_peak": 0.007354575411469884,
+      "precheck_clipped_fraction": 0.0,
+      "final_prefix_erb_db": -1.834501974898759,
+      "final_suffix_erb_db": -0.4694409524800216,
+      "final_unclipped_drive_peak": 0.007354575411469884,
+      "final_clipped_fraction": 0.0
+    },
+    {
+      "case_id": "old-014-r2",
+      "source_id": "old-014",
+      "file": "WWS_Bediadiesellocomotiveidling.ogg",
+      "tone_index": 1,
+      "frequency_hz": 86.12723115559707,
+      "kept": true,
+      "phase_error_deg": 157.53081955615198,
+      "absolute_phase_error_deg": 157.53081955615198,
+      "gain_error_db": -22.478631132073343,
+      "projected_component_db": -0.5868927784117028,
+      "oracle_gain": 2.5761107121257467,
+      "oracle_phase_deg": 57.47208730996284,
+      "tuned_phase_deg": 215.00290686611478,
+      "precheck_gain": 0.1936568961674597,
+      "oracle_in_gain_range": true,
+      "oracle_condition": 1.001963569199209,
+      "presses": 5,
+      "sweep_turns": 3,
+      "questions": 14,
+      "conditional_keep_probability": 0.7661841836711671,
+      "noiseless_original_checks_keep": true,
+      "same_interval_check_mean_benefit_db": -0.0742183077003471,
+      "same_interval_check_min_benefit_db": -0.14900651189559966,
+      "same_interval_check_max_benefit_db": -0.0,
+      "mean_sequential_background_drift_db": -2.213941752122956,
+      "noise_sd_per_presentation_db": 1.0,
+      "noise_sd_difference_db": 1.4142135623730951,
+      "check1_answer": "same",
+      "check2_answer": "on",
+      "oracle_prefix_erb_db": 0.8677594038543385,
+      "oracle_suffix_erb_db": 0.8477837942159651,
+      "oracle_unclipped_drive_peak": 0.01628288198662231,
+      "oracle_clipped_fraction": 0.0,
+      "bounded_candidate_prefix_erb_db": 0.8677594038543385,
+      "bounded_candidate_suffix_erb_db": 0.8477837942159651,
+      "bounded_candidate_unclipped_drive_peak": 0.01628288198662231,
+      "bounded_candidate_clipped_fraction": 0.0,
+      "precheck_prefix_erb_db": -0.11234498935500581,
+      "precheck_suffix_erb_db": -0.11250086220781486,
+      "precheck_unclipped_drive_peak": 0.0012288015883734624,
+      "precheck_clipped_fraction": 0.0,
+      "final_prefix_erb_db": -0.11234498935500581,
+      "final_suffix_erb_db": -0.11250086220781486,
+      "final_unclipped_drive_peak": 0.0012288015883734624,
+      "final_clipped_fraction": 0.0
+    }
+  ],
+  "sources": {
+    "fresh-018": "File:Aurora generator test.webm",
+    "fresh-021": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+    "fresh-023": "File:London Underground 1995 Stock train going from Old Street station to Angel station.ogg",
+    "fresh-035": "File:Aerial view from Deccan Charters helicopter at EXCON 2025 (BIEC) 03.webm",
+    "old-000": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+    "old-001": "Air_conditioner_hum_Gravity_Sound_.wav",
+    "old-002": "Fan_Gravity_Sound_.wav",
+    "old-003": "Inside_of_refrigerator.ogg",
+    "old-004": "Microwave_oven.ogg",
+    "old-007": "Sistema_de_ventilaci_n.ogg",
+    "old-009": "Table_ventilator.ogg",
+    "old-010": "Ventilador_de_estudio.ogg",
+    "old-013": "WWS_Aircompressor.ogg",
+    "old-014": "WWS_Bediadiesellocomotiveidling.ogg"
+  },
+  "limits": "No improvement intervention tested. Single-tone results do not sum to whole-room benefit; checks include earlier kept tones. Known simulated-ear oracle is not deployable. Noise-only labels hold settings/order fixed; not full noise-free retuning."
+}

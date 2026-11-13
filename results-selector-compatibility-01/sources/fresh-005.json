@@ -1,0 +1,164 @@
+{
+  "id": "fresh-005",
+  "title": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+  "cohort": "transport engine",
+  "acoustic": true,
+  "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-005.npz",
+  "arrays_sha256": "0e942181e83ad59596baa6a415b37e33b7b6f12a27162cff1e4cccbdd0aa5886",
+  "reference_sha256": "88a5ed5bb4528750afbe0ed433de3db46100f405b04108055cdb9f9163966519",
+  "seconds": 90.0,
+  "prefix_seconds": 36.0,
+  "counts": {
+    "frames_after_warmup": 8850,
+    "v2_components_before_gate": 17626,
+    "bank_components_before_gate": 34004,
+    "frames_both_gates_open": 8237,
+    "bank_components_without_v2_match": 15398,
+    "eligible_v2_components": 16485,
+    "matched_tone_frames": 15825,
+    "frames_both_gates_closed": 87,
+    "frames_bank_only_gate": 35,
+    "v2_without_bank_match": 660,
+    "frames_v2_only_gate": 491
+  },
+  "all": {
+    "matched_tone_frames": 15825,
+    "mismatch": {
+      "p05": 0.08360014432937896,
+      "p50": 0.5021972735562024,
+      "p95": 1.2321445327036322,
+      "p99": 1.7396676574991732,
+      "max": 4.403401256529652
+    },
+    "ramped_mismatch": {
+      "p05": 0.08374456016268746,
+      "p50": 0.5040671126854909,
+      "p95": 1.2359593398240083,
+      "p99": 1.7742208511511723,
+      "max": 7.867177858366503
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.8132330799627312,
+      "p50": 5.982512988284736,
+      "p95": 21.555860000870855,
+      "p99": 28.489106253334743,
+      "max": 50.72034736639764
+    },
+    "fraction_mismatch_above_0_1": 0.9351026856240127,
+    "fraction_mismatch_above_1": 0.12442338072669826,
+    "v2_energy_weighted_rms_mismatch": 0.5726091963403881,
+    "absolute_phase_difference_deg": {
+      "p05": 2.026488370075253,
+      "p50": 26.269074695512057,
+      "p95": 86.50753548253552,
+      "p99": 135.57684819847964,
+      "max": 179.8350206614122
+    },
+    "amplitude_ratio": {
+      "p05": 0.4348595396926486,
+      "p50": 0.8859943174623345,
+      "p95": 1.2220811152021478,
+      "p99": 1.6439141279670664,
+      "max": 4.959359675630058
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 12491,
+    "mismatch": {
+      "p05": 0.09965177195380504,
+      "p50": 0.5354625381180788,
+      "p95": 1.2689115342950892,
+      "p99": 1.7625313807220822,
+      "max": 3.8855799886843476
+    },
+    "ramped_mismatch": {
+      "p05": 0.09968423789553726,
+      "p50": 0.5377767547812772,
+      "p95": 1.2697198384856723,
+      "p99": 1.7780659389089104,
+      "max": 7.867177858366503
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.068626706683589,
+      "p50": 5.425418155193681,
+      "p95": 20.03029957692596,
+      "p99": 27.476233494791742,
+      "max": 50.72034736639764
+    },
+    "fraction_mismatch_above_0_1": 0.9494836282123129,
+    "fraction_mismatch_above_1": 0.14010087262829238,
+    "v2_energy_weighted_rms_mismatch": 0.6060995305449398,
+    "absolute_phase_difference_deg": {
+      "p05": 2.578998698926799,
+      "p50": 28.760920023346547,
+      "p95": 91.994040758663,
+      "p99": 139.61631386423585,
+      "max": 179.8350206614122
+    },
+    "amplitude_ratio": {
+      "p05": 0.4225497849575018,
+      "p50": 0.8723266725979772,
+      "p95": 1.1880600006103341,
+      "p99": 1.5522533328314037,
+      "max": 4.432410821844411
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 461,
+    "mismatch": {
+      "p05": 0.08839214254162633,
+      "p50": 0.5040671126854909,
+      "p95": 1.2396488923281443,
+      "p99": 1.6149221998353473,
+      "max": 2.205994192785988
+    },
+    "ramped_mismatch": {
+      "p05": 0.08839214254162633,
+      "p50": 0.5167689185116857,
+      "p95": 1.2233569465143568,
+      "p99": 1.7279883480847695,
+      "max": 3.934429020634566
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.8659739336227736,
+      "p50": 5.950232734241871,
+      "p95": 21.071726781747763,
+      "p99": 26.75290707985344,
+      "max": 34.552958706620686
+    },
+    "fraction_mismatch_above_0_1": 0.9436008676789588,
+    "fraction_mismatch_above_1": 0.14533622559652928,
+    "v2_energy_weighted_rms_mismatch": 0.6437205171572485,
+    "absolute_phase_difference_deg": {
+      "p05": 2.8942938995240963,
+      "p50": 27.255382725804115,
+      "p95": 84.33461122043337,
+      "p99": 134.26573756349157,
+      "max": 163.36113979876103
+    },
+    "amplitude_ratio": {
+      "p05": 0.4947094110795274,
+      "p50": 0.9098756915843912,
+      "p95": 1.2413494547463129,
+      "p99": 1.5782866598882535,
+      "max": 1.962135763867371
+    }
+  },
+  "selector_transitions": 12,
+  "transition_origins": [
+    27839,
+    31439,
+    38159,
+    46259,
+    70079,
+    71319,
+    127519,
+    131099,
+    153599,
+    155599,
+    172299,
+    175359
+  ],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\fresh-005.npz",
+  "ratio_arrays_sha256": "f2289cbff6adc32c3541a19b9b081e52678faef600f36103fc3498edcc4b6bd6"
+}

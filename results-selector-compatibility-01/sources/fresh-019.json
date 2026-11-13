@@ -1,0 +1,156 @@
+{
+  "id": "fresh-019",
+  "title": "File:Porsche F218 Engine.flac",
+  "cohort": "transport engine",
+  "acoustic": true,
+  "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-019.npz",
+  "arrays_sha256": "e8f2e51631cf2695e60ab668d9a81e5bbfad2348ba442a6f335ac3477af02ceb",
+  "reference_sha256": "54ee6c9decbea44cb91f1decf0850b7c209a64d6832036d6bfda73bc36d77fb9",
+  "seconds": 61.463,
+  "prefix_seconds": 24.585,
+  "counts": {
+    "frames_after_warmup": 5996,
+    "v2_components_before_gate": 25701,
+    "bank_components_before_gate": 28220,
+    "frames_both_gates_open": 5892,
+    "bank_components_without_v2_match": 4078,
+    "eligible_v2_components": 25180,
+    "matched_tone_frames": 23715,
+    "v2_without_bank_match": 1465,
+    "frames_v2_only_gate": 53,
+    "frames_bank_only_gate": 51
+  },
+  "all": {
+    "matched_tone_frames": 23715,
+    "mismatch": {
+      "p05": 0.029310757060726347,
+      "p50": 0.16608048294944322,
+      "p95": 0.7456719337060217,
+      "p99": 1.0724580341401815,
+      "max": 2.8459925435929674
+    },
+    "ramped_mismatch": {
+      "p05": 0.029310757060726347,
+      "p50": 0.16608048294944322,
+      "p95": 0.7456719337060217,
+      "p99": 1.0705876548183346,
+      "max": 2.8459925435929674
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": 2.5490459256723765,
+      "p50": 15.593628018687966,
+      "p95": 30.659459286255903,
+      "p99": 38.29959940599327,
+      "max": 63.457584297231875
+    },
+    "fraction_mismatch_above_0_1": 0.6867805186590765,
+    "fraction_mismatch_above_1": 0.01728863588446131,
+    "v2_energy_weighted_rms_mismatch": 0.30052150481480555,
+    "absolute_phase_difference_deg": {
+      "p05": 0.676302981724201,
+      "p50": 8.372521131655335,
+      "p95": 41.904021891350716,
+      "p99": 88.43102910197808,
+      "max": 173.1071749183163
+    },
+    "amplitude_ratio": {
+      "p05": 0.7436203529472536,
+      "p50": 0.9799419836135311,
+      "p95": 1.080321525982363,
+      "p99": 1.1639244453784807,
+      "max": 2.685812129406551
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 20086,
+    "mismatch": {
+      "p05": 0.027520767075882475,
+      "p50": 0.1476243246851749,
+      "p95": 0.5372150587295663,
+      "p99": 0.7948868053836909,
+      "max": 1.6933552957079434
+    },
+    "ramped_mismatch": {
+      "p05": 0.027520767075882475,
+      "p50": 0.1476243246851749,
+      "p95": 0.5372150587295663,
+      "p99": 0.7948868053836909,
+      "max": 1.6933552957079434
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": 5.397036497797462,
+      "p50": 16.616841555928552,
+      "p95": 31.20679139057433,
+      "p99": 38.861838378507684,
+      "max": 63.457584297231875
+    },
+    "fraction_mismatch_above_0_1": 0.652145773175346,
+    "fraction_mismatch_above_1": 0.0019914368216668327,
+    "v2_energy_weighted_rms_mismatch": 0.2398709702206756,
+    "absolute_phase_difference_deg": {
+      "p05": 0.6101359925419474,
+      "p50": 7.506170761197037,
+      "p95": 30.807272112332754,
+      "p99": 46.83169710498145,
+      "max": 119.75014761003952
+    },
+    "amplitude_ratio": {
+      "p05": 0.8738480822522197,
+      "p50": 0.983940977434153,
+      "p95": 1.0773653919827426,
+      "p99": 1.1406503139734911,
+      "max": 1.6671420554836918
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 531,
+    "mismatch": {
+      "p05": 0.03406242810112217,
+      "p50": 0.1670815658582758,
+      "p95": 0.9780195332379154,
+      "p99": 1.1683045037799369,
+      "max": 1.3669041907366462
+    },
+    "ramped_mismatch": {
+      "p05": 0.03406242810112217,
+      "p50": 0.1670815658582758,
+      "p95": 0.9780195332379154,
+      "p99": 1.1683045037799369,
+      "max": 1.3669041907366462
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": 0.19305433953921217,
+      "p50": 15.541429265167059,
+      "p95": 29.356067298416455,
+      "p99": 38.03198514627871,
+      "max": 45.909445189583955
+    },
+    "fraction_mismatch_above_0_1": 0.6892655367231638,
+    "fraction_mismatch_above_1": 0.04331450094161959,
+    "v2_energy_weighted_rms_mismatch": 0.3750230067060393,
+    "absolute_phase_difference_deg": {
+      "p05": 0.6898353960429898,
+      "p50": 8.285517920114454,
+      "p95": 64.17600270739919,
+      "p99": 83.50098707662721,
+      "max": 98.37506591461263
+    },
+    "amplitude_ratio": {
+      "p05": 0.720957316854558,
+      "p50": 0.9710191165805672,
+      "p95": 1.0658055763222025,
+      "p99": 1.1656087077736164,
+      "max": 1.1985932029696509
+    }
+  },
+  "selector_transitions": 5,
+  "transition_origins": [
+    31039,
+    33139,
+    81499,
+    110699,
+    116739
+  ],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\fresh-019.npz",
+  "ratio_arrays_sha256": "68f721ca63276997b0371823e010c8fa037762d506db2b9c1afbd069cec1b814"
+}

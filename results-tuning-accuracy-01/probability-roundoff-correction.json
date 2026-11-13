@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-26T16:22:35.959894+00:00",
+  "kind": "post-run reporting-only numerical correction",
+  "reason": "Computing same probability as 1-p_on-p_off can produce a tiny negative tail when p_on rounds to one. Use symmetric erfc tail differences.",
+  "negative_raw_rows": 8,
+  "largest_negative_raw_magnitude": 8.301205443586332e-24,
+  "maximum_any_probability_change": 2.220446049250313e-16,
+  "maximum_keep_probability_change": 3.3306690738754696e-16,
+  "original_files_modified": [],
+  "corrected_file": "check-probabilities-stable.csv",
+  "decisions_changed": 0,
+  "settings_or_signal_scores_changed": 0,
+  "validation": "All 156 probability vectors nonnegative and sum to one within 5e-16; seven null/tail symmetry cases pass."
+}

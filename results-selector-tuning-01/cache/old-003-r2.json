@@ -1,0 +1,157 @@
+{
+  "file": "Inside_of_refrigerator.ogg",
+  "room_index": 2,
+  "seed": 3047807063,
+  "reference_tones_hz": [],
+  "source_id": "old-003",
+  "case_id": "old-003-r2",
+  "cohort": "original48",
+  "old_index": 11,
+  "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Inside_of_refrigerator.ogg",
+  "source_sha256": "72931e7edfff30120bc29399a546bab4f6d73ad80f7e86adc5135680c7cb4a71",
+  "geometry": {
+    "dims_m": [
+      3.299622928837705,
+      3.9257305387793204,
+      2.852669442494223
+    ],
+    "rt60_s": 0.4900121810655098,
+    "source": [
+      1.5601518924541606,
+      0.701494445588374,
+      1.2595056177222461
+    ],
+    "mic": [
+      2.1009108551153934,
+      2.1083474410835032,
+      0.9
+    ],
+    "ears": [
+      [
+        1.7401273115739593,
+        2.3889454359260998,
+        1.2
+      ],
+      [
+        1.7452062556946668,
+        2.4082897975495476,
+        1.2
+      ],
+      [
+        1.752824671875728,
+        2.43730633998472,
+        1.2
+      ],
+      [
+        1.765522032177497,
+        2.48566724404334,
+        1.2
+      ],
+      [
+        1.7909167527810343,
+        2.5823890521605803,
+        1.2
+      ]
+    ],
+    "facing_deg": 332.20674515031646,
+    "move_direction_deg": 75.28878887390407,
+    "earphone_highpass_hz": 92.39272471389499,
+    "source_to_ear_m": 1.6980644613263727,
+    "source_to_mic_m": 1.5494837513849329
+  },
+  "tones": [
+    {
+      "frequency": 147.46304418517158,
+      "presence": 0.557909604519774,
+      "mic_amplitude": 0.001036993473444012,
+      "ear_over_mic": [
+        1.2010201742684308,
+        -0.3998468867295408
+      ],
+      "w_unit_earphone": [
+        -0.4863330958196764,
+        1.407502869858359
+      ],
+      "w": [
+        -4.967602620338886,
+        14.37680265756654
+      ],
+      "earphone_phase_deg": -127.47528861249634
+    },
+    {
+      "frequency": 245.84779056767337,
+      "presence": 0.5240112994350282,
+      "mic_amplitude": 0.0009085997673064555,
+      "ear_over_mic": [
+        -0.13959576629655868,
+        -0.4051775786533389
+      ],
+      "w_unit_earphone": [
+        -0.33160781472641315,
+        0.3121279072805487
+      ],
+      "w": [
+        -3.387176121714262,
+        3.1882004811423617
+      ],
+      "earphone_phase_deg": 114.2563593481283
+    }
+  ],
+  "prefix": 17160,
+  "n": 42940,
+  "warm": 3000,
+  "earphone_gain": 0.09790096611763585,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 757512851,
+      "1.0": 49352558,
+      "2.0": 1005484981
+    },
+    "200": {
+      "0.5": 305047931,
+      "1.0": 453074552,
+      "2.0": 1020626060
+    }
+  },
+  "switches": {
+    "30": [
+      {
+        "row": 1028,
+        "arrival_sample": 20645,
+        "arrival_seconds": 10.3225,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": true,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 2118,
+        "arrival_sample": 42445,
+        "arrival_seconds": 21.2225,
+        "from_arm": 1,
+        "to_arm": 2,
+        "command_exposed": true,
+        "complete_200ms_window": true
+      }
+    ],
+    "200": [
+      {
+        "row": 2121,
+        "arrival_sample": 42845,
+        "arrival_seconds": 21.4225,
+        "from_arm": 1,
+        "to_arm": 2,
+        "command_exposed": true,
+        "complete_200ms_window": false
+      }
+    ]
+  },
+  "prefix_switches": {
+    "30": 0,
+    "200": 1
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\old-003-r2.npz",
+  "cache_sha256": "13bcf4bc14a4315d755280db8c50a2044136edbb3557e5fdb016df55d17ba53a",
+  "v2_trace_matches_original": true
+}

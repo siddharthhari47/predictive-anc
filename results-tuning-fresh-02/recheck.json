@@ -1,0 +1,199 @@
+{
+ "0.5": {
+  "O": {
+   "room_harms": 53,
+   "harmful_keeps_prefix": 19,
+   "useful_keeps": 171,
+   "kept": 277,
+   "tones": 550
+  },
+  "SD-s30": {
+   "room_harms": 45,
+   "harmful_keeps_prefix": 9,
+   "useful_keeps": 203,
+   "kept": 317,
+   "tones": 550
+  },
+  "tone": {
+   "mean": 0.19535807102492272,
+   "ci95": [
+    0.049023383286364686,
+    0.3739044061614866
+   ],
+   "sources": 14
+  },
+  "band": {
+   "mean": 0.12344193597270867,
+   "ci95": [
+    0.014744098025293733,
+    0.26606417151464035
+   ],
+   "sources": 14
+  },
+  "verdict": "pass",
+  "sources_better": 11,
+  "sources_worse": 3,
+  "sources_tied": 0,
+  "per_source": {
+   "tg-006": 1.067,
+   "tg-063": 0.567,
+   "tg-058": 0.396,
+   "tg-021": 0.338,
+   "tg-062": 0.316,
+   "tg-071": 0.158,
+   "tg-007": 0.051,
+   "tg-012": 0.041,
+   "tg-013": 0.03,
+   "tg-036": 0.017,
+   "tg-037": 0.007,
+   "tg-039": -0.005,
+   "tg-067": -0.05,
+   "tg-011": -0.199
+  },
+  "median": 0.046,
+  "leave_one_out_min": 0.128,
+  "leave_one_out_max": 0.226
+ },
+ "1": {
+  "O": {
+   "room_harms": 54,
+   "harmful_keeps_prefix": 36,
+   "useful_keeps": 161,
+   "kept": 278,
+   "tones": 550
+  },
+  "SD-s30": {
+   "room_harms": 49,
+   "harmful_keeps_prefix": 13,
+   "useful_keeps": 201,
+   "kept": 296,
+   "tones": 550
+  },
+  "tone": {
+   "mean": 0.19849680595340766,
+   "ci95": [
+    0.04969577901745586,
+    0.3887217788345061
+   ],
+   "sources": 14
+  },
+  "band": {
+   "mean": 0.10686093607174654,
+   "ci95": [
+    0.015257525304659543,
+    0.2570572224475194
+   ],
+   "sources": 14
+  },
+  "verdict": "pass",
+  "sources_better": 12,
+  "sources_worse": 2,
+  "sources_tied": 0,
+  "per_source": {
+   "tg-006": 1.201,
+   "tg-021": 0.46,
+   "tg-071": 0.327,
+   "tg-058": 0.315,
+   "tg-063": 0.28,
+   "tg-062": 0.248,
+   "tg-007": 0.066,
+   "tg-039": 0.061,
+   "tg-013": 0.027,
+   "tg-037": 0.014,
+   "tg-012": 0.012,
+   "tg-036": 0.011,
+   "tg-067": -0.038,
+   "tg-011": -0.206
+  },
+  "median": 0.064,
+  "leave_one_out_min": 0.121,
+  "leave_one_out_max": 0.23,
+  "leave_one_out_lower_bound": {
+   "tg-006": 0.024,
+   "tg-007": 0.049,
+   "tg-011": 0.087,
+   "tg-012": 0.056,
+   "tg-013": 0.052,
+   "tg-021": 0.027,
+   "tg-036": 0.056,
+   "tg-037": 0.057,
+   "tg-039": 0.048,
+   "tg-058": 0.037,
+   "tg-062": 0.037,
+   "tg-063": 0.034,
+   "tg-067": 0.058,
+   "tg-071": 0.034
+  }
+ },
+ "2": {
+  "O": {
+   "room_harms": 47,
+   "harmful_keeps_prefix": 33,
+   "useful_keeps": 138,
+   "kept": 249,
+   "tones": 550
+  },
+  "SD-s30": {
+   "room_harms": 45,
+   "harmful_keeps_prefix": 21,
+   "useful_keeps": 153,
+   "kept": 262,
+   "tones": 550
+  },
+  "tone": {
+   "mean": 0.13149523754398829,
+   "ci95": [
+    0.0011943559191134234,
+    0.25703207250957594
+   ],
+   "sources": 14
+  },
+  "band": {
+   "mean": 0.0657181061245021,
+   "ci95": [
+    0.010882635057732683,
+    0.14525561330874312
+   ],
+   "sources": 14
+  },
+  "verdict": "pass",
+  "sources_better": 12,
+  "sources_worse": 2,
+  "sources_tied": 0,
+  "per_source": {
+   "tg-006": 0.632,
+   "tg-021": 0.427,
+   "tg-039": 0.348,
+   "tg-062": 0.229,
+   "tg-071": 0.206,
+   "tg-058": 0.202,
+   "tg-063": 0.113,
+   "tg-067": 0.103,
+   "tg-007": 0.047,
+   "tg-013": 0.026,
+   "tg-037": 0.006,
+   "tg-036": 0.003,
+   "tg-012": -0.015,
+   "tg-011": -0.486
+  },
+  "median": 0.108,
+  "leave_one_out_min": 0.093,
+  "leave_one_out_max": 0.179
+ },
+ "titles": {
+  "tg-006": "File:Ascent by cable car to the fortress of Masada.webm",
+  "tg-007": "File:Obalende bus park, Lagos Nigeria (Emeka Ogboh).ogg",
+  "tg-011": "File:2025-12-17 12 51 26 New Hope and Ivyland 40 (10-34-E class 2-8-0 \"Consolidation\" type steam locomotive) arriving with the noon Santa’s Steam Train Ride at New Hope Station in New Hope, Bucks County, Pennsylvania.webm",
+  "tg-012": "File:Video of Cockpit in night.ogv",
+  "tg-013": "File:Lufthansa Boeing747 beginning to taxi.ogv",
+  "tg-021": "File:Lisbon ferry Belém – Trafaria – view of Belém Tower.webm",
+  "tg-036": "File:Borehole drill.webm",
+  "tg-037": "File:Deep foundation drilling - cut simple.webm",
+  "tg-039": "File:Fan Sound Effect (5 Minutes).webm",
+  "tg-058": "File:Airplane landing batumi.webm",
+  "tg-062": "File:Sound inside the Copa Airlines flight.flac",
+  "tg-063": "File:20220623 Noise pollution. Tomaszów Mazowiecki (60,000 population town), residential area.oga",
+  "tg-067": "File:Inclined elevator at Shadowbrook Restaurant ascending.gk.webm",
+  "tg-071": "File:Aircraft Passenger Boarding Bridges in japan.webm"
+ }
+}

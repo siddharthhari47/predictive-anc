@@ -1,0 +1,113 @@
+{
+  "id": "case-034",
+  "title": "Akkuschrauber_–_Cordless_Screwdriver.ogg",
+  "cohort": "former-test-05",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-034.npz",
+  "arrays_sha256": "e84cd853fb7ab1d6ae06c2767654248404baba09b729515f9660aa832181b002",
+  "reference_sha256": "3a18637a4d07bc5d972d28c4de588d686dcf79b272a8218a8d67a82417eb640a",
+  "seconds": 39.3255,
+  "prefix_seconds": 15.73,
+  "counts": {
+    "frames_after_warmup": 3782,
+    "v2_components_before_gate": 1220,
+    "bank_components_before_gate": 3967,
+    "frames_both_gates_open": 3736,
+    "bank_components_without_v2_match": 2985,
+    "eligible_v2_components": 1184,
+    "matched_tone_frames": 917,
+    "frames_bank_only_gate": 23,
+    "frames_both_gates_closed": 17,
+    "frames_v2_only_gate": 6,
+    "v2_without_bank_match": 267
+  },
+  "all": {
+    "matched_tone_frames": 917,
+    "mismatch": {
+      "p05": 0.11096147777982358,
+      "p50": 0.5149788768676192,
+      "p95": 1.2679345803302413,
+      "p99": 1.6259651519656322,
+      "max": 1.8479152623020876
+    },
+    "ramped_mismatch": {
+      "p05": 0.11174901614474224,
+      "p50": 0.5177291368127354,
+      "p95": 1.2868140888340776,
+      "p99": 1.8228047459753174,
+      "max": 5.294748651392821
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.0619320643144037,
+      "p50": 5.764211685116805,
+      "p95": 19.096639859048878,
+      "p99": 24.79602015000307,
+      "max": 39.14622159840053
+    },
+    "fraction_mismatch_above_0_1": 0.9596510359869138,
+    "fraction_mismatch_above_1": 0.12213740458015267,
+    "v2_energy_weighted_rms_mismatch": 0.7659014436198701,
+    "absolute_phase_difference_deg": {
+      "p05": 2.691358872851515,
+      "p50": 24.458446984776717,
+      "p95": 98.51787690927517,
+      "p99": 135.46802396551777,
+      "max": 165.94471994937777
+    },
+    "amplitude_ratio": {
+      "p05": 0.26605955217837474,
+      "p50": 0.9116604851504037,
+      "p95": 1.2492951525388032,
+      "p99": 1.5339976561544328,
+      "max": 1.9666569621452366
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 524,
+    "mismatch": {
+      "p05": 0.10832274718282153,
+      "p50": 0.5467529714672626,
+      "p95": 1.303554305538391,
+      "p99": 1.7642700032419107,
+      "max": 1.8479152623020876
+    },
+    "ramped_mismatch": {
+      "p05": 0.10832274718282153,
+      "p50": 0.5513447080124347,
+      "p95": 1.3157426664289629,
+      "p99": 1.8248741130672261,
+      "max": 5.294748651392821
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.302582444430474,
+      "p50": 5.2441949839318545,
+      "p95": 19.30562728700341,
+      "p99": 24.716701327349405,
+      "max": 34.21870092164199
+    },
+    "fraction_mismatch_above_0_1": 0.9580152671755725,
+    "fraction_mismatch_above_1": 0.14885496183206107,
+    "v2_energy_weighted_rms_mismatch": 0.8035164566885449,
+    "absolute_phase_difference_deg": {
+      "p05": 2.7688005126510413,
+      "p50": 26.67005491370068,
+      "p95": 105.09120192186644,
+      "p99": 148.16232266078708,
+      "max": 165.94471994937777
+    },
+    "amplitude_ratio": {
+      "p05": 0.2513457154467158,
+      "p50": 0.9126992797875729,
+      "p95": 1.1929960995191107,
+      "p99": 1.4872384962487515,
+      "max": 1.7695924081813164
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-034.npz",
+  "ratio_arrays_sha256": "478330360ecb7e45234b22a76413af17883b8072cce5c78e938d4c5be72f74e1"
+}

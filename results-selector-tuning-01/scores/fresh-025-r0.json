@@ -1,0 +1,936 @@
+{
+  "case_id": "fresh-025-r0",
+  "source_id": "fresh-025",
+  "cohort": "switch_enriched_seen",
+  "file": "File:TG16 diesel locomotive interior.webm",
+  "room_index": 0,
+  "rows": [
+    {
+      "lead_ms": 30,
+      "arm": "v2_tuned",
+      "band_db": 0.0,
+      "broadband_db": 0.0,
+      "tone_db": 0.0,
+      "max_third_octave_amplification_db": 0.0,
+      "worst_third_octave_hz": null,
+      "worst_1s_band_db": 0.0,
+      "drive_peak": 0.0,
+      "clipped_fraction": 0.0,
+      "active_tones": 0,
+      "bands": [
+        {
+          "centre_hz": 31.622776601683793,
+          "amplification_db": 0.0,
+          "off_power": 7.248093820769632e-08,
+          "on_power": 7.248093820769632e-08
+        },
+        {
+          "centre_hz": 39.810717055349734,
+          "amplification_db": 0.0,
+          "off_power": 9.585078168793267e-08,
+          "on_power": 9.585078168793267e-08
+        },
+        {
+          "centre_hz": 50.11872336272722,
+          "amplification_db": 0.0,
+          "off_power": 1.174075828009921e-07,
+          "on_power": 1.174075828009921e-07
+        },
+        {
+          "centre_hz": 63.09573444801933,
+          "amplification_db": 0.0,
+          "off_power": 1.3359344700096986e-07,
+          "on_power": 1.3359344700096986e-07
+        },
+        {
+          "centre_hz": 79.43282347242814,
+          "amplification_db": 0.0,
+          "off_power": 1.580338079977472e-07,
+          "on_power": 1.580338079977472e-07
+        },
+        {
+          "centre_hz": 100.0,
+          "amplification_db": 0.0,
+          "off_power": 2.938452678859131e-07,
+          "on_power": 2.938452678859131e-07
+        },
+        {
+          "centre_hz": 125.89254117941672,
+          "amplification_db": 0.0,
+          "off_power": 5.987130411816321e-07,
+          "on_power": 5.987130411816321e-07
+        },
+        {
+          "centre_hz": 158.48931924611134,
+          "amplification_db": 0.0,
+          "off_power": 8.149681634659272e-07,
+          "on_power": 8.149681634659272e-07
+        },
+        {
+          "centre_hz": 199.526231496888,
+          "amplification_db": 0.0,
+          "off_power": 2.6069650210379295e-06,
+          "on_power": 2.6069650210379295e-06
+        },
+        {
+          "centre_hz": 251.188643150958,
+          "amplification_db": 0.0,
+          "off_power": 9.380410235553229e-05,
+          "on_power": 9.380410235553229e-05
+        },
+        {
+          "centre_hz": 316.22776601683796,
+          "amplification_db": 0.0,
+          "off_power": 4.57026359731287e-05,
+          "on_power": 4.57026359731287e-05
+        },
+        {
+          "centre_hz": 398.1071705534972,
+          "amplification_db": 0.0,
+          "off_power": 0.0001832043887617672,
+          "on_power": 0.0001832043887617672
+        },
+        {
+          "centre_hz": 501.18723362727224,
+          "amplification_db": 0.0,
+          "off_power": 0.00038343073876081417,
+          "on_power": 0.00038343073876081417
+        },
+        {
+          "centre_hz": 630.9573444801932,
+          "amplification_db": 0.0,
+          "off_power": 0.00042317757893111394,
+          "on_power": 0.00042317757893111394
+        },
+        {
+          "centre_hz": 794.3282347242815,
+          "amplification_db": 0.0,
+          "off_power": 0.0002176323904294228,
+          "on_power": 0.0002176323904294228
+        }
+      ]
+    },
+    {
+      "lead_ms": 30,
+      "arm": "chooser_reuse_v2",
+      "band_db": 0.0,
+      "broadband_db": 0.0,
+      "tone_db": 0.0,
+      "max_third_octave_amplification_db": 0.0,
+      "worst_third_octave_hz": null,
+      "worst_1s_band_db": 0.0,
+      "drive_peak": 0.0,
+      "clipped_fraction": 0.0,
+      "active_tones": 0,
+      "bands": [
+        {
+          "centre_hz": 31.622776601683793,
+          "amplification_db": 0.0,
+          "off_power": 7.248093820769632e-08,
+          "on_power": 7.248093820769632e-08
+        },
+        {
+          "centre_hz": 39.810717055349734,
+          "amplification_db": 0.0,
+          "off_power": 9.585078168793267e-08,
+          "on_power": 9.585078168793267e-08
+        },
+        {
+          "centre_hz": 50.11872336272722,
+          "amplification_db": 0.0,
+          "off_power": 1.174075828009921e-07,
+          "on_power": 1.174075828009921e-07
+        },
+        {
+          "centre_hz": 63.09573444801933,
+          "amplification_db": 0.0,
+          "off_power": 1.3359344700096986e-07,
+          "on_power": 1.3359344700096986e-07
+        },
+        {
+          "centre_hz": 79.43282347242814,
+          "amplification_db": 0.0,
+          "off_power": 1.580338079977472e-07,
+          "on_power": 1.580338079977472e-07
+        },
+        {
+          "centre_hz": 100.0,
+          "amplification_db": 0.0,
+          "off_power": 2.938452678859131e-07,
+          "on_power": 2.938452678859131e-07
+        },
+        {
+          "centre_hz": 125.89254117941672,
+          "amplification_db": 0.0,
+          "off_power": 5.987130411816321e-07,
+          "on_power": 5.987130411816321e-07
+        },
+        {
+          "centre_hz": 158.48931924611134,
+          "amplification_db": 0.0,
+          "off_power": 8.149681634659272e-07,
+          "on_power": 8.149681634659272e-07
+        },
+        {
+          "centre_hz": 199.526231496888,
+          "amplification_db": 0.0,
+          "off_power": 2.6069650210379295e-06,
+          "on_power": 2.6069650210379295e-06
+        },
+        {
+          "centre_hz": 251.188643150958,
+          "amplification_db": 0.0,
+          "off_power": 9.380410235553229e-05,
+          "on_power": 9.380410235553229e-05
+        },
+        {
+          "centre_hz": 316.22776601683796,
+          "amplification_db": 0.0,
+          "off_power": 4.57026359731287e-05,
+          "on_power": 4.57026359731287e-05
+        },
+        {
+          "centre_hz": 398.1071705534972,
+          "amplification_db": 0.0,
+          "off_power": 0.0001832043887617672,
+          "on_power": 0.0001832043887617672
+        },
+        {
+          "centre_hz": 501.18723362727224,
+          "amplification_db": 0.0,
+          "off_power": 0.00038343073876081417,
+          "on_power": 0.00038343073876081417
+        },
+        {
+          "centre_hz": 630.9573444801932,
+          "amplification_db": 0.0,
+          "off_power": 0.00042317757893111394,
+          "on_power": 0.00042317757893111394
+        },
+        {
+          "centre_hz": 794.3282347242815,
+          "amplification_db": 0.0,
+          "off_power": 0.0002176323904294228,
+          "on_power": 0.0002176323904294228
+        }
+      ]
+    },
+    {
+      "lead_ms": 30,
+      "arm": "chooser_tuned",
+      "band_db": 0.0,
+      "broadband_db": 0.0,
+      "tone_db": 0.0,
+      "max_third_octave_amplification_db": 0.0,
+      "worst_third_octave_hz": null,
+      "worst_1s_band_db": 0.0,
+      "drive_peak": 0.0,
+      "clipped_fraction": 0.0,
+      "active_tones": 0,
+      "bands": [
+        {
+          "centre_hz": 31.622776601683793,
+          "amplification_db": 0.0,
+          "off_power": 7.248093820769632e-08,
+          "on_power": 7.248093820769632e-08
+        },
+        {
+          "centre_hz": 39.810717055349734,
+          "amplification_db": 0.0,
+          "off_power": 9.585078168793267e-08,
+          "on_power": 9.585078168793267e-08
+        },
+        {
+          "centre_hz": 50.11872336272722,
+          "amplification_db": 0.0,
+          "off_power": 1.174075828009921e-07,
+          "on_power": 1.174075828009921e-07
+        },
+        {
+          "centre_hz": 63.09573444801933,
+          "amplification_db": 0.0,
+          "off_power": 1.3359344700096986e-07,
+          "on_power": 1.3359344700096986e-07
+        },
+        {
+          "centre_hz": 79.43282347242814,
+          "amplification_db": 0.0,
+          "off_power": 1.580338079977472e-07,
+          "on_power": 1.580338079977472e-07
+        },
+        {
+          "centre_hz": 100.0,
+          "amplification_db": 0.0,
+          "off_power": 2.938452678859131e-07,
+          "on_power": 2.938452678859131e-07
+        },
+        {
+          "centre_hz": 125.89254117941672,
+          "amplification_db": 0.0,
+          "off_power": 5.987130411816321e-07,
+          "on_power": 5.987130411816321e-07
+        },
+        {
+          "centre_hz": 158.48931924611134,
+          "amplification_db": 0.0,
+          "off_power": 8.149681634659272e-07,
+          "on_power": 8.149681634659272e-07
+        },
+        {
+          "centre_hz": 199.526231496888,
+          "amplification_db": 0.0,
+          "off_power": 2.6069650210379295e-06,
+          "on_power": 2.6069650210379295e-06
+        },
+        {
+          "centre_hz": 251.188643150958,
+          "amplification_db": 0.0,
+          "off_power": 9.380410235553229e-05,
+          "on_power": 9.380410235553229e-05
+        },
+        {
+          "centre_hz": 316.22776601683796,
+          "amplification_db": 0.0,
+          "off_power": 4.57026359731287e-05,
+          "on_power": 4.57026359731287e-05
+        },
+        {
+          "centre_hz": 398.1071705534972,
+          "amplification_db": 0.0,
+          "off_power": 0.0001832043887617672,
+          "on_power": 0.0001832043887617672
+        },
+        {
+          "centre_hz": 501.18723362727224,
+          "amplification_db": 0.0,
+          "off_power": 0.00038343073876081417,
+          "on_power": 0.00038343073876081417
+        },
+        {
+          "centre_hz": 630.9573444801932,
+          "amplification_db": 0.0,
+          "off_power": 0.00042317757893111394,
+          "on_power": 0.00042317757893111394
+        },
+        {
+          "centre_hz": 794.3282347242815,
+          "amplification_db": 0.0,
+          "off_power": 0.0002176323904294228,
+          "on_power": 0.0002176323904294228
+        }
+      ]
+    },
+    {
+      "lead_ms": 30,
+      "arm": "zero",
+      "band_db": 0.0,
+      "broadband_db": 0.0,
+      "tone_db": 0.0,
+      "max_third_octave_amplification_db": 0.0,
+      "worst_third_octave_hz": null,
+      "worst_1s_band_db": 0.0,
+      "drive_peak": 0.0,
+      "clipped_fraction": 0.0,
+      "active_tones": 0,
+      "bands": [
+        {
+          "centre_hz": 31.622776601683793,
+          "amplification_db": 0.0,
+          "off_power": 7.248093820769632e-08,
+          "on_power": 7.248093820769632e-08
+        },
+        {
+          "centre_hz": 39.810717055349734,
+          "amplification_db": 0.0,
+          "off_power": 9.585078168793267e-08,
+          "on_power": 9.585078168793267e-08
+        },
+        {
+          "centre_hz": 50.11872336272722,
+          "amplification_db": 0.0,
+          "off_power": 1.174075828009921e-07,
+          "on_power": 1.174075828009921e-07
+        },
+        {
+          "centre_hz": 63.09573444801933,
+          "amplification_db": 0.0,
+          "off_power": 1.3359344700096986e-07,
+          "on_power": 1.3359344700096986e-07
+        },
+        {
+          "centre_hz": 79.43282347242814,
+          "amplification_db": 0.0,
+          "off_power": 1.580338079977472e-07,
+          "on_power": 1.580338079977472e-07
+        },
+        {
+          "centre_hz": 100.0,
+          "amplification_db": 0.0,
+          "off_power": 2.938452678859131e-07,
+          "on_power": 2.938452678859131e-07
+        },
+        {
+          "centre_hz": 125.89254117941672,
+          "amplification_db": 0.0,
+          "off_power": 5.987130411816321e-07,
+          "on_power": 5.987130411816321e-07
+        },
+        {
+          "centre_hz": 158.48931924611134,
+          "amplification_db": 0.0,
+          "off_power": 8.149681634659272e-07,
+          "on_power": 8.149681634659272e-07
+        },
+        {
+          "centre_hz": 199.526231496888,
+          "amplification_db": 0.0,
+          "off_power": 2.6069650210379295e-06,
+          "on_power": 2.6069650210379295e-06
+        },
+        {
+          "centre_hz": 251.188643150958,
+          "amplification_db": 0.0,
+          "off_power": 9.380410235553229e-05,
+          "on_power": 9.380410235553229e-05
+        },
+        {
+          "centre_hz": 316.22776601683796,
+          "amplification_db": 0.0,
+          "off_power": 4.57026359731287e-05,
+          "on_power": 4.57026359731287e-05
+        },
+        {
+          "centre_hz": 398.1071705534972,
+          "amplification_db": 0.0,
+          "off_power": 0.0001832043887617672,
+          "on_power": 0.0001832043887617672
+        },
+        {
+          "centre_hz": 501.18723362727224,
+          "amplification_db": 0.0,
+          "off_power": 0.00038343073876081417,
+          "on_power": 0.00038343073876081417
+        },
+        {
+          "centre_hz": 630.9573444801932,
+          "amplification_db": 0.0,
+          "off_power": 0.00042317757893111394,
+          "on_power": 0.00042317757893111394
+        },
+        {
+          "centre_hz": 794.3282347242815,
+          "amplification_db": 0.0,
+          "off_power": 0.0002176323904294228,
+          "on_power": 0.0002176323904294228
+        }
+      ]
+    },
+    {
+      "lead_ms": 200,
+      "arm": "v2_tuned",
+      "band_db": 0.0,
+      "broadband_db": 0.0,
+      "tone_db": 0.0,
+      "max_third_octave_amplification_db": 0.0,
+      "worst_third_octave_hz": null,
+      "worst_1s_band_db": 0.0,
+      "drive_peak": 0.0,
+      "clipped_fraction": 0.0,
+      "active_tones": 0,
+      "bands": [
+        {
+          "centre_hz": 31.622776601683793,
+          "amplification_db": 0.0,
+          "off_power": 7.248093820769632e-08,
+          "on_power": 7.248093820769632e-08
+        },
+        {
+          "centre_hz": 39.810717055349734,
+          "amplification_db": 0.0,
+          "off_power": 9.585078168793267e-08,
+          "on_power": 9.585078168793267e-08
+        },
+        {
+          "centre_hz": 50.11872336272722,
+          "amplification_db": 0.0,
+          "off_power": 1.174075828009921e-07,
+          "on_power": 1.174075828009921e-07
+        },
+        {
+          "centre_hz": 63.09573444801933,
+          "amplification_db": 0.0,
+          "off_power": 1.3359344700096986e-07,
+          "on_power": 1.3359344700096986e-07
+        },
+        {
+          "centre_hz": 79.43282347242814,
+          "amplification_db": 0.0,
+          "off_power": 1.580338079977472e-07,
+          "on_power": 1.580338079977472e-07
+        },
+        {
+          "centre_hz": 100.0,
+          "amplification_db": 0.0,
+          "off_power": 2.938452678859131e-07,
+          "on_power": 2.938452678859131e-07
+        },
+        {
+          "centre_hz": 125.89254117941672,
+          "amplification_db": 0.0,
+          "off_power": 5.987130411816321e-07,
+          "on_power": 5.987130411816321e-07
+        },
+        {
+          "centre_hz": 158.48931924611134,
+          "amplification_db": 0.0,
+          "off_power": 8.149681634659272e-07,
+          "on_power": 8.149681634659272e-07
+        },
+        {
+          "centre_hz": 199.526231496888,
+          "amplification_db": 0.0,
+          "off_power": 2.6069650210379295e-06,
+          "on_power": 2.6069650210379295e-06
+        },
+        {
+          "centre_hz": 251.188643150958,
+          "amplification_db": 0.0,
+          "off_power": 9.380410235553229e-05,
+          "on_power": 9.380410235553229e-05
+        },
+        {
+          "centre_hz": 316.22776601683796,
+          "amplification_db": 0.0,
+          "off_power": 4.57026359731287e-05,
+          "on_power": 4.57026359731287e-05
+        },
+        {
+          "centre_hz": 398.1071705534972,
+          "amplification_db": 0.0,
+          "off_power": 0.0001832043887617672,
+          "on_power": 0.0001832043887617672
+        },
+        {
+          "centre_hz": 501.18723362727224,
+          "amplification_db": 0.0,
+          "off_power": 0.00038343073876081417,
+          "on_power": 0.00038343073876081417
+        },
+        {
+          "centre_hz": 630.9573444801932,
+          "amplification_db": 0.0,
+          "off_power": 0.00042317757893111394,
+          "on_power": 0.00042317757893111394
+        },
+        {
+          "centre_hz": 794.3282347242815,
+          "amplification_db": 0.0,
+          "off_power": 0.0002176323904294228,
+          "on_power": 0.0002176323904294228
+        }
+      ]
+    },
+    {
+      "lead_ms": 200,
+      "arm": "chooser_reuse_v2",
+      "band_db": 0.0,
+      "broadband_db": 0.0,
+      "tone_db": 0.0,
+      "max_third_octave_amplification_db": 0.0,
+      "worst_third_octave_hz": null,
+      "worst_1s_band_db": 0.0,
+      "drive_peak": 0.0,
+      "clipped_fraction": 0.0,
+      "active_tones": 0,
+      "bands": [
+        {
+          "centre_hz": 31.622776601683793,
+          "amplification_db": 0.0,
+          "off_power": 7.248093820769632e-08,
+          "on_power": 7.248093820769632e-08
+        },
+        {
+          "centre_hz": 39.810717055349734,
+          "amplification_db": 0.0,
+          "off_power": 9.585078168793267e-08,
+          "on_power": 9.585078168793267e-08
+        },
+        {
+          "centre_hz": 50.11872336272722,
+          "amplification_db": 0.0,
+          "off_power": 1.174075828009921e-07,
+          "on_power": 1.174075828009921e-07
+        },
+        {
+          "centre_hz": 63.09573444801933,
+          "amplification_db": 0.0,
+          "off_power": 1.3359344700096986e-07,
+          "on_power": 1.3359344700096986e-07
+        },
+        {
+          "centre_hz": 79.43282347242814,
+          "amplification_db": 0.0,
+          "off_power": 1.580338079977472e-07,
+          "on_power": 1.580338079977472e-07
+        },
+        {
+          "centre_hz": 100.0,
+          "amplification_db": 0.0,
+          "off_power": 2.938452678859131e-07,
+          "on_power": 2.938452678859131e-07
+        },
+        {
+          "centre_hz": 125.89254117941672,
+          "amplification_db": 0.0,
+          "off_power": 5.987130411816321e-07,
+          "on_power": 5.987130411816321e-07
+        },
+        {
+          "centre_hz": 158.48931924611134,
+          "amplification_db": 0.0,
+          "off_power": 8.149681634659272e-07,
+          "on_power": 8.149681634659272e-07
+        },
+        {
+          "centre_hz": 199.526231496888,
+          "amplification_db": 0.0,
+          "off_power": 2.6069650210379295e-06,
+          "on_power": 2.6069650210379295e-06
+        },
+        {
+          "centre_hz": 251.188643150958,
+          "amplification_db": 0.0,
+          "off_power": 9.380410235553229e-05,
+          "on_power": 9.380410235553229e-05
+        },
+        {
+          "centre_hz": 316.22776601683796,
+          "amplification_db": 0.0,
+          "off_power": 4.57026359731287e-05,
+          "on_power": 4.57026359731287e-05
+        },
+        {
+          "centre_hz": 398.1071705534972,
+          "amplification_db": 0.0,
+          "off_power": 0.0001832043887617672,
+          "on_power": 0.0001832043887617672
+        },
+        {
+          "centre_hz": 501.18723362727224,
+          "amplification_db": 0.0,
+          "off_power": 0.00038343073876081417,
+          "on_power": 0.00038343073876081417
+        },
+        {
+          "centre_hz": 630.9573444801932,
+          "amplification_db": 0.0,
+          "off_power": 0.00042317757893111394,
+          "on_power": 0.00042317757893111394
+        },
+        {
+          "centre_hz": 794.3282347242815,
+          "amplification_db": 0.0,
+          "off_power": 0.0002176323904294228,
+          "on_power": 0.0002176323904294228
+        }
+      ]
+    },
+    {
+      "lead_ms": 200,
+      "arm": "chooser_tuned",
+      "band_db": 0.0,
+      "broadband_db": 0.0,
+      "tone_db": 0.0,
+      "max_third_octave_amplification_db": 0.0,
+      "worst_third_octave_hz": null,
+      "worst_1s_band_db": 0.0,
+      "drive_peak": 0.0,
+      "clipped_fraction": 0.0,
+      "active_tones": 0,
+      "bands": [
+        {
+          "centre_hz": 31.622776601683793,
+          "amplification_db": 0.0,
+          "off_power": 7.248093820769632e-08,
+          "on_power": 7.248093820769632e-08
+        },
+        {
+          "centre_hz": 39.810717055349734,
+          "amplification_db": 0.0,
+          "off_power": 9.585078168793267e-08,
+          "on_power": 9.585078168793267e-08
+        },
+        {
+          "centre_hz": 50.11872336272722,
+          "amplification_db": 0.0,
+          "off_power": 1.174075828009921e-07,
+          "on_power": 1.174075828009921e-07
+        },
+        {
+          "centre_hz": 63.09573444801933,
+          "amplification_db": 0.0,
+          "off_power": 1.3359344700096986e-07,
+          "on_power": 1.3359344700096986e-07
+        },
+        {
+          "centre_hz": 79.43282347242814,
+          "amplification_db": 0.0,
+          "off_power": 1.580338079977472e-07,
+          "on_power": 1.580338079977472e-07
+        },
+        {
+          "centre_hz": 100.0,
+          "amplification_db": 0.0,
+          "off_power": 2.938452678859131e-07,
+          "on_power": 2.938452678859131e-07
+        },
+        {
+          "centre_hz": 125.89254117941672,
+          "amplification_db": 0.0,
+          "off_power": 5.987130411816321e-07,
+          "on_power": 5.987130411816321e-07
+        },
+        {
+          "centre_hz": 158.48931924611134,
+          "amplification_db": 0.0,
+          "off_power": 8.149681634659272e-07,
+          "on_power": 8.149681634659272e-07
+        },
+        {
+          "centre_hz": 199.526231496888,
+          "amplification_db": 0.0,
+          "off_power": 2.6069650210379295e-06,
+          "on_power": 2.6069650210379295e-06
+        },
+        {
+          "centre_hz": 251.188643150958,
+          "amplification_db": 0.0,
+          "off_power": 9.380410235553229e-05,
+          "on_power": 9.380410235553229e-05
+        },
+        {
+          "centre_hz": 316.22776601683796,
+          "amplification_db": 0.0,
+          "off_power": 4.57026359731287e-05,
+          "on_power": 4.57026359731287e-05
+        },
+        {
+          "centre_hz": 398.1071705534972,
+          "amplification_db": 0.0,
+          "off_power": 0.0001832043887617672,
+          "on_power": 0.0001832043887617672
+        },
+        {
+          "centre_hz": 501.18723362727224,
+          "amplification_db": 0.0,
+          "off_power": 0.00038343073876081417,
+          "on_power": 0.00038343073876081417
+        },
+        {
+          "centre_hz": 630.9573444801932,
+          "amplification_db": 0.0,
+          "off_power": 0.00042317757893111394,
+          "on_power": 0.00042317757893111394
+        },
+        {
+          "centre_hz": 794.3282347242815,
+          "amplification_db": 0.0,
+          "off_power": 0.0002176323904294228,
+          "on_power": 0.0002176323904294228
+        }
+      ]
+    },
+    {
+      "lead_ms": 200,
+      "arm": "zero",
+      "band_db": 0.0,
+      "broadband_db": 0.0,
+      "tone_db": 0.0,
+      "max_third_octave_amplification_db": 0.0,
+      "worst_third_octave_hz": null,
+      "worst_1s_band_db": 0.0,
+      "drive_peak": 0.0,
+      "clipped_fraction": 0.0,
+      "active_tones": 0,
+      "bands": [
+        {
+          "centre_hz": 31.622776601683793,
+          "amplification_db": 0.0,
+          "off_power": 7.248093820769632e-08,
+          "on_power": 7.248093820769632e-08
+        },
+        {
+          "centre_hz": 39.810717055349734,
+          "amplification_db": 0.0,
+          "off_power": 9.585078168793267e-08,
+          "on_power": 9.585078168793267e-08
+        },
+        {
+          "centre_hz": 50.11872336272722,
+          "amplification_db": 0.0,
+          "off_power": 1.174075828009921e-07,
+          "on_power": 1.174075828009921e-07
+        },
+        {
+          "centre_hz": 63.09573444801933,
+          "amplification_db": 0.0,
+          "off_power": 1.3359344700096986e-07,
+          "on_power": 1.3359344700096986e-07
+        },
+        {
+          "centre_hz": 79.43282347242814,
+          "amplification_db": 0.0,
+          "off_power": 1.580338079977472e-07,
+          "on_power": 1.580338079977472e-07
+        },
+        {
+          "centre_hz": 100.0,
+          "amplification_db": 0.0,
+          "off_power": 2.938452678859131e-07,
+          "on_power": 2.938452678859131e-07
+        },
+        {
+          "centre_hz": 125.89254117941672,
+          "amplification_db": 0.0,
+          "off_power": 5.987130411816321e-07,
+          "on_power": 5.987130411816321e-07
+        },
+        {
+          "centre_hz": 158.48931924611134,
+          "amplification_db": 0.0,
+          "off_power": 8.149681634659272e-07,
+          "on_power": 8.149681634659272e-07
+        },
+        {
+          "centre_hz": 199.526231496888,
+          "amplification_db": 0.0,
+          "off_power": 2.6069650210379295e-06,
+          "on_power": 2.6069650210379295e-06
+        },
+        {
+          "centre_hz": 251.188643150958,
+          "amplification_db": 0.0,
+          "off_power": 9.380410235553229e-05,
+          "on_power": 9.380410235553229e-05
+        },
+        {
+          "centre_hz": 316.22776601683796,
+          "amplification_db": 0.0,
+          "off_power": 4.57026359731287e-05,
+          "on_power": 4.57026359731287e-05
+        },
+        {
+          "centre_hz": 398.1071705534972,
+          "amplification_db": 0.0,
+          "off_power": 0.0001832043887617672,
+          "on_power": 0.0001832043887617672
+        },
+        {
+          "centre_hz": 501.18723362727224,
+          "amplification_db": 0.0,
+          "off_power": 0.00038343073876081417,
+          "on_power": 0.00038343073876081417
+        },
+        {
+          "centre_hz": 630.9573444801932,
+          "amplification_db": 0.0,
+          "off_power": 0.00042317757893111394,
+          "on_power": 0.00042317757893111394
+        },
+        {
+          "centre_hz": 794.3282347242815,
+          "amplification_db": 0.0,
+          "off_power": 0.0002176323904294228,
+          "on_power": 0.0002176323904294228
+        }
+      ]
+    }
+  ],
+  "details": [
+    {
+      "lead_ms": 30,
+      "v2_tuning": [],
+      "chooser_tuning": [],
+      "v2_settings": [],
+      "chooser_settings": [],
+      "reference_diagnostic": {
+        "scope": "reference microphone only, hard gates including DC, unweighted forecasts at actual room lead",
+        "target_blocks": 5349,
+        "v2_broadband_db": 0.06329315993721457,
+        "chooser_broadband_db": 0.37232104155749685
+      },
+      "relaxed_retune_bound": {
+        "band_db": 0.0,
+        "segments": 0,
+        "coefficients": [],
+        "relaxed_noncausal": true
+      }
+    },
+    {
+      "lead_ms": 200,
+      "v2_tuning": [],
+      "chooser_tuning": [],
+      "v2_settings": [],
+      "chooser_settings": [],
+      "reference_diagnostic": {
+        "scope": "reference microphone only, hard gates including DC, unweighted forecasts at actual room lead",
+        "target_blocks": 5349,
+        "v2_broadband_db": -0.18203640757207512,
+        "chooser_broadband_db": 0.09597958581248218
+      },
+      "relaxed_retune_bound": {
+        "band_db": 0.0,
+        "segments": 0,
+        "coefficients": [],
+        "relaxed_noncausal": true
+      }
+    }
+  ],
+  "switch_windows": [
+    {
+      "row": 5162,
+      "arrival_sample": 103325,
+      "arrival_seconds": 51.6625,
+      "from_arm": 1,
+      "to_arm": 0,
+      "command_exposed": false,
+      "complete_200ms_window": true,
+      "lead_ms": 30,
+      "band_powers": {
+        "v2_tuned": 1.6010916019533611e-06,
+        "chooser_reuse_v2": 1.6010916019533611e-06,
+        "chooser_tuned": 1.6010916019533611e-06,
+        "zero": 1.6010916019533611e-06
+      },
+      "excess_over_v2_db": {
+        "chooser_reuse_v2": 0.0,
+        "chooser_tuned": 0.0
+      }
+    },
+    {
+      "row": 5161,
+      "arrival_sample": 103645,
+      "arrival_seconds": 51.8225,
+      "from_arm": 1,
+      "to_arm": 0,
+      "command_exposed": false,
+      "complete_200ms_window": true,
+      "lead_ms": 200,
+      "band_powers": {
+        "v2_tuned": 1.2773518074755887e-06,
+        "chooser_reuse_v2": 1.2773518074755887e-06,
+        "chooser_tuned": 1.2773518074755887e-06,
+        "zero": 1.2773518074755887e-06
+      },
+      "excess_over_v2_db": {
+        "chooser_reuse_v2": 0.0,
+        "chooser_tuned": 0.0
+      }
+    }
+  ],
+  "v2_original_comparisons": 0,
+  "prefix_switches": {
+    "30": 1,
+    "200": 1
+  }
+}

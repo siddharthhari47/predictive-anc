@@ -1,0 +1,273 @@
+{
+  "kind": "post_hoc_seen_strong_source_setting_diagnostic",
+  "created_utc": "2026-10-20T19:02:57.857070+00:00",
+  "client_date": "2026-10-21",
+  "purpose": "After the selector stop, localize the source loss to static output restrictions or adaptive setting choices.",
+  "hypothesis": "The unrestricted bank retains strong-tone accuracy, while the joint check's output restrictions sacrifice it.",
+  "design": "Full existing 2x5 setting menu: line-finder tones on/off by minimum memory 0/.05/.1/.2/.4 s. Hold each setting fixed by preventing the band check from changing its initial choice. The bank's own internal tracking/choice, existing output gate and all other parameters are unchanged.",
+  "controls": [
+    "v2",
+    "joint",
+    "bank_wide_lines"
+  ],
+  "methods": [
+    {
+      "name": "fixed_0_lines",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "start": [
+          0.0,
+          true
+        ],
+        "min_checks_to_decide": 1000000000
+      }
+    },
+    {
+      "name": "fixed_0.05_lines",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "start": [
+          0.05,
+          true
+        ],
+        "min_checks_to_decide": 1000000000
+      }
+    },
+    {
+      "name": "fixed_0.1_lines",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "start": [
+          0.1,
+          true
+        ],
+        "min_checks_to_decide": 1000000000
+      }
+    },
+    {
+      "name": "fixed_0.2_lines",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "start": [
+          0.2,
+          true
+        ],
+        "min_checks_to_decide": 1000000000
+      }
+    },
+    {
+      "name": "fixed_0.4_lines",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "start": [
+          0.4,
+          true
+        ],
+        "min_checks_to_decide": 1000000000
+      }
+    },
+    {
+      "name": "fixed_0_selector",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "start": [
+          0.0,
+          false
+        ],
+        "min_checks_to_decide": 1000000000
+      }
+    },
+    {
+      "name": "fixed_0.05_selector",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "start": [
+          0.05,
+          false
+        ],
+        "min_checks_to_decide": 1000000000
+      }
+    },
+    {
+      "name": "fixed_0.1_selector",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "start": [
+          0.1,
+          false
+        ],
+        "min_checks_to_decide": 1000000000
+      }
+    },
+    {
+      "name": "fixed_0.2_selector",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "start": [
+          0.2,
+          false
+        ],
+        "min_checks_to_decide": 1000000000
+      }
+    },
+    {
+      "name": "fixed_0.4_selector",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "start": [
+          0.4,
+          false
+        ],
+        "min_checks_to_decide": 1000000000
+      }
+    },
+    {
+      "name": "v2",
+      "kind": "v2",
+      "window_seconds": 0.3
+    },
+    {
+      "name": "bank_wide_lines",
+      "kind": "bank",
+      "nb_tau": 0.0,
+      "lines": true
+    },
+    {
+      "name": "joint",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {}
+    }
+  ],
+  "v2": {
+    "selector": {
+      "alpha": 0.01,
+      "acquire": 2,
+      "history": 3,
+      "release": 4
+    },
+    "forecaster": {
+      "window_seconds": 0.3,
+      "release_ratio": 0.5,
+      "release_window_seconds": 0.1
+    },
+    "gate": {
+      "min_gain_db": -1.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": 0
+    }
+  },
+  "inputs": [
+    {
+      "id": "case-030",
+      "file": "Mobile_lift_stage.ogg",
+      "local_arrays": "results-selector-headroom-01\\audit\\arrays\\case-030.npz",
+      "arrays_sha256": "9e47e8b22f85f6aa56e78add4315cc0e92a2791674314524bf784be922e49b87",
+      "prefix_seconds": 13.592,
+      "reference_tones_hz": [
+        37.75,
+        75.25,
+        113.0,
+        150.5,
+        188.25,
+        200.75
+      ]
+    },
+    {
+      "id": "case-032",
+      "file": "Wiki_Motor_lancha.wav",
+      "local_arrays": "results-selector-headroom-01\\audit\\arrays\\case-032.npz",
+      "arrays_sha256": "8b71fb46b310bc2361a4765286bcc2115a4b87e7d7cbd863d697a49803a1d338",
+      "prefix_seconds": 6.0,
+      "reference_tones_hz": [
+        123.25,
+        157.0,
+        171.5,
+        235.5,
+        255.75,
+        342.0
+      ]
+    },
+    {
+      "id": "case-031",
+      "file": "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+      "local_arrays": "results-selector-headroom-01\\audit\\arrays\\case-031.npz",
+      "arrays_sha256": "b71744b38e784c63b40a19f613cfc1d78148b768f24347b68acf4ad92331fc63",
+      "prefix_seconds": 7.6885,
+      "reference_tones_hz": [
+        56.0,
+        111.0,
+        207.0,
+        222.75,
+        238.75,
+        301.25
+      ]
+    },
+    {
+      "id": "case-029",
+      "file": "Photocopie.ogg",
+      "local_arrays": "results-selector-headroom-01\\audit\\arrays\\case-029.npz",
+      "arrays_sha256": "2374aca3f68c96d79095e52ca8c94ad69155eabd575cb9952f9f26ffede0b757",
+      "prefix_seconds": 7.385,
+      "reference_tones_hz": [
+        83.0,
+        99.0,
+        141.25,
+        182.5,
+        212.0,
+        331.5
+      ]
+    }
+  ],
+  "metrics": "20/120 ms tone and whole-band gain; every third-octave band change. Report all settings, not only a winner.",
+  "limits": "Already-seen, outcome-selected four-source diagnosis. Holding the joint setting fixed changes its adaptation, not just transition smoothing. Static winners are hindsight, not deployable replacements.",
+  "guard_tradeoff": "Never call disabling a protective check an improvement based only on tone gain; retain all amplification results.",
+  "hashes": {
+    "runner": "497d632efa8fb59c8e6231213723131a15cc7d940c4ce9674b09cd93c0eb01cb",
+    "study04_test": "47e9828f6cdf4753b1738e29fdfac72d218f936ce7845daab2531704de287944",
+    "headroom_results": "6dff4b3b07c553b389a808f3c9af37ae02ea0862da697f8594b4ffc8f9071c6f",
+    "code": {
+      "tone_forecasters.py": "2b0499a2963a1fe245a48f3b28eb3afe369d1a649e9fe8063dedc5e4abc193bd",
+      "forecaster_study.py": "40bf7d2a804ad75bed59af71debde1a1e85c18cb9afa02b17e7f478b81de6386",
+      "tone_selection.py": "45c4e543f096ed82d63a3ce8f8a6d5ac7da181cc76777dbdf7fc8a6c1d35a3cf",
+      "predictors.py": "9a9c0a34939450e983b28ae0237e80b45169ed4171fe63b5f9b21d0a1249e36d",
+      "real_hum_study.py": "82709997723aacc38ebe7881fec4687acb311dc7ae9456611ffc45cbc696e686",
+      "release_study.py": "99902b2d94820ad33b49f9d3cda66df496da7a35d78a6ade5d5268c6bd51bbef",
+      "selection_study.py": "97d66a392b21f57ac4461405cccce6b5dad35e6b904f6d55166de93eb30255bd",
+      "assessment.py": "e8f1585b5e93d31b2414d3584b775a5a190f3c5e2464d9e01c08d7f039d3f7c6",
+      "generalization.py": "68cad42262ea32dceff43481077180577229dcb826b12767987f3ca350d8ce21",
+      "tone_floors.py": "75af3cfc5a326ced876108aefa97066487873c2136b0d28a29587278af0eeedc",
+      "forecaster_study_02.py": "2dd895b877935d1af1d9e409dc45fe0ba2b0f82a96425d3d4ca0f7f4196a2507",
+      "forecaster_report_02.py": "e2472ca8643412caceddeecfd80191a93a064402f6dcdcddd1916466ebaecd37",
+      "tone_cap.py": "071afd02a41a87930f6d3e255980f8f76b2c7179644ad27bf35d0f6d0dcbdbab",
+      "forecaster_study_03.py": "8a19d0b1ae664c58a18dd8914d176625278057cf4f9bd10ee7850d01ee8e593e",
+      "forecaster_report_03.py": "34e81eda0449832249568c89e6154894603fdfeee00961e01b8e3e50a37158dc",
+      "tone_react.py": "8c038a65a0c78bd1fd30feef3ede4c600802befed25947dfeeeff5418c2d51e1",
+      "forecaster_study_05.py": "2d0a883d5ae3fffe5af02b18c7a6dd5d957324cb555d76b675129499d9e838c2",
+      "forecaster_report_05.py": "10d1791ba90959b9077699daa96864119298497ef8ec228dceab742bee4aff75"
+    }
+  },
+  "scope": "Offline only, no playback, capture, downloads, engine changes or fresh validation."
+}

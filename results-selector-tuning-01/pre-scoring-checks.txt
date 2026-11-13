@@ -1,0 +1,12 @@
+test_active_metrics_and_signal_are_unchanged (test_selector_room_completion.MutedParityTests.test_active_metrics_and_signal_are_unchanged) ... ok
+test_empty_and_muted_commands_match_historical_zero_convention (test_selector_room_completion.MutedParityTests.test_empty_and_muted_commands_match_historical_zero_convention) ... ok
+test_biased_switch_is_harmful_and_relaxed_retuning_is_only_an_oracle (test_selector_room_scoring.RoomScoringTests.test_biased_switch_is_harmful_and_relaxed_retuning_is_only_an_oracle) ... ok
+test_sources_not_rooms_are_bootstrapped_and_new_harm_vetoes_gain (test_selector_room_scoring.RoomScoringTests.test_sources_not_rooms_are_bootstrapped_and_new_harm_vetoes_gain) ... ok
+test_future_samples_cannot_change_prefix_trace (test_selector_room_stream.RoomStreamTests.test_future_samples_cannot_change_prefix_trace) ... ok
+test_mixer_matches_original_rule_on_live_sample_grid (test_selector_room_stream.RoomStreamTests.test_mixer_matches_original_rule_on_live_sample_grid) ... ok
+test_render_live_origin_gate_and_offsets_at_exact_room_leads (test_selector_room_stream.RoomStreamTests.test_render_live_origin_gate_and_offsets_at_exact_room_leads) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 2.280s
+
+OK

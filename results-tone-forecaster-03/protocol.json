@@ -1,0 +1,246 @@
+{
+  "kind": "tone_forecaster_03_frozen_protocol",
+  "created_utc": "2026-10-18T19:49:34.211636+00:00",
+  "development_run": "results-tone-forecaster-03/development/dev-01",
+  "rule": "Written after the diagnostic trials on development material (results-tone-forecaster-03/diagnosis) and before the formal development run. Candidates, all gated: the joint band check of study 02 with its tie fallback capped at 0.5 dB (the fallback switched off), 1, 2 and 3 dB; above the cap only no output is allowed. Development material: the eight study-01 development recordings, the 44 development synthetic scenes and the 8 new buzz scenes. A boost is a third-octave band 1 dB or more louder; a near-boost 0.5 dB or more; both are counted over development recordings (either horizon) plus late synthetic windows. Eligible only if: (a) the boosts go down: fewer boosts than joint + gate; (b) no more near-boosts than joint + gate; (c) no more whole-band boosts (whole 35-350 Hz band below -0.5 dB on a development recording) than joint + gate; (d) the tone gain over v2 is kept: the median, over development acoustic recordings with reference tones, of the tone-bin gain averaged over both horizons is at least v2 + gate's plus half of the amount by which joint + gate exceeds v2 + gate; (e) the median whole-band gain over development acoustic recordings, averaged over both horizons, is at least joint + gate's minus 0.1 dB; (f) the mean synthetic objective is at least joint + gate's minus 0.5 dB and its synthetic windows below -0.5 dB are no more than joint + gate has; (g) its own compute time per 10 ms block at the 99th percentile, worst run, is within 0.5 ms of joint + gate's in the same run (the capped check does the same work). Among eligible candidates, pick the one with the fewest boosts, then the fewest near-boosts, then the higher tone-bin median. If none is eligible, nothing is frozen: the joint check and v2 are unchanged, and there is nothing to test on fresh recordings.",
+  "rule_table": [
+    {
+      "candidate": "cap0.5",
+      "cap_db": 0.5,
+      "tone_bin_needed_db": 4.354585572862783,
+      "p99_block_ms": 11.091770000348333,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_near_boosts": true,
+        "c_whole_band_boosts": true,
+        "d_tone_gain_kept": false,
+        "e_whole_band": false,
+        "f_synthetic": false,
+        "g_time": true
+      },
+      "eligible": false,
+      "boosts": 24,
+      "near_boosts": 36,
+      "recording_boosts": 1,
+      "recording_near_boosts": 6,
+      "synthetic_late_boosts": 23,
+      "synthetic_late_near_boosts": 30,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 2.5006628442144274,
+      "whole_band_median_db": 1.0143388123927468,
+      "synthetic_objective_db": 5.853860866585013,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    {
+      "candidate": "cap1",
+      "cap_db": 1.0,
+      "tone_bin_needed_db": 4.354585572862783,
+      "p99_block_ms": 11.294324984191917,
+      "checks": {
+        "a_fewer_boosts": false,
+        "b_near_boosts": true,
+        "c_whole_band_boosts": true,
+        "d_tone_gain_kept": false,
+        "e_whole_band": false,
+        "f_synthetic": true,
+        "g_time": true
+      },
+      "eligible": false,
+      "boosts": 25,
+      "near_boosts": 38,
+      "recording_boosts": 1,
+      "recording_near_boosts": 6,
+      "synthetic_late_boosts": 24,
+      "synthetic_late_near_boosts": 32,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 2.5006628442144274,
+      "whole_band_median_db": 1.4276405712170284,
+      "synthetic_objective_db": 6.576371684853702,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    {
+      "candidate": "cap2",
+      "cap_db": 2.0,
+      "tone_bin_needed_db": 4.354585572862783,
+      "p99_block_ms": 13.336175001313677,
+      "checks": {
+        "a_fewer_boosts": false,
+        "b_near_boosts": true,
+        "c_whole_band_boosts": true,
+        "d_tone_gain_kept": false,
+        "e_whole_band": true,
+        "f_synthetic": true,
+        "g_time": true
+      },
+      "eligible": false,
+      "boosts": 25,
+      "near_boosts": 40,
+      "recording_boosts": 1,
+      "recording_near_boosts": 8,
+      "synthetic_late_boosts": 24,
+      "synthetic_late_near_boosts": 32,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 3.687626281403894,
+      "whole_band_median_db": 1.5934124877326798,
+      "synthetic_objective_db": 7.051303908085871,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    {
+      "candidate": "cap3",
+      "cap_db": 3.0,
+      "tone_bin_needed_db": 4.354585572862783,
+      "p99_block_ms": 12.911764989257755,
+      "checks": {
+        "a_fewer_boosts": false,
+        "b_near_boosts": true,
+        "c_whole_band_boosts": true,
+        "d_tone_gain_kept": true,
+        "e_whole_band": true,
+        "f_synthetic": true,
+        "g_time": true
+      },
+      "eligible": false,
+      "boosts": 25,
+      "near_boosts": 40,
+      "recording_boosts": 1,
+      "recording_near_boosts": 8,
+      "synthetic_late_boosts": 24,
+      "synthetic_late_near_boosts": 32,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.5567346997913845,
+      "whole_band_median_db": 1.5934124877326798,
+      "synthetic_objective_db": 7.051303908085871,
+      "synthetic_windows_below_minus_half_db": 6
+    }
+  ],
+  "rule_reference": {
+    "joint": {
+      "p99_block_ms": 15.264770001522267,
+      "boosts": 25,
+      "near_boosts": 40,
+      "recording_boosts": 1,
+      "recording_near_boosts": 8,
+      "synthetic_late_boosts": 24,
+      "synthetic_late_near_boosts": 32,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.5567346997913845,
+      "whole_band_median_db": 1.5934124877326798,
+      "synthetic_objective_db": 7.051303908085871,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    "v2": {
+      "p99_block_ms": null,
+      "boosts": 54,
+      "near_boosts": 74,
+      "recording_boosts": 9,
+      "recording_near_boosts": 11,
+      "synthetic_late_boosts": 45,
+      "synthetic_late_near_boosts": 63,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 3.1524364459341827,
+      "whole_band_median_db": 0.9815704366270679,
+      "synthetic_objective_db": 7.024630240764883,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    "bank_wide_lines": {
+      "p99_block_ms": 7.819791996153067,
+      "boosts": 54,
+      "near_boosts": 72,
+      "recording_boosts": 4,
+      "recording_near_boosts": 12,
+      "synthetic_late_boosts": 50,
+      "synthetic_late_near_boosts": 60,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 6.290407211327659,
+      "whole_band_median_db": 2.322356170898141,
+      "synthetic_objective_db": 7.620400569368195,
+      "synthetic_windows_below_minus_half_db": 6
+    }
+  },
+  "frozen_candidate": null,
+  "decision": "No capped candidate met the development rule. The joint check (study 02) and v2 are unchanged. Nothing is left to test, so no fresh recordings are chosen or downloaded for this study, and the primary question below is not asked.",
+  "primary_question": "Only if a candidate is frozen. On fresh recordings the project has never used: (1) are the boosts gone: does the frozen candidate + gate have no third-octave boost (a band 1 dB or more louder, any fresh recording, either horizon), and fewer than joint + gate? (2) Is the tone gain kept: is its median tone-bin gain at 20 ms, over the fresh acoustic recordings with reference tones, above v2 + gate's? Answered separately.",
+  "comparators": [
+    {
+      "name": "v2",
+      "kind": "v2",
+      "window_seconds": 0.3
+    },
+    {
+      "name": "prefix_ar",
+      "kind": "prefix_ar"
+    },
+    {
+      "name": "online_ar",
+      "kind": "online_ar"
+    },
+    {
+      "name": "bank_wide_lines",
+      "kind": "bank",
+      "nb_tau": 0.0,
+      "lines": true
+    },
+    {
+      "name": "joint",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {}
+    }
+  ],
+  "candidates": [
+    {
+      "name": "cap0.5",
+      "kind": "capped",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "cap_db": 0.5
+      }
+    },
+    {
+      "name": "cap1",
+      "kind": "capped",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "cap_db": 1.0
+      }
+    },
+    {
+      "name": "cap2",
+      "kind": "capped",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "cap_db": 2.0
+      }
+    },
+    {
+      "name": "cap3",
+      "kind": "capped",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "cap_db": 3.0
+      }
+    }
+  ],
+  "code_sha256": {
+    "tone_forecasters.py": "2b0499a2963a1fe245a48f3b28eb3afe369d1a649e9fe8063dedc5e4abc193bd",
+    "forecaster_study.py": "40bf7d2a804ad75bed59af71debde1a1e85c18cb9afa02b17e7f478b81de6386",
+    "tone_selection.py": "45c4e543f096ed82d63a3ce8f8a6d5ac7da181cc76777dbdf7fc8a6c1d35a3cf",
+    "predictors.py": "9a9c0a34939450e983b28ae0237e80b45169ed4171fe63b5f9b21d0a1249e36d",
+    "real_hum_study.py": "82709997723aacc38ebe7881fec4687acb311dc7ae9456611ffc45cbc696e686",
+    "release_study.py": "99902b2d94820ad33b49f9d3cda66df496da7a35d78a6ade5d5268c6bd51bbef",
+    "selection_study.py": "97d66a392b21f57ac4461405cccce6b5dad35e6b904f6d55166de93eb30255bd",
+    "assessment.py": "e8f1585b5e93d31b2414d3584b775a5a190f3c5e2464d9e01c08d7f039d3f7c6",
+    "generalization.py": "68cad42262ea32dceff43481077180577229dcb826b12767987f3ca350d8ce21",
+    "tone_floors.py": "75af3cfc5a326ced876108aefa97066487873c2136b0d28a29587278af0eeedc",
+    "forecaster_study_02.py": "2dd895b877935d1af1d9e409dc45fe0ba2b0f82a96425d3d4ca0f7f4196a2507",
+    "forecaster_report_02.py": "e2472ca8643412caceddeecfd80191a93a064402f6dcdcddd1916466ebaecd37",
+    "tone_cap.py": "071afd02a41a87930f6d3e255980f8f76b2c7179644ad27bf35d0f6d0dcbdbab",
+    "forecaster_study_03.py": "8a19d0b1ae664c58a18dd8914d176625278057cf4f9bd10ee7850d01ee8e593e",
+    "forecaster_report_03.py": "34e81eda0449832249568c89e6154894603fdfeee00961e01b8e3e50a37158dc"
+  }
+}

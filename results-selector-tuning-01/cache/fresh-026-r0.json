@@ -1,0 +1,112 @@
+{
+  "source_id": "fresh-026",
+  "case_id": "fresh-026-r0",
+  "file": "File:Diesel Freight Train NSW.ogv",
+  "cohort": "switch_enriched_seen",
+  "room_index": 0,
+  "seed": 2209035717,
+  "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-026.npz",
+  "source_sha256": "e59aa1506229fb4e600b386801f914002bc74c902e972284e43a036855d2fc19",
+  "reference_tones_hz": [
+    295.0
+  ],
+  "geometry": {
+    "dims_m": [
+      3.3585210271498367,
+      3.550012947827322,
+      2.728791896027983
+    ],
+    "rt60_s": 0.46195033320523937,
+    "source": [
+      1.6438169089072825,
+      0.5473708082317409,
+      1.8528623436337863
+    ],
+    "mic": [
+      0.7972031473167476,
+      1.9730438344687282,
+      0.9
+    ],
+    "ears": [
+      [
+        0.9712788816548156,
+        2.3956519729547994,
+        1.2
+      ],
+      [
+        0.9520693157790929,
+        2.4012190708402574,
+        1.2
+      ],
+      [
+        0.9232549669655089,
+        2.409569717668444,
+        1.2
+      ],
+      [
+        0.8752310522762021,
+        2.4234874623820892,
+        1.2
+      ],
+      [
+        0.7791832228975888,
+        2.451322951809379,
+        1.2
+      ]
+    ],
+    "facing_deg": 257.69343627291175,
+    "move_direction_deg": 163.83795583040984,
+    "earphone_highpass_hz": 96.58889066177538,
+    "source_to_ear_m": 2.0723609487021477,
+    "source_to_mic_m": 1.9123925028532915
+  },
+  "tones": [],
+  "prefix": 58080,
+  "n": 145200,
+  "warm": 3000,
+  "earphone_gain": 1.0,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 222296412,
+      "1.0": 295668998,
+      "2.0": 669541261
+    },
+    "200": {
+      "0.5": 286476206,
+      "1.0": 1042299305,
+      "2.0": 178665031
+    }
+  },
+  "switches": {
+    "30": [
+      {
+        "row": 6233,
+        "arrival_sample": 124745,
+        "arrival_seconds": 62.3725,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ],
+    "200": [
+      {
+        "row": 6907,
+        "arrival_sample": 138565,
+        "arrival_seconds": 69.2825,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ]
+  },
+  "prefix_switches": {
+    "30": 0,
+    "200": 0
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\fresh-026-r0.npz",
+  "cache_sha256": "b559f989eba4401ead4e2c99a6ed88a17e6f9faa9b0bc0a6111c95bbd0ebec79",
+  "v2_trace_matches_original": true
+}

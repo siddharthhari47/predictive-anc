@@ -1,0 +1,37 @@
+{
+  "tool_sha256": "4b53a090459259f7dd89b626e1e7b9cac3ef2fc0e34b02d5bdf1cc6d9f2ad5e6",
+  "waited_seconds": 170.01980304718018,
+  "logical_cpus": 32,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 24,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\talk2.000\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-b788215d9d47792bcba3a2e2a7114320.dll",
+      "version": "0.3.33.112.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 24,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\talk2.000\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 32,
+      "prefix": "vcomp",
+      "filepath": "C:\\Users\\talk2.000\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    }
+  ],
+  "candidate_protocol_sha256": "c2cf011dcfa7c019e3b8ad59c06252f286369c65d0eb7624e08f2b80eb4d2110",
+  "started_utc": "2026-11-02T10:34:30.949595+00:00"
+}

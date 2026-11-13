@@ -1,0 +1,55 @@
+{
+  "id": "fresh-010",
+  "passed": true,
+  "checks": [
+    {
+      "cache": false,
+      "max_abs_error": {
+        "v2_gated": 0.0,
+        "fade0.1_linear_gated": 0.0,
+        "causal_L2": 0.0
+      },
+      "exact_choices": true,
+      "bounded_state": {
+        "part_names": [
+          "bank",
+          "v2_selector",
+          "forecast",
+          "gate",
+          "mix"
+        ],
+        "max_retained_input_samples": 2300,
+        "max_gate_pending": 3,
+        "mixer_pending": [
+          3,
+          13
+        ]
+      }
+    },
+    {
+      "cache": true,
+      "max_abs_error": {
+        "v2_gated": 0.0,
+        "fade0.1_linear_gated": 0.0,
+        "causal_L2": 0.0
+      },
+      "exact_choices": true,
+      "bounded_state": {
+        "part_names": [
+          "bank",
+          "v2_selector",
+          "forecast",
+          "gate",
+          "mix"
+        ],
+        "max_retained_input_samples": 2300,
+        "max_gate_pending": 3,
+        "mixer_pending": [
+          3,
+          13
+        ]
+      }
+    }
+  ],
+  "origins": 2950
+}

@@ -1,0 +1,440 @@
+{
+  "kind": "tone_forecaster_frozen_protocol",
+  "created_utc": "2026-10-18T10:03:40.769561+00:00",
+  "development_run": "results-tone-forecaster-01\\development\\dev-02",
+  "rule": "Among the gated candidates (v2 with longer fit windows, and the observer-bank variants), pick the one with the highest median, over development acoustic recordings that have reference tones, of the tone-bin gain averaged over both horizons. Eligible only if, on development material: (a) whole-band boosts (whole 35-350 Hz band below -0.5 dB at either horizon, any development recording) are no more than v2 + gate has; (b) third-octave boosts (a third-octave band 1 dB or more louder, any development recording and horizon) are no more than v2 + gate has; (c) the median whole-band gain over development acoustic recordings, averaged over both horizons, is at least v2 + gate's minus 0.1 dB; (d) the mean synthetic development objective (release-study objective) is at least v2 + gate's minus 0.5 dB and its synthetic windows below -0.5 dB are no more than v2 + gate has; (e) the compute time it adds per 10 ms block, excluding the tone-selector update that v2 also runs, is below 5 ms at the 99th percentile (offline Python, one thread, measured under the parallel pool). AR methods are comparators, not candidates: they give no per-tone output, which tune-by-ear needs. If no candidate is eligible, v2 stays.",
+  "rule_table": [
+    {
+      "candidate": "v2_fit0.6",
+      "tone_bin_median_db": 3.577401608500578,
+      "whole_band_median_db": 1.177529557502571,
+      "synthetic_objective_db": 6.980340696104219,
+      "p99_block_ms": 4.569516632442021,
+      "checks": {
+        "a_whole_band_boosts": true,
+        "b_third_octave_boosts": true,
+        "c_whole_band": true,
+        "d_synthetic": true,
+        "e_time": true
+      },
+      "eligible": true
+    },
+    {
+      "candidate": "v2_fit1.2",
+      "tone_bin_median_db": 3.667661227372174,
+      "whole_band_median_db": 1.0913602184992937,
+      "synthetic_objective_db": 6.242227619416281,
+      "p99_block_ms": 6.720493429156238,
+      "checks": {
+        "a_whole_band_boosts": true,
+        "b_third_octave_boosts": true,
+        "c_whole_band": true,
+        "d_synthetic": false,
+        "e_time": false
+      },
+      "eligible": false
+    },
+    {
+      "candidate": "bank_narrow",
+      "tone_bin_median_db": 3.3520783341232807,
+      "whole_band_median_db": 1.1437605090572385,
+      "synthetic_objective_db": 7.472688930299381,
+      "p99_block_ms": 1.8704899976000877,
+      "checks": {
+        "a_whole_band_boosts": true,
+        "b_third_octave_boosts": false,
+        "c_whole_band": true,
+        "d_synthetic": true,
+        "e_time": true
+      },
+      "eligible": false
+    },
+    {
+      "candidate": "bank_mid",
+      "tone_bin_median_db": 3.558959590483417,
+      "whole_band_median_db": 1.1646247310006461,
+      "synthetic_objective_db": 7.507559006857033,
+      "p99_block_ms": 1.6953599991393282,
+      "checks": {
+        "a_whole_band_boosts": true,
+        "b_third_octave_boosts": true,
+        "c_whole_band": true,
+        "d_synthetic": true,
+        "e_time": true
+      },
+      "eligible": true
+    },
+    {
+      "candidate": "bank_wide",
+      "tone_bin_median_db": 3.4807904902302633,
+      "whole_band_median_db": 1.196960420985116,
+      "synthetic_objective_db": 7.530293361314497,
+      "p99_block_ms": 1.7215649982972534,
+      "checks": {
+        "a_whole_band_boosts": true,
+        "b_third_octave_boosts": true,
+        "c_whole_band": true,
+        "d_synthetic": true,
+        "e_time": true
+      },
+      "eligible": true
+    },
+    {
+      "candidate": "bank_narrow_lines",
+      "tone_bin_median_db": 7.384899586618433,
+      "whole_band_median_db": 2.0768351461246093,
+      "synthetic_objective_db": 7.590918815498094,
+      "p99_block_ms": 3.886169999896088,
+      "checks": {
+        "a_whole_band_boosts": true,
+        "b_third_octave_boosts": false,
+        "c_whole_band": true,
+        "d_synthetic": true,
+        "e_time": true
+      },
+      "eligible": false
+    },
+    {
+      "candidate": "bank_wide_lines",
+      "tone_bin_median_db": 6.290407211327659,
+      "whole_band_median_db": 2.322356170898141,
+      "synthetic_objective_db": 7.658067635974171,
+      "p99_block_ms": 4.144999999698489,
+      "checks": {
+        "a_whole_band_boosts": true,
+        "b_third_octave_boosts": true,
+        "c_whole_band": true,
+        "d_synthetic": true,
+        "e_time": true
+      },
+      "eligible": true
+    }
+  ],
+  "frozen_candidate": {
+    "name": "bank_wide_lines",
+    "kind": "bank",
+    "nb_tau": 0.0,
+    "lines": true
+  },
+  "frozen_candidate_note": null,
+  "comparators": [
+    {
+      "name": "v2",
+      "kind": "v2",
+      "window_seconds": 0.3
+    },
+    {
+      "name": "prefix_ar",
+      "kind": "prefix_ar"
+    },
+    {
+      "name": "online_ar",
+      "kind": "online_ar"
+    }
+  ],
+  "ablations": [
+    {
+      "name": "bank_wide",
+      "kind": "bank",
+      "nb_tau": 0.0
+    }
+  ],
+  "ablation_note": "Secondary, not part of the primary question: the frozen candidate without its line finder.",
+  "v2": {
+    "selector": {
+      "alpha": 0.01,
+      "acquire": 2,
+      "history": 3,
+      "release": 4
+    },
+    "forecaster": {
+      "window_seconds": 0.3,
+      "release_ratio": 0.5,
+      "release_window_seconds": 0.1
+    },
+    "gate": {
+      "min_gain_db": -1.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": 0
+    }
+  },
+  "test_files": [
+    {
+      "file": "Server_Room_Antti_Luode_.mp3",
+      "sha256": "7e3ddf366a9941208a2c5374659cad64831328d7c7ae82f8a139ff3c35ffbc80",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "sha256": "9251b3f770293da9fb2f63babf189eeb9e4f5f3593971544036103acb80b93c2",
+      "had_reference_tones_in_real_hums_01": false
+    },
+    {
+      "file": "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "sha256": "ecb3c01279dc5f1c69b13ff75d694385f6c879e83c0c9b4a041812b6f92428bd",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "sha256": "bb9e9358e2b7041cab8f35d93e712727ddccc3490d075ef907b0923bbb0a1861",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+      "sha256": "bac546ddd06be356facb3dd9c842635afad312412fe058e14d7e2fb07e4f34d0",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Fan_Gravity_Sound_.wav",
+      "sha256": "0710f0d6fcaa7abef3ea2a697ecbae0c0e6703fc0f3998eb1d7e002b5db5c946",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Sistema_de_ventilaci_n.ogg",
+      "sha256": "e99f2f4d3b779701fad26a4958fabc2a9a10010dd614d7a9b4495671ba4ba13c",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Ventilador_de_estudio.ogg",
+      "sha256": "ee0c47862713f722634be55e88320522368afeb359af70370b1d31b2fb5e7878",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "sha256": "f491ebfdea51fdf64f6e76698b0036328a9abdd865b4e259ce4d7b3b24384430",
+      "had_reference_tones_in_real_hums_01": false
+    },
+    {
+      "file": "Sounds_made_by_a_fan.wav",
+      "sha256": "14aeb4433d1f4e113c8f462ec5a1926eafaf572420cb8053a155462137c98707",
+      "had_reference_tones_in_real_hums_01": true
+    }
+  ],
+  "independence": "NOT independent. Every file, development and test, was analysed in results-real-hums-01 (frozen v1/v2, prefix AR) and its per-file scores were read before this split, including the finding that prefix AR beats v2 at the tones. Test files are untouched by forecaster development in this study, but the motivating gap was measured on them.",
+  "synthetic_test": {
+    "standard_seed": 20261018,
+    "standard_repeats": 3,
+    "standard_scene_seeds": "8100+100*repeat+scene index",
+    "wander_seed": 20261019,
+    "wander_repeats": 3,
+    "wander_scene_seeds": "9100+100*repeat+scene index",
+    "parity": "odd 10 Hz bands (development used even)",
+    "forbidden_within_hz": 2.0,
+    "forbidden_frequencies": [
+      41.2,
+      41.3,
+      44.6,
+      46.9,
+      47.3,
+      47.5,
+      57.6,
+      60.2,
+      62.8,
+      66.2,
+      68.4,
+      74.4,
+      77.0,
+      79.7,
+      82.4,
+      82.6,
+      85.3,
+      87.5,
+      90.1,
+      103.2,
+      113.7,
+      120.4,
+      122.6,
+      123.0,
+      123.1,
+      123.6,
+      123.7,
+      123.9,
+      126.4,
+      133.9,
+      137.2,
+      141.2,
+      143.5,
+      144.6,
+      147.2,
+      154.8,
+      159.4,
+      160.8,
+      162.02,
+      162.08,
+      162.8,
+      163.5,
+      163.6,
+      164.2,
+      165.0,
+      165.2,
+      168.02,
+      168.08,
+      170.6,
+      171.3,
+      180.6,
+      182.5,
+      183.1,
+      183.2,
+      183.6,
+      183.7,
+      184.1,
+      184.6,
+      187.4,
+      197.7,
+      203.2,
+      203.4,
+      203.9,
+      205.5,
+      208.9,
+      223.6,
+      231.2,
+      239.1,
+      242.7,
+      243.9,
+      247.3,
+      255.9,
+      262.37,
+      263.7,
+      264.3,
+      265.6,
+      266.2,
+      267.9,
+      268.37,
+      276.5,
+      282.5,
+      285.6,
+      285.7,
+      288.4,
+      302.42,
+      302.6,
+      303.2,
+      305.2,
+      305.3,
+      306.9,
+      307.3,
+      308.42,
+      311.8,
+      319.6,
+      322.5,
+      323.0,
+      323.8,
+      326.6,
+      327.3
+    ]
+  },
+  "primary_question": "On the test recordings that have reference tones, does the frozen candidate (gated) raise the median tone-bin gain at 20 ms above v2 + gate, toward the prefix-adapted AR, without more whole-band or third-octave boosts than v2 + gate?",
+  "code_sha256": {
+    "tone_forecasters.py": "2b0499a2963a1fe245a48f3b28eb3afe369d1a649e9fe8063dedc5e4abc193bd",
+    "forecaster_study.py": "40bf7d2a804ad75bed59af71debde1a1e85c18cb9afa02b17e7f478b81de6386",
+    "tone_selection.py": "45c4e543f096ed82d63a3ce8f8a6d5ac7da181cc76777dbdf7fc8a6c1d35a3cf",
+    "predictors.py": "9a9c0a34939450e983b28ae0237e80b45169ed4171fe63b5f9b21d0a1249e36d",
+    "real_hum_study.py": "82709997723aacc38ebe7881fec4687acb311dc7ae9456611ffc45cbc696e686",
+    "release_study.py": "99902b2d94820ad33b49f9d3cda66df496da7a35d78a6ade5d5268c6bd51bbef",
+    "selection_study.py": "97d66a392b21f57ac4461405cccce6b5dad35e6b904f6d55166de93eb30255bd",
+    "assessment.py": "e8f1585b5e93d31b2414d3584b775a5a190f3c5e2464d9e01c08d7f039d3f7c6",
+    "generalization.py": "68cad42262ea32dceff43481077180577229dcb826b12767987f3ca350d8ce21"
+  },
+  "amendment": {
+    "name": "protocol-amendment-01",
+    "created_utc": "2026-10-18T10:05:03.194666+00:00",
+    "amends": "protocol.json",
+    "reason": "The frozen synthetic test draw is infeasible: release_study.draw_groups raised \"Could not draw fresh frequencies\" because the odd-band interiors (2.5-7.5 Hz of every odd 10 Hz band) are almost all within 2 Hz of the release study's own test draws, which protocol.json also excluded. The first attempt (folder test/) stopped while drawing scene frequencies, before any forecaster ran and before any score existed; test recordings were only read to verify their checksums.",
+    "change": "Only synthetic_test.forbidden_frequencies changes: the release study's test-draw frequencies are no longer excluded (they evaluated v2 in an earlier study; no forecaster here was developed or tuned on them). Every development frequency (release-study and wandering-scene development draws, the older TEST_GROUPS, DEVELOPMENT and HELD_OUT sets) is still excluded within 2 Hz. Seeds, repeats, parity, candidate, comparators, test recordings and code are unchanged.",
+    "frequencies_no_longer_excluded": [
+      52.5,
+      52.6,
+      52.8,
+      53.3,
+      54.7,
+      55.2,
+      92.27,
+      92.33,
+      92.35,
+      92.4,
+      92.6,
+      93.0,
+      94.2,
+      94.7,
+      97.0,
+      97.1,
+      97.6,
+      98.27,
+      98.33,
+      98.35,
+      98.4,
+      116.3,
+      116.6,
+      117.2,
+      117.4,
+      157.0,
+      173.4,
+      173.9,
+      174.9,
+      175.8,
+      176.0,
+      176.9,
+      177.4,
+      192.5,
+      193.5,
+      194.0,
+      194.2,
+      194.6,
+      194.7,
+      195.1,
+      195.2,
+      195.3,
+      212.08,
+      212.45,
+      213.6,
+      214.6,
+      215.0,
+      215.2,
+      215.3,
+      216.4,
+      216.9,
+      217.0,
+      217.2,
+      217.3,
+      217.4,
+      218.08,
+      218.45,
+      233.8,
+      234.6,
+      235.0,
+      235.6,
+      253.6,
+      253.8,
+      272.7,
+      272.9,
+      274.0,
+      274.3,
+      274.4,
+      291.0,
+      291.3,
+      292.05,
+      292.31,
+      292.42,
+      292.48,
+      292.6,
+      292.8,
+      292.9,
+      293.5,
+      294.6,
+      296.3,
+      296.6,
+      296.8,
+      298.05,
+      298.31,
+      298.42,
+      298.48,
+      313.9,
+      314.7,
+      316.4,
+      316.6,
+      316.7,
+      317.4
+    ],
+    "test_output": "test-02"
+  }
+}

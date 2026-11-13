@@ -1,0 +1,2055 @@
+{
+  "created_utc": "2026-10-20T18:58:13.689243+00:00",
+  "client_date": "2026-10-21",
+  "stage": "seen/development diagnostic",
+  "decoded_public_recordings": 39,
+  "primary_acoustic_tonal_recordings": 30,
+  "primary_author_groups": 26,
+  "secondary_personal_recordings": 4,
+  "synthetic_scenes": 52,
+  "skipped": [
+    {
+      "kind": "recording",
+      "cohort": "2026-10-16",
+      "file": "Resident_air-conditioned_out_door_unit.ogg",
+      "path": "external-audio\\wikimedia-commons-2026-10-16\\Resident_air-conditioned_out_door_unit.ogg",
+      "sha256": "a30ad8edcd89dcdfa9ea774ad97446a57d409cd8a4a343b9b527ac92d563bad1",
+      "author": "Ranch9613",
+      "acoustic": true,
+      "primary_pool": true,
+      "known_decode_failure": true,
+      "id": "case-008",
+      "data_status": "already seen; development diagnostic; never fresh validation",
+      "skipped": "Previously documented malformed audio; unchanged file excluded in advance."
+    }
+  ],
+  "metrics": {
+    "zero": {
+      "tone_median_20_db": 0.0,
+      "paired_median_20_db": -2.5874261426295666,
+      "paired_median_120_db": -2.9099935022202486,
+      "paired_source_bootstrap95": [
+        -5.385220992039809,
+        -0.679350528419717
+      ],
+      "paired_author_cluster_bootstrap95": [
+        -5.585715028744708,
+        -0.6505582300245232
+      ],
+      "paired_wins": 0,
+      "paired_losses": 28,
+      "paired_ties": 2,
+      "whole_band_median_20_db": 0.0,
+      "recording_band_boost_cases": 0,
+      "recording_whole_band_boost_cases": 0,
+      "strong_source_count": 14,
+      "strong_losses_over_1db": [
+        "Air_conditioner_hum_2_Gravity_Sound_.wav",
+        "Air_conditioner_hum_Gravity_Sound_.wav",
+        "Microwave_oven.ogg",
+        "Sistema_de_ventilaci_n.ogg",
+        "Sounds_made_by_a_fan.wav",
+        "Table_ventilator.ogg",
+        "Montreal_Clock_Tower_clock_mechanism.flac",
+        "Buzzing_Speakers.ogg",
+        "Photocopie.ogg",
+        "Mobile_lift_stage.ogg",
+        "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+        "Wiki_Motor_lancha.wav",
+        "Ventilador.ogg",
+        "Propeller-plane-flying-steady-01.wav"
+      ],
+      "worst_strong_paired_gain_db": -21.794334483075172
+    },
+    "v2_gated": {
+      "tone_median_20_db": 2.5874261426295666,
+      "paired_median_20_db": 0.0,
+      "paired_median_120_db": 0.0,
+      "paired_source_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "paired_author_cluster_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "paired_wins": 0,
+      "paired_losses": 0,
+      "paired_ties": 30,
+      "whole_band_median_20_db": 0.17841540004710052,
+      "recording_band_boost_cases": 23,
+      "recording_whole_band_boost_cases": 0,
+      "strong_source_count": 14,
+      "strong_losses_over_1db": [],
+      "worst_strong_paired_gain_db": 0.0
+    },
+    "joint_gated": {
+      "tone_median_20_db": 2.90230588061395,
+      "paired_median_20_db": 0.06079420627438964,
+      "paired_median_120_db": 0.1839378091551493,
+      "paired_source_bootstrap95": [
+        -0.07825809744758339,
+        0.520743600876195
+      ],
+      "paired_author_cluster_bootstrap95": [
+        -0.07970493610582796,
+        0.520743600876195
+      ],
+      "paired_wins": 17,
+      "paired_losses": 11,
+      "paired_ties": 2,
+      "whole_band_median_20_db": 0.4758548959135506,
+      "recording_band_boost_cases": 10,
+      "recording_whole_band_boost_cases": 0,
+      "strong_source_count": 14,
+      "strong_losses_over_1db": [
+        "Mobile_lift_stage.ogg",
+        "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+        "Wiki_Motor_lancha.wav",
+        "Ventilador.ogg",
+        "Propeller-plane-flying-steady-01.wav"
+      ],
+      "worst_strong_paired_gain_db": -11.417636121058921
+    },
+    "fade0.1_linear_gated": {
+      "tone_median_20_db": 3.5311460194561333,
+      "paired_median_20_db": 0.025227890552263856,
+      "paired_median_120_db": 0.15308751291716494,
+      "paired_source_bootstrap95": [
+        -0.14835513715555468,
+        0.7131418525497457
+      ],
+      "paired_author_cluster_bootstrap95": [
+        -0.1793512636880505,
+        0.7131418525497457
+      ],
+      "paired_wins": 16,
+      "paired_losses": 12,
+      "paired_ties": 2,
+      "whole_band_median_20_db": 0.4838555914866295,
+      "recording_band_boost_cases": 10,
+      "recording_whole_band_boost_cases": 0,
+      "strong_source_count": 14,
+      "strong_losses_over_1db": [
+        "Sounds_made_by_a_fan.wav",
+        "Mobile_lift_stage.ogg",
+        "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+        "Wiki_Motor_lancha.wav",
+        "Propeller-plane-flying-steady-01.wav"
+      ],
+      "worst_strong_paired_gain_db": -8.831320489084362
+    },
+    "prefix_ar": {
+      "tone_median_20_db": 3.8535824003704677,
+      "paired_median_20_db": 2.177057286185302,
+      "paired_median_120_db": 1.2216162070789784,
+      "paired_source_bootstrap95": [
+        -2.202566787875589,
+        3.5012394008004186
+      ],
+      "paired_author_cluster_bootstrap95": [
+        -2.202566787875589,
+        3.5012394008004186
+      ],
+      "paired_wins": 19,
+      "paired_losses": 11,
+      "paired_ties": 0,
+      "whole_band_median_20_db": 0.28608722115260476,
+      "recording_band_boost_cases": 66,
+      "recording_whole_band_boost_cases": 12,
+      "strong_source_count": 14,
+      "strong_losses_over_1db": [
+        "Sounds_made_by_a_fan.wav",
+        "Table_ventilator.ogg",
+        "Photocopie.ogg",
+        "Mobile_lift_stage.ogg",
+        "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+        "Wiki_Motor_lancha.wav",
+        "Ventilador.ogg"
+      ],
+      "worst_strong_paired_gain_db": -10.568052456170307
+    },
+    "causal_L2": {
+      "tone_median_20_db": 4.745940621141408,
+      "paired_median_20_db": 0.0,
+      "paired_median_120_db": 0.0,
+      "paired_source_bootstrap95": [
+        0.0,
+        0.028781890038475255
+      ],
+      "paired_author_cluster_bootstrap95": [
+        0.0,
+        0.0832529698301307
+      ],
+      "paired_wins": 11,
+      "paired_losses": 0,
+      "paired_ties": 19,
+      "whole_band_median_20_db": 0.483095175625602,
+      "recording_band_boost_cases": 17,
+      "recording_whole_band_boost_cases": 0,
+      "strong_source_count": 14,
+      "strong_losses_over_1db": [],
+      "worst_strong_paired_gain_db": 0.0
+    },
+    "causal_L4": {
+      "tone_median_20_db": 4.637592543013023,
+      "paired_median_20_db": 0.0,
+      "paired_median_120_db": 0.0,
+      "paired_source_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "paired_author_cluster_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "paired_wins": 7,
+      "paired_losses": 2,
+      "paired_ties": 21,
+      "whole_band_median_20_db": 0.4671443887365231,
+      "recording_band_boost_cases": 18,
+      "recording_whole_band_boost_cases": 0,
+      "strong_source_count": 14,
+      "strong_losses_over_1db": [],
+      "worst_strong_paired_gain_db": -0.11919143133719157
+    },
+    "causal_L8": {
+      "tone_median_20_db": 4.047276604406775,
+      "paired_median_20_db": 0.0,
+      "paired_median_120_db": 0.0,
+      "paired_source_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "paired_author_cluster_bootstrap95": [
+        0.0,
+        0.0
+      ],
+      "paired_wins": 5,
+      "paired_losses": 1,
+      "paired_ties": 24,
+      "whole_band_median_20_db": 0.45740277785669026,
+      "recording_band_boost_cases": 19,
+      "recording_whole_band_boost_cases": 0,
+      "strong_source_count": 14,
+      "strong_losses_over_1db": [],
+      "worst_strong_paired_gain_db": -0.045575858763676536
+    },
+    "oracle_file": {
+      "tone_median_20_db": 5.140932458598594,
+      "paired_median_20_db": 0.025227890552263856,
+      "paired_median_120_db": 0.15308751291716494,
+      "paired_source_bootstrap95": [
+        0.0,
+        0.7131418525497457
+      ],
+      "paired_author_cluster_bootstrap95": [
+        0.0,
+        0.7131418525497457
+      ],
+      "paired_wins": 16,
+      "paired_losses": 0,
+      "paired_ties": 14,
+      "whole_band_median_20_db": 0.4830923709244297,
+      "recording_band_boost_cases": 12,
+      "recording_whole_band_boost_cases": 0,
+      "strong_source_count": 14,
+      "strong_losses_over_1db": [],
+      "worst_strong_paired_gain_db": 0.0
+    },
+    "oracle_window": {
+      "tone_median_20_db": 5.175635524389441,
+      "paired_median_20_db": 0.2757519417277031,
+      "paired_median_120_db": 0.2629012722743783,
+      "paired_source_bootstrap95": [
+        0.03439949947142118,
+        0.9449583249154503
+      ],
+      "paired_author_cluster_bootstrap95": [
+        0.026130472324283005,
+        0.9449583249154503
+      ],
+      "paired_wins": 23,
+      "paired_losses": 0,
+      "paired_ties": 7,
+      "whole_band_median_20_db": 0.49835501930062154,
+      "recording_band_boost_cases": 13,
+      "recording_whole_band_boost_cases": 0,
+      "strong_source_count": 14,
+      "strong_losses_over_1db": [],
+      "worst_strong_paired_gain_db": 0.0
+    }
+  },
+  "cohort_metrics": {
+    "2026-10-16": {
+      "zero": {
+        "tone_median_20_db": 0.0,
+        "paired_median_20_db": -2.9201650815436295,
+        "paired_median_120_db": -3.3847078103247363,
+        "paired_source_bootstrap95": [
+          -5.184726955334909,
+          -1.226345090084032
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -5.374324325187234,
+          -1.226345090084032
+        ],
+        "paired_wins": 0,
+        "paired_losses": 13,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.0,
+        "recording_band_boost_cases": 0,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 6,
+        "strong_losses_over_1db": [
+          "Air_conditioner_hum_2_Gravity_Sound_.wav",
+          "Air_conditioner_hum_Gravity_Sound_.wav",
+          "Microwave_oven.ogg",
+          "Sistema_de_ventilaci_n.ogg",
+          "Sounds_made_by_a_fan.wav",
+          "Table_ventilator.ogg"
+        ],
+        "worst_strong_paired_gain_db": -14.800783981272755
+      },
+      "v2_gated": {
+        "tone_median_20_db": 2.9201650815436295,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_wins": 0,
+        "paired_losses": 0,
+        "paired_ties": 13,
+        "whole_band_median_20_db": 0.2736949518114917,
+        "recording_band_boost_cases": 13,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 6,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "joint_gated": {
+        "tone_median_20_db": 5.17955456585668,
+        "paired_median_20_db": 1.0464675844134455,
+        "paired_median_120_db": 0.719742058482419,
+        "paired_source_bootstrap95": [
+          0.32241367203410576,
+          1.716909021922342
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.32241367203410576,
+          1.716909021922342
+        ],
+        "paired_wins": 11,
+        "paired_losses": 2,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.9239882600382412,
+        "recording_band_boost_cases": 1,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 6,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": -0.5487550726033019
+      },
+      "fade0.1_linear_gated": {
+        "tone_median_20_db": 5.734530585719773,
+        "paired_median_20_db": 1.1776991670591952,
+        "paired_median_120_db": 0.8113890723734247,
+        "paired_source_bootstrap95": [
+          0.04460673679191007,
+          2.1401040645401648
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.04460673679191007,
+          5.339468027750691
+        ],
+        "paired_wins": 10,
+        "paired_losses": 3,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 1.0785329412704017,
+        "recording_band_boost_cases": 1,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 6,
+        "strong_losses_over_1db": [
+          "Sounds_made_by_a_fan.wav"
+        ],
+        "worst_strong_paired_gain_db": -1.626292717010526
+      },
+      "prefix_ar": {
+        "tone_median_20_db": 6.331018243643751,
+        "paired_median_20_db": 3.212673083392031,
+        "paired_median_120_db": 2.2141785502782074,
+        "paired_source_bootstrap95": [
+          0.40703781776884806,
+          4.6622382554254935
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.40703781776884806,
+          4.6622382554254935
+        ],
+        "paired_wins": 10,
+        "paired_losses": 3,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.37309673927115994,
+        "recording_band_boost_cases": 32,
+        "recording_whole_band_boost_cases": 4,
+        "strong_source_count": 6,
+        "strong_losses_over_1db": [
+          "Sounds_made_by_a_fan.wav",
+          "Table_ventilator.ogg"
+        ],
+        "worst_strong_paired_gain_db": -8.496292530514982
+      },
+      "causal_L2": {
+        "tone_median_20_db": 5.184726955334909,
+        "paired_median_20_db": 0.10923198716953664,
+        "paired_median_120_db": 0.43159857030285576,
+        "paired_source_bootstrap95": [
+          0.0,
+          1.370126332915171
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          5.153782558678067
+        ],
+        "paired_wins": 7,
+        "paired_losses": 0,
+        "paired_ties": 6,
+        "whole_band_median_20_db": 0.833103930272767,
+        "recording_band_boost_cases": 7,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 6,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "causal_L4": {
+        "tone_median_20_db": 4.869045214887864,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          1.1776991670591952
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          1.319337914904703
+        ],
+        "paired_wins": 5,
+        "paired_losses": 2,
+        "paired_ties": 6,
+        "whole_band_median_20_db": 0.833103930272767,
+        "recording_band_boost_cases": 8,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 6,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": -0.11919143133719157
+      },
+      "causal_L8": {
+        "tone_median_20_db": 4.406139871138181,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          1.1776991670591952
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          1.3232784645465365
+        ],
+        "paired_wins": 4,
+        "paired_losses": 1,
+        "paired_ties": 8,
+        "whole_band_median_20_db": 0.833103930272767,
+        "recording_band_boost_cases": 9,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 6,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": -0.045575858763676536
+      },
+      "oracle_file": {
+        "tone_median_20_db": 5.9756344611068855,
+        "paired_median_20_db": 1.1776991670591952,
+        "paired_median_120_db": 0.8113890723734247,
+        "paired_source_bootstrap95": [
+          0.04460673679191007,
+          2.1401040645401648
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.04460673679191007,
+          5.339468027750691
+        ],
+        "paired_wins": 10,
+        "paired_losses": 0,
+        "paired_ties": 3,
+        "whole_band_median_20_db": 1.0785329412704017,
+        "recording_band_boost_cases": 2,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 6,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "oracle_window": {
+        "tone_median_20_db": 5.9761701654557715,
+        "paired_median_20_db": 1.2542265023720014,
+        "paired_median_120_db": 0.8113890723734247,
+        "paired_source_bootstrap95": [
+          0.4912097858571869,
+          2.171249421355987
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.4912097858571869,
+          5.367041023321196
+        ],
+        "paired_wins": 13,
+        "paired_losses": 0,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.9755279428386443,
+        "recording_band_boost_cases": 3,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 6,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.026130472324283005
+      }
+    },
+    "former-test-02": {
+      "zero": {
+        "tone_median_20_db": 0.0,
+        "paired_median_20_db": -0.8391525333829698,
+        "paired_median_120_db": -0.6164914276672884,
+        "paired_source_bootstrap95": [
+          -7.769341805790634,
+          0.0
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -7.769341805790634,
+          0.0
+        ],
+        "paired_wins": 0,
+        "paired_losses": 3,
+        "paired_ties": 2,
+        "whole_band_median_20_db": 0.0,
+        "recording_band_boost_cases": 0,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [
+          "Montreal_Clock_Tower_clock_mechanism.flac",
+          "Buzzing_Speakers.ogg"
+        ],
+        "worst_strong_paired_gain_db": -7.769341805790634
+      },
+      "v2_gated": {
+        "tone_median_20_db": 0.8391525333829698,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_wins": 0,
+        "paired_losses": 0,
+        "paired_ties": 5,
+        "whole_band_median_20_db": 0.0118573448551056,
+        "recording_band_boost_cases": 3,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "joint_gated": {
+        "tone_median_20_db": 1.2459364466780278,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.1974903113997133,
+        "paired_source_bootstrap95": [
+          -0.07970493610582796,
+          0.6347032884573318
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -0.07970493610582796,
+          0.6347032884573318
+        ],
+        "paired_wins": 2,
+        "paired_losses": 1,
+        "paired_ties": 2,
+        "whole_band_median_20_db": 0.001737768459529617,
+        "recording_band_boost_cases": 2,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": -0.07970493610582796
+      },
+      "fade0.1_linear_gated": {
+        "tone_median_20_db": 1.2267750604573964,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.16005345927722647,
+        "paired_source_bootstrap95": [
+          -0.035053620286967124,
+          0.6363000301851196
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -0.035053620286967124,
+          0.6363000301851196
+        ],
+        "paired_wins": 2,
+        "paired_losses": 1,
+        "paired_ties": 2,
+        "whole_band_median_20_db": 0.0006875836048161276,
+        "recording_band_boost_cases": 2,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": -0.035053620286967124
+      },
+      "prefix_ar": {
+        "tone_median_20_db": 2.963131115384488,
+        "paired_median_20_db": 2.1239785820015182,
+        "paired_median_120_db": 1.2303508788961426,
+        "paired_source_bootstrap95": [
+          -48.82907967886319,
+          5.823419501158543
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -48.82907967886319,
+          5.823419501158543
+        ],
+        "paired_wins": 3,
+        "paired_losses": 2,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.44278920134804656,
+        "recording_band_boost_cases": 13,
+        "recording_whole_band_boost_cases": 2,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 2.225382798273401
+      },
+      "causal_L2": {
+        "tone_median_20_db": 0.8391525333829698,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.295257247564666
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.295257247564666
+        ],
+        "paired_wins": 1,
+        "paired_losses": 0,
+        "paired_ties": 4,
+        "whole_band_median_20_db": 0.0118573448551056,
+        "recording_band_boost_cases": 3,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "causal_L4": {
+        "tone_median_20_db": 0.8391525333829698,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_wins": 0,
+        "paired_losses": 0,
+        "paired_ties": 5,
+        "whole_band_median_20_db": 0.0118573448551056,
+        "recording_band_boost_cases": 3,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "causal_L8": {
+        "tone_median_20_db": 0.8391525333829698,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_wins": 0,
+        "paired_losses": 0,
+        "paired_ties": 5,
+        "whole_band_median_20_db": 0.0118573448551056,
+        "recording_band_boost_cases": 3,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "oracle_file": {
+        "tone_median_20_db": 1.2267750604573964,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.16005345927722647,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.6363000301851196
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.6363000301851196
+        ],
+        "paired_wins": 2,
+        "paired_losses": 0,
+        "paired_ties": 3,
+        "whole_band_median_20_db": 0.0118573448551056,
+        "recording_band_boost_cases": 3,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "oracle_window": {
+        "tone_median_20_db": 1.3612072622046414,
+        "paired_median_20_db": 0.0012173604940173277,
+        "paired_median_120_db": 0.16005345927722647,
+        "paired_source_bootstrap95": [
+          0.0,
+          1.060437620049453
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          1.060437620049453
+        ],
+        "paired_wins": 3,
+        "paired_losses": 0,
+        "paired_ties": 2,
+        "whole_band_median_20_db": 0.0118573448551056,
+        "recording_band_boost_cases": 3,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0012173604940173277
+      }
+    },
+    "former-test-04": {
+      "zero": {
+        "tone_median_20_db": 0.0,
+        "paired_median_20_db": -6.4562677148506,
+        "paired_median_120_db": -5.3040620673444865,
+        "paired_source_bootstrap95": [
+          -14.888507629812501,
+          -0.2117647282171609
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -14.888507629812501,
+          -0.2117647282171609
+        ],
+        "paired_wins": 0,
+        "paired_losses": 6,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.0,
+        "recording_band_boost_cases": 0,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 4,
+        "strong_losses_over_1db": [
+          "Photocopie.ogg",
+          "Mobile_lift_stage.ogg",
+          "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+          "Wiki_Motor_lancha.wav"
+        ],
+        "worst_strong_paired_gain_db": -20.02500285083257
+      },
+      "v2_gated": {
+        "tone_median_20_db": 6.4562677148506,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_wins": 0,
+        "paired_losses": 0,
+        "paired_ties": 6,
+        "whole_band_median_20_db": 1.1950410458502057,
+        "recording_band_boost_cases": 5,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 4,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "joint_gated": {
+        "tone_median_20_db": 3.2551643730265156,
+        "paired_median_20_db": -2.2412791005761514,
+        "paired_median_120_db": -1.2517834810072273,
+        "paired_source_bootstrap95": [
+          -8.134119114575501,
+          0.07381143002862398
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -8.134119114575501,
+          0.07381143002862398
+        ],
+        "paired_wins": 2,
+        "paired_losses": 4,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.6586160870276572,
+        "recording_band_boost_cases": 5,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 4,
+        "strong_losses_over_1db": [
+          "Mobile_lift_stage.ogg",
+          "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+          "Wiki_Motor_lancha.wav"
+        ],
+        "worst_strong_paired_gain_db": -11.417636121058921
+      },
+      "fade0.1_linear_gated": {
+        "tone_median_20_db": 3.3936725186405776,
+        "paired_median_20_db": -2.0099192540189637,
+        "paired_median_120_db": -1.1374426418678958,
+        "paired_source_bootstrap95": [
+          -6.9677957800816355,
+          0.07144138891495153
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -6.9677957800816355,
+          0.07144138891495153
+        ],
+        "paired_wins": 2,
+        "paired_losses": 4,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.8070155278865103,
+        "recording_band_boost_cases": 5,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 4,
+        "strong_losses_over_1db": [
+          "Mobile_lift_stage.ogg",
+          "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+          "Wiki_Motor_lancha.wav"
+        ],
+        "worst_strong_paired_gain_db": -8.831320489084362
+      },
+      "prefix_ar": {
+        "tone_median_20_db": 3.6016601006375204,
+        "paired_median_20_db": -3.431862460701004,
+        "paired_median_120_db": -3.3536422212264556,
+        "paired_source_bootstrap95": [
+          -7.850205286271724,
+          0.10415250325894743
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -7.850205286271724,
+          0.10415250325894743
+        ],
+        "paired_wins": 1,
+        "paired_losses": 5,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.1490489608852556,
+        "recording_band_boost_cases": 9,
+        "recording_whole_band_boost_cases": 4,
+        "strong_source_count": 4,
+        "strong_losses_over_1db": [
+          "Photocopie.ogg",
+          "Mobile_lift_stage.ogg",
+          "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+          "Wiki_Motor_lancha.wav"
+        ],
+        "worst_strong_paired_gain_db": -8.306258001909907
+      },
+      "causal_L2": {
+        "tone_median_20_db": 6.4562677148506,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.028781890038475255
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.028781890038475255
+        ],
+        "paired_wins": 2,
+        "paired_losses": 0,
+        "paired_ties": 4,
+        "whole_band_median_20_db": 1.1950410458502057,
+        "recording_band_boost_cases": 5,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 4,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "causal_L4": {
+        "tone_median_20_db": 6.4562677148506,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.010176402015038
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.010176402015038
+        ],
+        "paired_wins": 1,
+        "paired_losses": 0,
+        "paired_ties": 5,
+        "whole_band_median_20_db": 1.1950410458502057,
+        "recording_band_boost_cases": 5,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 4,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "causal_L8": {
+        "tone_median_20_db": 6.4562677148506,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_wins": 0,
+        "paired_losses": 0,
+        "paired_ties": 6,
+        "whole_band_median_20_db": 1.1950410458502057,
+        "recording_band_boost_cases": 5,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 4,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "oracle_file": {
+        "tone_median_20_db": 6.4562677148506,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.007266135356005512,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.07144138891495153
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.07144138891495153
+        ],
+        "paired_wins": 2,
+        "paired_losses": 0,
+        "paired_ties": 4,
+        "whole_band_median_20_db": 1.1950410458502057,
+        "recording_band_boost_cases": 5,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 4,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "oracle_window": {
+        "tone_median_20_db": 6.4562677148506,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.007266135356005512,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.07177290932526495
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.07177290932526495
+        ],
+        "paired_wins": 2,
+        "paired_losses": 0,
+        "paired_ties": 4,
+        "whole_band_median_20_db": 1.1950410458502057,
+        "recording_band_boost_cases": 5,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 4,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      }
+    },
+    "former-test-05": {
+      "zero": {
+        "tone_median_20_db": 0.0,
+        "paired_median_20_db": -0.8526681388037893,
+        "paired_median_120_db": -0.6077154172040803,
+        "paired_source_bootstrap95": [
+          -14.268920613538885,
+          -0.2536856559548198
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -14.268920613538885,
+          -0.2536856559548198
+        ],
+        "paired_wins": 0,
+        "paired_losses": 6,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.0,
+        "recording_band_boost_cases": 0,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [
+          "Ventilador.ogg",
+          "Propeller-plane-flying-steady-01.wav"
+        ],
+        "worst_strong_paired_gain_db": -21.794334483075172
+      },
+      "v2_gated": {
+        "tone_median_20_db": 0.8526681388037893,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "paired_wins": 0,
+        "paired_losses": 0,
+        "paired_ties": 6,
+        "whole_band_median_20_db": 0.11482207849402085,
+        "recording_band_boost_cases": 2,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "joint_gated": {
+        "tone_median_20_db": 2.0488514323913583,
+        "paired_median_20_db": -0.14563206542806043,
+        "paired_median_120_db": 0.007714234991527159,
+        "paired_source_bootstrap95": [
+          -2.009489173428558,
+          1.2755224341812177
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -2.009489173428558,
+          1.2755224341812177
+        ],
+        "paired_wins": 2,
+        "paired_losses": 4,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.42466184697342757,
+        "recording_band_boost_cases": 2,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [
+          "Ventilador.ogg",
+          "Propeller-plane-flying-steady-01.wav"
+        ],
+        "worst_strong_paired_gain_db": -2.7203423218941243
+      },
+      "fade0.1_linear_gated": {
+        "tone_median_20_db": 2.1955602128971488,
+        "paired_median_20_db": -0.14835513715555468,
+        "paired_median_120_db": 0.002826593661563452,
+        "paired_source_bootstrap95": [
+          -1.921659805150023,
+          1.4444733205554887
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -1.921659805150023,
+          1.4444733205554887
+        ],
+        "paired_wins": 2,
+        "paired_losses": 4,
+        "paired_ties": 0,
+        "whole_band_median_20_db": 0.4294998636611707,
+        "recording_band_boost_cases": 2,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [
+          "Propeller-plane-flying-steady-01.wav"
+        ],
+        "worst_strong_paired_gain_db": -3.1901261658300015
+      },
+      "prefix_ar": {
+        "tone_median_20_db": 5.1057937789696854,
+        "paired_median_20_db": 2.9592687461530045,
+        "paired_median_120_db": 0.548346875733945,
+        "paired_source_bootstrap95": [
+          -5.166106626268048,
+          5.642633854341586
+        ],
+        "paired_author_cluster_bootstrap95": [
+          -5.166106626268048,
+          5.642633854341586
+        ],
+        "paired_wins": 5,
+        "paired_losses": 1,
+        "paired_ties": 0,
+        "whole_band_median_20_db": -0.2087729529732042,
+        "recording_band_boost_cases": 12,
+        "recording_whole_band_boost_cases": 2,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [
+          "Ventilador.ogg"
+        ],
+        "worst_strong_paired_gain_db": -10.568052456170307
+      },
+      "causal_L2": {
+        "tone_median_20_db": 2.254239718208678,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          1.4015715794048889
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          1.4015715794048889
+        ],
+        "paired_wins": 1,
+        "paired_losses": 0,
+        "paired_ties": 5,
+        "whole_band_median_20_db": 0.42797342253677106,
+        "recording_band_boost_cases": 2,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "causal_L4": {
+        "tone_median_20_db": 2.254239718208678,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          1.4015715794048889
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          1.4015715794048889
+        ],
+        "paired_wins": 1,
+        "paired_losses": 0,
+        "paired_ties": 5,
+        "whole_band_median_20_db": 0.42797342253677106,
+        "recording_band_boost_cases": 2,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "causal_L8": {
+        "tone_median_20_db": 2.254239718208678,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.0,
+        "paired_source_bootstrap95": [
+          0.0,
+          1.4015715794048889
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          1.4015715794048889
+        ],
+        "paired_wins": 1,
+        "paired_losses": 0,
+        "paired_ties": 5,
+        "whole_band_median_20_db": 0.42797342253677106,
+        "recording_band_boost_cases": 2,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "oracle_file": {
+        "tone_median_20_db": 2.254239718208678,
+        "paired_median_20_db": 0.0,
+        "paired_median_120_db": 0.05438582054761699,
+        "paired_source_bootstrap95": [
+          0.0,
+          1.4444733205554887
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.0,
+          1.4444733205554887
+        ],
+        "paired_wins": 2,
+        "paired_losses": 0,
+        "paired_ties": 4,
+        "whole_band_median_20_db": 0.42797342253677106,
+        "recording_band_boost_cases": 2,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      },
+      "oracle_window": {
+        "tone_median_20_db": 2.27557400392774,
+        "paired_median_20_db": 0.10811482323060623,
+        "paired_median_120_db": 0.05438589304887089,
+        "paired_source_bootstrap95": [
+          0.021334263309279677,
+          1.7059574009995884
+        ],
+        "paired_author_cluster_bootstrap95": [
+          0.021334263309279677,
+          1.7059574009995884
+        ],
+        "paired_wins": 5,
+        "paired_losses": 0,
+        "paired_ties": 1,
+        "whole_band_median_20_db": 0.45849871928915475,
+        "recording_band_boost_cases": 2,
+        "recording_whole_band_boost_cases": 0,
+        "strong_source_count": 2,
+        "strong_losses_over_1db": [],
+        "worst_strong_paired_gain_db": 0.0
+      }
+    }
+  },
+  "oracle_headroom_at_least_1db": false,
+  "causal_readiness": {
+    "causal_L2": {
+      "paired_median_at_least_half_db": false,
+      "half_oracle_headroom_kept": false,
+      "no_strong_source_loss_over_1db": true,
+      "no_more_band_boosts": true,
+      "no_whole_band_boosts": true
+    },
+    "causal_L4": {
+      "paired_median_at_least_half_db": false,
+      "half_oracle_headroom_kept": false,
+      "no_strong_source_loss_over_1db": true,
+      "no_more_band_boosts": true,
+      "no_whole_band_boosts": true
+    },
+    "causal_L8": {
+      "paired_median_at_least_half_db": false,
+      "half_oracle_headroom_kept": false,
+      "no_strong_source_loss_over_1db": true,
+      "no_more_band_boosts": true,
+      "no_whole_band_boosts": true
+    }
+  },
+  "eligible_fixed_rules": [],
+  "decision": "Stop this selector design; diagnose the bank predictors' loss on strong hums.",
+  "integrity": {
+    "matching_checks": 2426,
+    "all_pass": true,
+    "synthetic_tone_definition_exceptions": [
+      {
+        "id": "case-080",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-080",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-080",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-080",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-080",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-080",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-080",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-080",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-080",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-080",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-081",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-081",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-081",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-081",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-081",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-081",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-081",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-081",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-081",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-081",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-082",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-082",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-082",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-082",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-082",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-082",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-082",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-082",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-082",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-082",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-083",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-083",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-083",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-083",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-083",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-083",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-083",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-083",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-083",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-083",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-084",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-084",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-084",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-084",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-084",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-084",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-084",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-084",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-084",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-084",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-085",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-085",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-085",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-085",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-085",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-085",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-085",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-085",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-085",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-085",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-086",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-086",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-086",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-086",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-086",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-086",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-086",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-086",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-086",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-086",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-087",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-087",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-087",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-087",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-087",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-087",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-087",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-087",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-087",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-087",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-088",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-088",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-088",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-088",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-088",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-088",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-088",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-088",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-088",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-088",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-089",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-089",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-089",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-089",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-089",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-089",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-089",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-089",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-089",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-089",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-090",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-090",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-090",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-090",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-090",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-090",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-090",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-090",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-090",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-090",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-091",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-091",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-091",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-091",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-091",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-091",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-091",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-091",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-091",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-091",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-092",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-092",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-092",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-092",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-092",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-092",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-092",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-092",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-092",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-092",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-093",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-093",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-093",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-093",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-093",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-093",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-093",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-093",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-093",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-093",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-094",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-094",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-094",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-094",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-094",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-094",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-094",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-094",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-094",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-094",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-095",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-095",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-095",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-095",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-095",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-095",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-095",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-095",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-095",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      },
+      {
+        "id": "case-095",
+        "field": "tone_band_gain_db",
+        "reason": "New diagnostic labels stochastic wandering tones as no static tone bins; whole-band scores remain comparable."
+      }
+    ]
+  },
+  "protocol_sha256": "4ad8d9d7c6459250b8f968aee842dfd906bf4fd254d553837ab3381a7d68184a",
+  "results_sha256": "6dff4b3b07c553b389a808f3c9af37ae02ea0862da697f8594b4ffc8f9071c6f",
+  "runtime_seconds": 431.44628779997583,
+  "unit_checks_passed_before_freeze": 8,
+  "engine_changed": false,
+  "audio_device_streams_opened": false,
+  "independent_validation": false
+}

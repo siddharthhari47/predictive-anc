@@ -1,0 +1,28 @@
+{
+  "v2": {
+    "result": "fail",
+    "runs": 28,
+    "quiet_runs": 28,
+    "clean": true,
+    "quiet_timing_met": false,
+    "push_p99_quiet_worst_ms": 8.46336000016888,
+    "output_p99_quiet_worst_ms": 1.7964149994077157,
+    "worst_queue_ms": 20.0,
+    "worst_push_ms": 11.472199985291809,
+    "worst_output_ms": 21.88650000607595,
+    "stale_blocks": 0
+  },
+  "candidate": {
+    "result": "pass",
+    "runs": 28,
+    "quiet_runs": 28,
+    "clean": true,
+    "quiet_timing_met": true,
+    "push_p99_quiet_worst_ms": 4.488284005201413,
+    "output_p99_quiet_worst_ms": 1.7130570049630465,
+    "worst_queue_ms": 90.0,
+    "worst_push_ms": 9.079999988898635,
+    "worst_output_ms": 22.784999979194254,
+    "stale_blocks": 0
+  }
+}

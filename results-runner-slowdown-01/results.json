@@ -1,0 +1,1867 @@
+{
+  "runs": [
+    {
+      "case_id": "tg-006-r1",
+      "condition": "tight-free",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.7890459333236018,
+        "p50": 0.6399499834515154,
+        "p95": 2.1532700367970388,
+        "p99": 2.9012700298335385,
+        "max": 5.305300001055002,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.8125,
+      "process_cpu_seconds": 2.546875,
+      "elapsed_seconds": 2.523206299985759,
+      "background_cpu_percent": 3.5606977519240925
+    },
+    {
+      "case_id": "tg-006-r1",
+      "condition": "tight-one",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.7668073998841768,
+        "p50": 0.6306499999482185,
+        "p95": 2.059259961242784,
+        "p99": 3.3828569727484123,
+        "max": 6.451199995353818,
+        "over_5ms": 4,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.75,
+      "process_cpu_seconds": 2.421875,
+      "elapsed_seconds": 2.452493900025729,
+      "background_cpu_percent": 6.848895730107131
+    },
+    {
+      "case_id": "tg-006-r1",
+      "condition": "paced-free",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.9912795331717158,
+        "p50": 0.7646500307600945,
+        "p95": 2.7746949985157694,
+        "p99": 4.627712020301255,
+        "max": 8.913099998608232,
+        "over_5ms": 18,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4427083333333333,
+      "process_cpu_seconds": 2.84375,
+      "elapsed_seconds": 30.21562889998313,
+      "background_cpu_percent": 5.706057283987104
+    },
+    {
+      "case_id": "tg-006-r1",
+      "condition": "paced-one",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.994611267776539,
+        "p50": 0.8299000037368387,
+        "p95": 2.7361549960914995,
+        "p99": 4.127949000103398,
+        "max": 8.135900017805398,
+        "over_5ms": 15,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4479166666666667,
+      "process_cpu_seconds": 3.375,
+      "elapsed_seconds": 30.21641480003018,
+      "background_cpu_percent": 4.852688856219089
+    },
+    {
+      "case_id": "tg-006-r1",
+      "condition": "runner-free",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.1424251329735853,
+        "p50": 0.9181000059470534,
+        "p95": 2.999335021013393,
+        "p99": 4.863994955085206,
+        "max": 12.681599997449666,
+        "over_5ms": 26,
+        "over_10ms": 2
+      },
+      "worker_cpu_ms_per_push": 0.96875,
+      "process_cpu_seconds": 4.703125,
+      "elapsed_seconds": 30.231516299943905,
+      "background_cpu_percent": 4.422252755156977
+    },
+    {
+      "case_id": "tg-006-r1",
+      "condition": "runner-one",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.0004072338342667,
+        "p50": 0.8627000206615776,
+        "p95": 2.664475029450841,
+        "p99": 4.648577005136754,
+        "max": 7.98140000551939,
+        "over_5ms": 24,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.546875,
+      "process_cpu_seconds": 4.1875,
+      "elapsed_seconds": 30.226259300019592,
+      "background_cpu_percent": 4.494100391374329
+    },
+    {
+      "case_id": "tg-006-r1",
+      "condition": "runner-one-fast",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.0979359329018432,
+        "p50": 0.90154999634251,
+        "p95": 2.8899900004034853,
+        "p99": 5.32713099033571,
+        "max": 8.16349999513477,
+        "over_5ms": 41,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.6979166666666666,
+      "process_cpu_seconds": 4.90625,
+      "elapsed_seconds": 30.23353759996826,
+      "background_cpu_percent": 4.410651877471672
+    },
+    {
+      "case_id": "tg-007-r0",
+      "condition": "tight-one",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.32059710011041415,
+        "p50": 0.3257000062149018,
+        "p95": 0.8769699838012442,
+        "p99": 1.5112220391165436,
+        "max": 4.339400038588792,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.3229166666666667,
+      "process_cpu_seconds": 1.09375,
+      "elapsed_seconds": 1.0884456999483518,
+      "background_cpu_percent": 4.0822976977269905
+    },
+    {
+      "case_id": "tg-007-r0",
+      "condition": "paced-free",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.5394237998989411,
+        "p50": 0.4543500253930688,
+        "p95": 1.530890012509189,
+        "p99": 2.559740990400311,
+        "max": 11.905599967576563,
+        "over_5ms": 4,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 0.453125,
+      "process_cpu_seconds": 3.21875,
+      "elapsed_seconds": 30.215132599987555,
+      "background_cpu_percent": 4.489291278077843
+    },
+    {
+      "case_id": "tg-007-r0",
+      "condition": "paced-one",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.5257462335090773,
+        "p50": 0.45515000238083303,
+        "p95": 1.4577750378521155,
+        "p99": 2.319287020945915,
+        "max": 12.57289998466149,
+        "over_5ms": 2,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 0.09895833333333333,
+      "process_cpu_seconds": 1.921875,
+      "elapsed_seconds": 30.214932200033218,
+      "background_cpu_percent": 7.2187894690943635
+    },
+    {
+      "case_id": "tg-007-r0",
+      "condition": "runner-free",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.5269017331884243,
+        "p50": 0.42230001417919993,
+        "p95": 1.608034962555393,
+        "p99": 2.3151160473935253,
+        "max": 6.272399972658604,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.13020833333333334,
+      "process_cpu_seconds": 2.703125,
+      "elapsed_seconds": 30.224976699973922,
+      "background_cpu_percent": 4.55567969066554
+    },
+    {
+      "case_id": "tg-007-r0",
+      "condition": "runner-one",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.5693341331595244,
+        "p50": 0.42669998947530985,
+        "p95": 1.6848200233653188,
+        "p99": 2.4151120515307336,
+        "max": 7.222699990961701,
+        "over_5ms": 4,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.21354166666666666,
+      "process_cpu_seconds": 2.65625,
+      "elapsed_seconds": 30.223114099993836,
+      "background_cpu_percent": 5.140803599292943
+    },
+    {
+      "case_id": "tg-007-r0",
+      "condition": "runner-one-fast",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.5350255337737811,
+        "p50": 0.4225500160828233,
+        "p95": 1.579019974451511,
+        "p99": 2.3571750189876144,
+        "max": 5.02260000212118,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.15104166666666666,
+      "process_cpu_seconds": 2.78125,
+      "elapsed_seconds": 30.22428070002934,
+      "background_cpu_percent": 4.499241172273072
+    },
+    {
+      "case_id": "tg-007-r0",
+      "condition": "tight-free",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.35270346627415466,
+        "p50": 0.3285999991931021,
+        "p95": 1.0406300076283512,
+        "p99": 1.8743530090432554,
+        "max": 4.365600005257875,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.3489583333333333,
+      "process_cpu_seconds": 1.1875,
+      "elapsed_seconds": 1.1966559999855235,
+      "background_cpu_percent": 3.957969646295424
+    },
+    {
+      "case_id": "tg-011-r0",
+      "condition": "paced-free",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.7777751335524954,
+        "p50": 0.4907500115223229,
+        "p95": 2.36530002148356,
+        "p99": 3.923736957367504,
+        "max": 6.966599961742759,
+        "over_5ms": 7,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.6458333333333334,
+      "process_cpu_seconds": 3.890625,
+      "elapsed_seconds": 30.219035999965854,
+      "background_cpu_percent": 4.769861785043457
+    },
+    {
+      "case_id": "tg-011-r0",
+      "condition": "paced-one",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.74928749963874,
+        "p50": 0.47450000420212746,
+        "p95": 2.470190002350133,
+        "p99": 3.613546981359826,
+        "max": 7.951400009915233,
+        "over_5ms": 4,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.578125,
+      "process_cpu_seconds": 3.703125,
+      "elapsed_seconds": 30.228794099995866,
+      "background_cpu_percent": 5.575964656259094
+    },
+    {
+      "case_id": "tg-011-r0",
+      "condition": "runner-free",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.2160991329971391,
+        "p50": 1.1007499997504056,
+        "p95": 3.245420026360075,
+        "p99": 4.85930603928864,
+        "max": 6.868399970699102,
+        "over_5ms": 25,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.671875,
+      "process_cpu_seconds": 5.1875,
+      "elapsed_seconds": 30.239692599978298,
+      "background_cpu_percent": 3.641155461751243
+    },
+    {
+      "case_id": "tg-011-r0",
+      "condition": "runner-one",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8340255002452371,
+        "p50": 0.6554000137839466,
+        "p95": 2.311435018782504,
+        "p99": 3.6419290240155524,
+        "max": 8.120300015434623,
+        "over_5ms": 4,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.6666666666666666,
+      "process_cpu_seconds": 4.984375,
+      "elapsed_seconds": 30.228723499982152,
+      "background_cpu_percent": 6.3803916083361525
+    },
+    {
+      "case_id": "tg-011-r0",
+      "condition": "runner-one-fast",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.7133027332602069,
+        "p50": 0.5330500134732574,
+        "p95": 1.8878899980336423,
+        "p99": 3.208267033915017,
+        "max": 7.280699966941029,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4166666666666667,
+      "process_cpu_seconds": 4.765625,
+      "elapsed_seconds": 30.225374400033616,
+      "background_cpu_percent": 9.465026986457161
+    },
+    {
+      "case_id": "tg-011-r0",
+      "condition": "tight-free",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.49433263309765607,
+        "p50": 0.3774000215344131,
+        "p95": 1.5647299820557234,
+        "p99": 2.032181989634405,
+        "max": 4.713199974503368,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.5104166666666666,
+      "process_cpu_seconds": 1.609375,
+      "elapsed_seconds": 1.614351500000339,
+      "background_cpu_percent": 18.78293892314879
+    },
+    {
+      "case_id": "tg-011-r0",
+      "condition": "tight-one",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.47783566613604006,
+        "p50": 0.3732000186573714,
+        "p95": 1.2761199963279062,
+        "p99": 1.7555649759014935,
+        "max": 4.273099999409169,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4791666666666667,
+      "process_cpu_seconds": 1.5625,
+      "elapsed_seconds": 1.5618946999893524,
+      "background_cpu_percent": 28.511044950919917
+    },
+    {
+      "case_id": "tg-012-r0",
+      "condition": "paced-one",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.5399687666407166,
+        "p50": 0.5178000137675554,
+        "p95": 1.0850849968846876,
+        "p99": 1.7389150260714763,
+        "max": 4.206900019198656,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.16666666666666666,
+      "process_cpu_seconds": 2.1875,
+      "elapsed_seconds": 30.213705400004983,
+      "background_cpu_percent": 14.241001949494066
+    },
+    {
+      "case_id": "tg-012-r0",
+      "condition": "runner-free",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.535618166012379,
+        "p50": 0.47545001143589616,
+        "p95": 1.1894699768163255,
+        "p99": 1.8782609823392666,
+        "max": 4.7898999764584005,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.171875,
+      "process_cpu_seconds": 2.9375,
+      "elapsed_seconds": 30.224709299975075,
+      "background_cpu_percent": 11.756019291980188
+    },
+    {
+      "case_id": "tg-012-r0",
+      "condition": "runner-one",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.7636861664553484,
+        "p50": 0.666150008328259,
+        "p95": 1.86182002944406,
+        "p99": 2.931515027303246,
+        "max": 9.535900026094168,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.3854166666666667,
+      "process_cpu_seconds": 4.421875,
+      "elapsed_seconds": 30.226423599990085,
+      "background_cpu_percent": 8.858918972474395
+    },
+    {
+      "case_id": "tg-012-r0",
+      "condition": "runner-one-fast",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.7495079340490823,
+        "p50": 0.5506000015884638,
+        "p95": 1.9184999982826412,
+        "p99": 2.898265949334014,
+        "max": 5.7987000327557325,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.234375,
+      "process_cpu_seconds": 3.640625,
+      "elapsed_seconds": 30.224119399965275,
+      "background_cpu_percent": 10.173024367031307
+    },
+    {
+      "case_id": "tg-012-r0",
+      "condition": "tight-free",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.49936593292901915,
+        "p50": 0.35249997745268047,
+        "p95": 1.3479749643011014,
+        "p99": 2.193871999043038,
+        "max": 4.453900037333369,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4635416666666667,
+      "process_cpu_seconds": 1.59375,
+      "elapsed_seconds": 1.6597895000013523,
+      "background_cpu_percent": 32.88961868354723
+    },
+    {
+      "case_id": "tg-012-r0",
+      "condition": "tight-one",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.6526273332807856,
+        "p50": 0.6512500112876296,
+        "p95": 1.5101699740625913,
+        "p99": 2.669834014377556,
+        "max": 6.591300014406443,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.5989583333333334,
+      "process_cpu_seconds": 2.171875,
+      "elapsed_seconds": 2.2249892000108957,
+      "background_cpu_percent": 28.616711937158257
+    },
+    {
+      "case_id": "tg-012-r0",
+      "condition": "paced-free",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.6886460321644942,
+        "p50": 0.5464499990921468,
+        "p95": 1.6875249857548618,
+        "p99": 2.9555959778372154,
+        "max": 17.481099988799542,
+        "over_5ms": 2,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 0.13020833333333334,
+      "process_cpu_seconds": 2.265625,
+      "elapsed_seconds": 30.21921770001063,
+      "background_cpu_percent": 12.890829442088508
+    },
+    {
+      "case_id": "tg-013-r1",
+      "condition": "runner-free",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8302100002377605,
+        "p50": 0.7184499700088054,
+        "p95": 2.0232050359481932,
+        "p99": 3.397532024537208,
+        "max": 7.172999961767346,
+        "over_5ms": 7,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4479166666666667,
+      "process_cpu_seconds": 3.75,
+      "elapsed_seconds": 30.233268100011628,
+      "background_cpu_percent": 8.976426824188298
+    },
+    {
+      "case_id": "tg-013-r1",
+      "condition": "runner-one",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.7905062328985272,
+        "p50": 0.7132500177249312,
+        "p95": 1.833035046001896,
+        "p99": 2.843173994915556,
+        "max": 4.841899964958429,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.296875,
+      "process_cpu_seconds": 3.5625,
+      "elapsed_seconds": 30.23371689999476,
+      "background_cpu_percent": 15.869208467856705
+    },
+    {
+      "case_id": "tg-013-r1",
+      "condition": "runner-one-fast",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.6231551334106674,
+        "p50": 0.4817500011995435,
+        "p95": 1.5945650317007671,
+        "p99": 2.761614953633386,
+        "max": 10.130500013474375,
+        "over_5ms": 3,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 0.46875,
+      "process_cpu_seconds": 4.453125,
+      "elapsed_seconds": 30.229241299966816,
+      "background_cpu_percent": 7.645031952259895
+    },
+    {
+      "case_id": "tg-013-r1",
+      "condition": "tight-free",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.4833677333857243,
+        "p50": 0.34474997664801776,
+        "p95": 1.4266549784224467,
+        "p99": 2.3591979773482286,
+        "max": 6.2904999940656126,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.5052083333333334,
+      "process_cpu_seconds": 1.65625,
+      "elapsed_seconds": 1.6553596000303514,
+      "background_cpu_percent": 8.200163124526606
+    },
+    {
+      "case_id": "tg-013-r1",
+      "condition": "tight-one",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.43617126788012683,
+        "p50": 0.3464999608695507,
+        "p95": 1.270195009419694,
+        "p99": 1.779233985580503,
+        "max": 6.4626000239513814,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4270833333333333,
+      "process_cpu_seconds": 1.421875,
+      "elapsed_seconds": 1.4542991000344045,
+      "background_cpu_percent": 7.587955084163182
+    },
+    {
+      "case_id": "tg-013-r1",
+      "condition": "paced-free",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.6255209003963197,
+        "p50": 0.5090500053483993,
+        "p95": 1.629350005532614,
+        "p99": 2.8360669990070124,
+        "max": 6.270299956668168,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.21875,
+      "process_cpu_seconds": 2.140625,
+      "elapsed_seconds": 30.216905799985398,
+      "background_cpu_percent": 6.815953711818803
+    },
+    {
+      "case_id": "tg-013-r1",
+      "condition": "paced-one",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.654725999784811,
+        "p50": 0.5574499955400825,
+        "p95": 1.5523999492870644,
+        "p99": 2.2136599756777273,
+        "max": 4.512500017881393,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.3489583333333333,
+      "process_cpu_seconds": 2.75,
+      "elapsed_seconds": 30.215460099978372,
+      "background_cpu_percent": 7.9620224574400105
+    },
+    {
+      "case_id": "tg-021-r2",
+      "condition": "runner-one",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.6139644342280614,
+        "p50": 0.5073000211268663,
+        "p95": 1.743745006388053,
+        "p99": 2.5356479821493814,
+        "max": 5.454300029668957,
+        "over_5ms": 3,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.234375,
+      "process_cpu_seconds": 2.90625,
+      "elapsed_seconds": 30.22590100002708,
+      "background_cpu_percent": 8.913997096293283
+    },
+    {
+      "case_id": "tg-021-r2",
+      "condition": "runner-one-fast",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.5882158325597023,
+        "p50": 0.49304997082799673,
+        "p95": 1.6607049561571323,
+        "p99": 2.377542995964162,
+        "max": 5.2399999694898725,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.19791666666666666,
+      "process_cpu_seconds": 3.171875,
+      "elapsed_seconds": 30.237622099986766,
+      "background_cpu_percent": 8.119283047065643
+    },
+    {
+      "case_id": "tg-021-r2",
+      "condition": "tight-free",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.4250303001414674,
+        "p50": 0.3365500015206635,
+        "p95": 1.332010014448315,
+        "p99": 2.128312966669909,
+        "max": 33.48079998977482,
+        "over_5ms": 2,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 0.4270833333333333,
+      "process_cpu_seconds": 1.390625,
+      "elapsed_seconds": 1.4181317999609746,
+      "background_cpu_percent": 6.197634451354849
+    },
+    {
+      "case_id": "tg-021-r2",
+      "condition": "tight-one",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.4050738664227538,
+        "p50": 0.3477499994914979,
+        "p95": 1.201245002448556,
+        "p99": 1.7261100444011341,
+        "max": 5.075799999758601,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4166666666666667,
+      "process_cpu_seconds": 1.34375,
+      "elapsed_seconds": 1.3515235999948345,
+      "background_cpu_percent": 6.611461964137476
+    },
+    {
+      "case_id": "tg-021-r2",
+      "condition": "paced-free",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.6037119332856188,
+        "p50": 0.5253499839454889,
+        "p95": 1.699970019399188,
+        "p99": 2.9678949539083894,
+        "max": 5.884100042749196,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.6458333333333334,
+      "process_cpu_seconds": 3.359375,
+      "elapsed_seconds": 30.212818999949377,
+      "background_cpu_percent": 8.213220065738525
+    },
+    {
+      "case_id": "tg-021-r2",
+      "condition": "paced-one",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.5626477338567687,
+        "p50": 0.5068500177003443,
+        "p95": 1.5730649873148645,
+        "p99": 2.3279180302051823,
+        "max": 5.321200005710125,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.40625,
+      "process_cpu_seconds": 3.265625,
+      "elapsed_seconds": 30.215181500010658,
+      "background_cpu_percent": 6.874519146840681
+    },
+    {
+      "case_id": "tg-021-r2",
+      "condition": "runner-free",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.6236752668822495,
+        "p50": 0.5061499832663685,
+        "p95": 1.8202050065156072,
+        "p99": 2.8711149748414706,
+        "max": 9.619600023142993,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.6875,
+      "process_cpu_seconds": 3.984375,
+      "elapsed_seconds": 30.23906170000555,
+      "background_cpu_percent": 7.58764811071728
+    },
+    {
+      "case_id": "tg-036-r0",
+      "condition": "runner-one-fast",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.6721038000153687,
+        "p50": 1.5058499993756413,
+        "p95": 3.537670042715035,
+        "p99": 4.864134014351283,
+        "max": 10.112799995113164,
+        "over_5ms": 25,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 1.1302083333333333,
+      "process_cpu_seconds": 6.5625,
+      "elapsed_seconds": 30.232222000020556,
+      "background_cpu_percent": 5.954881413346568
+    },
+    {
+      "case_id": "tg-036-r0",
+      "condition": "tight-free",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.2288550672237761,
+        "p50": 0.9812499629333615,
+        "p95": 2.715319956769235,
+        "p99": 3.9719230344053353,
+        "max": 6.969299982301891,
+        "over_5ms": 10,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 1.1666666666666667,
+      "process_cpu_seconds": 3.734375,
+      "elapsed_seconds": 3.877753800014034,
+      "background_cpu_percent": 6.623317279685742
+    },
+    {
+      "case_id": "tg-036-r0",
+      "condition": "tight-one",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.1035405661871966,
+        "p50": 1.001249998807907,
+        "p95": 2.276284983963704,
+        "p99": 3.3151039801305133,
+        "max": 6.0461999964900315,
+        "over_5ms": 3,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 1.1041666666666667,
+      "process_cpu_seconds": 3.421875,
+      "elapsed_seconds": 3.480367699987255,
+      "background_cpu_percent": 7.590007120539802
+    },
+    {
+      "case_id": "tg-036-r0",
+      "condition": "paced-free",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.41540606659449,
+        "p50": 1.1561500141397119,
+        "p95": 3.1234949768986535,
+        "p99": 4.28165000514127,
+        "max": 8.286999945994467,
+        "over_5ms": 8,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.9479166666666666,
+      "process_cpu_seconds": 4.359375,
+      "elapsed_seconds": 30.21792219998315,
+      "background_cpu_percent": 6.878743242055389
+    },
+    {
+      "case_id": "tg-036-r0",
+      "condition": "paced-one",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.5060568668413907,
+        "p50": 1.2788499880116433,
+        "p95": 3.329105017473914,
+        "p99": 5.118109030299817,
+        "max": 10.382000007666647,
+        "over_5ms": 34,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 1.0989583333333333,
+      "process_cpu_seconds": 5.609375,
+      "elapsed_seconds": 30.21879119996447,
+      "background_cpu_percent": 7.1079918603151455
+    },
+    {
+      "case_id": "tg-036-r0",
+      "condition": "runner-free",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.5391725333950792,
+        "p50": 1.294449990382418,
+        "p95": 3.4895949705969525,
+        "p99": 4.626200010534376,
+        "max": 10.101899970322847,
+        "over_5ms": 20,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 1.0,
+      "process_cpu_seconds": 5.828125,
+      "elapsed_seconds": 30.22880169999553,
+      "background_cpu_percent": 7.504613348504753
+    },
+    {
+      "case_id": "tg-036-r0",
+      "condition": "runner-one",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.3313766332188,
+        "p50": 1.1502499983180314,
+        "p95": 3.09974497067742,
+        "p99": 4.42345403484068,
+        "max": 8.436999982222915,
+        "over_5ms": 15,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.8489583333333334,
+      "process_cpu_seconds": 5.21875,
+      "elapsed_seconds": 30.22725779999746,
+      "background_cpu_percent": 7.684302432089288
+    },
+    {
+      "case_id": "tg-037-r0",
+      "condition": "tight-free",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.6495143663487397,
+        "p50": 1.6574999899603426,
+        "p95": 2.989375000470315,
+        "p99": 3.9213649980956675,
+        "max": 16.696599952410907,
+        "over_5ms": 8,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 1.5052083333333333,
+      "process_cpu_seconds": 4.953125,
+      "elapsed_seconds": 5.167502099997364,
+      "background_cpu_percent": 8.164002487782545
+    },
+    {
+      "case_id": "tg-037-r0",
+      "condition": "tight-one",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.4162702671407412,
+        "p50": 1.3969000428915024,
+        "p95": 2.5618299492634833,
+        "p99": 3.0877809954108653,
+        "max": 7.229099981486797,
+        "over_5ms": 3,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 1.3541666666666667,
+      "process_cpu_seconds": 4.25,
+      "elapsed_seconds": 4.43659050000133,
+      "background_cpu_percent": 8.958702353281979
+    },
+    {
+      "case_id": "tg-037-r0",
+      "condition": "paced-free",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 2.0166294993056604,
+        "p50": 1.950850011780858,
+        "p95": 3.8147699960973083,
+        "p99": 5.146938016987405,
+        "max": 12.037799984682351,
+        "over_5ms": 37,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 1.4947916666666667,
+      "process_cpu_seconds": 5.8125,
+      "elapsed_seconds": 30.21577840001555,
+      "background_cpu_percent": 7.465832404204206
+    },
+    {
+      "case_id": "tg-037-r0",
+      "condition": "paced-one",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.818897200205053,
+        "p50": 1.5915999829303473,
+        "p95": 3.8755499990656963,
+        "p99": 5.409787981188854,
+        "max": 16.864200006239116,
+        "over_5ms": 48,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 1.2864583333333333,
+      "process_cpu_seconds": 5.59375,
+      "elapsed_seconds": 30.21518520003883,
+      "background_cpu_percent": 7.369018211402982
+    },
+    {
+      "case_id": "tg-037-r0",
+      "condition": "runner-free",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 2.0385303001191155,
+        "p50": 2.0318000169936568,
+        "p95": 3.7586250371532506,
+        "p99": 4.914576993905937,
+        "max": 7.902699988335371,
+        "over_5ms": 24,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 1.5,
+      "process_cpu_seconds": 6.375,
+      "elapsed_seconds": 30.236235000018496,
+      "background_cpu_percent": 6.409489413112494
+    },
+    {
+      "case_id": "tg-037-r0",
+      "condition": "runner-one",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.8970670663790468,
+        "p50": 1.6727999900467694,
+        "p95": 3.678974957438185,
+        "p99": 4.991930001415311,
+        "max": 6.70269998954609,
+        "over_5ms": 29,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 1.125,
+      "process_cpu_seconds": 6.84375,
+      "elapsed_seconds": 30.257996600004844,
+      "background_cpu_percent": 12.069059022633082
+    },
+    {
+      "case_id": "tg-037-r0",
+      "condition": "runner-one-fast",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 2.106729967558446,
+        "p50": 1.8763499974738806,
+        "p95": 4.252505014301276,
+        "p99": 5.637920027947977,
+        "max": 8.20219999877736,
+        "over_5ms": 59,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 1.4166666666666667,
+      "process_cpu_seconds": 8.640625,
+      "elapsed_seconds": 30.22793280001497,
+      "background_cpu_percent": 5.80226991251031
+    },
+    {
+      "case_id": "tg-039-r0",
+      "condition": "tight-one",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.4594095666349555,
+        "p50": 0.3619000199250877,
+        "p95": 1.1032600159523989,
+        "p99": 1.684022016706876,
+        "max": 5.365799996070564,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.46875,
+      "process_cpu_seconds": 1.515625,
+      "elapsed_seconds": 1.5237903000088409,
+      "background_cpu_percent": 5.735851169907887
+    },
+    {
+      "case_id": "tg-039-r0",
+      "condition": "paced-free",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8640704660210758,
+        "p50": 0.7482500222977251,
+        "p95": 1.9478349859127762,
+        "p99": 3.4333040076307952,
+        "max": 6.671799987088889,
+        "over_5ms": 5,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.23958333333333334,
+      "process_cpu_seconds": 2.40625,
+      "elapsed_seconds": 30.219103000010364,
+      "background_cpu_percent": 6.5730876426058
+    },
+    {
+      "case_id": "tg-039-r0",
+      "condition": "paced-one",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.7691902326769195,
+        "p50": 0.5672500119544566,
+        "p95": 1.7455850174883376,
+        "p99": 2.6985139981843456,
+        "max": 6.104400032199919,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.296875,
+      "process_cpu_seconds": 2.46875,
+      "elapsed_seconds": 30.224041200010106,
+      "background_cpu_percent": 8.1520110801701
+    },
+    {
+      "case_id": "tg-039-r0",
+      "condition": "runner-free",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8897359668432424,
+        "p50": 0.7752499950584024,
+        "p95": 2.0244599902071054,
+        "p99": 3.218357999576252,
+        "max": 6.78440002957359,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.3697916666666667,
+      "process_cpu_seconds": 3.640625,
+      "elapsed_seconds": 30.238640399998985,
+      "background_cpu_percent": 6.804595577981306
+    },
+    {
+      "case_id": "tg-039-r0",
+      "condition": "runner-one",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.9297426998770485,
+        "p50": 0.8702499908395112,
+        "p95": 1.9480749906506385,
+        "p99": 3.171045985654915,
+        "max": 5.49240002874285,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.3489583333333333,
+      "process_cpu_seconds": 3.796875,
+      "elapsed_seconds": 30.23284110001987,
+      "background_cpu_percent": 7.183826994108326
+    },
+    {
+      "case_id": "tg-039-r0",
+      "condition": "runner-one-fast",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8147240664499501,
+        "p50": 0.6651500007137656,
+        "p95": 1.820805008173919,
+        "p99": 2.919843996060075,
+        "max": 7.010800007265061,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.296875,
+      "process_cpu_seconds": 3.671875,
+      "elapsed_seconds": 30.230623400013428,
+      "background_cpu_percent": 5.895434370930321
+    },
+    {
+      "case_id": "tg-039-r0",
+      "condition": "tight-free",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.45436206640442833,
+        "p50": 0.3247999702580273,
+        "p95": 1.4203049882780754,
+        "p99": 1.7566809873096603,
+        "max": 4.141199984587729,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.46875,
+      "process_cpu_seconds": 1.46875,
+      "elapsed_seconds": 1.4962352000293322,
+      "background_cpu_percent": 5.417242389325622
+    },
+    {
+      "case_id": "tg-058-r0",
+      "condition": "paced-free",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8443088000834299,
+        "p50": 0.7257999968715012,
+        "p95": 1.8639849906321604,
+        "p99": 3.0517410108586716,
+        "max": 5.421700014267117,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.28125,
+      "process_cpu_seconds": 2.5625,
+      "elapsed_seconds": 30.216651699971408,
+      "background_cpu_percent": 6.318303253638809
+    },
+    {
+      "case_id": "tg-058-r0",
+      "condition": "paced-one",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8649387000089822,
+        "p50": 0.750300008803606,
+        "p95": 1.848849991802126,
+        "p99": 3.0003450240474066,
+        "max": 6.215900008101016,
+        "over_5ms": 3,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.3125,
+      "process_cpu_seconds": 2.578125,
+      "elapsed_seconds": 30.229163699958008,
+      "background_cpu_percent": 7.066786530892244
+    },
+    {
+      "case_id": "tg-058-r0",
+      "condition": "runner-free",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.0430499667030138,
+        "p50": 0.9077999857254326,
+        "p95": 2.347675006603821,
+        "p99": 3.396846020477823,
+        "max": 6.325599970296025,
+        "over_5ms": 4,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4947916666666667,
+      "process_cpu_seconds": 4.15625,
+      "elapsed_seconds": 30.225336999981664,
+      "background_cpu_percent": 5.355283032083255
+    },
+    {
+      "case_id": "tg-058-r0",
+      "condition": "runner-one",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.9943057002189258,
+        "p50": 0.8962999854702502,
+        "p95": 2.126015006797387,
+        "p99": 3.0749150138581167,
+        "max": 7.252999988850206,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.5260416666666666,
+      "process_cpu_seconds": 4.28125,
+      "elapsed_seconds": 30.230835900001694,
+      "background_cpu_percent": 6.623837372124691
+    },
+    {
+      "case_id": "tg-058-r0",
+      "condition": "runner-one-fast",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.0226912659515317,
+        "p50": 0.9043500176630914,
+        "p95": 2.282060022116635,
+        "p99": 3.196699009859001,
+        "max": 6.0050999745726585,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.53125,
+      "process_cpu_seconds": 5.296875,
+      "elapsed_seconds": 30.229154800006654,
+      "background_cpu_percent": 6.55151876756926
+    },
+    {
+      "case_id": "tg-058-r0",
+      "condition": "tight-free",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.5347789336422769,
+        "p50": 0.5594500107690692,
+        "p95": 1.3046600361121816,
+        "p99": 1.9897320156451284,
+        "max": 4.2440000106580555,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.515625,
+      "process_cpu_seconds": 1.734375,
+      "elapsed_seconds": 1.7750625999760814,
+      "background_cpu_percent": 5.0889490461472855
+    },
+    {
+      "case_id": "tg-058-r0",
+      "condition": "tight-one",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.5285469668839747,
+        "p50": 0.562050030566752,
+        "p95": 1.3165100128389895,
+        "p99": 1.7045649979263504,
+        "max": 4.010499978903681,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.515625,
+      "process_cpu_seconds": 1.703125,
+      "elapsed_seconds": 1.7185858999728225,
+      "background_cpu_percent": 6.9893036770463155
+    },
+    {
+      "case_id": "tg-062-r0",
+      "condition": "paced-one",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8297022005814748,
+        "p50": 0.7410500256810337,
+        "p95": 1.5851500211283556,
+        "p99": 3.2111930014798324,
+        "max": 5.023100005928427,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4375,
+      "process_cpu_seconds": 2.921875,
+      "elapsed_seconds": 30.21579460002249,
+      "background_cpu_percent": 6.001750364356297
+    },
+    {
+      "case_id": "tg-062-r0",
+      "condition": "runner-free",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.9471406004934882,
+        "p50": 0.9123999625444412,
+        "p95": 1.9089499837718895,
+        "p99": 3.4244829980889318,
+        "max": 6.706500018481165,
+        "over_5ms": 4,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.3020833333333333,
+      "process_cpu_seconds": 4.21875,
+      "elapsed_seconds": 30.231256900005974,
+      "background_cpu_percent": 6.780415032957478
+    },
+    {
+      "case_id": "tg-062-r0",
+      "condition": "runner-one",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8045329329712937,
+        "p50": 0.7021499914117157,
+        "p95": 1.6986649570753793,
+        "p99": 2.7672029979294117,
+        "max": 7.00939999660477,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.3020833333333333,
+      "process_cpu_seconds": 3.4375,
+      "elapsed_seconds": 30.229345200001262,
+      "background_cpu_percent": 5.583939281787452
+    },
+    {
+      "case_id": "tg-062-r0",
+      "condition": "runner-one-fast",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8212880663146885,
+        "p50": 0.7258499972522259,
+        "p95": 1.778429982368834,
+        "p99": 2.7975269907619587,
+        "max": 5.252000002656132,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.2552083333333333,
+      "process_cpu_seconds": 4.078125,
+      "elapsed_seconds": 30.231022899970412,
+      "background_cpu_percent": 5.596550724890145
+    },
+    {
+      "case_id": "tg-062-r0",
+      "condition": "tight-free",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.4685404341629085,
+        "p50": 0.34699999378062785,
+        "p95": 1.2067449832102215,
+        "p99": 1.8690760276513132,
+        "max": 4.295399994589388,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4583333333333333,
+      "process_cpu_seconds": 1.5625,
+      "elapsed_seconds": 1.5932910999981686,
+      "background_cpu_percent": 5.577586387076545
+    },
+    {
+      "case_id": "tg-062-r0",
+      "condition": "tight-one",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.4430089008528739,
+        "p50": 0.34139998024329543,
+        "p95": 0.9875750081846459,
+        "p99": 1.5680220024660083,
+        "max": 4.448799998499453,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.421875,
+      "process_cpu_seconds": 1.453125,
+      "elapsed_seconds": 1.4665488000027835,
+      "background_cpu_percent": 5.693373023103051
+    },
+    {
+      "case_id": "tg-062-r0",
+      "condition": "paced-free",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8164411663504628,
+        "p50": 0.7246499881148338,
+        "p95": 1.63416998402681,
+        "p99": 3.304594015353355,
+        "max": 5.36769995233044,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.296875,
+      "process_cpu_seconds": 3.125,
+      "elapsed_seconds": 30.212683899968397,
+      "background_cpu_percent": 7.723564386087343
+    },
+    {
+      "case_id": "tg-063-r0",
+      "condition": "runner-free",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.340241099416744,
+        "p50": 1.2119000311940908,
+        "p95": 3.088184996158814,
+        "p99": 4.2733490007231,
+        "max": 6.812900013756007,
+        "over_5ms": 10,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 1.03125,
+      "process_cpu_seconds": 6.828125,
+      "elapsed_seconds": 30.22716060001403,
+      "background_cpu_percent": 6.312875860956686
+    },
+    {
+      "case_id": "tg-063-r0",
+      "condition": "runner-one",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.1351521680286776,
+        "p50": 0.995899987174198,
+        "p95": 2.6167750183958556,
+        "p99": 4.005764998146324,
+        "max": 38.18500001216307,
+        "over_5ms": 7,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 0.6666666666666666,
+      "process_cpu_seconds": 4.75,
+      "elapsed_seconds": 30.229120400035754,
+      "background_cpu_percent": 11.121118847526981
+    },
+    {
+      "case_id": "tg-063-r0",
+      "condition": "runner-one-fast",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.1768069669293861,
+        "p50": 0.9996499866247177,
+        "p95": 2.9238550254376596,
+        "p99": 4.346709034871307,
+        "max": 7.596500043291599,
+        "over_5ms": 13,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.7135416666666666,
+      "process_cpu_seconds": 5.9375,
+      "elapsed_seconds": 30.23288629995659,
+      "background_cpu_percent": 7.201581986411686
+    },
+    {
+      "case_id": "tg-063-r0",
+      "condition": "tight-free",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8420508333753484,
+        "p50": 0.7769500080030411,
+        "p95": 2.0674400235293415,
+        "p99": 3.163539046654472,
+        "max": 6.285300012677908,
+        "over_5ms": 3,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.8333333333333334,
+      "process_cpu_seconds": 2.59375,
+      "elapsed_seconds": 2.7050259000388905,
+      "background_cpu_percent": 8.17705317523281
+    },
+    {
+      "case_id": "tg-063-r0",
+      "condition": "tight-one",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.754227533005178,
+        "p50": 0.7661000126972795,
+        "p95": 1.6828150051878765,
+        "p99": 2.5384610035689534,
+        "max": 4.339500039350241,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.7083333333333334,
+      "process_cpu_seconds": 2.296875,
+      "elapsed_seconds": 2.415960099955555,
+      "background_cpu_percent": 6.406776181976164
+    },
+    {
+      "case_id": "tg-063-r0",
+      "condition": "paced-free",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.0504956006770954,
+        "p50": 0.9427499899175018,
+        "p95": 2.488954976433887,
+        "p99": 3.745452996226953,
+        "max": 5.546200030948967,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.578125,
+      "process_cpu_seconds": 3.40625,
+      "elapsed_seconds": 30.214762400020845,
+      "background_cpu_percent": 7.76989810119566
+    },
+    {
+      "case_id": "tg-063-r0",
+      "condition": "paced-one",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.1841324332441825,
+        "p50": 1.0307499906048179,
+        "p95": 2.774704998591913,
+        "p99": 3.9636819710722175,
+        "max": 8.51770001463592,
+        "over_5ms": 9,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.6458333333333334,
+      "process_cpu_seconds": 3.84375,
+      "elapsed_seconds": 30.214155699999537,
+      "background_cpu_percent": 8.241945926786702
+    },
+    {
+      "case_id": "tg-067-r0",
+      "condition": "runner-one",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.7862156662158668,
+        "p50": 0.682699988828972,
+        "p95": 1.8034049920970567,
+        "p99": 2.683538002311251,
+        "max": 5.451700009871274,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.359375,
+      "process_cpu_seconds": 3.46875,
+      "elapsed_seconds": 30.22659079998266,
+      "background_cpu_percent": 8.8960242374487
+    },
+    {
+      "case_id": "tg-067-r0",
+      "condition": "runner-one-fast",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8200865332425261,
+        "p50": 0.7142999966163188,
+        "p95": 1.9559599895728732,
+        "p99": 2.9028009815374296,
+        "max": 6.293000013101846,
+        "over_5ms": 3,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.6302083333333334,
+      "process_cpu_seconds": 4.546875,
+      "elapsed_seconds": 30.233992199995555,
+      "background_cpu_percent": 7.309524071152697
+    },
+    {
+      "case_id": "tg-067-r0",
+      "condition": "tight-free",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.4868514665480082,
+        "p50": 0.39010000182315707,
+        "p95": 1.156574959168209,
+        "p99": 2.1205630229087533,
+        "max": 4.896000027656555,
+        "over_5ms": 0,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.4947916666666667,
+      "process_cpu_seconds": 1.59375,
+      "elapsed_seconds": 1.6080412999726832,
+      "background_cpu_percent": 5.070949903549444
+    },
+    {
+      "case_id": "tg-067-r0",
+      "condition": "tight-one",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.4416371676294754,
+        "p50": 0.37739999243058264,
+        "p95": 1.1136649816762652,
+        "p99": 1.501494965632444,
+        "max": 24.41389998421073,
+        "over_5ms": 1,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 0.4427083333333333,
+      "process_cpu_seconds": 1.453125,
+      "elapsed_seconds": 1.4643136999802664,
+      "background_cpu_percent": 5.1351914894338115
+    },
+    {
+      "case_id": "tg-067-r0",
+      "condition": "paced-free",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8615287993452512,
+        "p50": 0.7799000013619661,
+        "p95": 1.9797449989709985,
+        "p99": 3.287763000116668,
+        "max": 6.459099997300655,
+        "over_5ms": 3,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.390625,
+      "process_cpu_seconds": 2.6875,
+      "elapsed_seconds": 30.216354899981525,
+      "background_cpu_percent": 6.316749364738761
+    },
+    {
+      "case_id": "tg-067-r0",
+      "condition": "paced-one",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8641382673134407,
+        "p50": 0.8897499938029796,
+        "p95": 1.8283250101376323,
+        "p99": 3.21186200599185,
+        "max": 6.6859000362455845,
+        "over_5ms": 2,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.2552083333333333,
+      "process_cpu_seconds": 2.671875,
+      "elapsed_seconds": 30.219319699972402,
+      "background_cpu_percent": 6.0462924237529165
+    },
+    {
+      "case_id": "tg-067-r0",
+      "condition": "runner-free",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.8049505670011664,
+        "p50": 0.6770000036340207,
+        "p95": 1.986934992601163,
+        "p99": 3.1641549943014944,
+        "max": 7.257999968715012,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.390625,
+      "process_cpu_seconds": 4.0,
+      "elapsed_seconds": 30.229075199982617,
+      "background_cpu_percent": 6.764751688374747
+    },
+    {
+      "case_id": "tg-071-r1",
+      "condition": "runner-one-fast",
+      "order": 0,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.1269631669468556,
+        "p50": 0.9814000222831964,
+        "p95": 2.5395450094947587,
+        "p99": 3.4886520187137564,
+        "max": 7.388499972876161,
+        "over_5ms": 4,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.5260416666666666,
+      "process_cpu_seconds": 4.96875,
+      "elapsed_seconds": 30.238376199966297,
+      "background_cpu_percent": 7.3633666216229745
+    },
+    {
+      "case_id": "tg-071-r1",
+      "condition": "tight-free",
+      "order": 1,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.6676426328097781,
+        "p50": 0.5715500155929476,
+        "p95": 1.6504099941812456,
+        "p99": 2.415201053372582,
+        "max": 24.239899998065084,
+        "over_5ms": 1,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 0.6458333333333334,
+      "process_cpu_seconds": 2.09375,
+      "elapsed_seconds": 2.148079200007487,
+      "background_cpu_percent": 5.228144637293102
+    },
+    {
+      "case_id": "tg-071-r1",
+      "condition": "tight-one",
+      "order": 2,
+      "push_ms": {
+        "count": 3000,
+        "mean": 0.6779464663510831,
+        "p50": 0.6600999913644046,
+        "p95": 1.3889499823562799,
+        "p99": 2.018302000942638,
+        "max": 5.209300026763231,
+        "over_5ms": 1,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.65625,
+      "process_cpu_seconds": 2.09375,
+      "elapsed_seconds": 2.188477099989541,
+      "background_cpu_percent": 4.953144700509686
+    },
+    {
+      "case_id": "tg-071-r1",
+      "condition": "paced-free",
+      "order": 3,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.1740020336777282,
+        "p50": 1.0346999915782362,
+        "p95": 2.420535031706091,
+        "p99": 3.860872002551328,
+        "max": 30.84690001560375,
+        "over_5ms": 6,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 0.578125,
+      "process_cpu_seconds": 3.703125,
+      "elapsed_seconds": 30.220963199972175,
+      "background_cpu_percent": 6.007186718233282
+    },
+    {
+      "case_id": "tg-071-r1",
+      "condition": "paced-one",
+      "order": 4,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.024807066093975,
+        "p50": 0.8789499988779426,
+        "p95": 2.118810007232241,
+        "p99": 3.455493001383727,
+        "max": 6.84210000326857,
+        "over_5ms": 7,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.6666666666666666,
+      "process_cpu_seconds": 4.296875,
+      "elapsed_seconds": 30.21996209997451,
+      "background_cpu_percent": 7.6829260609200505
+    },
+    {
+      "case_id": "tg-071-r1",
+      "condition": "runner-free",
+      "order": 5,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.0582411003803525,
+        "p50": 0.9210499993059784,
+        "p95": 2.340225005173123,
+        "p99": 3.407401984441092,
+        "max": 7.73389998357743,
+        "over_5ms": 4,
+        "over_10ms": 0
+      },
+      "worker_cpu_ms_per_push": 0.6145833333333334,
+      "process_cpu_seconds": 4.609375,
+      "elapsed_seconds": 30.234437700011767,
+      "background_cpu_percent": 6.254831989976991
+    },
+    {
+      "case_id": "tg-071-r1",
+      "condition": "runner-one",
+      "order": 6,
+      "push_ms": {
+        "count": 3000,
+        "mean": 1.0637454338332948,
+        "p50": 0.9790999756660312,
+        "p95": 2.1146149781998242,
+        "p99": 3.0409980454714947,
+        "max": 10.392500029411167,
+        "over_5ms": 1,
+        "over_10ms": 1
+      },
+      "worker_cpu_ms_per_push": 0.53125,
+      "process_cpu_seconds": 4.703125,
+      "elapsed_seconds": 30.237591699988116,
+      "background_cpu_percent": 18.43634601105844
+    }
+  ],
+  "completed_utc": "2026-11-02T11:10:46.515915+00:00"
+}

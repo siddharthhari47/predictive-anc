@@ -1,0 +1,734 @@
+{
+  "config": {
+    "seconds": 30,
+    "discovery_seconds": 12,
+    "window_seconds": 2,
+    "low_hz": 35.0,
+    "high_hz": 350.0,
+    "tone_half_width_hz": 1.0,
+    "background_inner_hz": 3.0,
+    "background_outer_hz": 10.0,
+    "min_peak_separation_hz": 6.0,
+    "min_local_prominence_db": 6.0,
+    "min_on_off_increase_db": 6.0,
+    "min_confirmation_fraction": 0.8
+  },
+  "band_summaries": {
+    "discovery": {
+      "off_band_power_digital": 4.989309477432452e-08,
+      "on_band_power_digital": 9.20226620229445e-07,
+      "on_off_band_power_db": 12.658543491003947
+    },
+    "confirmation": {
+      "off_band_power_digital": 4.2443588493719094e-08,
+      "on_band_power_digital": 8.03501472427142e-07,
+      "on_off_band_power_db": 12.771745817132736
+    },
+    "whole_capture": {
+      "off_band_power_digital": 4.5423391005961264e-08,
+      "on_band_power_digital": 8.501915315480632e-07,
+      "on_off_band_power_db": 12.722372221920814
+    }
+  },
+  "tones": [
+    {
+      "frequency_hz": 41.0,
+      "band_hz": [
+        40.0,
+        42.0
+      ],
+      "discovery_prominence_db": 12.646152652647311,
+      "discovery_on_off_db": 24.864528297932612,
+      "discovery_eligible": true,
+      "confirmation_on_off_db": 22.138389682496324,
+      "confirmation_median_prominence_db": 14.7908405890034,
+      "confirmation_windows_passing": 9,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 1.0,
+      "passes_spectral_screen": true
+    },
+    {
+      "frequency_hz": 50.0,
+      "band_hz": [
+        49.0,
+        51.0
+      ],
+      "discovery_prominence_db": 4.4726944503376735,
+      "discovery_on_off_db": 14.606692441213116,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 5.675181257027123,
+      "confirmation_median_prominence_db": 0.4337866230594873,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 59.0,
+      "band_hz": [
+        58.0,
+        60.0
+      ],
+      "discovery_prominence_db": -1.8063658470023392,
+      "discovery_on_off_db": 11.434063030895675,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 7.074053484914962,
+      "confirmation_median_prominence_db": -1.1906381982797085,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 65.5,
+      "band_hz": [
+        64.5,
+        66.5
+      ],
+      "discovery_prominence_db": 3.0967098762555105,
+      "discovery_on_off_db": 14.61655619739653,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 12.533478399586722,
+      "confirmation_median_prominence_db": 2.939107265855745,
+      "confirmation_windows_passing": 2,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.2222222222222222,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 73.0,
+      "band_hz": [
+        72.0,
+        74.0
+      ],
+      "discovery_prominence_db": 3.007329677518185,
+      "discovery_on_off_db": 14.307656566185432,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 10.392221231533211,
+      "confirmation_median_prominence_db": 0.8186599310745835,
+      "confirmation_windows_passing": 1,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.1111111111111111,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 85.5,
+      "band_hz": [
+        84.5,
+        86.5
+      ],
+      "discovery_prominence_db": 2.5330582092988707,
+      "discovery_on_off_db": 6.54410278459157,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 10.568654957649501,
+      "confirmation_median_prominence_db": 5.752905068868168,
+      "confirmation_windows_passing": 4,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.4444444444444444,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 91.5,
+      "band_hz": [
+        90.5,
+        92.5
+      ],
+      "discovery_prominence_db": -1.4147523508286584,
+      "discovery_on_off_db": 6.348785096469114,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 10.04500380807918,
+      "confirmation_median_prominence_db": 1.742482579019081,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 99.5,
+      "band_hz": [
+        98.5,
+        100.5
+      ],
+      "discovery_prominence_db": 0.04101385872144863,
+      "discovery_on_off_db": 5.186224061530885,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 5.870757593014007,
+      "confirmation_median_prominence_db": 2.2038295158540646,
+      "confirmation_windows_passing": 1,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.1111111111111111,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 107.0,
+      "band_hz": [
+        106.0,
+        108.0
+      ],
+      "discovery_prominence_db": 1.3262782189426436,
+      "discovery_on_off_db": 11.58093768438075,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 10.433544811059258,
+      "confirmation_median_prominence_db": 1.5413776655898157,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 117.0,
+      "band_hz": [
+        116.0,
+        118.0
+      ],
+      "discovery_prominence_db": -0.5631729028105306,
+      "discovery_on_off_db": 9.445652778899849,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 13.287411708040988,
+      "confirmation_median_prominence_db": -1.0450221688825527,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 124.0,
+      "band_hz": [
+        123.0,
+        125.0
+      ],
+      "discovery_prominence_db": 8.679398094835637,
+      "discovery_on_off_db": 20.20427602421201,
+      "discovery_eligible": true,
+      "confirmation_on_off_db": 18.985004233529544,
+      "confirmation_median_prominence_db": 7.7017699251642755,
+      "confirmation_windows_passing": 9,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 1.0,
+      "passes_spectral_screen": true
+    },
+    {
+      "frequency_hz": 131.5,
+      "band_hz": [
+        130.5,
+        132.5
+      ],
+      "discovery_prominence_db": 0.5794324933858911,
+      "discovery_on_off_db": 12.180966660033135,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 12.821591452441186,
+      "confirmation_median_prominence_db": 2.1822701184885562,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 141.0,
+      "band_hz": [
+        140.0,
+        142.0
+      ],
+      "discovery_prominence_db": -0.38772523679680204,
+      "discovery_on_off_db": 10.97414436579915,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 13.144728593917792,
+      "confirmation_median_prominence_db": 2.2215532045822615,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 149.5,
+      "band_hz": [
+        148.5,
+        150.5
+      ],
+      "discovery_prominence_db": 1.8257908756752816,
+      "discovery_on_off_db": 12.226221144396213,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 12.966982943776099,
+      "confirmation_median_prominence_db": 1.5821683489896627,
+      "confirmation_windows_passing": 1,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.1111111111111111,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 158.0,
+      "band_hz": [
+        157.0,
+        159.0
+      ],
+      "discovery_prominence_db": 0.08259460238241444,
+      "discovery_on_off_db": 14.99433892676685,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 15.580973434746317,
+      "confirmation_median_prominence_db": 0.46150089033634706,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 165.0,
+      "band_hz": [
+        164.0,
+        166.0
+      ],
+      "discovery_prominence_db": 11.12049855727628,
+      "discovery_on_off_db": 17.444839702657998,
+      "discovery_eligible": true,
+      "confirmation_on_off_db": 18.781242490686495,
+      "confirmation_median_prominence_db": 11.018825965842884,
+      "confirmation_windows_passing": 8,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.8888888888888888,
+      "passes_spectral_screen": true
+    },
+    {
+      "frequency_hz": 174.5,
+      "band_hz": [
+        173.5,
+        175.5
+      ],
+      "discovery_prominence_db": 0.5041216688617466,
+      "discovery_on_off_db": 13.089801777602725,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 11.71160299792092,
+      "confirmation_median_prominence_db": -0.06028512543081898,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 180.5,
+      "band_hz": [
+        179.5,
+        181.5
+      ],
+      "discovery_prominence_db": 0.08869723372342904,
+      "discovery_on_off_db": 11.085818453348853,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 11.273049666805715,
+      "confirmation_median_prominence_db": 0.25183838731492636,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 186.5,
+      "band_hz": [
+        185.5,
+        187.5
+      ],
+      "discovery_prominence_db": 1.758311414432169,
+      "discovery_on_off_db": 11.527290513669142,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 14.220818145821285,
+      "confirmation_median_prominence_db": 4.759530262120095,
+      "confirmation_windows_passing": 3,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.3333333333333333,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 197.5,
+      "band_hz": [
+        196.5,
+        198.5
+      ],
+      "discovery_prominence_db": 1.8456759534829699,
+      "discovery_on_off_db": 9.322391493861504,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 10.422007505584276,
+      "confirmation_median_prominence_db": 0.45276506221998813,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 206.0,
+      "band_hz": [
+        205.0,
+        207.0
+      ],
+      "discovery_prominence_db": 2.018537740968406,
+      "discovery_on_off_db": 13.122773586604046,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 11.452500026437217,
+      "confirmation_median_prominence_db": 4.5417528096772655,
+      "confirmation_windows_passing": 3,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.3333333333333333,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 212.5,
+      "band_hz": [
+        211.5,
+        213.5
+      ],
+      "discovery_prominence_db": 1.356422917141521,
+      "discovery_on_off_db": 16.59722672659234,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 13.623179593077852,
+      "confirmation_median_prominence_db": 0.3428414989252804,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 218.5,
+      "band_hz": [
+        217.5,
+        219.5
+      ],
+      "discovery_prominence_db": 3.2415471972887966,
+      "discovery_on_off_db": 16.367203749389724,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 14.575703273888006,
+      "confirmation_median_prominence_db": 3.5789492005354226,
+      "confirmation_windows_passing": 1,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.1111111111111111,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 228.0,
+      "band_hz": [
+        227.0,
+        229.0
+      ],
+      "discovery_prominence_db": 2.4609473122011636,
+      "discovery_on_off_db": 15.812315371265935,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 15.899518333731532,
+      "confirmation_median_prominence_db": 1.092800375026256,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 239.0,
+      "band_hz": [
+        238.0,
+        240.0
+      ],
+      "discovery_prominence_db": 1.235754696246328,
+      "discovery_on_off_db": 11.625071227305195,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 16.29907823039192,
+      "confirmation_median_prominence_db": 2.3804757659159366,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 247.5,
+      "band_hz": [
+        246.5,
+        248.5
+      ],
+      "discovery_prominence_db": 3.8131787784470887,
+      "discovery_on_off_db": 18.564387194647626,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 17.321655270606563,
+      "confirmation_median_prominence_db": 2.3870989010457864,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 257.5,
+      "band_hz": [
+        256.5,
+        258.5
+      ],
+      "discovery_prominence_db": 0.16831028207238097,
+      "discovery_on_off_db": 11.688035671912528,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 13.652713487784709,
+      "confirmation_median_prominence_db": 0.2712915017722462,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 265.5,
+      "band_hz": [
+        264.5,
+        266.5
+      ],
+      "discovery_prominence_db": -3.314795520662999,
+      "discovery_on_off_db": 11.582909159824034,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 11.505979548361942,
+      "confirmation_median_prominence_db": -1.738402510926969,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 271.5,
+      "band_hz": [
+        270.5,
+        272.5
+      ],
+      "discovery_prominence_db": 2.8990348223214637,
+      "discovery_on_off_db": 11.854329932354036,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 12.111875892343827,
+      "confirmation_median_prominence_db": 1.637470215360282,
+      "confirmation_windows_passing": 2,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.2222222222222222,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 282.5,
+      "band_hz": [
+        281.5,
+        283.5
+      ],
+      "discovery_prominence_db": -0.35573854500995344,
+      "discovery_on_off_db": 14.079404279187344,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 18.0891972866042,
+      "confirmation_median_prominence_db": 1.8004372570934084,
+      "confirmation_windows_passing": 1,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.1111111111111111,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 289.0,
+      "band_hz": [
+        288.0,
+        290.0
+      ],
+      "discovery_prominence_db": 5.167917175312763,
+      "discovery_on_off_db": 22.436236462164146,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 22.258159908848192,
+      "confirmation_median_prominence_db": 4.785983938359649,
+      "confirmation_windows_passing": 4,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.4444444444444444,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 300.5,
+      "band_hz": [
+        299.5,
+        301.5
+      ],
+      "discovery_prominence_db": 0.11359603380333771,
+      "discovery_on_off_db": 15.612584947391738,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 16.624515492983424,
+      "confirmation_median_prominence_db": -0.7485998777092338,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 308.5,
+      "band_hz": [
+        307.5,
+        309.5
+      ],
+      "discovery_prominence_db": 4.823083227680038,
+      "discovery_on_off_db": 22.01940074810889,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 24.6938063815098,
+      "confirmation_median_prominence_db": 9.07137577931783,
+      "confirmation_windows_passing": 9,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 1.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 315.5,
+      "band_hz": [
+        314.5,
+        316.5
+      ],
+      "discovery_prominence_db": 0.36706446977209184,
+      "discovery_on_off_db": 17.529601119598215,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 17.843558369460055,
+      "confirmation_median_prominence_db": 0.22796080302668809,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 322.0,
+      "band_hz": [
+        321.0,
+        323.0
+      ],
+      "discovery_prominence_db": 0.43737346895559226,
+      "discovery_on_off_db": 17.257999861780096,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 19.196098147874558,
+      "confirmation_median_prominence_db": 2.5606941295019876,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 330.0,
+      "band_hz": [
+        329.0,
+        331.0
+      ],
+      "discovery_prominence_db": 6.2839253640500825,
+      "discovery_on_off_db": 26.71212409458514,
+      "discovery_eligible": true,
+      "confirmation_on_off_db": 27.345480060069313,
+      "confirmation_median_prominence_db": 8.645204520720114,
+      "confirmation_windows_passing": 8,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.8888888888888888,
+      "passes_spectral_screen": true
+    },
+    {
+      "frequency_hz": 336.0,
+      "band_hz": [
+        335.0,
+        337.0
+      ],
+      "discovery_prominence_db": -0.9535159510725317,
+      "discovery_on_off_db": 18.35111229056185,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 17.893987968338593,
+      "confirmation_median_prominence_db": 1.112196575865798,
+      "confirmation_windows_passing": 1,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.1111111111111111,
+      "passes_spectral_screen": false
+    },
+    {
+      "frequency_hz": 346.5,
+      "band_hz": [
+        345.5,
+        347.5
+      ],
+      "discovery_prominence_db": 2.3976052786106914,
+      "discovery_on_off_db": 21.052026516325295,
+      "discovery_eligible": false,
+      "confirmation_on_off_db": 18.106243973181492,
+      "confirmation_median_prominence_db": 0.5469167479806405,
+      "confirmation_windows_passing": 0,
+      "confirmation_windows_total": 9,
+      "confirmation_fraction": 0.0,
+      "passes_spectral_screen": false
+    }
+  ],
+  "spectral_candidates_hz": [
+    41.0,
+    124.0,
+    165.0,
+    330.0
+  ],
+  "full_recording_rms_ratio_db": 13.7508696922034,
+  "psd_method": "Mean of nonoverlapping 2 s Hann periodograms, constant detrend, 0.5 Hz bins; density in digital FS^2/Hz.",
+  "interpretation": "A persistent spectral line is only a candidate for a fresh held-out prediction trial. It does not establish phase coherence, causality margin or physical ear attenuation.",
+  "created_utc": "2026-10-15T18:13:41.757050+00:00",
+  "off": {
+    "filename": "fan_off.wav",
+    "sha256": "f86a64fb0f4c708e564703cb5cc6131685b0ec9d68f3a119080bfa91b22c6faf",
+    "sample_rate": 48000,
+    "samples": 1440000,
+    "duration_seconds": 30.0,
+    "peak_digital": 0.003200946841388941,
+    "rms_digital": 0.00031310684522211783,
+    "near_full_scale_fraction": 0.0,
+    "device_name": "Microphone Array (Intel\u00ae Smart Sound Technology for Digital Microphones)",
+    "host_api": "Windows WASAPI",
+    "reported_stream_rate": 48000.0,
+    "reported_input_latency_seconds": 0.022,
+    "callback_statuses": [],
+    "started_utc": "2026-10-15T18:06:30.003425+00:00",
+    "os_processing": "Unknown; AGC/noise suppression/echo cancellation not changed or verified.",
+    "playback": false
+  },
+  "on": {
+    "filename": "fan_on.wav",
+    "sha256": "c17a67b8d85e9f6da916265d5ec7454c5559a3ce9accf6bea16d3d2564cb81ec",
+    "sample_rate": 48000,
+    "samples": 1440000,
+    "duration_seconds": 30.0,
+    "peak_digital": 0.007584976498037577,
+    "rms_digital": 0.0015248813294755062,
+    "near_full_scale_fraction": 0.0,
+    "device_name": "Microphone Array (Intel\u00ae Smart Sound Technology for Digital Microphones)",
+    "host_api": "Windows WASAPI",
+    "reported_stream_rate": 48000.0,
+    "reported_input_latency_seconds": 0.022,
+    "callback_statuses": [],
+    "started_utc": "2026-10-15T18:07:51.028982+00:00",
+    "os_processing": "Unknown; AGC/noise suppression/echo cancellation not changed or verified.",
+    "playback": false
+  },
+  "quality": {
+    "digital_checks_pass": true,
+    "reasons": [],
+    "fixed_effective_gain_verified": false,
+    "spl_calibrated": false,
+    "note": "Same named input and format; OS gain, AGC, beamforming and suppression are unverified. Device names are not hardware serial IDs."
+  },
+  "analysis_sha256": "b96682ba15cfca084d4d11bfe0a7030f7506da3af368b8405ddaf6c1dd1f4945",
+  "protocol_sha256": "a4894cfc484f5dcb4b15312db99c4034d80d3ea39ed10223b1a8cb1eed5531b4",
+  "protocol": {
+    "schema_version": 1,
+    "purpose": "Exploratory matched fan-off/fan-on reference-microphone source characterization; no ANC playback.",
+    "duration_each_seconds": 30,
+    "rate": 48000,
+    "device_name": "Microphone Array (Intel\u00ae Smart Sound Technology for Digital Microphones)",
+    "host_api": "Windows WASAPI",
+    "analysis_units": "Digital amplitude relative to full scale; never independently RMS-normalize captures. No SPL calibration.",
+    "selection_band_hz": [
+      35,
+      350
+    ],
+    "discovery_seconds": 12,
+    "confirmation_seconds": 18,
+    "welch_window_seconds": 2,
+    "candidate_min_local_prominence_db": 6,
+    "candidate_min_on_off_increase_db": 6,
+    "candidate_min_confirmation_fraction": 0.8,
+    "interpretation": "Criteria select candidate tones for a later fresh prediction trial; they do not establish phase predictability, source attribution, or physical ANC. Unknown OS gain/processing can affect the comparison.",
+    "off_conditions": {
+      "fan": "off",
+      "room": "quiet",
+      "laptop_position": "same position requested",
+      "confirmation": "User: Ready - fan is off and room is quiet"
+    },
+    "gain_setting": "No application or OS gain changes made by this project; AGC/enhancements remain unknown and unverified.",
+    "on_conditions": {
+      "fan": "on, same speed and position requested",
+      "airflow": "away from laptop microphone requested",
+      "room": "otherwise quiet",
+      "laptop_position": "unchanged requested",
+      "confirmation": "User: Ready - fan is steady and room is quiet"
+    }
+  },
+  "no_playback": true,
+  "physical_anc_validated": false
+}

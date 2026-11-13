@@ -1,0 +1,549 @@
+{
+  "parity_fields": 780,
+  "by_sigma": {
+    "1": {
+      "O": {
+        "band_db": {
+          "mean": 0.6337791784272578,
+          "ci95": [
+            0.049108833140763385,
+            1.6911718965334517
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 18,
+          "tones": 390,
+          "kept": 171,
+          "harmful_keeps_prefix": 27,
+          "harmful_keeps_suffix": 29,
+          "useful_keeps": 86,
+          "useful_precheck": 109,
+          "oracle_useful": 195,
+          "missed_opportunities": 77,
+          "inconclusive_mutes": 0
+        },
+        "median_abs_phase_error_deg": 37.63920886685365,
+        "median_abs_gain_error_db": 5.262049809589311,
+        "mean_listening_seconds_per_tone": 90.43589743589743
+      },
+      "S": {
+        "band_db": {
+          "mean": 0.6199542604431497,
+          "ci95": [
+            0.06098902966480947,
+            1.664094079023846
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": -0.013824917984108027,
+          "ci95": [
+            -0.09608043583634696,
+            0.038555107026559336
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": 0.11513945523420661,
+          "ci95": [
+            -0.016783825544261066,
+            0.24851413060737404
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 20,
+          "tones": 390,
+          "kept": 198,
+          "harmful_keeps_prefix": 23,
+          "harmful_keeps_suffix": 23,
+          "useful_keeps": 108,
+          "useful_precheck": 133,
+          "oracle_useful": 195,
+          "missed_opportunities": 64,
+          "inconclusive_mutes": 0
+        },
+        "median_abs_phase_error_deg": 26.29636554831211,
+        "median_abs_gain_error_db": 4.360807676418639,
+        "mean_listening_seconds_per_tone": 166.35897435897436,
+        "helps": false
+      },
+      "C": {
+        "band_db": {
+          "mean": 0.5790844341654003,
+          "ci95": [
+            0.026007204468078922,
+            1.6244299434125598
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": -0.05469474426185743,
+          "ci95": [
+            -0.1656769421357903,
+            0.006079519244554035
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": -0.15200513015462888,
+          "ci95": [
+            -0.4977680626601283,
+            0.0487407500571557
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 19,
+          "tones": 390,
+          "kept": 112,
+          "harmful_keeps_prefix": 4,
+          "harmful_keeps_suffix": 5,
+          "useful_keeps": 84,
+          "useful_precheck": 112,
+          "oracle_useful": 195,
+          "missed_opportunities": 104,
+          "inconclusive_mutes": 87
+        },
+        "median_abs_phase_error_deg": 35.76766335156135,
+        "median_abs_gain_error_db": 5.026888860025503,
+        "mean_listening_seconds_per_tone": 95.9948717948718,
+        "helps": false
+      },
+      "SC": {
+        "band_db": {
+          "mean": 0.5857723023728229,
+          "ci95": [
+            0.032504547830936516,
+            1.6315004929594465
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": -0.04800687605443495,
+          "ci95": [
+            -0.15482331626515508,
+            0.012435876877701533
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": -0.09754030863652872,
+          "ci95": [
+            -0.41065131230149743,
+            0.11489646619967432
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 17,
+          "tones": 390,
+          "kept": 123,
+          "harmful_keeps_prefix": 5,
+          "harmful_keeps_suffix": 6,
+          "useful_keeps": 96,
+          "useful_precheck": 132,
+          "oracle_useful": 195,
+          "missed_opportunities": 93,
+          "inconclusive_mutes": 81
+        },
+        "median_abs_phase_error_deg": 29.698897880252872,
+        "median_abs_gain_error_db": 4.438741413198434,
+        "mean_listening_seconds_per_tone": 172.94358974358974,
+        "helps": false
+      },
+      "interaction_SC_minus_S_minus_C_plus_O": {
+        "mean": 0.02051278619153052,
+        "ci95": [
+          -0.03491219374234612,
+          0.10999898630335905
+        ],
+        "sources": 14
+      }
+    },
+    "0.5": {
+      "O": {
+        "band_db": {
+          "mean": 0.6379258659394426,
+          "ci95": [
+            0.04906503985774883,
+            1.6979120130459762
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 17,
+          "tones": 390,
+          "kept": 176,
+          "harmful_keeps_prefix": 26,
+          "harmful_keeps_suffix": 21,
+          "useful_keeps": 93,
+          "useful_precheck": 115,
+          "oracle_useful": 195,
+          "missed_opportunities": 74,
+          "inconclusive_mutes": 0
+        },
+        "median_abs_phase_error_deg": 33.17008427362785,
+        "median_abs_gain_error_db": 5.487034295486376,
+        "mean_listening_seconds_per_tone": 89.05641025641026
+      },
+      "S": {
+        "band_db": {
+          "mean": 0.6113544579846341,
+          "ci95": [
+            0.048483736027280344,
+            1.652853154460402
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": -0.026571407954808352,
+          "ci95": [
+            -0.11443450286290527,
+            0.025242325782730963
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": 0.031419645838632965,
+          "ci95": [
+            -0.15710975169832472,
+            0.17686476895505931
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 24,
+          "tones": 390,
+          "kept": 207,
+          "harmful_keeps_prefix": 23,
+          "harmful_keeps_suffix": 26,
+          "useful_keeps": 117,
+          "useful_precheck": 140,
+          "oracle_useful": 195,
+          "missed_opportunities": 66,
+          "inconclusive_mutes": 0
+        },
+        "median_abs_phase_error_deg": 20.52374248094081,
+        "median_abs_gain_error_db": 4.355851903349623,
+        "mean_listening_seconds_per_tone": 162.51282051282053,
+        "helps": false
+      },
+      "C": {
+        "band_db": {
+          "mean": 0.5805574083853839,
+          "ci95": [
+            0.023049565814792405,
+            1.6135722638082133
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": -0.05736845755405854,
+          "ci95": [
+            -0.1720067272878025,
+            0.0052664464270985615
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": -0.18942508704893626,
+          "ci95": [
+            -0.566248942068597,
+            0.04030598082629565
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 20,
+          "tones": 390,
+          "kept": 108,
+          "harmful_keeps_prefix": 3,
+          "harmful_keeps_suffix": 3,
+          "useful_keeps": 93,
+          "useful_precheck": 116,
+          "oracle_useful": 195,
+          "missed_opportunities": 99,
+          "inconclusive_mutes": 92
+        },
+        "median_abs_phase_error_deg": 32.18697271955901,
+        "median_abs_gain_error_db": 4.788798438754856,
+        "mean_listening_seconds_per_tone": 95.40512820512821,
+        "helps": false
+      },
+      "SC": {
+        "band_db": {
+          "mean": 0.5934932451274137,
+          "ci95": [
+            0.03281864722703479,
+            1.6327173590442214
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": -0.044432620812028624,
+          "ci95": [
+            -0.15362413239200887,
+            0.016364181772503043
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": -0.09096652829643355,
+          "ci95": [
+            -0.4489980213170873,
+            0.14021602487953802
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 17,
+          "tones": 390,
+          "kept": 128,
+          "harmful_keeps_prefix": 2,
+          "harmful_keeps_suffix": 3,
+          "useful_keeps": 105,
+          "useful_precheck": 136,
+          "oracle_useful": 195,
+          "missed_opportunities": 85,
+          "inconclusive_mutes": 93
+        },
+        "median_abs_phase_error_deg": 23.152745030339474,
+        "median_abs_gain_error_db": 4.706394328187967,
+        "mean_listening_seconds_per_tone": 170.26666666666668,
+        "helps": false
+      },
+      "interaction_SC_minus_S_minus_C_plus_O": {
+        "mean": 0.03950724469683825,
+        "ci95": [
+          -0.013298214450374804,
+          0.1319776062195491
+        ],
+        "sources": 14
+      }
+    },
+    "2": {
+      "O": {
+        "band_db": {
+          "mean": 0.6254427181393328,
+          "ci95": [
+            0.043470431382395654,
+            1.6567497386269527
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 21,
+          "tones": 390,
+          "kept": 162,
+          "harmful_keeps_prefix": 33,
+          "harmful_keeps_suffix": 30,
+          "useful_keeps": 76,
+          "useful_precheck": 105,
+          "oracle_useful": 195,
+          "missed_opportunities": 89,
+          "inconclusive_mutes": 0
+        },
+        "median_abs_phase_error_deg": 37.814783511752466,
+        "median_abs_gain_error_db": 5.5599611498638275,
+        "mean_listening_seconds_per_tone": 92.81025641025641
+      },
+      "S": {
+        "band_db": {
+          "mean": 0.610394710876957,
+          "ci95": [
+            0.016402575596558798,
+            1.6590610805765296
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": -0.0150480072623758,
+          "ci95": [
+            -0.06221236317869094,
+            0.023874305326935068
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": 0.051603464306520734,
+          "ci95": [
+            -0.06960449948622119,
+            0.1809167066378896
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 28,
+          "tones": 390,
+          "kept": 172,
+          "harmful_keeps_prefix": 32,
+          "harmful_keeps_suffix": 31,
+          "useful_keeps": 90,
+          "useful_precheck": 121,
+          "oracle_useful": 195,
+          "missed_opportunities": 79,
+          "inconclusive_mutes": 0
+        },
+        "median_abs_phase_error_deg": 26.72272050782003,
+        "median_abs_gain_error_db": 4.980840350589284,
+        "mean_listening_seconds_per_tone": 168.3025641025641,
+        "helps": false
+      },
+      "C": {
+        "band_db": {
+          "mean": 0.5331509493337742,
+          "ci95": [
+            0.017569761014978758,
+            1.5392493826107594
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": -0.09229176880555852,
+          "ci95": [
+            -0.23989098889997573,
+            -0.0072443236317660704
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": -0.3513586793233922,
+          "ci95": [
+            -0.8246735763106479,
+            -0.04111582353132188
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 15,
+          "tones": 390,
+          "kept": 91,
+          "harmful_keeps_prefix": 12,
+          "harmful_keeps_suffix": 13,
+          "useful_keeps": 56,
+          "useful_precheck": 103,
+          "oracle_useful": 195,
+          "missed_opportunities": 125,
+          "inconclusive_mutes": 78
+        },
+        "median_abs_phase_error_deg": 42.0608226141524,
+        "median_abs_gain_error_db": 5.685433639953679,
+        "mean_listening_seconds_per_tone": 97.3076923076923,
+        "helps": false
+      },
+      "SC": {
+        "band_db": {
+          "mean": 0.5507612069653074,
+          "ci95": [
+            0.016002381589582754,
+            1.56832805079241
+          ],
+          "sources": 14
+        },
+        "band_db_minus_O": {
+          "mean": -0.07468151117402547,
+          "ci95": [
+            -0.2158107316252138,
+            0.008539910033467086
+          ],
+          "sources": 14
+        },
+        "tone_db_minus_O": {
+          "mean": -0.20382298099477555,
+          "ci95": [
+            -0.6299968856772485,
+            0.09519917023062847
+          ],
+          "sources": 12
+        },
+        "counts": {
+          "room_runs": 185,
+          "room_harms": 16,
+          "tones": 390,
+          "kept": 102,
+          "harmful_keeps_prefix": 6,
+          "harmful_keeps_suffix": 8,
+          "useful_keeps": 72,
+          "useful_precheck": 120,
+          "oracle_useful": 195,
+          "missed_opportunities": 108,
+          "inconclusive_mutes": 78
+        },
+        "median_abs_phase_error_deg": 31.57005240479353,
+        "median_abs_gain_error_db": 5.6402669139859185,
+        "mean_listening_seconds_per_tone": 174.04615384615386,
+        "helps": false
+      },
+      "interaction_SC_minus_S_minus_C_plus_O": {
+        "mean": 0.03265826489390887,
+        "ci95": [
+          -0.007905793325963579,
+          0.08248260952154123
+        ],
+        "sources": 14
+      }
+    }
+  },
+  "decision_sigma": "1"
+}

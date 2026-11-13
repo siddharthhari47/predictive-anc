@@ -1,0 +1,112 @@
+{
+  "id": "case-022",
+  "title": "Siemens_Combino_Engine_Sound.wav",
+  "cohort": "former-test-02",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-022.npz",
+  "arrays_sha256": "306c24e9bff44ed6e1fd26e59467f91a06126eb9b5e5c0ff446896b76728db9a",
+  "reference_sha256": "391f0ddba5ed342922a9356c5cd1c6387685a075dd87ade6390e1c484ca6a120",
+  "seconds": 120.0,
+  "prefix_seconds": 48.0,
+  "counts": {
+    "frames_after_warmup": 11850,
+    "v2_components_before_gate": 2288,
+    "bank_components_before_gate": 3144,
+    "frames_both_gates_open": 11839,
+    "bank_components_without_v2_match": 1365,
+    "eligible_v2_components": 2281,
+    "matched_tone_frames": 1768,
+    "v2_without_bank_match": 513,
+    "frames_v2_only_gate": 3,
+    "frames_bank_only_gate": 8
+  },
+  "all": {
+    "matched_tone_frames": 1768,
+    "mismatch": {
+      "p05": 0.1317349993705424,
+      "p50": 0.5886304765834394,
+      "p95": 1.3278628638819552,
+      "p99": 1.8197645961968414,
+      "max": 6.992727132063059
+    },
+    "ramped_mismatch": {
+      "p05": 0.1317349993705424,
+      "p50": 0.5894459753071608,
+      "p95": 1.3278628638819552,
+      "p99": 1.8197645961968414,
+      "max": 6.992727132063059
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.463063314650518,
+      "p50": 4.603146485491087,
+      "p95": 17.60604706413568,
+      "p99": 23.524950313278328,
+      "max": 41.63428002113961
+    },
+    "fraction_mismatch_above_0_1": 0.9739819004524887,
+    "fraction_mismatch_above_1": 0.17760180995475114,
+    "v2_energy_weighted_rms_mismatch": 0.6348013889633853,
+    "absolute_phase_difference_deg": {
+      "p05": 2.9531543312047477,
+      "p50": 29.27854865066727,
+      "p95": 115.58094380998176,
+      "p99": 158.10941940720167,
+      "max": 179.43150812783986
+    },
+    "amplitude_ratio": {
+      "p05": 0.21253206070001227,
+      "p50": 0.8364280525645891,
+      "p95": 1.2573222338412557,
+      "p99": 1.497841895566223,
+      "max": 7.025592430590799
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 615,
+    "mismatch": {
+      "p05": 0.2847097140641571,
+      "p50": 0.897788205512599,
+      "p95": 1.465362008262405,
+      "p99": 1.8927355966676889,
+      "max": 6.992727132063059
+    },
+    "ramped_mismatch": {
+      "p05": 0.2847097140641571,
+      "p50": 0.897788205512599,
+      "p95": 1.465362008262405,
+      "p99": 1.8927355966676889,
+      "max": 6.992727132063059
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -3.3188970448776063,
+      "p50": 0.9365220868281383,
+      "p95": 10.913115053728669,
+      "p99": 14.114204568321266,
+      "max": 17.38017139324796
+    },
+    "fraction_mismatch_above_0_1": 1.0,
+    "fraction_mismatch_above_1": 0.367479674796748,
+    "v2_energy_weighted_rms_mismatch": 0.876522924610817,
+    "absolute_phase_difference_deg": {
+      "p05": 9.766433357633867,
+      "p50": 56.66649926225622,
+      "p95": 141.28976989786975,
+      "p99": 168.6176515035374,
+      "max": 179.43150812783986
+    },
+    "amplitude_ratio": {
+      "p05": 0.17015215846713544,
+      "p50": 0.6629286014486947,
+      "p95": 1.1831159625023435,
+      "p99": 1.2854487044227338,
+      "max": 7.025592430590799
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-022.npz",
+  "ratio_arrays_sha256": "99bbaf6d2b9be58209269ec1f711a1ebefa697743597e9af400a237e4a69ff7c"
+}

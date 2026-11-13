@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-10-26T16:27:19.717141+00:00",
+  "status": "complete",
+  "current_docs_updated": [
+    "CLAUDE.md",
+    "README.md",
+    "docs/CONTINUATION_STATUS.md",
+    "docs/CODEX_HANDOFF.md",
+    "docs/SELECTOR_TIMING_STATUS.md",
+    "docs/SELECTOR_COMPATIBILITY_STATUS.md",
+    "docs/TUNING_ACCURACY_STATUS.md",
+    "docs/TUNING_DIAGNOSTIC_NEXT.md"
+  ],
+  "project_log_updated": "C:\\Users\\talk2.000\\Documents\\Obsidian Vault\\Predictive ANC\\Progress log.md",
+  "assistant_memory_modified": false,
+  "research_snapshot": "C:\\Users\\talk2.000\\Desktop\\Claude\\predictive-anc\\research-tools\\tuning-accuracy-01",
+  "snapshot_files": 9,
+  "export_hashes_verified": true,
+  "report_local_links_verified": true,
+  "csv_counts": {
+    "tones": 78,
+    "check_pairs": 156,
+    "stable_probabilities": 156
+  },
+  "targeted_tests": {
+    "count": 10,
+    "result": "passed",
+    "observed_runtime_seconds": 0.108,
+    "command": "python -m unittest tests.test_tuning_accuracy_diagnostic tests.test_selector_compatibility -v"
+  },
+  "frozen_protocol_and_live_sources_unchanged": true,
+  "live_engine_sha256": "599bd571cf75c3c18719540e7c32dd0a1f67f3fca6c761273bce2ce955d01c23",
+  "previous_room_results_sha256": "2c54bde410207e530c2effde621ea7b2d480fa96a33c19c15ac602b959865232"
+}

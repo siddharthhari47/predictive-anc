@@ -1,0 +1,1027 @@
+{
+  "kind": "tone_forecaster_04_frozen_protocol",
+  "created_utc": "2026-10-19T18:39:45.000286+00:00",
+  "development_run": "results-tone-forecaster-04/development/dev-01",
+  "rule": "Written after the diagnostic trials on development material (results-tone-forecaster-04/diagnosis) and before the formal development run. Candidates, all driven by the v2 gate's decision: the joint band check of study 02 with the gate faded instead of switched (a cosine fade over 8 blocks in and 8 out, joint_fade8; 8 in and 3 out, joint_fade8in3out; one block is 10 ms), and the band check that judges each setting after its own copy of the gate (tone_gate_fade.GatedCheckBank) with the hard gate (gcheck), the 8/8 fade (gcheck_fade8) and the 8/3 fade (gcheck_fade8in3out). Development material: the eight study-01 development recordings, the 44 development synthetic scenes and study 03's 8 buzz scenes. A boost is a third-octave band 1 dB or more louder; a near-boost 0.5 dB or more; both are counted over development recordings (either horizon) plus late synthetic windows. Eligible only if: (a) fewer boosts than joint + gate; (b) the gate's boosts are gone: on the buzz scenes, no more late boosts than the joint check with no gate at all; (c) no more near-boosts than joint + gate; (d) no more whole-band boosts (whole 35-350 Hz band below -0.5 dB on a development recording) than joint + gate; (e) the tone gain over v2 is kept: the median, over development acoustic recordings with reference tones, of the tone-bin gain averaged over both horizons is at least v2 + gate's plus half of the amount by which joint + gate exceeds v2 + gate; (f) the median whole-band gain over development acoustic recordings, averaged over both horizons, is at least joint + gate's minus 0.1 dB; (g) the mean synthetic objective is at least joint + gate's minus 0.5 dB and its synthetic windows below -0.5 dB are no more than joint + gate has; (h) the compute it adds is small: over all development runs, the median of its own 99th-percentile time per 10 ms block (fade included) minus joint + gate's in the same run is at most 1 ms. Among eligible candidates, pick the one with the fewest boosts, then the fewest near-boosts, then the higher tone-bin median. If none is eligible, nothing is frozen: the joint check and v2 are unchanged, and there is nothing to test on fresh recordings.",
+  "rule_table": [
+    {
+      "candidate": "joint_fade8",
+      "kind": "joint",
+      "fade": {
+        "in_blocks": 8,
+        "out_blocks": 8,
+        "shape": "cosine"
+      },
+      "tone_bin_needed_db": 4.354585572862783,
+      "buzz_late_boosts": 2,
+      "buzz_late_boosts_no_gate": 2,
+      "p99_added_ms": 0.017418513598388863,
+      "p99_block_ms_median": 5.724097480560896,
+      "p99_block_ms_worst": 8.269978002062988,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_gate_boosts_gone": true,
+        "c_near_boosts": true,
+        "d_whole_band_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": true,
+      "boosts": 20,
+      "near_boosts": 35,
+      "recording_boosts": 1,
+      "recording_near_boosts": 8,
+      "synthetic_late_boosts": 19,
+      "synthetic_late_near_boosts": 27,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.4980053645525935,
+      "whole_band_median_db": 1.5908995255062353,
+      "synthetic_objective_db": 6.980885441577273,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    {
+      "candidate": "joint_fade8in3out",
+      "kind": "joint",
+      "fade": {
+        "in_blocks": 8,
+        "out_blocks": 3,
+        "shape": "cosine"
+      },
+      "tone_bin_needed_db": 4.354585572862783,
+      "buzz_late_boosts": 2,
+      "buzz_late_boosts_no_gate": 2,
+      "p99_added_ms": 0.0764599957619636,
+      "p99_block_ms_median": 5.738760012900471,
+      "p99_block_ms_worst": 8.22401698562315,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_gate_boosts_gone": true,
+        "c_near_boosts": true,
+        "d_whole_band_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": true,
+      "boosts": 20,
+      "near_boosts": 35,
+      "recording_boosts": 1,
+      "recording_near_boosts": 8,
+      "synthetic_late_boosts": 19,
+      "synthetic_late_near_boosts": 27,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.549077347797498,
+      "whole_band_median_db": 1.5991596154469994,
+      "synthetic_objective_db": 7.016483652270076,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    {
+      "candidate": "gcheck",
+      "kind": "gated_check",
+      "fade": null,
+      "tone_bin_needed_db": 4.354585572862783,
+      "buzz_late_boosts": 5,
+      "buzz_late_boosts_no_gate": 2,
+      "p99_added_ms": 0.2147850202163748,
+      "p99_block_ms_median": 5.9166850143810805,
+      "p99_block_ms_worst": 8.475229006726282,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_gate_boosts_gone": false,
+        "c_near_boosts": true,
+        "d_whole_band_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": false,
+      "boosts": 22,
+      "near_boosts": 38,
+      "recording_boosts": 1,
+      "recording_near_boosts": 7,
+      "synthetic_late_boosts": 21,
+      "synthetic_late_near_boosts": 31,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.312658151545339,
+      "whole_band_median_db": 1.5742771638228281,
+      "synthetic_objective_db": 7.059696233064543,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    {
+      "candidate": "gcheck_fade8",
+      "kind": "gated_check",
+      "fade": {
+        "in_blocks": 8,
+        "out_blocks": 8,
+        "shape": "cosine"
+      },
+      "tone_bin_needed_db": 4.354585572862783,
+      "buzz_late_boosts": 1,
+      "buzz_late_boosts_no_gate": 2,
+      "p99_added_ms": 0.4774224966240568,
+      "p99_block_ms_median": 5.872690012620302,
+      "p99_block_ms_worst": 8.415229993988772,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_gate_boosts_gone": true,
+        "c_near_boosts": true,
+        "d_whole_band_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": true,
+      "boosts": 18,
+      "near_boosts": 36,
+      "recording_boosts": 1,
+      "recording_near_boosts": 8,
+      "synthetic_late_boosts": 17,
+      "synthetic_late_near_boosts": 28,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.240416793234658,
+      "whole_band_median_db": 1.5564086324532589,
+      "synthetic_objective_db": 6.965463100150974,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    {
+      "candidate": "gcheck_fade8in3out",
+      "kind": "gated_check",
+      "fade": {
+        "in_blocks": 8,
+        "out_blocks": 3,
+        "shape": "cosine"
+      },
+      "tone_bin_needed_db": 4.354585572862783,
+      "buzz_late_boosts": 2,
+      "buzz_late_boosts_no_gate": 2,
+      "p99_added_ms": 0.27397499216022103,
+      "p99_block_ms_median": 5.941667509614492,
+      "p99_block_ms_worst": 8.567859980394138,
+      "checks": {
+        "a_fewer_boosts": true,
+        "b_gate_boosts_gone": true,
+        "c_near_boosts": true,
+        "d_whole_band_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": true,
+      "boosts": 19,
+      "near_boosts": 33,
+      "recording_boosts": 1,
+      "recording_near_boosts": 8,
+      "synthetic_late_boosts": 18,
+      "synthetic_late_near_boosts": 25,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.359269005566814,
+      "whole_band_median_db": 1.580514727033296,
+      "synthetic_objective_db": 7.016861315891803,
+      "synthetic_windows_below_minus_half_db": 6
+    }
+  ],
+  "rule_reference": {
+    "joint + gate": {
+      "buzz_late_boosts": 7,
+      "p99_block_ms_median": 5.673882500559589,
+      "p99_block_ms_worst": 8.043750003271258,
+      "boosts": 25,
+      "near_boosts": 40,
+      "recording_boosts": 1,
+      "recording_near_boosts": 8,
+      "synthetic_late_boosts": 24,
+      "synthetic_late_near_boosts": 32,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.5567346997913845,
+      "whole_band_median_db": 1.5934124877326798,
+      "synthetic_objective_db": 7.051303908085871,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    "v2 + gate": {
+      "buzz_late_boosts": 10,
+      "p99_block_ms_median": null,
+      "p99_block_ms_worst": null,
+      "boosts": 54,
+      "near_boosts": 74,
+      "recording_boosts": 9,
+      "recording_near_boosts": 11,
+      "synthetic_late_boosts": 45,
+      "synthetic_late_near_boosts": 63,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 3.1524364459341827,
+      "whole_band_median_db": 0.9815704366270679,
+      "synthetic_objective_db": 7.024630240764883,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    "bank_wide_lines + gate": {
+      "buzz_late_boosts": 16,
+      "p99_block_ms_median": 3.393060008966148,
+      "p99_block_ms_worst": 5.405087017279554,
+      "boosts": 54,
+      "near_boosts": 72,
+      "recording_boosts": 4,
+      "recording_near_boosts": 12,
+      "synthetic_late_boosts": 50,
+      "synthetic_late_near_boosts": 60,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 6.290407211327659,
+      "whole_band_median_db": 2.322356170898141,
+      "synthetic_objective_db": 7.620400569368195,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    "v2 + fade8": {
+      "buzz_late_boosts": 10,
+      "p99_block_ms_median": null,
+      "p99_block_ms_worst": null,
+      "boosts": 48,
+      "near_boosts": 69,
+      "recording_boosts": 8,
+      "recording_near_boosts": 11,
+      "synthetic_late_boosts": 40,
+      "synthetic_late_near_boosts": 58,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 3.3009831478967135,
+      "whole_band_median_db": 0.9810288473716213,
+      "synthetic_objective_db": 6.985276678397151,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    "joint, no gate": {
+      "buzz_late_boosts": 2,
+      "p99_block_ms_median": null,
+      "p99_block_ms_worst": null,
+      "boosts": 21,
+      "near_boosts": 35,
+      "recording_boosts": 1,
+      "recording_near_boosts": 8,
+      "synthetic_late_boosts": 20,
+      "synthetic_late_near_boosts": 27,
+      "whole_band_boosts": 0,
+      "tone_bin_median_db": 5.477862874518829,
+      "whole_band_median_db": 1.5805558256072185,
+      "synthetic_objective_db": 6.954362899469787,
+      "synthetic_windows_below_minus_half_db": 6
+    }
+  },
+  "frozen_candidate": {
+    "nb_tau": 0.0,
+    "lines": true,
+    "options": {},
+    "name": "gcheck_fade8",
+    "kind": "gated_check",
+    "fade": {
+      "in_blocks": 8,
+      "out_blocks": 8,
+      "shape": "cosine"
+    }
+  },
+  "candidates": [
+    {
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {},
+      "name": "joint_fade8",
+      "kind": "joint",
+      "fade": {
+        "in_blocks": 8,
+        "out_blocks": 8,
+        "shape": "cosine"
+      }
+    },
+    {
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {},
+      "name": "joint_fade8in3out",
+      "kind": "joint",
+      "fade": {
+        "in_blocks": 8,
+        "out_blocks": 3,
+        "shape": "cosine"
+      }
+    },
+    {
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {},
+      "name": "gcheck",
+      "kind": "gated_check",
+      "fade": null
+    },
+    {
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {},
+      "name": "gcheck_fade8",
+      "kind": "gated_check",
+      "fade": {
+        "in_blocks": 8,
+        "out_blocks": 8,
+        "shape": "cosine"
+      }
+    },
+    {
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {},
+      "name": "gcheck_fade8in3out",
+      "kind": "gated_check",
+      "fade": {
+        "in_blocks": 8,
+        "out_blocks": 3,
+        "shape": "cosine"
+      }
+    }
+  ],
+  "comparators": [
+    {
+      "name": "v2",
+      "kind": "v2",
+      "window_seconds": 0.3
+    },
+    {
+      "name": "prefix_ar",
+      "kind": "prefix_ar"
+    },
+    {
+      "name": "online_ar",
+      "kind": "online_ar"
+    },
+    {
+      "name": "bank_wide_lines",
+      "kind": "bank",
+      "nb_tau": 0.0,
+      "lines": true
+    },
+    {
+      "name": "joint",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {}
+    },
+    {
+      "name": "v2_fade8",
+      "kind": "v2",
+      "window_seconds": 0.3,
+      "fade": {
+        "in_blocks": 8,
+        "out_blocks": 8,
+        "shape": "cosine"
+      }
+    }
+  ],
+  "v2": {
+    "selector": {
+      "alpha": 0.01,
+      "acquire": 2,
+      "history": 3,
+      "release": 4
+    },
+    "forecaster": {
+      "window_seconds": 0.3,
+      "release_ratio": 0.5,
+      "release_window_seconds": 0.1
+    },
+    "gate": {
+      "min_gain_db": -1.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": 0
+    }
+  },
+  "primary_question": "Only if a candidate is frozen. On material no study-04 choice used: (1) are the gate's boosts gone, with none added: does the frozen candidate have fewer third-octave boosts (a band 1 dB or more louder) than joint + gate over the late windows of the fresh synthetic scenes, and no more than joint + gate over the fresh recordings (either horizon)? (2) Is the tone gain kept: is its median tone-bin gain at 20 ms, over the fresh acoustic recordings with reference tones, above v2 + gate's? The two parts are answered separately. The other candidates, v2 with the fade, the study-02 fresh recordings and the study-01 test recordings are reported for information and answer nothing.",
+  "decision": "gcheck_fade8 met the development rule and is frozen for the test.",
+  "fresh_recordings": [
+    {
+      "file": "Het_vermalen_van_fruit_in_een_blender_-_SoundCloud_-_marloeskunst.ogg",
+      "title": "File:Het vermalen van fruit in een blender - SoundCloud - marloeskunst.ogg",
+      "sha1": "243559411694e21206e876f275c5762a8d4df5cf",
+      "bytes": 1470687,
+      "seconds": 30.741333333333333,
+      "author": "marloeskunst",
+      "licence": "CC BY 3.0",
+      "acoustic": true,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Het_vermalen_van_fruit_in_een_blender_-_SoundCloud_-_marloeskunst.ogg",
+      "note": "A blender processing fruit: a stationary motor appliance, with possible load changes."
+    },
+    {
+      "file": "Laser_printer,_2015-01-23.ogg",
+      "title": "File:Laser printer, 2015-01-23.ogg",
+      "sha1": "dec5f22537eadec0c5334efc42075a30ae4bdbe3",
+      "bytes": 2717234,
+      "seconds": 80.5035827664399,
+      "author": "Finn \u00c5rup Nielsen",
+      "licence": "CC BY-SA 3.0",
+      "acoustic": true,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Laser_printer%2C_2015-01-23.ogg",
+      "note": "A laser printer in a printer room: stationary office machinery over a longer capture."
+    },
+    {
+      "file": "Photocopie.ogg",
+      "title": "File:Photocopie.ogg",
+      "sha1": "3a0ac4478321a9922600d6bb0c76d8e8a2a5dbae",
+      "bytes": 333222,
+      "seconds": 18.463922902494332,
+      "author": "Luk",
+      "licence": "CC BY-SA 3.0",
+      "acoustic": true,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Photocopie.ogg",
+      "note": "A working Toshiba photocopier: another motor appliance, from a different contributor."
+    },
+    {
+      "file": "Mobile_lift_stage.ogg",
+      "title": "File:Mobile lift stage.ogg",
+      "sha1": "d679ce67ea332fbc2a1bfc98f4ab2883c8f31bce",
+      "bytes": 556413,
+      "seconds": 33.98133333333333,
+      "author": "T.Voekler",
+      "licence": "CC BY-SA 3.0",
+      "acoustic": true,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mobile_lift_stage.ogg",
+      "note": "A mobile lift: machinery from a different setting; motor operation and any steady interval are unverified."
+    },
+    {
+      "file": "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+      "title": "File:Mil Mi-8MTV-1 helicopter starting up.ogg",
+      "sha1": "4f9e24ceb36334fcecc3187f8c781fdfb9ae0cba",
+      "bytes": 620875,
+      "seconds": 19.221833333333333,
+      "author": "H.dav.are",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": true,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+      "note": "Helicopter engine start-up: an explicitly nonstationary stress case for gating, not evidence about steady hum."
+    },
+    {
+      "file": "Wiki_Motor_lancha.wav",
+      "title": "File:Wiki Motor lancha.wav",
+      "sha1": "803beb9ca4e5c25d47289de6f8885302acacf219",
+      "bytes": 4331150,
+      "seconds": 15,
+      "author": "Vega16",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": true,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wiki_Motor_lancha.wav",
+      "note": "A boat motor, according to the title, from a field-recording project in Anapia; operating state is unspecified."
+    },
+    {
+      "file": "Paisaje_sonoro_-_Aves_y_motor_de_auto.wav",
+      "title": "File:Paisaje sonoro - Aves y motor de auto.wav",
+      "sha1": "e4ad879585e30f2660a59c2f421975fe74e82b10",
+      "bytes": 9164598,
+      "seconds": 51.922721088435374,
+      "author": "Luis Alvaz",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": true,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Paisaje_sonoro_-_Aves_y_motor_de_auto.wav",
+      "note": "A running car engine with birds: a mixed acoustic scene; the birds are not a prediction target."
+    },
+    {
+      "file": "Cogwheel_loco_Rigi_vsb.ogg",
+      "title": "File:Cogwheel loco Rigi vsb.ogg",
+      "sha1": "79d1f61c1ef51c4753a846cfcb26a1ec589d04d1",
+      "bytes": 142473,
+      "seconds": 21.716291666666667,
+      "author": "Audrius Meskauskas",
+      "licence": "Public domain",
+      "acoustic": true,
+      "source_page": "https://commons.wikimedia.org/wiki/File:Cogwheel_loco_Rigi_vsb.ogg",
+      "note": "A rack-railway steam locomotive: periodic machinery from another mechanism; in-band tonality is unverified."
+    }
+  ],
+  "fresh_list": "results-tone-forecaster-04/fresh-metadata/fresh_protocol_input.json",
+  "fresh_list_sha256": "d7ce0fe1a3a8d47b10eb9b84a9a0338d493e0bb2381193db99b858f2f4493dd7",
+  "fresh_folder": "external-audio/wikimedia-commons-fresh-04",
+  "fresh_independence": "No selected audio was downloaded, played, decoded or scored in this project before the freeze. Titles and SHA-1s are disjoint from local external audio, local microphone recordings and study 05's reserved recordings. Credited authors are disjoint from earlier source credits, study 02 and study 05, and unique within this list. These are provenance checks based on cached metadata, not proof of independent capture events or representative real-world performance. The shared metadata search with study 05 is disclosed; no audio or outcome is shared. Files with no reference tones remain in the boost and whole-band scores, as required by the existing scoring code.",
+  "fresh_how_chosen": "Selected on 20 Oct 2026 from the already-local 19 Oct Commons metadata cache results-tone-forecaster-05/fresh-metadata/commons_search02.json; no new web request or audio download. Eligibility: 10-150 seconds, no more than 25 MB per file, a recorded free-licence label, identifiable physical machinery, a distinct credited author for each recording, no previously used title/author and no study-05 reserved title/author, and no Work With Sounds collection. Eight files were selected to match studies 02/05 in sample count and cover appliances, a lift and transport machinery. Office/appliance captures are accompanied by an explicit start-up and a mixed engine/bird scene as gating stress cases. This is a purposive metadata sample, not random sampling. Music, speech, generated noise and unidentified ambient recordings were excluded. No outcome or measured spectrum was used in selection. Tonality, operating state, sound quality and usable in-band tones remain unknown.",
+  "fresh_missing_rule": "A recording that cannot be downloaded is reported as missing and is not replaced; a present file whose size or SHA-1 differs stops the test.",
+  "seen_recordings": {
+    "study_01_test": [
+      {
+        "file": "Server_Room_Antti_Luode_.mp3",
+        "sha256": "7e3ddf366a9941208a2c5374659cad64831328d7c7ae82f8a139ff3c35ffbc80",
+        "had_reference_tones_in_real_hums_01": true
+      },
+      {
+        "file": "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+        "sha256": "9251b3f770293da9fb2f63babf189eeb9e4f5f3593971544036103acb80b93c2",
+        "had_reference_tones_in_real_hums_01": false
+      },
+      {
+        "file": "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+        "sha256": "ecb3c01279dc5f1c69b13ff75d694385f6c879e83c0c9b4a041812b6f92428bd",
+        "had_reference_tones_in_real_hums_01": true
+      },
+      {
+        "file": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+        "sha256": "bb9e9358e2b7041cab8f35d93e712727ddccc3490d075ef907b0923bbb0a1861",
+        "had_reference_tones_in_real_hums_01": true
+      },
+      {
+        "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+        "sha256": "bac546ddd06be356facb3dd9c842635afad312412fe058e14d7e2fb07e4f34d0",
+        "had_reference_tones_in_real_hums_01": true
+      },
+      {
+        "file": "Fan_Gravity_Sound_.wav",
+        "sha256": "0710f0d6fcaa7abef3ea2a697ecbae0c0e6703fc0f3998eb1d7e002b5db5c946",
+        "had_reference_tones_in_real_hums_01": true
+      },
+      {
+        "file": "Sistema_de_ventilaci_n.ogg",
+        "sha256": "e99f2f4d3b779701fad26a4958fabc2a9a10010dd614d7a9b4495671ba4ba13c",
+        "had_reference_tones_in_real_hums_01": true
+      },
+      {
+        "file": "Ventilador_de_estudio.ogg",
+        "sha256": "ee0c47862713f722634be55e88320522368afeb359af70370b1d31b2fb5e7878",
+        "had_reference_tones_in_real_hums_01": true
+      },
+      {
+        "file": "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+        "sha256": "f491ebfdea51fdf64f6e76698b0036328a9abdd865b4e259ce4d7b3b24384430",
+        "had_reference_tones_in_real_hums_01": false
+      },
+      {
+        "file": "Sounds_made_by_a_fan.wav",
+        "sha256": "14aeb4433d1f4e113c8f462ec5a1926eafaf572420cb8053a155462137c98707",
+        "had_reference_tones_in_real_hums_01": true
+      }
+    ],
+    "study_02_fresh": [
+      {
+        "file": "Pump.ogg",
+        "title": "File:Pump.ogg",
+        "sha1": "67a50ed90d40716d360517fa5412728c4eb822ee",
+        "bytes": 577517,
+        "seconds": 31.6,
+        "author": "ezwa",
+        "licence": "Public domain",
+        "acoustic": true
+      },
+      {
+        "file": "The_Sound_of_MOXIE_at_Work_on_Mars_(PIA26041).wav",
+        "title": "File:The Sound of MOXIE at Work on Mars (PIA26041).wav",
+        "sha1": "cbbe0a741f6e853715ff4985a6a2f3264a007571",
+        "bytes": 7483896,
+        "seconds": 74.8,
+        "author": "NASA/JPL-Caltech/CNES/IRAP",
+        "licence": "Public domain",
+        "acoustic": true
+      },
+      {
+        "file": "Montreal_Clock_Tower_clock_mechanism.flac",
+        "title": "File:Montreal Clock Tower clock mechanism.flac",
+        "sha1": "6adfeface692fed477977c05b8d4f8fe50b3c05e",
+        "bytes": 7541121,
+        "seconds": 40.8,
+        "author": "Andy Mabbett",
+        "licence": "CC BY-SA 4.0",
+        "acoustic": true
+      },
+      {
+        "file": "Siemens_Combino_Engine_Sound.wav",
+        "title": "File:Siemens Combino Engine Sound.wav",
+        "sha1": "a754053ed389eef7e6da6cddecad707e1518a5f5",
+        "bytes": 21168500,
+        "seconds": 120.0,
+        "author": "Dawidpl4553",
+        "licence": "CC BY-SA 4.0",
+        "acoustic": true
+      },
+      {
+        "file": "Lille_subway_noise.wav",
+        "title": "File:Lille subway noise.wav",
+        "sha1": "5376ed0fbe22dd059ce33e1d96b7b4c53df208a8",
+        "bytes": 285582,
+        "seconds": 17.8,
+        "author": "Dazhoid",
+        "licence": "CC BY-SA 4.0",
+        "acoustic": true
+      },
+      {
+        "file": "Stirling_marble_engine_000.ogg",
+        "title": "File:Stirling marble engine 000.ogg",
+        "sha1": "d31d23b652caf123943cb85131d6407d03de1f14",
+        "bytes": 790697,
+        "seconds": 28.2,
+        "author": "Nkim5706",
+        "licence": "CC BY-SA 3.0",
+        "acoustic": true
+      },
+      {
+        "file": "Buzzing_Speakers.ogg",
+        "title": "File:Buzzing Speakers.ogg",
+        "sha1": "a308007758f44df3ae1f44f50f062192db19a400",
+        "bytes": 225881,
+        "seconds": 17.3,
+        "author": "buzzingspeakers.com",
+        "licence": "CC BY-SA 3.0",
+        "acoustic": true
+      },
+      {
+        "file": "60-hz.wav",
+        "title": "File:60-hz.wav",
+        "sha1": "43bb3a76e976d070677aaf8befb6c2100262dd0b",
+        "bytes": 1927246,
+        "seconds": 20.1,
+        "author": "Rayo v.2.0",
+        "licence": "CC BY-SA 4.0",
+        "acoustic": false,
+        "note": "How it was captured is not stated; it may be a generated tone. Kept out of the acoustic medians; its boosts still count."
+      }
+    ]
+  },
+  "seen_note": "Secondary, not independent: the study-01 test recordings and the study-02 fresh recordings (Buzzing_Speakers.ogg among them). Study 02 and 03 read their results; no study-04 choice was made on them.",
+  "synthetic_test": {
+    "standard_seed": 20261040,
+    "standard_repeats": 3,
+    "standard_scene_seeds": "13100+100*repeat+scene index",
+    "wander_seed": 20261041,
+    "wander_repeats": 3,
+    "wander_scene_seeds": "14100+100*repeat+scene index",
+    "buzz_seed": 20261042,
+    "buzz_repeats": 3,
+    "buzz_scene_seeds": "15100+100*repeat+scene index",
+    "parity": 1,
+    "parity_note": "odd 10 Hz bands (development used even)",
+    "forbidden_within_hz": 2.0,
+    "forbidden_frequencies": [
+      41.2,
+      41.3,
+      44.6,
+      46.9,
+      47.3,
+      47.5,
+      57.6,
+      60.2,
+      62.8,
+      66.2,
+      68.4,
+      74.4,
+      77.0,
+      79.7,
+      82.4,
+      82.6,
+      85.3,
+      87.5,
+      90.1,
+      103.2,
+      106.9,
+      113.7,
+      120.4,
+      122.6,
+      123.0,
+      123.1,
+      123.6,
+      123.7,
+      123.9,
+      126.4,
+      133.9,
+      137.2,
+      141.2,
+      143.5,
+      144.6,
+      147.2,
+      154.8,
+      159.4,
+      160.8,
+      162.02,
+      162.08,
+      162.8,
+      163.5,
+      163.6,
+      164.2,
+      164.7,
+      165.0,
+      165.2,
+      165.9,
+      168.02,
+      168.08,
+      170.6,
+      171.3,
+      180.6,
+      182.5,
+      182.8,
+      183.1,
+      183.2,
+      183.6,
+      183.7,
+      184.1,
+      184.4,
+      184.6,
+      187.4,
+      197.7,
+      203.2,
+      203.4,
+      203.9,
+      205.5,
+      208.9,
+      223.6,
+      231.2,
+      239.1,
+      242.7,
+      243.9,
+      245.2,
+      247.3,
+      255.9,
+      262.37,
+      263.7,
+      264.3,
+      265.6,
+      266.2,
+      267.9,
+      268.37,
+      276.5,
+      282.5,
+      285.6,
+      285.7,
+      285.8,
+      288.4,
+      302.42,
+      302.6,
+      303.2,
+      303.4,
+      303.8,
+      305.2,
+      305.3,
+      306.9,
+      307.3,
+      308.42,
+      311.8,
+      319.6,
+      322.5,
+      323.0,
+      323.8,
+      326.6,
+      327.3
+    ],
+    "not_excluded": "Every frequency a study-04 development scene used is excluded (the study-02 development list and study 03's buzz draws). The study-01, release-study and study-02 synthetic test draws are not excluded: no study-04 choice used them, and excluding the study-02 test draws as well within 2 Hz leaves no room for the standard and drifting scenes in odd bands (checked with a draw before this freeze; study 02 met the same limit with study 01's draws).",
+    "standard_draws": [
+      {
+        "single": [
+          215.1
+        ],
+        "unrelated": [
+          55.3,
+          216.1,
+          233.8
+        ],
+        "appear": [
+          176.0
+        ],
+        "stop": [
+          293.4,
+          315.2
+        ],
+        "weak": [
+          54.0,
+          216.2
+        ],
+        "rumble": [
+          117.5,
+          253.3
+        ],
+        "harmonic": [
+          97.3,
+          194.6,
+          291.9
+        ],
+        "drift": [
+          92.28,
+          292.12
+        ],
+        "change_a": [
+          195.4
+        ],
+        "change_b": [
+          235.6,
+          295.9
+        ]
+      },
+      {
+        "single": [
+          116.1
+        ],
+        "unrelated": [
+          116.8,
+          174.6,
+          215.6
+        ],
+        "appear": [
+          96.0
+        ],
+        "stop": [
+          157.3,
+          252.7
+        ],
+        "weak": [
+          92.9,
+          315.4
+        ],
+        "rumble": [
+          96.7,
+          236.2
+        ],
+        "harmonic": [
+          97.0,
+          194.0,
+          291.0
+        ],
+        "drift": [
+          212.46,
+          292.14
+        ],
+        "change_a": [
+          116.7
+        ],
+        "change_b": [
+          174.9,
+          213.0
+        ]
+      },
+      {
+        "single": [
+          92.6
+        ],
+        "unrelated": [
+          93.8,
+          117.1,
+          175.7
+        ],
+        "appear": [
+          54.4
+        ],
+        "stop": [
+          192.5,
+          315.7
+        ],
+        "weak": [
+          52.7,
+          115.9
+        ],
+        "rumble": [
+          97.1,
+          214.0
+        ],
+        "harmonic": [
+          97.6,
+          195.2,
+          292.8
+        ],
+        "drift": [
+          212.27,
+          292.3
+        ],
+        "change_a": [
+          95.5
+        ],
+        "change_b": [
+          273.1,
+          295.5
+        ]
+      }
+    ],
+    "wander_draws": [
+      {
+        "slow": [
+          95.6,
+          176.1
+        ],
+        "fast": [
+          96.4,
+          214.4
+        ],
+        "mixed": [
+          95.9,
+          176.2,
+          215.5
+        ],
+        "am": [
+          157.0,
+          174.7
+        ]
+      },
+      {
+        "slow": [
+          253.6,
+          316.4
+        ],
+        "fast": [
+          194.8,
+          253.7
+        ],
+        "mixed": [
+          55.3,
+          93.2,
+          215.0
+        ],
+        "am": [
+          96.9,
+          193.5
+        ]
+      },
+      {
+        "slow": [
+          55.2,
+          274.4
+        ],
+        "fast": [
+          233.5,
+          273.6
+        ],
+        "mixed": [
+          95.4,
+          235.5,
+          315.0
+        ],
+        "am": [
+          52.6,
+          93.6
+        ]
+      }
+    ],
+    "buzz_draws": [
+      {
+        "steady": [
+          116.5,
+          174.4
+        ],
+        "wander": [
+          174.0,
+          214.5
+        ],
+        "harmonic": [
+          116.7,
+          233.4
+        ],
+        "am": [
+          217.2,
+          252.6
+        ]
+      },
+      {
+        "steady": [
+          192.9,
+          314.5
+        ],
+        "wander": [
+          117.0,
+          212.6
+        ],
+        "harmonic": [
+          117.5,
+          235.0
+        ],
+        "am": [
+          116.8,
+          273.6
+        ]
+      },
+      {
+        "steady": [
+          116.2,
+          175.5
+        ],
+        "wander": [
+          215.8,
+          252.8
+        ],
+        "harmonic": [
+          117.2,
+          234.4
+        ],
+        "am": [
+          213.2,
+          253.1
+        ]
+      }
+    ]
+  },
+  "code_sha256": {
+    "tone_forecasters.py": "2b0499a2963a1fe245a48f3b28eb3afe369d1a649e9fe8063dedc5e4abc193bd",
+    "forecaster_study.py": "40bf7d2a804ad75bed59af71debde1a1e85c18cb9afa02b17e7f478b81de6386",
+    "tone_selection.py": "45c4e543f096ed82d63a3ce8f8a6d5ac7da181cc76777dbdf7fc8a6c1d35a3cf",
+    "predictors.py": "9a9c0a34939450e983b28ae0237e80b45169ed4171fe63b5f9b21d0a1249e36d",
+    "real_hum_study.py": "82709997723aacc38ebe7881fec4687acb311dc7ae9456611ffc45cbc696e686",
+    "release_study.py": "99902b2d94820ad33b49f9d3cda66df496da7a35d78a6ade5d5268c6bd51bbef",
+    "selection_study.py": "97d66a392b21f57ac4461405cccce6b5dad35e6b904f6d55166de93eb30255bd",
+    "assessment.py": "e8f1585b5e93d31b2414d3584b775a5a190f3c5e2464d9e01c08d7f039d3f7c6",
+    "generalization.py": "68cad42262ea32dceff43481077180577229dcb826b12767987f3ca350d8ce21",
+    "tone_floors.py": "75af3cfc5a326ced876108aefa97066487873c2136b0d28a29587278af0eeedc",
+    "forecaster_study_02.py": "2dd895b877935d1af1d9e409dc45fe0ba2b0f82a96425d3d4ca0f7f4196a2507",
+    "forecaster_report_02.py": "e2472ca8643412caceddeecfd80191a93a064402f6dcdcddd1916466ebaecd37",
+    "tone_cap.py": "071afd02a41a87930f6d3e255980f8f76b2c7179644ad27bf35d0f6d0dcbdbab",
+    "forecaster_study_03.py": "8a19d0b1ae664c58a18dd8914d176625278057cf4f9bd10ee7850d01ee8e593e",
+    "forecaster_report_03.py": "34e81eda0449832249568c89e6154894603fdfeee00961e01b8e3e50a37158dc",
+    "tone_gate_fade.py": "a3220d667b0c95176bc562adb99cb7f56a83863b3e296efec0d46c21efa63439",
+    "forecaster_study_04.py": "a258d0165df5579426c21607a2a20ed86f45737da12825a170b31a9212d23705",
+    "forecaster_report_04.py": "fca9d4901f6f2089e5016c942cd9ce2c986089a0f02905319e8daf249797ec30"
+  }
+}

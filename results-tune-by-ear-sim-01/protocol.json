@@ -1,0 +1,150 @@
+{
+  "kind": "tune_by_ear_simulation",
+  "label": "simulated ear attenuation",
+  "fs": 2000,
+  "block": 20,
+  "seed": 20261017,
+  "rooms_per_recording": 3,
+  "room": {
+    "length_m": [
+      3.0,
+      6.0
+    ],
+    "width_m": [
+      2.5,
+      5.0
+    ],
+    "height_m": [
+      2.4,
+      3.0
+    ],
+    "rt60_s": [
+      0.2,
+      0.5
+    ],
+    "speed_of_sound_m_s": 343.0,
+    "modes_up_to_hz": 1100.0,
+    "taper_hz": [
+      700.0,
+      1000.0
+    ],
+    "fir_taps": 2048,
+    "modelling_delay_samples": 16,
+    "wall_clearance_m": 0.3,
+    "leaky_room_no_zero_mode": true
+  },
+  "geometry": {
+    "ear_height_m": 1.2,
+    "ear_offset_m": 0.08,
+    "laptop_distance_m": 0.45,
+    "laptop_height_m": 0.9,
+    "head_wall_clearance_m": 0.8,
+    "min_source_distance_m": 1.0,
+    "source_height_m": [
+      0.2,
+      2.2
+    ],
+    "ear": "left"
+  },
+  "earphone": {
+    "highpass_hz": [
+      50.0,
+      150.0
+    ],
+    "order": 1,
+    "unreported_delay_ms": 3.0
+  },
+  "noise": {
+    "level_db_re_prefix_band": -20.0,
+    "lowpass_hz": 200.0,
+    "independent_at_mic_and_ear": true
+  },
+  "levels": {
+    "mic_prefix_band_rms": 0.01,
+    "oracle_drive_sum": 0.02,
+    "peak_cap": 0.05
+  },
+  "split": {
+    "tuning_fraction": 0.4,
+    "engine_warmup_s": 1.5,
+    "presentation_preroll_s": 0.2
+  },
+  "tones": {
+    "max_tuned": 3,
+    "min_presence": 0.5,
+    "cluster_hz": 2.0
+  },
+  "tuning": {
+    "listener_sigma_db": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "start_gain_factor_max": 8.0,
+    "gain_range_factor": 32.0,
+    "max_gain_drive_fraction_of_cap": 0.8
+  },
+  "leads_ms": [
+    30.0,
+    200.0
+  ],
+  "robustness": {
+    "head_moves_cm": [
+      0.0,
+      2.0,
+      5.0,
+      10.0,
+      20.0
+    ],
+    "latency_drift_ms": [
+      0.0,
+      1.0,
+      5.0,
+      20.0
+    ]
+  },
+  "evaluation": {
+    "discard_s": 0.5,
+    "band_hz": [
+      35.0,
+      350.0
+    ],
+    "tone_halfwidth_hz": 1.5,
+    "window_s": 1.0,
+    "third_octave_band_indices": [
+      -15,
+      -1
+    ]
+  },
+  "arms": [
+    "untuned_room_phase_ignored",
+    "path_oracle",
+    "tuned_sigma_0.5",
+    "tuned_sigma_1",
+    "tuned_sigma_2"
+  ],
+  "recordings": [
+    "Air_conditioner_hum_2_Gravity_Sound_.wav",
+    "Air_conditioner_hum_Gravity_Sound_.wav",
+    "Fan_Gravity_Sound_.wav",
+    "Inside_of_refrigerator.ogg",
+    "Microwave_oven.ogg",
+    "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+    "Server_Room_Antti_Luode_.mp3",
+    "Sistema_de_ventilaci_n.ogg",
+    "Sounds_made_by_a_fan.wav",
+    "Table_ventilator.ogg",
+    "Ventilador_de_estudio.ogg",
+    "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+    "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+    "WWS_Aircompressor.ogg",
+    "WWS_Bediadiesellocomotiveidling.ogg",
+    "WWS_Compressor.ogg"
+  ],
+  "code_sha256": {
+    "antihum_study.py": "f2342c1e5872c09eef6cc0f2107111e981004c1a6b0c1673ca3f9c93b2e98d8a",
+    "antihum.py": "1091c9026c9c42cf8ce2001e3214b130e462e215be6da669727fb0bf607c6f2a",
+    "tuning.py": "0129e314fe6688c2b5b0f31c5f8d07c93aeadf0c50295a79a641b21f2cdf3d9e"
+  },
+  "frozen_utc": "2026-10-17T15:58:31.542097+00:00"
+}

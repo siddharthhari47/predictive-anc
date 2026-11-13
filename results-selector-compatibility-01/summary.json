@@ -1,0 +1,457 @@
+{
+  "completed_utc": "2026-10-24T17:52:04.303439+00:00",
+  "groups": {
+    "public_acoustic": {
+      "all": {
+        "available_recordings": 71,
+        "recordings_with_pairs": 65,
+        "matched_tone_frames": 597201,
+        "recordings_with_any_mismatch_above_0_1": 65,
+        "recordings_with_p95_mismatch_at_most_0_1": 0,
+        "mismatch_median_across_sources": {
+          "median": 0.4283586469645518,
+          "mean": 0.4242260697415378,
+          "min": 0.15295216364572822,
+          "max": 0.8230533069444791
+        },
+        "mismatch_p95_across_sources": {
+          "median": 1.2304154824784534,
+          "mean": 1.1872985404273384,
+          "min": 0.5480753689543121,
+          "max": 1.807682690651742
+        },
+        "fraction_above_0_1_across_sources": {
+          "median": 0.9374596571756437,
+          "mean": 0.8974368680640316,
+          "min": 0.6233493046628491,
+          "max": 0.9921875
+        },
+        "fraction_above_1_across_sources": {
+          "median": 0.10366140409808532,
+          "mean": 0.1077791208751968,
+          "min": 0.0036991368680641184,
+          "max": 0.29743331655762456
+        },
+        "energy_weighted_rms_mismatch_across_sources": {
+          "median": 0.5443092489082947,
+          "mean": 0.5193200382195535,
+          "min": 0.0841496536577046,
+          "max": 0.9032140538047366
+        },
+        "idealized_db_median_across_sources": {
+          "median": 7.363849237754264,
+          "mean": 8.091292763234318,
+          "min": 1.6914407158735068,
+          "max": 16.308887512137247
+        },
+        "idealized_db_p05_across_sources": {
+          "median": -1.8010357331589781,
+          "mean": -1.3107509488238775,
+          "min": -5.142443936663553,
+          "max": 5.223194536220337
+        },
+        "phase_abs_median_across_sources": {
+          "median": 19.83983332939538,
+          "mean": 20.493823335930216,
+          "min": 6.984482777865538,
+          "max": 49.30596212084547
+        }
+      },
+      "original_scored_suffix": {
+        "available_recordings": 71,
+        "recordings_with_pairs": 62,
+        "matched_tone_frames": 371595,
+        "recordings_with_any_mismatch_above_0_1": 62,
+        "recordings_with_p95_mismatch_at_most_0_1": 0,
+        "mismatch_median_across_sources": {
+          "median": 0.43711572463245113,
+          "mean": 0.45185116866763125,
+          "min": 0.1476243246851749,
+          "max": 0.9436991722410287
+        },
+        "mismatch_p95_across_sources": {
+          "median": 1.250124213539126,
+          "mean": 1.2106314806003107,
+          "min": 0.5124919258481689,
+          "max": 1.8910768870302326
+        },
+        "fraction_above_0_1_across_sources": {
+          "median": 0.9378291077187464,
+          "mean": 0.9025276927433656,
+          "min": 0.6026921406860617,
+          "max": 1.0
+        },
+        "fraction_above_1_across_sources": {
+          "median": 0.11007308603397986,
+          "mean": 0.12496092103208531,
+          "min": 0.0,
+          "max": 0.45098039215686275
+        },
+        "energy_weighted_rms_mismatch_across_sources": {
+          "median": 0.5580284202762604,
+          "mean": 0.5252714344848708,
+          "min": 0.08666861144452755,
+          "max": 0.9708332274180823
+        },
+        "idealized_db_median_across_sources": {
+          "median": 7.188157385499277,
+          "mean": 7.695852482001961,
+          "min": 0.5033285177917554,
+          "max": 16.616841555928552
+        },
+        "idealized_db_p05_across_sources": {
+          "median": -1.9390599697877335,
+          "mean": -1.403118594280515,
+          "min": -5.5341837331055075,
+          "max": 5.806259650359621
+        },
+        "phase_abs_median_across_sources": {
+          "median": 21.41867562366538,
+          "mean": 23.39878481426417,
+          "min": 5.818014727995383,
+          "max": 61.71746644626404
+        }
+      },
+      "near_selector_switch": {
+        "available_recordings": 71,
+        "recordings_with_pairs": 23,
+        "matched_tone_frames": 3053,
+        "recordings_with_any_mismatch_above_0_1": 23,
+        "recordings_with_p95_mismatch_at_most_0_1": 0,
+        "mismatch_median_across_sources": {
+          "median": 0.3222596690109514,
+          "mean": 0.3835606573486173,
+          "min": 0.11836715142348819,
+          "max": 0.8254876635114671
+        },
+        "mismatch_p95_across_sources": {
+          "median": 1.051079486452411,
+          "mean": 1.120894419799812,
+          "min": 0.5303271964516543,
+          "max": 1.805073861881704
+        },
+        "fraction_above_0_1_across_sources": {
+          "median": 0.8837209302325582,
+          "mean": 0.8659504434722195,
+          "min": 0.5952380952380952,
+          "max": 1.0
+        },
+        "fraction_above_1_across_sources": {
+          "median": 0.07142857142857142,
+          "mean": 0.09272725841095195,
+          "min": 0.0,
+          "max": 0.25925925925925924
+        },
+        "energy_weighted_rms_mismatch_across_sources": {
+          "median": 0.37502300670603933,
+          "mean": 0.42036479158318313,
+          "min": 0.14046744279217666,
+          "max": 0.7789888134339792
+        },
+        "idealized_db_median_across_sources": {
+          "median": 9.835882654485083,
+          "mean": 9.357665271627567,
+          "min": 1.66578825320678,
+          "max": 18.53648058684007
+        },
+        "idealized_db_p05_across_sources": {
+          "median": -0.4327111391288346,
+          "mean": -0.5242559749308265,
+          "min": -5.128598072252796,
+          "max": 5.509122012936288
+        },
+        "phase_abs_median_across_sources": {
+          "median": 17.39061415929617,
+          "mean": 18.566298023873617,
+          "min": 5.525126956229958,
+          "max": 35.98075801904815
+        }
+      }
+    },
+    "electrical_controls": {
+      "all": {
+        "available_recordings": 3,
+        "recordings_with_pairs": 3,
+        "matched_tone_frames": 13298,
+        "recordings_with_any_mismatch_above_0_1": 3,
+        "recordings_with_p95_mismatch_at_most_0_1": 1,
+        "mismatch_median_across_sources": {
+          "median": 0.017381417072537743,
+          "mean": 0.02263382221352681,
+          "min": 0.013180468852731409,
+          "max": 0.03733958071531128
+        },
+        "mismatch_p95_across_sources": {
+          "median": 0.5402179141074545,
+          "mean": 0.40687160354516,
+          "min": 0.06838052718982277,
+          "max": 0.6120163693382028
+        },
+        "fraction_above_0_1_across_sources": {
+          "median": 0.31680099194048356,
+          "mean": 0.22105895566926545,
+          "min": 0.019709208400646203,
+          "max": 0.32666666666666666
+        },
+        "fraction_above_1_across_sources": {
+          "median": 0.0008333333333333334,
+          "mean": 0.006890714334917682,
+          "min": 0.0,
+          "max": 0.019838809671419714
+        },
+        "energy_weighted_rms_mismatch_across_sources": {
+          "median": 0.0222446938701684,
+          "mean": 0.020911258437741973,
+          "min": 0.004054477391644352,
+          "max": 0.03643460405141317
+        },
+        "idealized_db_median_across_sources": {
+          "median": 35.19829638548507,
+          "mean": 33.78543938363827,
+          "min": 28.55663894863578,
+          "max": 37.601382816793944
+        },
+        "idealized_db_p05_across_sources": {
+          "median": 5.348621780159149,
+          "mean": 10.971605246067883,
+          "min": 4.264842850988764,
+          "max": 23.301351107055737
+        },
+        "phase_abs_median_across_sources": {
+          "median": 0.8114133562615198,
+          "mean": 1.015982048220901,
+          "min": 0.5843956223854978,
+          "max": 1.652137166015685
+        }
+      },
+      "original_scored_suffix": {
+        "available_recordings": 3,
+        "recordings_with_pairs": 3,
+        "matched_tone_frames": 9418,
+        "recordings_with_any_mismatch_above_0_1": 3,
+        "recordings_with_p95_mismatch_at_most_0_1": 1,
+        "mismatch_median_across_sources": {
+          "median": 0.017469227494006926,
+          "mean": 0.023168488215877355,
+          "min": 0.013493694514421055,
+          "max": 0.03854254263920408
+        },
+        "mismatch_p95_across_sources": {
+          "median": 0.5666953641579768,
+          "mean": 0.41583096764445976,
+          "min": 0.0589872975806689,
+          "max": 0.6218102411947336
+        },
+        "fraction_above_0_1_across_sources": {
+          "median": 0.32908704883227174,
+          "mean": 0.22392637157311945,
+          "min": 0.004813278008298756,
+          "max": 0.3378787878787879
+        },
+        "fraction_above_1_across_sources": {
+          "median": 0.00101010101010101,
+          "mean": 0.007885650560809797,
+          "min": 0.0,
+          "max": 0.02264685067232838
+        },
+        "energy_weighted_rms_mismatch_across_sources": {
+          "median": 0.018710426608502098,
+          "mean": 0.014807249120881888,
+          "min": 0.0029761029504010647,
+          "max": 0.022735217803742498
+        },
+        "idealized_db_median_across_sources": {
+          "median": 35.154525990218744,
+          "mean": 33.6110565830625,
+          "min": 28.281261236547394,
+          "max": 37.39738252242136
+        },
+        "idealized_db_p05_across_sources": {
+          "median": 4.933012410350379,
+          "mean": 11.214902851180733,
+          "min": 4.126865823712916,
+          "max": 24.58483031947891
+        },
+        "phase_abs_median_across_sources": {
+          "median": 0.8446796540912868,
+          "mean": 1.057601396914275,
+          "min": 0.5954443502179895,
+          "max": 1.7326801864335488
+        }
+      },
+      "near_selector_switch": {
+        "available_recordings": 3,
+        "recordings_with_pairs": 0,
+        "matched_tone_frames": 0,
+        "recordings_with_any_mismatch_above_0_1": 0,
+        "recordings_with_p95_mismatch_at_most_0_1": 0
+      }
+    },
+    "personal_controls": {
+      "all": {
+        "available_recordings": 4,
+        "recordings_with_pairs": 2,
+        "matched_tone_frames": 5226,
+        "recordings_with_any_mismatch_above_0_1": 2,
+        "recordings_with_p95_mismatch_at_most_0_1": 0,
+        "mismatch_median_across_sources": {
+          "median": 0.47103649375135154,
+          "mean": 0.47103649375135154,
+          "min": 0.36266144247265253,
+          "max": 0.5794115450300505
+        },
+        "mismatch_p95_across_sources": {
+          "median": 1.267789890898177,
+          "mean": 1.267789890898177,
+          "min": 1.082215703546393,
+          "max": 1.4533640782499613
+        },
+        "fraction_above_0_1_across_sources": {
+          "median": 0.9451277804070042,
+          "mean": 0.9451277804070042,
+          "min": 0.9202555608140085,
+          "max": 0.97
+        },
+        "fraction_above_1_across_sources": {
+          "median": 0.12455205868433507,
+          "mean": 0.12455205868433507,
+          "min": 0.060104117368670135,
+          "max": 0.189
+        },
+        "energy_weighted_rms_mismatch_across_sources": {
+          "median": 0.5315698447471077,
+          "mean": 0.5315698447471077,
+          "min": 0.4775333275995575,
+          "max": 0.5856063618946578
+        },
+        "idealized_db_median_across_sources": {
+          "median": 6.775116769794021,
+          "mean": 6.775116769794021,
+          "min": 4.740261213675797,
+          "max": 8.809972325912245
+        },
+        "idealized_db_p05_across_sources": {
+          "median": -1.9668753262934842,
+          "mean": -1.9668753262934842,
+          "min": -3.2474755263082025,
+          "max": -0.686275126278766
+        },
+        "phase_abs_median_across_sources": {
+          "median": 20.97674652349751,
+          "mean": 20.97674652349751,
+          "min": 18.231809539231747,
+          "max": 23.72168350776327
+        }
+      },
+      "original_scored_suffix": {
+        "available_recordings": 4,
+        "recordings_with_pairs": 2,
+        "matched_tone_frames": 3119,
+        "recordings_with_any_mismatch_above_0_1": 2,
+        "recordings_with_p95_mismatch_at_most_0_1": 0,
+        "mismatch_median_across_sources": {
+          "median": 0.4823342640670923,
+          "mean": 0.4823342640670923,
+          "min": 0.3664437493232324,
+          "max": 0.5982247788109522
+        },
+        "mismatch_p95_across_sources": {
+          "median": 1.2622801933760006,
+          "mean": 1.2622801933760006,
+          "min": 0.981229438892035,
+          "max": 1.5433309478599662
+        },
+        "fraction_above_0_1_across_sources": {
+          "median": 0.943455569608666,
+          "mean": 0.943455569608666,
+          "min": 0.922337870296237,
+          "max": 0.964573268921095
+        },
+        "fraction_above_1_across_sources": {
+          "median": 0.12929409550184431,
+          "mean": 0.12929409550184431,
+          "min": 0.047638110488390714,
+          "max": 0.2109500805152979
+        },
+        "energy_weighted_rms_mismatch_across_sources": {
+          "median": 0.5282162439517124,
+          "mean": 0.5282162439517124,
+          "min": 0.469641423236211,
+          "max": 0.5867910646672139
+        },
+        "idealized_db_median_across_sources": {
+          "median": 6.591283195414988,
+          "mean": 6.591283195414988,
+          "min": 4.462712044148444,
+          "max": 8.719854346681533
+        },
+        "idealized_db_p05_across_sources": {
+          "median": -1.8022962812979624,
+          "mean": -1.8022962812979624,
+          "min": -3.769181300496431,
+          "max": 0.1645887379005063
+        },
+        "phase_abs_median_across_sources": {
+          "median": 22.332116513267543,
+          "mean": 22.332116513267543,
+          "min": 18.29571559941931,
+          "max": 26.368517427115773
+        }
+      },
+      "near_selector_switch": {
+        "available_recordings": 4,
+        "recordings_with_pairs": 0,
+        "matched_tone_frames": 0,
+        "recordings_with_any_mismatch_above_0_1": 0,
+        "recordings_with_p95_mismatch_at_most_0_1": 0
+      }
+    }
+  },
+  "all_counts": {
+    "frames_after_warmup": 434794,
+    "v2_components_before_gate": 681745,
+    "bank_components_before_gate": 976559,
+    "frames_both_gates_open": 428949,
+    "bank_components_without_v2_match": 332963,
+    "eligible_v2_components": 664577,
+    "matched_tone_frames": 615725,
+    "v2_without_bank_match": 48742,
+    "frames_both_gates_closed": 984,
+    "frames_bank_only_gate": 2673,
+    "frames_v2_only_gate": 2188,
+    "ambiguous_matches": 110
+  },
+  "muting_summary": {
+    "30": {
+      "v2": {
+        "no_eligible_menu_intermittent_detections": 34,
+        "all_muted_final_on_off_check": 11,
+        "active_setting": 26,
+        "no_eligible_menu_no_v2_detection": 1
+      },
+      "chooser": {
+        "no_eligible_menu_intermittent_detections": 34,
+        "all_muted_final_on_off_check": 11,
+        "active_setting": 26,
+        "no_eligible_menu_no_v2_detection": 1
+      }
+    },
+    "200": {
+      "v2": {
+        "no_eligible_menu_intermittent_detections": 34,
+        "active_setting": 23,
+        "all_muted_final_on_off_check": 14,
+        "no_eligible_menu_no_v2_detection": 1
+      },
+      "chooser": {
+        "no_eligible_menu_intermittent_detections": 34,
+        "active_setting": 23,
+        "all_muted_final_on_off_check": 14,
+        "no_eligible_menu_no_v2_detection": 1
+      }
+    }
+  },
+  "compressor_tone_comparisons": 9,
+  "no_global_threshold_pass_claim": true,
+  "source_equal_weight_summary": "Across-source medians/means of per-source descriptors; no pooling as independent samples and no statistical acceptance test."
+}

@@ -1,0 +1,82 @@
+{
+  "case_id": "old-009-r0",
+  "source_id": "old-009",
+  "tones": [
+    {
+      "case_id": "old-009-r0",
+      "source_id": "old-009",
+      "tone_index": 0,
+      "frequency": 99.99999094118955,
+      "kept": false,
+      "tuning": {
+        "frequency": 99.99999094118955,
+        "gain": 0.0,
+        "phase_deg": 10.877153678177983,
+        "kept": false,
+        "gain_before_check": 0.35622992741496395,
+        "flags": [
+          "no benefit heard: switched off"
+        ],
+        "questions": 14,
+        "sweeps": 2,
+        "presses": 5,
+        "listening_seconds": 90.0,
+        "oracle_gain": 4.947155638747154,
+        "oracle_phase_deg": 40.77887518361855,
+        "start_gain": 1.389685834127356,
+        "gain_error_db": -22.852503423907574,
+        "phase_error_deg": -29.901721505440577,
+        "predicted_tone_attenuation_db": 0.5534864346104994,
+        "sweep_turns": 3
+      },
+      "oracle": {
+        "identifiable": true,
+        "coefficients": [
+          2.943242878462759,
+          1.9669851257631623
+        ],
+        "gain": 3.540015413327359,
+        "phase_deg": 33.755021097056726,
+        "condition": 1.0006669340667078,
+        "prefix_band_gain_db": 0.3261963021519322,
+        "prefix_off_power": 1.227186665643488e-05,
+        "prefix_residual_power": 1.138389804342539e-05
+      },
+      "prefix_start_s": 1.5,
+      "prefix_end_s": 17.05,
+      "precheck_gain": 0.35622992741496395,
+      "phase_error_deg": -22.877867418878736,
+      "gain_error_db": -19.94549501128409,
+      "projected_component_db": 0.8368305118340962,
+      "idealized_equal_quadrature_db": 0.8370441117697176,
+      "min_gain": 0.04342768231647987,
+      "max_gain": 9.894311277494308,
+      "oracle_in_gain_range": true,
+      "oracle_effect": {
+        "prefix_erb_db": 0.3261963021519322,
+        "suffix_erb_db": 0.18619734054670822,
+        "unclipped_drive_peak": 0.06793097425993576,
+        "clipped_fraction": 0.002955665024630542
+      },
+      "bounded_candidate_gain": 3.540015413327359,
+      "bounded_candidate_effect": {
+        "prefix_erb_db": 0.3261963021519322,
+        "suffix_erb_db": 0.18619734054670822,
+        "unclipped_drive_peak": 0.06793097425993576,
+        "clipped_fraction": 0.002955665024630542
+      },
+      "precheck_effect": {
+        "prefix_erb_db": 0.05542721211198477,
+        "suffix_erb_db": 0.027061187784706803,
+        "unclipped_drive_peak": 0.006827760260608536,
+        "clipped_fraction": 0.0
+      },
+      "final_effect": {
+        "prefix_erb_db": 0.0,
+        "suffix_erb_db": 0.0,
+        "unclipped_drive_peak": 0.0,
+        "clipped_fraction": 0.0
+      }
+    }
+  ]
+}

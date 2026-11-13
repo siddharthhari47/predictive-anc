@@ -1,0 +1,555 @@
+{
+  "created_utc": "2026-10-21T07:34:49.943914+00:00",
+  "reason": "Commons rejects larger originals with HTTP 429 and asks clients to use smaller copies. Original batch stopped after ten completed file receipts. No fresh media decoded or scored.",
+  "source_list_and_model_unchanged": true,
+  "rule": "For every frozen source, prefer the lowest-bandwidth official audio/Opus derivative. For video with no audio-only derivative, use the lowest-bandwidth official VP9/Opus video derivative. If neither exists, retain the original only when <=25 MB. Otherwise exclude. Apply uniformly to all 40 files, not only failed originals.",
+  "provenance": "Original source title, size and SHA-1 must still match the original freeze. Derivative URLs and codec metadata are frozen before downloading derivatives. Commons exposes no derivative reference checksum here: save actual byte count/SHA-256 and HTTP ETag as local receipts, not a claim of verification against an external checksum.",
+  "rate": "One request at a time; >=10 seconds between files. At most two attempts for each nominated derivative, 90 seconds after failure. Do not try other variants on failure.",
+  "limits": "No changed endpoint, source substitution, extra source, tuning, crop selection or waveform-based eligibility. Original protocol and all original download receipts preserved. This is a documented acquisition deviation before any waveform inspection.",
+  "original_protocol_sha256": "f395e6a2b9b20dfc4ac5d9d2b33f07e6f9b4c8ed4ead0240fb333e5b8b974308",
+  "representations": [
+    {
+      "id": "fresh-001",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/German_Pool_hand_dryer_with_AXIAL_fan%21.webm/German_Pool_hand_dryer_with_AXIAL_fan%21.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/German_Pool_hand_dryer_with_AXIAL_fan%21.webm/German_Pool_hand_dryer_with_AXIAL_fan%21.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 298224
+      },
+      "parent_title": "File:German Pool hand dryer with AXIAL fan!.webm",
+      "parent_sha1": "33cfd0fe3e3ab8f660cb346c662b581280790277",
+      "estimated_bytes": 2049582
+    },
+    {
+      "id": "fresh-002",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/WWS_Ventilationfan.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:WWS Ventilationfan.ogg",
+      "parent_sha1": "4b188d0662ed8a4cf9c38ab1252fcfc6376a8a95",
+      "expected_bytes": 854930,
+      "estimated_bytes": 854930
+    },
+    {
+      "id": "fresh-003",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/A_white_washing_machine_manufactured_by_Husqvarna_in_the_1990s.webm/A_white_washing_machine_manufactured_by_Husqvarna_in_the_1990s.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/A_white_washing_machine_manufactured_by_Husqvarna_in_the_1990s.webm/A_white_washing_machine_manufactured_by_Husqvarna_in_the_1990s.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 136,
+        "height": 240,
+        "bandwidth": 119408
+      },
+      "parent_title": "File:A white washing machine manufactured by Husqvarna in the 1990s.webm",
+      "parent_sha1": "cc92c7406f547b58375a7fdebb5cc67bbe4aa70f",
+      "estimated_bytes": 845424
+    },
+    {
+      "id": "fresh-004",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Washing_machine_last_spin.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:Washing machine last spin.ogg",
+      "parent_sha1": "f14f24fad90e1f401be84eed18d41189465710e7",
+      "expected_bytes": 774027,
+      "estimated_bytes": 774027
+    },
+    {
+      "id": "fresh-005",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Peugeot_305%2C_starten%2C_stationair_en_motor_afzetten_-_SoundCloud_-_Beeld_en_Geluid.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+      "parent_sha1": "8bc4f8881328901753b5de74e60d7cc946e48d9d",
+      "expected_bytes": 11967974,
+      "estimated_bytes": 11967974
+    },
+    {
+      "id": "fresh-006",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Denford_Novaturn_CNC_Lathe_%28video%29_-_Nottingham_Hackspace.webm/Denford_Novaturn_CNC_Lathe_%28video%29_-_Nottingham_Hackspace.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Denford_Novaturn_CNC_Lathe_%28video%29_-_Nottingham_Hackspace.webm/Denford_Novaturn_CNC_Lathe_%28video%29_-_Nottingham_Hackspace.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 241352
+      },
+      "parent_title": "File:Denford Novaturn CNC Lathe (video) - Nottingham Hackspace.webm",
+      "parent_sha1": "2b78659b0be5bc5f63451f3c8c8ea914042c5868",
+      "estimated_bytes": 1633018
+    },
+    {
+      "id": "fresh-007",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Kente_weaving_machine_03.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:Kente weaving machine 03.wav",
+      "parent_sha1": "03cd16913c56b0c33269c6c8d6dd656852b5c4e6",
+      "expected_bytes": 16306254,
+      "estimated_bytes": 16306254
+    },
+    {
+      "id": "fresh-008",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/Cavitation_in_a_gear_pump.ogv/Cavitation_in_a_gear_pump.ogv.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/Cavitation_in_a_gear_pump.ogv/Cavitation_in_a_gear_pump.ogv.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 314,
+        "height": 240,
+        "bandwidth": 293456
+      },
+      "parent_title": "File:Cavitation in a gear pump.ogv",
+      "parent_sha1": "0a21c4e1120687bc597b68af1bcb9aa66c0943a4",
+      "estimated_bytes": 2059327
+    },
+    {
+      "id": "fresh-009",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/From_line_shaft_to_power_looms.ogv/From_line_shaft_to_power_looms.ogv.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/From_line_shaft_to_power_looms.ogv/From_line_shaft_to_power_looms.ogv.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 389376
+      },
+      "parent_title": "File:From line shaft to power looms.ogv",
+      "parent_sha1": "8855e7b9d16626cecbe649f98a34ce627fc5bee5",
+      "estimated_bytes": 4306912
+    },
+    {
+      "id": "fresh-010",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Kolbenverdichter_zur_Hummerbeckenbel%C3%BCftung.webm/Kolbenverdichter_zur_Hummerbeckenbel%C3%BCftung.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Kolbenverdichter_zur_Hummerbeckenbel%C3%BCftung.webm/Kolbenverdichter_zur_Hummerbeckenbel%C3%BCftung.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 269128
+      },
+      "parent_title": "File:Kolbenverdichter zur Hummerbeckenbelüftung.webm",
+      "parent_sha1": "c0ede980fb8835d785401fd0ed3ee42cd9ee3985",
+      "estimated_bytes": 1841273
+    },
+    {
+      "id": "fresh-011",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a3/Carding_machine_1913_%E2%80%93_Mueller_Woollen_Cloth_Mill.ogv/Carding_machine_1913_%E2%80%93_Mueller_Woollen_Cloth_Mill.ogv.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a3/Carding_machine_1913_%E2%80%93_Mueller_Woollen_Cloth_Mill.ogv/Carding_machine_1913_%E2%80%93_Mueller_Woollen_Cloth_Mill.ogv.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 399712
+      },
+      "parent_title": "File:Carding machine 1913 – Mueller Woollen Cloth Mill.ogv",
+      "parent_sha1": "e7e1a3a7d70877085e73f317a45b673ab0d2e53a",
+      "estimated_bytes": 6623509
+    },
+    {
+      "id": "fresh-012",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Queen_Street_Mill_Northrop_Towelling_Loom_Pegs_and_lags_Unifill_8600.webm/Queen_Street_Mill_Northrop_Towelling_Loom_Pegs_and_lags_Unifill_8600.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Queen_Street_Mill_Northrop_Towelling_Loom_Pegs_and_lags_Unifill_8600.webm/Queen_Street_Mill_Northrop_Towelling_Loom_Pegs_and_lags_Unifill_8600.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 409904
+      },
+      "parent_title": "File:Queen Street Mill Northrop Towelling Loom Pegs and lags Unifill 8600.webm",
+      "parent_sha1": "6a5deae695863fb6dc1af7a4b8d3af2cedf153e9",
+      "estimated_bytes": 11745440
+    },
+    {
+      "id": "fresh-013",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Saw_blade_sharpening_machine.webm/Saw_blade_sharpening_machine.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Saw_blade_sharpening_machine.webm/Saw_blade_sharpening_machine.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 318560
+      },
+      "parent_title": "File:Saw blade sharpening machine.webm",
+      "parent_sha1": "b7a05c79397a0f54520d5e00ee8fdf7304104479",
+      "estimated_bytes": 5718749
+    },
+    {
+      "id": "fresh-014",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/Vacuum_pump_filter_pour_sample_and_turn_on.webm/Vacuum_pump_filter_pour_sample_and_turn_on.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/Vacuum_pump_filter_pour_sample_and_turn_on.webm/Vacuum_pump_filter_pour_sample_and_turn_on.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 136,
+        "height": 240,
+        "bandwidth": 127984
+      },
+      "parent_title": "File:Vacuum pump filter pour sample and turn on.webm",
+      "parent_sha1": "d291e11261ace5c2f101e7faa86c449999f61ebe",
+      "estimated_bytes": 876514
+    },
+    {
+      "id": "fresh-015",
+      "kind": "unavailable",
+      "reason": "No nominated small representation within the amended limit",
+      "estimated_bytes": 0
+    },
+    {
+      "id": "fresh-016",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Marshall_Sons_%26_Co_traction_engine_powered_timber_saw.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:Marshall Sons & Co traction engine powered timber saw.ogg",
+      "parent_sha1": "ce62b0452b55fa1eae4b24c5ef1e90f1c6093f45",
+      "expected_bytes": 783612,
+      "estimated_bytes": 783612
+    },
+    {
+      "id": "fresh-017",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1d/19th_century_sawmill.webm/19th_century_sawmill.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1d/19th_century_sawmill.webm/19th_century_sawmill.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 320,
+        "height": 240,
+        "bandwidth": 342360
+      },
+      "parent_title": "File:19th century sawmill.webm",
+      "parent_sha1": "f143dd78a0cc2b764bf2456b58d7261d3cc82e42",
+      "estimated_bytes": 4439853
+    },
+    {
+      "id": "fresh-018",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Aurora_generator_test.webm/Aurora_generator_test.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Aurora_generator_test.webm/Aurora_generator_test.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 320,
+        "height": 240,
+        "bandwidth": 213824
+      },
+      "parent_title": "File:Aurora generator test.webm",
+      "parent_sha1": "002be0f94d79141c9c30ba9bb2627c4791c967e9",
+      "estimated_bytes": 1952641
+    },
+    {
+      "id": "fresh-019",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/7/75/Porsche_F218_Engine.flac?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:Porsche F218 Engine.flac",
+      "parent_sha1": "aac3dbe27189f0e3ceb43c487a8d08fe9587bc53",
+      "expected_bytes": 6837091,
+      "estimated_bytes": 6837091
+    },
+    {
+      "id": "fresh-020",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Ferrari_250_GTO%2C_Engine_Sound.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:Ferrari 250 GTO, Engine Sound.ogg",
+      "parent_sha1": "a773b1c1dcdc031c1b9249f26603543bce87b998",
+      "expected_bytes": 564723,
+      "estimated_bytes": 564723
+    },
+    {
+      "id": "fresh-021",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Kiha-E120_Diesel_Yonesaka_Line.wav?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+      "parent_sha1": "32e68f848e5e49c719d987f4a6b876702a7bef3b",
+      "expected_bytes": 17107244,
+      "estimated_bytes": 17107244
+    },
+    {
+      "id": "fresh-022",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Tatra_RT6N1_Engine_Sound.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:Tatra RT6N1 Engine Sound.ogg",
+      "parent_sha1": "55c0fe54b07fdd437322249852a7fcdcf06d8e58",
+      "expected_bytes": 2303507,
+      "estimated_bytes": 2303507
+    },
+    {
+      "id": "fresh-023",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/London_Underground_1995_Stock_train_going_from_Old_Street_station_to_Angel_station.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:London Underground 1995 Stock train going from Old Street station to Angel station.ogg",
+      "parent_sha1": "c1efb42d9004aab502e1e498e8d78e08f6470b6c",
+      "expected_bytes": 7157596,
+      "estimated_bytes": 7157596
+    },
+    {
+      "id": "fresh-024",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Northern_Trains_323239_DMSO_A%2C_on_the_Crewe_to_Manchester_line%2C_Jan_2022.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:Northern Trains 323239 DMSO A, on the Crewe to Manchester line, Jan 2022.ogg",
+      "parent_sha1": "95aee3e825054bf76ce5548ae0fa027a3403d022",
+      "expected_bytes": 5109376,
+      "estimated_bytes": 5109376
+    },
+    {
+      "id": "fresh-025",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/TG16_diesel_locomotive_interior.webm/TG16_diesel_locomotive_interior.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/TG16_diesel_locomotive_interior.webm/TG16_diesel_locomotive_interior.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 320,
+        "height": 240,
+        "bandwidth": 329168
+      },
+      "parent_title": "File:TG16 diesel locomotive interior.webm",
+      "parent_sha1": "3f93f83c987d285b27ce09af8866600df920f924",
+      "estimated_bytes": 6588586
+    },
+    {
+      "id": "fresh-026",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/37/Diesel_Freight_Train_NSW.ogv/Diesel_Freight_Train_NSW.ogv.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/37/Diesel_Freight_Train_NSW.ogv/Diesel_Freight_Train_NSW.ogv.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 320,
+        "height": 240,
+        "bandwidth": 358544
+      },
+      "parent_title": "File:Diesel Freight Train NSW.ogv",
+      "parent_sha1": "4fa24a62a6ad26e1e1d4482ba933d243c953db5d",
+      "estimated_bytes": 3253787
+    },
+    {
+      "id": "fresh-027",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Diesel_tractor_used_for_ploughing.webm/Diesel_tractor_used_for_ploughing.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Diesel_tractor_used_for_ploughing.webm/Diesel_tractor_used_for_ploughing.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 389888
+      },
+      "parent_title": "File:Diesel tractor used for ploughing.webm",
+      "parent_sha1": "da7eeef34e66eddd51c344899a551964be8cbb1a",
+      "estimated_bytes": 3055309
+    },
+    {
+      "id": "fresh-028",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Helicopter_G-GBTV_Twin_Squirrel_flying_over_north_London.webm/Helicopter_G-GBTV_Twin_Squirrel_flying_over_north_London.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Helicopter_G-GBTV_Twin_Squirrel_flying_over_north_London.webm/Helicopter_G-GBTV_Twin_Squirrel_flying_over_north_London.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 287080
+      },
+      "parent_title": "File:Helicopter G-GBTV Twin Squirrel flying over north London.webm",
+      "parent_sha1": "ceb697024ed06568b5ff7746032cbf6091eab97d",
+      "estimated_bytes": 11872480
+    },
+    {
+      "id": "fresh-029",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/0/00/Solaris_Urbino_12_Hybrid_1848%2C_engine_sounds%2C_Szczecin%2C_2022.mp3?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:Solaris Urbino 12 Hybrid 1848, engine sounds, Szczecin, 2022.mp3",
+      "parent_sha1": "3b835ef527babb2c414db70529db6a2e4a51a379",
+      "expected_bytes": 881135,
+      "estimated_bytes": 881135
+    },
+    {
+      "id": "fresh-030",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/Two-wheel_tractor_and_harvesting_potatoes.ogv/Two-wheel_tractor_and_harvesting_potatoes.ogv.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/Two-wheel_tractor_and_harvesting_potatoes.ogv/Two-wheel_tractor_and_harvesting_potatoes.ogv.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 320,
+        "height": 240,
+        "bandwidth": 417608
+      },
+      "parent_title": "File:Two-wheel tractor and harvesting potatoes.ogv",
+      "parent_sha1": "5b2536dc248da621ed64611e9723afc7680f6d88",
+      "estimated_bytes": 7010524
+    },
+    {
+      "id": "fresh-031",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fe/Steam_locomotive_Iron_Horse_of_Otaru_Museum.ogv/Steam_locomotive_Iron_Horse_of_Otaru_Museum.ogv.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fe/Steam_locomotive_Iron_Horse_of_Otaru_Museum.ogv/Steam_locomotive_Iron_Horse_of_Otaru_Museum.ogv.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 320,
+        "height": 240,
+        "bandwidth": 397752
+      },
+      "parent_title": "File:Steam locomotive Iron Horse of Otaru Museum.ogv",
+      "parent_sha1": "00e8527a89e0467af0761da25db9a8e13d6c2b53",
+      "estimated_bytes": 4971900
+    },
+    {
+      "id": "fresh-032",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Steam_locomotive_SJ_S1_1921.webm/Steam_locomotive_SJ_S1_1921.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Steam_locomotive_SJ_S1_1921.webm/Steam_locomotive_SJ_S1_1921.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 320,
+        "height": 240,
+        "bandwidth": 374864
+      },
+      "parent_title": "File:Steam locomotive SJ S1 1921.webm",
+      "parent_sha1": "32a09449552fa524a0fc596d22e9348227b91821",
+      "estimated_bytes": 2500343
+    },
+    {
+      "id": "fresh-033",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Steam_locomotive_P-36_at_the_Pavlovskyi_Posad_station.webm/Steam_locomotive_P-36_at_the_Pavlovskyi_Posad_station.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Steam_locomotive_P-36_at_the_Pavlovskyi_Posad_station.webm/Steam_locomotive_P-36_at_the_Pavlovskyi_Posad_station.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 383424
+      },
+      "parent_title": "File:Steam locomotive P-36 at the Pavlovskyi Posad station.webm",
+      "parent_sha1": "1c27fc4acbe3615bd7b1afb1403e397016339d16",
+      "estimated_bytes": 5450995
+    },
+    {
+      "id": "fresh-034",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Two_Black_Hawk_Helicopters_depart_to_deliver_Relief_Items_to_Babuyan_Claro%2C_Calayan%2C_Cagayan_from_Lal-Lo%2C_Cagayan_-_30_September_2025.webm/Two_Black_Hawk_Helicopters_depart_to_deliver_Relief_Items_to_Babuyan_Claro%2C_Calayan%2C_Cagayan_from_Lal-Lo%2C_Cagayan_-_30_September_2025.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Two_Black_Hawk_Helicopters_depart_to_deliver_Relief_Items_to_Babuyan_Claro%2C_Calayan%2C_Cagayan_from_Lal-Lo%2C_Cagayan_-_30_September_2025.webm/Two_Black_Hawk_Helicopters_depart_to_deliver_Relief_Items_to_Babuyan_Claro%2C_Calayan%2C_Cagayan_from_Lal-Lo%2C_Cagayan_-_30_September_2025.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 224808
+      },
+      "parent_title": "File:Two Black Hawk Helicopters depart to deliver Relief Items to Babuyan Claro, Calayan, Cagayan from Lal-Lo, Cagayan - 30 September 2025.webm",
+      "parent_sha1": "bc268efb0d5f7555ad947fde11259752337d19d8",
+      "estimated_bytes": 1510148
+    },
+    {
+      "id": "fresh-035",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0f/Aerial_view_from_Deccan_Charters_helicopter_at_EXCON_2025_%28BIEC%29_03.webm/Aerial_view_from_Deccan_Charters_helicopter_at_EXCON_2025_%28BIEC%29_03.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0f/Aerial_view_from_Deccan_Charters_helicopter_at_EXCON_2025_%28BIEC%29_03.webm/Aerial_view_from_Deccan_Charters_helicopter_at_EXCON_2025_%28BIEC%29_03.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 399904
+      },
+      "parent_title": "File:Aerial view from Deccan Charters helicopter at EXCON 2025 (BIEC) 03.webm",
+      "parent_sha1": "d0b284577c120fae3fc3cc6d1d260e250725e124",
+      "estimated_bytes": 2554737
+    },
+    {
+      "id": "fresh-036",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e2/Diesel_railcar_Hydra_CD_854_202-9_and_semaphore_signals_at_Nemotice_station_September_2026.webm/Diesel_railcar_Hydra_CD_854_202-9_and_semaphore_signals_at_Nemotice_station_September_2026.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e2/Diesel_railcar_Hydra_CD_854_202-9_and_semaphore_signals_at_Nemotice_station_September_2026.webm/Diesel_railcar_Hydra_CD_854_202-9_and_semaphore_signals_at_Nemotice_station_September_2026.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 364520
+      },
+      "parent_title": "File:Diesel railcar Hydra CD 854 202-9 and semaphore signals at Nemotice station September 2026.webm",
+      "parent_sha1": "ae5bc69e02907a0f48dc34e186594b937e1b7a72",
+      "estimated_bytes": 2831090
+    },
+    {
+      "id": "fresh-037",
+      "kind": "original",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Wurstelprater_Wien_2024_GoKart_Honda.ogg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "parent_title": "File:Wurstelprater Wien 2024 GoKart Honda.ogg",
+      "parent_sha1": "ccc5c256ba77f844074bc2c81e7a95c9e25907a7",
+      "expected_bytes": 10784557,
+      "estimated_bytes": 10784557
+    },
+    {
+      "id": "fresh-038",
+      "kind": "unavailable",
+      "reason": "No nominated small representation within the amended limit",
+      "estimated_bytes": 0
+    },
+    {
+      "id": "fresh-039",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Steam_Locomotive_on_a_Turntable_%E2%80%A2_H%C3%B6yryveturi_Hv1_555_k%C3%A4%C3%A4nt%C3%B6p%C3%B6yd%C3%A4ll%C3%A4.webm/Steam_Locomotive_on_a_Turntable_%E2%80%A2_H%C3%B6yryveturi_Hv1_555_k%C3%A4%C3%A4nt%C3%B6p%C3%B6yd%C3%A4ll%C3%A4.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Steam_Locomotive_on_a_Turntable_%E2%80%A2_H%C3%B6yryveturi_Hv1_555_k%C3%A4%C3%A4nt%C3%B6p%C3%B6yd%C3%A4ll%C3%A4.webm/Steam_Locomotive_on_a_Turntable_%E2%80%A2_H%C3%B6yryveturi_Hv1_555_k%C3%A4%C3%A4nt%C3%B6p%C3%B6yd%C3%A4ll%C3%A4.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 405904
+      },
+      "parent_title": "File:Steam Locomotive on a Turntable • Höyryveturi Hv1 555 kääntöpöydällä.webm",
+      "parent_sha1": "cdebeb90082f9c87f6ace9627d576a2be39dddbd",
+      "estimated_bytes": 16279845
+    },
+    {
+      "id": "fresh-040",
+      "kind": "official_derivative",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4c/Diesel_Engine_connecting_to_a_Train_%28Coupling%29.webm/Diesel_Engine_connecting_to_a_Train_%28Coupling%29.webm.240p.vp9.webm",
+      "metadata": {
+        "src": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4c/Diesel_Engine_connecting_to_a_Train_%28Coupling%29.webm/Diesel_Engine_connecting_to_a_Train_%28Coupling%29.webm.240p.vp9.webm",
+        "type": "video/webm; codecs=\"vp9, opus\"",
+        "transcodekey": "240p.vp9.webm",
+        "width": 426,
+        "height": 240,
+        "bandwidth": 417184
+      },
+      "parent_title": "File:Diesel Engine connecting to a Train (Coupling).webm",
+      "parent_sha1": "292b0de1f788c1e663fe25d2ca8162af7313a311",
+      "estimated_bytes": 11659458
+    }
+  ],
+  "runner_sha256": "ed65fb1b1e2989a5bf0e376375c7d128e8373b7276e0c8f5067c242ad449b9af",
+  "estimated_total_bytes": 205063470,
+  "original_batch_receipts": {
+    "fresh-001.json": "5fd83bebcf30a152cff3ddcd5a1b9caa6652aa73fb1f1f855cbdeb2aedb82e00",
+    "fresh-002.json": "75dfedbdf16f381ab96ac6db3b2edd63b516f326463e80fecdfee3343fda3353",
+    "fresh-003.json": "53a76bf1c3c6e2ab9a31dc7b27f73220944f93ff2eb9c3801d696a829070809b",
+    "fresh-004.json": "463a56af9b77ad9ec06caec57c83dd9768b6ee6a51f0c1f13cba475b0a63fb3f",
+    "fresh-005.json": "ee8aecb723a3f99b173ecc7282767ef92e50b5dd1f131b89d57f9e64978b1aab",
+    "fresh-006.json": "3240763ab59ce06f7a3bca4c10a448b7d0a74045c672bb9e6264a3eee25379fb",
+    "fresh-007.json": "e7828a8ac63f7fcce099e408ef66800db71ad4a237c21283ad4a7b326eb2fb1a",
+    "fresh-008.json": "73403778f7af55f93e068cd1772717e1afa0fb239a8a5737996c794bf5d5ec50",
+    "fresh-009.json": "d654be4dfe7959a554abbdb030bb4defcae489f8ac76d6f4bec0c68ef689bf9b",
+    "fresh-010.json": "30da5159c5835a72fdb72e9fcdfc3f97efb82d530bf685c065f2efa7cbf1b11c"
+  }
+}

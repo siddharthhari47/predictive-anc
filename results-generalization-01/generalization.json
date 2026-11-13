@@ -1,0 +1,1249 @@
+{
+  "protocol": {
+    "kind": "synthetic_reference_frequency_generalization",
+    "fs": 2000,
+    "block": 20,
+    "partition_seconds": [
+      6,
+      2,
+      4
+    ],
+    "horizon_start_ms": [
+      20.0,
+      120.0
+    ],
+    "development_frequencies_hz": [
+      [
+        47.3,
+        113.7,
+        231.2
+      ],
+      [
+        68.4,
+        154.8,
+        302.6
+      ],
+      [
+        90.1,
+        182.5,
+        267.9
+      ]
+    ],
+    "held_out_frequencies_hz": {
+      "single_tone": [
+        57.6
+      ],
+      "unrelated_tones": [
+        103.2,
+        187.4,
+        319.6
+      ],
+      "harmonic_tones": [
+        79.7,
+        159.4,
+        239.1
+      ],
+      "broadband_negative_control": []
+    },
+    "development_seeds": [
+      401,
+      402,
+      403
+    ],
+    "held_out_seeds": [
+      701,
+      702,
+      703,
+      704
+    ],
+    "criterion": "Choose maximum validation 35-350 Hz prediction gain, including zero; require >=6 dB test band gain and full NRMSE <=1.",
+    "adaptation": "Automatic tracker detection and ridge/MLP fitting see only each new source training prefix. No ground-truth frequency labels enter predictors.",
+    "frozen_transfer": "Pooled MLP weights trained only on three development sources. New-source normalization uses its six-second prefix; this is unsupervised calibration, not an uncalibrated zero-shot claim.",
+    "limitations": "Small synthetic diagnostic, one seed per source. No measured acoustic path, playback, or ear residual. No claim of arbitrary-tone universality.",
+    "code_sha256": {
+      "assessment.py": "e8f1585b5e93d31b2414d3584b775a5a190f3c5e2464d9e01c08d7f039d3f7c6",
+      "assessment_report.py": "cc018b4b5d2009e07edfefb14f9b6cd550b31342e35d63b4130e84d697ea95a0",
+      "capture.py": "7c7ad086229a7b2159867028cb657abf70d3bd680d2b8d4b3c232f6407d726d8",
+      "cli.py": "9d2df091eccabc4bdee4eb8d7de418252333766c53ae533185ae3b0287822150",
+      "control.py": "bca6e2ec9324e78af38cc7e8319f4ad1ea12a7c4ced09d0cf1b8a0d08a976576",
+      "experiment.py": "8258c4c7b01d21b45c3b9f73d2bfc0b8d21054839b42bc05eb66083c043b261c",
+      "generalization.py": "68cad42262ea32dceff43481077180577229dcb826b12767987f3ca350d8ce21",
+      "metrics.py": "bb7157f0c12aed8c10c64370dce1b96cf8cf999d9f9a2f167ec8ebeb6e51709f",
+      "predictors.py": "b0139129d0eb57a2a09e183156c262f1642a794b4e6a0b2fddc7aa4ae7263320",
+      "report.py": "fc955594fd436e56193f6b163caafe16093a64f206da53219a2dd7444ef34c0d",
+      "signals.py": "898d1d791e631e7ca8b97d7d1004fe6832150cb90204875de8100530a1a3292f",
+      "source_report.py": "18d77d88ad79482b47f93928ddc8a0eea3878b6c661fa3e487a623f0f27caf78",
+      "source_study.py": "b96682ba15cfca084d4d11bfe0a7030f7506da3af368b8405ddaf6c1dd1f4945",
+      "__init__.py": "6038f282e0b1f79f6b38af5a34e66446e6b5a920532b6f93908650c9e36de856",
+      "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+    },
+    "created_utc": "2026-10-16T09:55:58.783171+00:00"
+  },
+  "model_info": {
+    "frozen_pooled_mlp": {
+      "source_windows": [
+        {
+          "examples": 2323,
+          "last_target": 11997,
+          "source_samples": 12000
+        },
+        {
+          "examples": 2323,
+          "last_target": 11997,
+          "source_samples": 12000
+        },
+        {
+          "examples": 2323,
+          "last_target": 11997,
+          "source_samples": 12000
+        }
+      ],
+      "iterations": 180,
+      "warnings": [
+        "Stochastic Optimizer: Maximum iterations (180) reached and the optimization hasn't converged yet."
+      ]
+    },
+    "single_tone": {
+      "detected_frequencies_hz": [
+        57.604166666666664,
+        312.04166666666663,
+        337.41666666666663
+      ],
+      "normalization": {
+        "mean": -0.0002509918910358254,
+        "scale": 0.31839135405655444,
+        "samples": 12000
+      },
+      "ridge": {
+        "training_origins": 2323,
+        "last_training_target": 11997,
+        "train_end_exclusive": 12000,
+        "fit_seconds": 0.0039884999987407355,
+        "warnings": [],
+        "iterations": 1
+      },
+      "mlp": {
+        "training_origins": 2323,
+        "last_training_target": 11997,
+        "train_end_exclusive": 12000,
+        "fit_seconds": 1.1237098000001424,
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (180) reached and the optimization hasn't converged yet."
+        ],
+        "iterations": 180
+      }
+    },
+    "unrelated_tones": {
+      "detected_frequencies_hz": [
+        103.20833333333333,
+        187.39583333333331,
+        319.60416666666663
+      ],
+      "normalization": {
+        "mean": 0.0001034245607803542,
+        "scale": 0.3756667707795775,
+        "samples": 12000
+      },
+      "ridge": {
+        "training_origins": 2323,
+        "last_training_target": 11997,
+        "train_end_exclusive": 12000,
+        "fit_seconds": 0.00413490000028105,
+        "warnings": [],
+        "iterations": 1
+      },
+      "mlp": {
+        "training_origins": 2323,
+        "last_training_target": 11997,
+        "train_end_exclusive": 12000,
+        "fit_seconds": 1.1208377000002656,
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (180) reached and the optimization hasn't converged yet."
+        ],
+        "iterations": 180
+      }
+    },
+    "harmonic_tones": {
+      "detected_frequencies_hz": [
+        79.70833333333333,
+        159.39583333333331,
+        239.10416666666666
+      ],
+      "normalization": {
+        "mean": 0.0001188915545669279,
+        "scale": 0.37550669210092075,
+        "samples": 12000
+      },
+      "ridge": {
+        "training_origins": 2323,
+        "last_training_target": 11997,
+        "train_end_exclusive": 12000,
+        "fit_seconds": 0.003725799999301671,
+        "warnings": [],
+        "iterations": 1
+      },
+      "mlp": {
+        "training_origins": 2323,
+        "last_training_target": 11997,
+        "train_end_exclusive": 12000,
+        "fit_seconds": 1.1016768000008597,
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (180) reached and the optimization hasn't converged yet."
+        ],
+        "iterations": 180
+      }
+    },
+    "broadband_negative_control": {
+      "detected_frequencies_hz": [
+        161.3125,
+        299.3333333333333,
+        317.1458333333333
+      ],
+      "normalization": {
+        "mean": -0.0010244933978791645,
+        "scale": 0.2978762698824781,
+        "samples": 12000
+      },
+      "ridge": {
+        "training_origins": 2323,
+        "last_training_target": 11997,
+        "train_end_exclusive": 12000,
+        "fit_seconds": 0.003986300000178744,
+        "warnings": [],
+        "iterations": 1
+      },
+      "mlp": {
+        "training_origins": 2323,
+        "last_training_target": 11997,
+        "train_end_exclusive": 12000,
+        "fit_seconds": 1.108794300000227,
+        "warnings": [
+          "Stochastic Optimizer: Maximum iterations (180) reached and the optimization hasn't converged yet."
+        ],
+        "iterations": 180
+      }
+    }
+  },
+  "choices": {
+    "single_tone": {
+      "20.0": "auto_tone_tracker",
+      "120.0": "auto_tone_tracker"
+    },
+    "unrelated_tones": {
+      "20.0": "auto_tone_tracker",
+      "120.0": "auto_tone_tracker"
+    },
+    "harmonic_tones": {
+      "20.0": "auto_tone_tracker",
+      "120.0": "auto_tone_tracker"
+    },
+    "broadband_negative_control": {
+      "20.0": "zero",
+      "120.0": "zero"
+    }
+  },
+  "rows": [
+    {
+      "case": "single_tone",
+      "method": "zero",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0,
+        "mse": 0.9989166796967011,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9941392067397307,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0,
+        "mse": 1.0020369738853734,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9941013923253222,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "single_tone",
+      "method": "auto_tone_tracker",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": true,
+      "validation": {
+        "nrmse": 0.03786049227434923,
+        "mse": 0.0014318640256520015,
+        "prediction_gain_db": 28.436274869967658,
+        "band_prediction_gain_db": 33.20666938588567,
+        "band_nrmse": 0.021860824147102078,
+        "band_power_fraction": 0.9941392067397307,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.03805007988059181,
+        "mse": 0.0014507577271856958,
+        "prediction_gain_db": 28.392888543090862,
+        "band_prediction_gain_db": 33.38760919126679,
+        "band_nrmse": 0.02141014164163032,
+        "band_power_fraction": 0.9941013923253222,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "single_tone",
+      "method": "adapted_ridge_ar",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.03823019214175572,
+        "mse": 0.001459964267015781,
+        "prediction_gain_db": 28.35187038495318,
+        "band_prediction_gain_db": 33.058094531933484,
+        "band_nrmse": 0.022237976830243856,
+        "band_power_fraction": 0.9941392067397307,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.03836851755007465,
+        "mse": 0.0014751418561200415,
+        "prediction_gain_db": 28.320499607516496,
+        "band_prediction_gain_db": 33.24673367430871,
+        "band_nrmse": 0.021760221725391125,
+        "band_power_fraction": 0.9941013923253222,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "single_tone",
+      "method": "adapted_mlp",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.0432133408595538,
+        "mse": 0.0018653698436789106,
+        "prediction_gain_db": 27.287643134417937,
+        "band_prediction_gain_db": 31.914766443170834,
+        "band_nrmse": 0.025366565957674413,
+        "band_power_fraction": 0.9941392067397307,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.04295171012514192,
+        "mse": 0.0018486073127299129,
+        "prediction_gain_db": 27.340390800507155,
+        "band_prediction_gain_db": 32.25867261250264,
+        "band_nrmse": 0.024381833958486792,
+        "band_power_fraction": 0.9941013923253222,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "single_tone",
+      "method": "frozen_pooled_mlp",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.9050394177300354,
+        "mse": 3.6252436239451056,
+        "prediction_gain_db": -5.598079324385372,
+        "band_prediction_gain_db": -5.585258942446945,
+        "band_nrmse": 1.9022296517310833,
+        "band_power_fraction": 0.9941392067397307,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.9039567365601746,
+        "mse": 3.6324353894318193,
+        "prediction_gain_db": -5.593141514512662,
+        "band_prediction_gain_db": -5.5821206515532875,
+        "band_nrmse": 1.901542483011495,
+        "band_power_fraction": 0.9941013923253222,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "single_tone",
+      "method": "zero",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0,
+        "mse": 0.9985473308991923,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9958857850355075,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0,
+        "mse": 1.0011473170344634,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9958286726970281,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "single_tone",
+      "method": "auto_tone_tracker",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": true,
+      "validation": {
+        "nrmse": 0.03765583547973369,
+        "mse": 0.001415902116172165,
+        "prediction_gain_db": 28.483354243041205,
+        "band_prediction_gain_db": 33.30242385770894,
+        "band_nrmse": 0.02162115086332902,
+        "band_power_fraction": 0.9958857850355075,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.03810135471879712,
+        "mse": 0.0014533788067271536,
+        "prediction_gain_db": 28.381191648462174,
+        "band_prediction_gain_db": 33.3791692700927,
+        "band_nrmse": 0.02143095559796245,
+        "band_power_fraction": 0.9958286726970281,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "single_tone",
+      "method": "adapted_ridge_ar",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.037954853900496084,
+        "mse": 0.001438478261723776,
+        "prediction_gain_db": 28.414653519268846,
+        "band_prediction_gain_db": 33.22076538100453,
+        "band_nrmse": 0.021825375830800655,
+        "band_power_fraction": 0.9958857850355075,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.03827927312428111,
+        "mse": 0.0014669839177300905,
+        "prediction_gain_db": 28.3407263505637,
+        "band_prediction_gain_db": 33.32817192646237,
+        "band_nrmse": 0.021557152978933087,
+        "band_power_fraction": 0.9958286726970281,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "single_tone",
+      "method": "adapted_mlp",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.04288832459474712,
+        "mse": 0.001836736334817491,
+        "prediction_gain_db": 27.35321837737199,
+        "band_prediction_gain_db": 32.08558323806313,
+        "band_nrmse": 0.024872580097079777,
+        "band_power_fraction": 0.9958857850355075,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.04292837480154906,
+        "mse": 0.0018449596909792412,
+        "prediction_gain_db": 27.345111057841724,
+        "band_prediction_gain_db": 32.251060363749346,
+        "band_nrmse": 0.024403211381656735,
+        "band_power_fraction": 0.9958286726970281,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "single_tone",
+      "method": "frozen_pooled_mlp",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.5978566985154088,
+        "mse": 2.5494371526443977,
+        "prediction_gain_db": -4.070756552943014,
+        "band_prediction_gain_db": -4.05848116286777,
+        "band_nrmse": 1.5956001120776746,
+        "band_power_fraction": 0.9958857850355075,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.5987085920340829,
+        "mse": 2.558801554471301,
+        "prediction_gain_db": -4.075386180427015,
+        "band_prediction_gain_db": -4.063132062901105,
+        "band_nrmse": 1.596454712363501,
+        "band_power_fraction": 0.9958286726970281,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "unrelated_tones",
+      "method": "zero",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0,
+        "mse": 1.000210532361926,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9817447396809608,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0,
+        "mse": 0.9985365605876044,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9850824421546713,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "unrelated_tones",
+      "method": "auto_tone_tracker",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": true,
+      "validation": {
+        "nrmse": 0.03202080245699115,
+        "mse": 0.0010255476555131545,
+        "prediction_gain_db": 29.891355772958764,
+        "band_prediction_gain_db": 34.67457351091553,
+        "band_nrmse": 0.018461684483537487,
+        "band_power_fraction": 0.9817447396809608,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.03200989688473621,
+        "mse": 0.0010231340095263747,
+        "prediction_gain_db": 29.89431449741238,
+        "band_prediction_gain_db": 34.827662492859034,
+        "band_nrmse": 0.01813914762688474,
+        "band_power_fraction": 0.9850824421546713,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "unrelated_tones",
+      "method": "adapted_ridge_ar",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.0326254828988714,
+        "mse": 0.0010646462296905882,
+        "prediction_gain_db": 29.728861029846833,
+        "band_prediction_gain_db": 34.261252024920104,
+        "band_nrmse": 0.01936142859107793,
+        "band_power_fraction": 0.9817447396809608,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.032798447028358456,
+        "mse": 0.0010741638498988763,
+        "prediction_gain_db": 29.682934383681907,
+        "band_prediction_gain_db": 34.311913582539816,
+        "band_nrmse": 0.019248829286897258,
+        "band_power_fraction": 0.9850824421546713,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "unrelated_tones",
+      "method": "adapted_mlp",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.0395059639556617,
+        "mse": 0.001561049770384073,
+        "prediction_gain_db": 28.066746736828673,
+        "band_prediction_gain_db": 32.33240475509946,
+        "band_nrmse": 0.02417573921404023,
+        "band_power_fraction": 0.9817447396809608,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.03989320577315311,
+        "mse": 0.001589138850059214,
+        "prediction_gain_db": 27.98202125743353,
+        "band_prediction_gain_db": 32.2639165054196,
+        "band_nrmse": 0.024367118466509692,
+        "band_power_fraction": 0.9850824421546713,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "unrelated_tones",
+      "method": "frozen_pooled_mlp",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.3662853219195568,
+        "mse": 1.8671285891437632,
+        "prediction_gain_db": -2.710828054199454,
+        "band_prediction_gain_db": -2.668884658234594,
+        "band_nrmse": 1.359703554626302,
+        "band_power_fraction": 0.9817447396809608,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.3646881225629182,
+        "mse": 1.8596482008322883,
+        "prediction_gain_db": -2.700668234482773,
+        "band_prediction_gain_db": -2.653263702701778,
+        "band_nrmse": 1.3572604219253779,
+        "band_power_fraction": 0.9850824421546713,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "unrelated_tones",
+      "method": "zero",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0,
+        "mse": 0.9995876135462192,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9868204088195475,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0,
+        "mse": 0.9996326569593669,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9829619897209607,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "unrelated_tones",
+      "method": "auto_tone_tracker",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": true,
+      "validation": {
+        "nrmse": 0.032187879909647915,
+        "mse": 0.001035632356128173,
+        "prediction_gain_db": 29.846152553186318,
+        "band_prediction_gain_db": 34.509639360342405,
+        "band_nrmse": 0.01881559827289804,
+        "band_power_fraction": 0.9868204088195475,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.0321325806604083,
+        "mse": 0.0010321234572017095,
+        "prediction_gain_db": 29.861087872058473,
+        "band_prediction_gain_db": 34.73380599044043,
+        "band_nrmse": 0.01833621533233639,
+        "band_power_fraction": 0.9829619897209607,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "unrelated_tones",
+      "method": "adapted_ridge_ar",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.03260041010744598,
+        "mse": 0.001062348460319173,
+        "prediction_gain_db": 29.735538730984477,
+        "band_prediction_gain_db": 34.32737904154991,
+        "band_nrmse": 0.019214586725032363,
+        "band_power_fraction": 0.9868204088195475,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.032652015475028405,
+        "mse": 0.0010657624702872608,
+        "prediction_gain_db": 29.721800126878875,
+        "band_prediction_gain_db": 34.4547742735616,
+        "band_nrmse": 0.01893482459434753,
+        "band_power_fraction": 0.9829619897209607,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "unrelated_tones",
+      "method": "adapted_mlp",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.0408128004274215,
+        "mse": 0.0016649977729307586,
+        "prediction_gain_db": 27.784072089612163,
+        "band_prediction_gain_db": 32.00888480856693,
+        "band_nrmse": 0.025093183330719,
+        "band_power_fraction": 0.9868204088195475,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.03973623154823216,
+        "mse": 0.0015783880747126653,
+        "prediction_gain_db": 28.016266446291223,
+        "band_prediction_gain_db": 32.24274234020526,
+        "band_nrmse": 0.02442659225812493,
+        "band_power_fraction": 0.9829619897209607,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "unrelated_tones",
+      "method": "frozen_pooled_mlp",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.1768740311501962,
+        "mse": 1.3844613165607715,
+        "prediction_gain_db": -1.4145995966457627,
+        "band_prediction_gain_db": -1.3648637415477107,
+        "band_nrmse": 1.1701544460430995,
+        "band_power_fraction": 0.9868204088195475,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.1751991804194781,
+        "mse": 1.3805857787148446,
+        "prediction_gain_db": -1.4022295981317112,
+        "band_prediction_gain_db": -1.365301118981246,
+        "band_nrmse": 1.170213370581149,
+        "band_power_fraction": 0.9829619897209607,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "harmonic_tones",
+      "method": "zero",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0,
+        "mse": 1.0011965335916961,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9997086713853479,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0,
+        "mse": 1.0004693054277414,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9981123209341639,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "harmonic_tones",
+      "method": "auto_tone_tracker",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": true,
+      "validation": {
+        "nrmse": 0.0324196113853498,
+        "mse": 0.0010522887965166675,
+        "prediction_gain_db": 29.783843907091043,
+        "band_prediction_gain_db": 34.284234921136516,
+        "band_nrmse": 0.01931026589736331,
+        "band_power_fraction": 0.9997086713853479,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.032293824888693465,
+        "mse": 0.0010433805604075455,
+        "prediction_gain_db": 29.817610279788465,
+        "band_prediction_gain_db": 34.78883103191755,
+        "band_nrmse": 0.018220422714574032,
+        "band_power_fraction": 0.9981123209341639,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "harmonic_tones",
+      "method": "adapted_ridge_ar",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.03314417135863641,
+        "mse": 0.001099850530390073,
+        "prediction_gain_db": 29.591856687172662,
+        "band_prediction_gain_db": 33.85375132156791,
+        "band_nrmse": 0.020291419708420133,
+        "band_power_fraction": 0.9997086713853479,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.03294183057296486,
+        "mse": 0.001085673474947676,
+        "prediction_gain_db": 29.64504541622892,
+        "band_prediction_gain_db": 34.36906706414884,
+        "band_nrmse": 0.01912258705857605,
+        "band_power_fraction": 0.9981123209341639,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "harmonic_tones",
+      "method": "adapted_mlp",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.038930485753830776,
+        "mse": 0.0015173961666659266,
+        "prediction_gain_db": 28.19420354706387,
+        "band_prediction_gain_db": 32.359270661493355,
+        "band_nrmse": 0.02410107792600326,
+        "band_power_fraction": 0.9997086713853479,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.038580740212784945,
+        "mse": 0.001489172064066212,
+        "prediction_gain_db": 28.272588884156818,
+        "band_prediction_gain_db": 32.76039162930777,
+        "band_nrmse": 0.023013380523614603,
+        "band_power_fraction": 0.9981123209341639,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "harmonic_tones",
+      "method": "frozen_pooled_mlp",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.6133879412531542,
+        "mse": 2.606135250627476,
+        "prediction_gain_db": -4.154776132506018,
+        "band_prediction_gain_db": -4.1297270591559965,
+        "band_nrmse": 1.6087418248345093,
+        "band_power_fraction": 0.9997086713853479,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.6136066041692094,
+        "mse": 2.6049482158907677,
+        "prediction_gain_db": -4.155953253776577,
+        "band_prediction_gain_db": -4.136694222512187,
+        "band_nrmse": 1.6100327534570096,
+        "band_power_fraction": 0.9981123209341639,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "harmonic_tones",
+      "method": "zero",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0,
+        "mse": 1.0006578453928443,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9997312422228166,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0,
+        "mse": 1.0005737955543947,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.9980538299148869,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "harmonic_tones",
+      "method": "auto_tone_tracker",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": true,
+      "validation": {
+        "nrmse": 0.0326925582089011,
+        "mse": 0.0010695064696100945,
+        "prediction_gain_db": 29.711021886624867,
+        "band_prediction_gain_db": 34.13621645472156,
+        "band_nrmse": 0.01964215696482957,
+        "band_power_fraction": 0.9997312422228166,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.03234932918046248,
+        "mse": 0.0010470795634803655,
+        "prediction_gain_db": 29.802694415048812,
+        "band_prediction_gain_db": 34.69143230146044,
+        "band_nrmse": 0.018425886214230244,
+        "band_power_fraction": 0.9980538299148869,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "harmonic_tones",
+      "method": "adapted_ridge_ar",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.03278450011011569,
+        "mse": 0.0010755305151232148,
+        "prediction_gain_db": 29.686628679219375,
+        "band_prediction_gain_db": 34.09214754063617,
+        "band_nrmse": 0.019742067068136145,
+        "band_power_fraction": 0.9997312422228166,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.03290780488562332,
+        "mse": 0.0010835449991505302,
+        "prediction_gain_db": 29.654021726860044,
+        "band_prediction_gain_db": 34.37040085207533,
+        "band_nrmse": 0.019119650857608757,
+        "band_power_fraction": 0.9980538299148869,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "harmonic_tones",
+      "method": "adapted_mlp",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 0.03771629478638807,
+        "mse": 0.0014234546899133324,
+        "prediction_gain_db": 28.469419570477974,
+        "band_prediction_gain_db": 32.828343295351054,
+        "band_nrmse": 0.022834044086780844,
+        "band_power_fraction": 0.9997312422228166,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 0.03738518553471167,
+        "mse": 0.0013984540640249305,
+        "prediction_gain_db": 28.546009194019145,
+        "band_prediction_gain_db": 33.034599530502774,
+        "band_nrmse": 0.02229821114162165,
+        "band_power_fraction": 0.9980538299148869,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": true
+    },
+    {
+      "case": "harmonic_tones",
+      "method": "frozen_pooled_mlp",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.3630975536349939,
+        "mse": 1.8592572404512053,
+        "prediction_gain_db": -2.69053876730651,
+        "band_prediction_gain_db": -2.632930317217388,
+        "band_nrmse": 1.354086835448547,
+        "band_power_fraction": 0.9997312422228166,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.3611110608769479,
+        "mse": 1.853686347066578,
+        "prediction_gain_db": -2.677871264656719,
+        "band_prediction_gain_db": -2.6228405311561893,
+        "band_nrmse": 1.3525148014062185,
+        "band_power_fraction": 0.9980538299148869,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "broadband_negative_control",
+      "method": "zero",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": true,
+      "validation": {
+        "nrmse": 1.0,
+        "mse": 1.0281499992511172,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.3129061315621004,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0,
+        "mse": 1.0305663032854464,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.30987563306963556,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "broadband_negative_control",
+      "method": "auto_tone_tracker",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0052868194700189,
+        "mse": 1.0390500233849382,
+        "prediction_gain_db": -0.04579976929294898,
+        "band_prediction_gain_db": -0.12350754734564386,
+        "band_nrmse": 1.014320907443497,
+        "band_power_fraction": 0.3129061315621004,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0058992769242951,
+        "mse": 1.0427613605297645,
+        "prediction_gain_db": -0.0510899192495686,
+        "band_prediction_gain_db": -0.1358484637653307,
+        "band_nrmse": 1.015763079381882,
+        "band_power_fraction": 0.30987563306963556,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "broadband_negative_control",
+      "method": "adapted_ridge_ar",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0298842673636652,
+        "mse": 1.090519227526076,
+        "prediction_gain_db": -0.2557684772235532,
+        "band_prediction_gain_db": -0.2820994803987846,
+        "band_nrmse": 1.0330110663588246,
+        "band_power_fraction": 0.3129061315621004,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0285230019454537,
+        "mse": 1.0901944218443151,
+        "prediction_gain_db": -0.2442801745045696,
+        "band_prediction_gain_db": -0.33281509858885033,
+        "band_nrmse": 1.039060307512447,
+        "band_power_fraction": 0.30987563306963556,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "broadband_negative_control",
+      "method": "adapted_mlp",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0999785197982639,
+        "mse": 1.2440129128555615,
+        "prediction_gain_db": -0.8276840881796172,
+        "band_prediction_gain_db": -0.7955252028682476,
+        "band_nrmse": 1.0959134579253906,
+        "band_power_fraction": 0.3129061315621004,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.086735096699561,
+        "mse": 1.217091765823049,
+        "prediction_gain_db": -0.722473861259822,
+        "band_prediction_gain_db": -0.8558419441979457,
+        "band_nrmse": 1.1035502086473525,
+        "band_power_fraction": 0.30987563306963556,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "broadband_negative_control",
+      "method": "frozen_pooled_mlp",
+      "horizon_start_ms": 20.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0763664684408043,
+        "mse": 1.1911783719150018,
+        "prediction_gain_db": -0.639203198446071,
+        "band_prediction_gain_db": -1.6017808571211087,
+        "band_nrmse": 1.2025109586666034,
+        "band_power_fraction": 0.3129061315621004,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0752520135390622,
+        "mse": 1.1915066405082169,
+        "prediction_gain_db": -0.6302052899136155,
+        "band_prediction_gain_db": -1.6577916621105193,
+        "band_nrmse": 1.2102903850045243,
+        "band_power_fraction": 0.30987563306963556,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "broadband_negative_control",
+      "method": "zero",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": true,
+      "validation": {
+        "nrmse": 1.0,
+        "mse": 1.0286622710861513,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.31103634517320977,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0,
+        "mse": 1.0247585012225344,
+        "prediction_gain_db": 0.0,
+        "band_prediction_gain_db": 0.0,
+        "band_nrmse": 1.0,
+        "band_power_fraction": 0.3116264954409041,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "broadband_negative_control",
+      "method": "auto_tone_tracker",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0042774749618173,
+        "mse": 1.037481246523288,
+        "prediction_gain_db": -0.03707443936291736,
+        "band_prediction_gain_db": -0.09822930253259173,
+        "band_nrmse": 1.011373255621824,
+        "band_power_fraction": 0.31103634517320977,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0029949270513008,
+        "mse": 1.0309058467968573,
+        "prediction_gain_db": -0.02597472901856014,
+        "band_prediction_gain_db": -0.056430429385674066,
+        "band_nrmse": 1.0065179432136149,
+        "band_power_fraction": 0.3116264954409041,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "broadband_negative_control",
+      "method": "adapted_ridge_ar",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.0269164047653243,
+        "mse": 1.0847833096527244,
+        "prediction_gain_db": -0.23070183344937345,
+        "band_prediction_gain_db": -0.27132028574078026,
+        "band_nrmse": 1.031729894089658,
+        "band_power_fraction": 0.31103634517320977,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.024271689058998,
+        "mse": 1.0751074411185064,
+        "prediction_gain_db": -0.20830337906275978,
+        "band_prediction_gain_db": -0.1864139307473396,
+        "band_nrmse": 1.0216936555569702,
+        "band_power_fraction": 0.3116264954409041,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "broadband_negative_control",
+      "method": "adapted_mlp",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.089684017695435,
+        "mse": 1.221445161800472,
+        "prediction_gain_db": -0.7460116236574893,
+        "band_prediction_gain_db": -0.9170986475421882,
+        "band_nrmse": 1.1113604369403942,
+        "band_power_fraction": 0.31103634517320977,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.093108893744744,
+        "mse": 1.2244706661608045,
+        "prediction_gain_db": -0.7732685564104119,
+        "band_prediction_gain_db": -0.7297294085277385,
+        "band_nrmse": 1.0876432537588907,
+        "band_power_fraction": 0.3116264954409041,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    },
+    {
+      "case": "broadband_negative_control",
+      "method": "frozen_pooled_mlp",
+      "horizon_start_ms": 120.0,
+      "selected_on_validation": false,
+      "validation": {
+        "nrmse": 1.063166116545726,
+        "mse": 1.162719792434686,
+        "prediction_gain_db": -0.5320225409412761,
+        "band_prediction_gain_db": -1.4010047278946527,
+        "band_nrmse": 1.1750334673989553,
+        "band_power_fraction": 0.31103634517320977,
+        "scored_samples": 2740
+      },
+      "test": {
+        "nrmse": 1.0714346542891517,
+        "mse": 1.176394289984696,
+        "prediction_gain_db": -0.5993137801275208,
+        "band_prediction_gain_db": -1.5597097891961023,
+        "band_nrmse": 1.1967005467755356,
+        "band_power_fraction": 0.3116264954409041,
+        "scored_samples": 6740
+      },
+      "numerical_target_met": false
+    }
+  ],
+  "runtime_seconds": 10.308498200000031,
+  "status": "Synthetic reference prediction only; no physical ANC validation."
+}

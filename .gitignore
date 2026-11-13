@@ -1,0 +1,34 @@
+# Python and tools
+.venv/
+__pycache__/
+*.egg-info/
+build/
+.pytest_cache/
+.firecrawl/
+
+# Audio stays on this laptop (CLAUDE.md: existing raw audio stays local).
+# Sid's recordings, then the downloaded Commons audio, keeping only each folder's SOURCES.md.
+recordings/
+external-audio/*
+!external-audio/*/
+external-audio/*/*
+!external-audio/*/SOURCES.md
+*.wav
+*.m4a
+*.mp3
+*.ogg
+*.oga
+*.ogv
+*.flac
+*.opus
+*.webm
+*.aac
+*.mp4
+*.wma
+
+# Array dumps: large, and forecast_arrays.npz holds forecasts of recorded audio
+*.npz
+*.npy
+
+# Bundles
+*.zip

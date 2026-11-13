@@ -1,0 +1,117 @@
+{
+  "source_id": "fresh-025",
+  "case_id": "fresh-025-r0",
+  "file": "File:TG16 diesel locomotive interior.webm",
+  "cohort": "switch_enriched_seen",
+  "room_index": 0,
+  "seed": 3451169257,
+  "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-025.npz",
+  "source_sha256": "1ba336c0926184d309fb33c5cb4aa005563031c3b91a427b51de4415c48f11f5",
+  "reference_tones_hz": [
+    233.25,
+    245.0,
+    256.5,
+    268.25,
+    280.0,
+    291.5
+  ],
+  "geometry": {
+    "dims_m": [
+      3.7110469165998943,
+      3.387807305091601,
+      2.442816523744277
+    ],
+    "rt60_s": 0.49646979576524336,
+    "source": [
+      1.0159462215002106,
+      0.5357393473181936,
+      0.804758086582416
+    ],
+    "mic": [
+      1.373711468901865,
+      1.844216379586367,
+      0.9
+    ],
+    "ears": [
+      [
+        0.9231679054246076,
+        1.9210961390111638,
+        1.2
+      ],
+      [
+        0.9053347440761594,
+        1.91204194902419,
+        1.2
+      ],
+      [
+        0.8785850020534873,
+        1.8984606640437294,
+        1.2
+      ],
+      [
+        0.8340020986823671,
+        1.8758251890762947,
+        1.2
+      ],
+      [
+        0.7448362919401266,
+        1.8305542391414258,
+        1.2
+      ]
+    ],
+    "facing_deg": 0.3970399831132232,
+    "move_direction_deg": 206.9176559587676,
+    "earphone_highpass_hz": 97.34334728943873,
+    "source_to_ear_m": 1.4436195573438513,
+    "source_to_mic_m": 1.359845262628486
+  },
+  "tones": [],
+  "prefix": 71980,
+  "n": 179980,
+  "warm": 3000,
+  "earphone_gain": 1.0,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 32041922,
+      "1.0": 522589985,
+      "2.0": 792486353
+    },
+    "200": {
+      "0.5": 192944904,
+      "1.0": 343568597,
+      "2.0": 917339249
+    }
+  },
+  "switches": {
+    "30": [
+      {
+        "row": 5162,
+        "arrival_sample": 103325,
+        "arrival_seconds": 51.6625,
+        "from_arm": 1,
+        "to_arm": 0,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ],
+    "200": [
+      {
+        "row": 5161,
+        "arrival_sample": 103645,
+        "arrival_seconds": 51.8225,
+        "from_arm": 1,
+        "to_arm": 0,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ]
+  },
+  "prefix_switches": {
+    "30": 1,
+    "200": 1
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\fresh-025-r0.npz",
+  "cache_sha256": "afce55d0ae24d6202330c9910cdff8ef37aab54711e1f388d7e76d97e3c841c8",
+  "v2_trace_matches_original": true
+}

@@ -1,0 +1,641 @@
+{
+  "created_utc": "2026-10-21T07:19:22.924346+00:00",
+  "kind": "post_hoc_changed_endpoint_on_seen_data",
+  "original_results_sha256": "6dff4b3b07c553b389a808f3c9af37ae02ea0862da697f8594b4ffc8f9071c6f",
+  "methods_and_outputs_unchanged": true,
+  "rows": [
+    {
+      "id": "case-000",
+      "file": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "nominal_suffix_seconds": 10.8,
+      "20": {
+        "v2": 4.406139871138181,
+        "causal_L2": 4.406139871138181,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.8581724460020483
+      },
+      "120": {
+        "v2": 3.902292563325709,
+        "causal_L2": 3.902292563325709,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.9496997484148313
+      }
+    },
+    {
+      "id": "case-001",
+      "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+      "nominal_suffix_seconds": 8.4,
+      "20": {
+        "v2": 5.184726955334909,
+        "causal_L2": 5.184726955334909,
+        "paired_L2": 0.0,
+        "paired_oracle": 1.0317442038288522
+      },
+      "120": {
+        "v2": 4.0768216529476655,
+        "causal_L2": 4.88821072532109,
+        "paired_L2": 0.8113890723734247,
+        "paired_oracle": 0.8113890723734247
+      }
+    },
+    {
+      "id": "case-002",
+      "file": "Fan_Gravity_Sound_.wav",
+      "nominal_suffix_seconds": 20.4,
+      "20": {
+        "v2": 0.5195485234564643,
+        "causal_L2": 0.5195485234564643,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.04460673679191007
+      },
+      "120": {
+        "v2": 0.5421416243322583,
+        "causal_L2": 0.5421416243322583,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0283641538629672
+      }
+    },
+    {
+      "id": "case-006",
+      "file": "Microwave_oven.ogg",
+      "nominal_suffix_seconds": 25.7360612244898,
+      "20": {
+        "v2": 3.7339891964390457,
+        "causal_L2": 9.101019411269277,
+        "paired_L2": 5.367030214830232,
+        "paired_oracle": 5.367041023321196
+      },
+      "120": {
+        "v2": 3.6519715689194747,
+        "causal_L2": 10.336426672675296,
+        "paired_L2": 6.6844551037558215,
+        "paired_oracle": 8.519513256569653
+      }
+    },
+    {
+      "id": "case-009",
+      "file": "Server_Room_Antti_Luode_.mp3",
+      "nominal_suffix_seconds": 102.46607596371881,
+      "20": {
+        "v2": 1.226345090084032,
+        "causal_L2": 2.596471422999203,
+        "paired_L2": 1.370126332915171,
+        "paired_oracle": 1.370108523950143
+      },
+      "120": {
+        "v2": 0.816877633724876,
+        "causal_L2": 1.0974786983990126,
+        "paired_L2": 0.2806010646741366,
+        "paired_oracle": 0.35296287440947327
+      }
+    },
+    {
+      "id": "case-010",
+      "file": "Sistema_de_ventilaci_n.ogg",
+      "nominal_suffix_seconds": 22.68,
+      "20": {
+        "v2": 14.800783981272755,
+        "causal_L2": 14.800783981272755,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.026130472324283005
+      },
+      "120": {
+        "v2": 12.116397343373247,
+        "causal_L2": 12.665207502156452,
+        "paired_L2": 0.5488101587832048,
+        "paired_oracle": 0.5506974710214205
+      }
+    },
+    {
+      "id": "case-011",
+      "file": "Sounds_made_by_a_fan.wav",
+      "nominal_suffix_seconds": 33.024,
+      "20": {
+        "v2": 7.828483568830839,
+        "causal_L2": 7.937715556000375,
+        "paired_L2": 0.10923198716953664,
+        "paired_oracle": 0.41380710911749397
+      },
+      "120": {
+        "v2": 6.907769659456115,
+        "causal_L2": 6.6378880809978185,
+        "paired_L2": -0.2698815784582962,
+        "paired_oracle": 0.3200068583531124
+      }
+    },
+    {
+      "id": "case-012",
+      "file": "Table_ventilator.ogg",
+      "nominal_suffix_seconds": 25.57933673469388,
+      "20": {
+        "v2": 6.1063012057389745,
+        "causal_L2": 6.608757619116606,
+        "paired_L2": 0.5024564133776313,
+        "paired_oracle": 0.4912097858571869
+      },
+      "120": {
+        "v2": 4.488531924080911,
+        "causal_L2": 4.920130494383767,
+        "paired_L2": 0.43159857030285576,
+        "paired_oracle": 0.6970065861641661
+      }
+    },
+    {
+      "id": "case-013",
+      "file": "Ventilador_de_estudio.ogg",
+      "nominal_suffix_seconds": 9.4755,
+      "20": {
+        "v2": 2.2546872037155032,
+        "causal_L2": 2.2546872037155032,
+        "paired_L2": 0.0,
+        "paired_oracle": 1.2542265023720014
+      },
+      "120": {
+        "v2": 2.4352791941157608,
+        "causal_L2": 2.4352791941157608,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.005932169797846498
+      }
+    },
+    {
+      "id": "case-015",
+      "file": "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "nominal_suffix_seconds": 29.491500000000002,
+      "20": {
+        "v2": 0.4619639266660766,
+        "causal_L2": 0.4619639266660766,
+        "paired_L2": 0.0,
+        "paired_oracle": 2.171249421355987
+      },
+      "120": {
+        "v2": 0.2510114532857251,
+        "causal_L2": 0.2510114532857251,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.8592280550178384
+      }
+    },
+    {
+      "id": "case-016",
+      "file": "WWS_Aircompressor.ogg",
+      "nominal_suffix_seconds": 37.427956916099774,
+      "20": {
+        "v2": 2.9201650815436295,
+        "causal_L2": 8.073947640221697,
+        "paired_L2": 5.153782558678067,
+        "paired_oracle": 5.452807578714685
+      },
+      "120": {
+        "v2": 3.3847078103247363,
+        "causal_L2": 8.51531485909929,
+        "paired_L2": 5.130607048774554,
+        "paired_oracle": 5.187826789627438
+      }
+    },
+    {
+      "id": "case-017",
+      "file": "WWS_Bediadiesellocomotiveidling.ogg",
+      "nominal_suffix_seconds": 37.2265,
+      "20": {
+        "v2": 1.6687799882182575,
+        "causal_L2": 2.8464791552774527,
+        "paired_L2": 1.1776991670591952,
+        "paired_oracle": 1.2898023252001505
+      },
+      "120": {
+        "v2": 0.47516054020090137,
+        "causal_L2": 2.5091369162054673,
+        "paired_L2": 2.033976376004566,
+        "paired_oracle": 2.0910878823619425
+      }
+    },
+    {
+      "id": "case-018",
+      "file": "WWS_Compressor.ogg",
+      "nominal_suffix_seconds": 75.31657482993197,
+      "20": {
+        "v2": 0.32504490683819803,
+        "causal_L2": 5.9756344611068855,
+        "paired_L2": 5.650589554268687,
+        "paired_oracle": 5.651125258617573
+      },
+      "120": {
+        "v2": -0.042299429759159006,
+        "causal_L2": 5.533421215200049,
+        "paired_L2": 5.575720644959207,
+        "paired_oracle": 5.590856756415071
+      }
+    },
+    {
+      "id": "case-019",
+      "file": "Pump.ogg",
+      "nominal_suffix_seconds": 18.96516326530612,
+      "20": {
+        "v2": 0.8391525333829698,
+        "causal_L2": 0.8391525333829698,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.5220547288216716
+      },
+      "120": {
+        "v2": 0.6164914276672884,
+        "causal_L2": 0.6164914276672884,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.9552305734596209
+      }
+    },
+    {
+      "id": "case-020",
+      "file": "The_Sound_of_MOXIE_at_Work_on_Mars_(PIA26041).wav",
+      "nominal_suffix_seconds": 44.90339999999999,
+      "20": {
+        "v2": 0.0,
+        "causal_L2": 0.0,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0
+      },
+      "120": {
+        "v2": 0.0,
+        "causal_L2": 0.0,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0
+      }
+    },
+    {
+      "id": "case-021",
+      "file": "Montreal_Clock_Tower_clock_mechanism.flac",
+      "nominal_suffix_seconds": 24.497083333333332,
+      "20": {
+        "v2": 7.769341805790634,
+        "causal_L2": 8.0645990533553,
+        "paired_L2": 0.295257247564666,
+        "paired_oracle": 1.060437620049453
+      },
+      "120": {
+        "v2": 5.981641329717872,
+        "causal_L2": 6.534996606723905,
+        "paired_L2": 0.553355277006033,
+        "paired_oracle": 0.8986198215968058
+      }
+    },
+    {
+      "id": "case-023",
+      "file": "Lille_subway_noise.wav",
+      "nominal_suffix_seconds": 10.708125,
+      "20": {
+        "v2": 0.0,
+        "causal_L2": 0.0,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0
+      },
+      "120": {
+        "v2": 0.0,
+        "causal_L2": 0.0,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0
+      }
+    },
+    {
+      "id": "case-025",
+      "file": "Buzzing_Speakers.ogg",
+      "nominal_suffix_seconds": 10.376061224489797,
+      "20": {
+        "v2": 5.0857413711446355,
+        "causal_L2": 5.0857413711446355,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0012173604940173277
+      },
+      "120": {
+        "v2": 4.570598094744661,
+        "causal_L2": 2.9574225106813246,
+        "paired_L2": -1.6131755840633368,
+        "paired_oracle": 0.16005345927722647
+      }
+    },
+    {
+      "id": "case-027",
+      "file": "Het_vermalen_van_fruit_in_een_blender_-_SoundCloud_-_marloeskunst.ogg",
+      "nominal_suffix_seconds": 18.445333333333334,
+      "20": {
+        "v2": 0.03296532966222265,
+        "causal_L2": 0.03296532966222265,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.005849044312617638
+      },
+      "120": {
+        "v2": -0.005321986501018946,
+        "causal_L2": -0.005321986501018946,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.014532270712011025
+      }
+    },
+    {
+      "id": "case-028",
+      "file": "Laser_printer,_2015-01-23.ogg",
+      "nominal_suffix_seconds": 48.302582766439905,
+      "20": {
+        "v2": 0.3905641267720992,
+        "causal_L2": 0.44783807926282393,
+        "paired_L2": 0.057273952490724755,
+        "paired_oracle": 0.13769677433791228
+      },
+      "120": {
+        "v2": 0.39239674509886835,
+        "causal_L2": 0.505091168020252,
+        "paired_L2": 0.11269442292138365,
+        "paired_oracle": 0.12929422925304468
+      }
+    },
+    {
+      "id": "case-029",
+      "file": "Photocopie.ogg",
+      "nominal_suffix_seconds": 11.078922902494332,
+      "20": {
+        "v2": 7.326820400956491,
+        "causal_L2": 7.326820400956491,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0
+      },
+      "120": {
+        "v2": 5.564029425827583,
+        "causal_L2": 5.564029425827583,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.2678593939219285
+      }
+    },
+    {
+      "id": "case-030",
+      "file": "Mobile_lift_stage.ogg",
+      "nominal_suffix_seconds": 20.389333333333333,
+      "20": {
+        "v2": 9.75201240879243,
+        "causal_L2": 9.75201240879243,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0
+      },
+      "120": {
+        "v2": 8.173081761692522,
+        "causal_L2": 7.651387351630397,
+        "paired_L2": -0.5216944100621248,
+        "paired_oracle": 0.0
+      }
+    },
+    {
+      "id": "case-031",
+      "file": "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+      "nominal_suffix_seconds": 11.533333333333331,
+      "20": {
+        "v2": 5.585715028744708,
+        "causal_L2": 5.585715028744708,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0
+      },
+      "120": {
+        "v2": 5.04409470886139,
+        "causal_L2": 5.04409470886139,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0
+      }
+    },
+    {
+      "id": "case-032",
+      "file": "Wiki_Motor_lancha.wav",
+      "nominal_suffix_seconds": 9.0,
+      "20": {
+        "v2": 20.02500285083257,
+        "causal_L2": 20.025292678418797,
+        "paired_L2": 0.0002898275862257549,
+        "paired_oracle": 0.0
+      },
+      "120": {
+        "v2": 14.581129315062604,
+        "causal_L2": 14.57429773523069,
+        "paired_L2": -0.00683157983191407,
+        "paired_oracle": 0.0
+      }
+    },
+    {
+      "id": "case-033",
+      "file": "Ventilador.ogg",
+      "nominal_suffix_seconds": 11.03375283446712,
+      "20": {
+        "v2": 21.794334483075172,
+        "causal_L2": 21.794334483075172,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.6087715983698345
+      },
+      "120": {
+        "v2": 16.21522937929735,
+        "causal_L2": 16.21522937929735,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0
+      }
+    },
+    {
+      "id": "case-034",
+      "file": "Akkuschrauber_–_Cordless_Screwdriver.ogg",
+      "nominal_suffix_seconds": 23.59589569160998,
+      "20": {
+        "v2": 0.3277283528622411,
+        "causal_L2": 0.3277283528622411,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.13042616416001263
+      },
+      "120": {
+        "v2": 0.10988245055819469,
+        "causal_L2": 0.10688363630949133,
+        "paired_L2": -0.002998814248703366,
+        "paired_oracle": 0.0
+      }
+    },
+    {
+      "id": "case-035",
+      "file": "ÖBB_Taurus_Start-Up.ogg",
+      "nominal_suffix_seconds": 10.181843537414967,
+      "20": {
+        "v2": 0.17964295904739846,
+        "causal_L2": 0.17964295904739846,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.08580348230119983
+      },
+      "120": {
+        "v2": 0.04149494775681474,
+        "causal_L2": 0.04149494775681474,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.10877178609774178
+      }
+    },
+    {
+      "id": "case-037",
+      "file": "Elektrorasur-01.ogg",
+      "nominal_suffix_seconds": 12.009465986394558,
+      "20": {
+        "v2": 1.371758160916938,
+        "causal_L2": 1.371758160916938,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.042668526618559355
+      },
+      "120": {
+        "v2": 1.0138102178643613,
+        "causal_L2": 1.0138102178643613,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.25794315062682815
+      }
+    },
+    {
+      "id": "case-038",
+      "file": "Propeller-plane-flying-steady-01.wav",
+      "nominal_suffix_seconds": 12.0,
+      "20": {
+        "v2": 6.743506744002598,
+        "causal_L2": 6.743506744002598,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0
+      },
+      "120": {
+        "v2": 5.704852738911126,
+        "causal_L2": 5.704852738911126,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.0
+      }
+    },
+    {
+      "id": "case-039",
+      "file": "Sewerage_pumping_station_(Starnberg-Leutstetten_PW83)_c.ogg",
+      "nominal_suffix_seconds": 59.93497505668934,
+      "20": {
+        "v2": 0.3335781166906405,
+        "causal_L2": 3.136721275500418,
+        "paired_L2": 2.8031431588097777,
+        "paired_oracle": 2.803143203629342
+      },
+      "120": {
+        "v2": 0.2016206165437992,
+        "causal_L2": 0.2016206165437992,
+        "paired_L2": 0.0,
+        "paired_oracle": 0.2942132582643381
+      }
+    }
+  ],
+  "statistics": {
+    "20": {
+      "paired_L2": {
+        "n": 30,
+        "mean_db": 0.7495626804916639,
+        "median_db": 0.0,
+        "mean_bootstrap95": [
+          0.22130995464932884,
+          1.3947425192805247
+        ],
+        "minimum_db": 0.0,
+        "maximum_db": 5.650589554268687,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 11,
+          "losses": 0,
+          "ties": 19
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 10,
+          "losses": 0,
+          "ties": 20
+        }
+      },
+      "paired_oracle": {
+        "n": 30,
+        "mean_db": 1.027336663018271,
+        "median_db": 0.2757519417277031,
+        "mean_bootstrap95": [
+          0.49571218976482173,
+          1.6629823048932513
+        ],
+        "minimum_db": 0.0,
+        "maximum_db": 5.651125258617573,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 23,
+          "losses": 0,
+          "ties": 7
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 21,
+          "losses": 0,
+          "ties": 9
+        }
+      }
+    },
+    "120": {
+      "paired_L2": {
+        "n": 30,
+        "mean_db": 0.6582875257630272,
+        "median_db": 0.0,
+        "mean_bootstrap95": [
+          0.08469541140664823,
+          1.365843559636243
+        ],
+        "minimum_db": -1.6131755840633368,
+        "maximum_db": 6.6844551037558215,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 10,
+          "losses": 5,
+          "ties": 15
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 10,
+          "losses": 3,
+          "ties": 17
+        }
+      },
+      "paired_oracle": {
+        "n": 30,
+        "mean_db": 0.9683696539199577,
+        "median_db": 0.2629012722743783,
+        "mean_bootstrap95": [
+          0.36161167802284383,
+          1.7365407801191446
+        ],
+        "minimum_db": 0.0,
+        "maximum_db": 8.519513256569653,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 22,
+          "losses": 0,
+          "ties": 8
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 21,
+          "losses": 0,
+          "ties": 9
+        }
+      }
+    }
+  },
+  "nominal_suffix_at_least_20s": {
+    "n": 16,
+    "mean_db": 1.4054119116977306,
+    "median_db": 0.2022446173671013,
+    "mean_bootstrap95": [
+      0.4921544544137679,
+      2.49605967156831
+    ],
+    "minimum_db": 0.0,
+    "maximum_db": 5.650589554268687,
+    "numerical": {
+      "tolerance_db": 1e-08,
+      "wins": 10,
+      "losses": 0,
+      "ties": 6
+    },
+    "practical": {
+      "tolerance_db": 0.01,
+      "wins": 10,
+      "losses": 0,
+      "ties": 6
+    }
+  },
+  "mean_headroom_fraction_20ms": 0.7296173761476408,
+  "limits": "Endpoint and duration subgroup interpreted after scores were known. Duration association is not causal attribution. Source-bootstrap intervals are descriptive on a purposive seen collection."
+}

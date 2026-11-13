@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "predictive-anc-lab"
+version = "0.6.0"
+description = "Causal hum prediction, simulated acoustic control and a capped tune-by-ear prototype; not validated ANC"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11,<2", "matplotlib>=3.8,<4", "scikit-learn>=1.4,<2", "threadpoolctl>=3,<4"]
+
+[project.optional-dependencies]
+capture = ["sounddevice>=0.4.6,<1", "soundfile>=0.12,<1"]
+
+[project.scripts]
+anc-lab = "anc_lab.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["anc_lab*"]

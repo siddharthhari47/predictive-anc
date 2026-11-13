@@ -1,0 +1,116 @@
+{
+  "source_id": "fresh-018",
+  "case_id": "fresh-018-r1",
+  "file": "File:Aurora generator test.webm",
+  "cohort": "switch_enriched_seen",
+  "room_index": 1,
+  "seed": 3007232627,
+  "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-018.npz",
+  "source_sha256": "052ebce7e1e2189d7f2e6b06e12ed8a72367c061c91f9d6f5dddb3b487afa4e7",
+  "reference_tones_hz": [
+    60.0,
+    120.0,
+    180.0,
+    239.75,
+    300.0
+  ],
+  "geometry": {
+    "dims_m": [
+      3.216086824298472,
+      2.7475884594641835,
+      2.967996635078055
+    ],
+    "rt60_s": 0.3653505808992559,
+    "source": [
+      0.398213466657819,
+      2.1049678536487058,
+      1.8820652886574767
+    ],
+    "mic": [
+      1.1943354115031377,
+      1.4645004237843517,
+      0.9
+    ],
+    "ears": [
+      [
+        1.6420583734239314,
+        1.5563924765901933,
+        1.2
+      ],
+      [
+        1.65666274205001,
+        1.5700567518008883,
+        1.2
+      ],
+      [
+        1.6785692949891278,
+        1.5905531646169306,
+        1.2
+      ],
+      [
+        1.7150802165543242,
+        1.624713852643668,
+        1.2
+      ],
+      [
+        1.7881020596847172,
+        1.6930352286971424,
+        1.2
+      ]
+    ],
+    "facing_deg": 201.67909094539294,
+    "move_direction_deg": 43.09529095397718,
+    "earphone_highpass_hz": 57.87959839209786,
+    "source_to_ear_m": 1.5209530414823118,
+    "source_to_mic_m": 1.4172017890784774
+  },
+  "tones": [],
+  "prefix": 58480,
+  "n": 146200,
+  "warm": 3000,
+  "earphone_gain": 1.0,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 1016803624,
+      "1.0": 403740181,
+      "2.0": 979233697
+    },
+    "200": {
+      "0.5": 307023603,
+      "1.0": 779380801,
+      "2.0": 822093085
+    }
+  },
+  "switches": {
+    "30": [
+      {
+        "row": 7059,
+        "arrival_sample": 141265,
+        "arrival_seconds": 70.6325,
+        "from_arm": 1,
+        "to_arm": 2,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ],
+    "200": [
+      {
+        "row": 7056,
+        "arrival_sample": 141545,
+        "arrival_seconds": 70.7725,
+        "from_arm": 1,
+        "to_arm": 2,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ]
+  },
+  "prefix_switches": {
+    "30": 1,
+    "200": 1
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\fresh-018-r1.npz",
+  "cache_sha256": "d831c296b5045fffd77ba10e76901aa1b6d9a017daec8b2863197acb3ce69891",
+  "v2_trace_matches_original": true
+}

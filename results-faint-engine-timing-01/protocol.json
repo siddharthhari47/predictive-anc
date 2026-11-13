@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-11-06T06:31:06.156792+00:00",
+  "kind": "offline_paced_engine_timing",
+  "question": "With the faint-hum detector added, does the app engine still keep time in the real LiveRunner at real-time pace?",
+  "inputs": "The 14 stored 30 s simulated microphones of results-smoother-timing-01, resampled to 48 kHz, as in results-engine-candidate-01/-02. Seen data.",
+  "cases": [
+    "tg-006-r1",
+    "tg-007-r0",
+    "tg-011-r0",
+    "tg-012-r0",
+    "tg-013-r1",
+    "tg-021-r2",
+    "tg-036-r0",
+    "tg-037-r0",
+    "tg-039-r0",
+    "tg-058-r0",
+    "tg-062-r0",
+    "tg-063-r0",
+    "tg-067-r0",
+    "tg-071-r1"
+  ],
+  "chunks": [
+    137,
+    480,
+    1024,
+    1920
+  ],
+  "arms": {
+    "smoothed": "live_engine.SmoothedEngine, the app default (control).",
+    "faint": "live_engine.FaintEngine: smoothed plus CombinedSelector (question)."
+  },
+  "output_rule": "Offline, each arm fed at every chunk size gives the same raw log as the same arm fed whole (rtol 1e-8, atol 1e-9); live runs give that log too. Any offline mismatch stops the study.",
+  "live": "2 repetitions, declared order then reverse, arm order alternates; up to 3 median tones per room at gain 0.1 on both ears; output discarded.",
+  "quiet": "GPU free of compute jobs for two 60 s samples, then three 10 s windows at or under 5.0% CPU and a preflight window; a run is quiet if preflight passed and background CPU during it was at or under 5.0%.",
+  "decision": {
+    "each_arm": "Decided separately with the engine-candidate rule; faint is the question.",
+    "clean": "Every run: no thread error, stale block, limiter stop or glitch, and the log equals offline.",
+    "timing": "Every quiet run: push p99 < 5.0 ms and on_output p99 < 5.0 ms.",
+    "result": "Fail if clean fails or any quiet run misses timing; pass needs at least 24 of 28 quiet runs; otherwise inconclusive."
+  },
+  "caveats": "Thread loops stand in for PortAudio callbacks. 30 s rooms: the faint detector needs about 9 s to lock, so it is fully active for about the last two thirds of each run. The 5 ms bar is a reserve, not a measured need. One run on one machine.",
+  "code_sha256": {
+    "research-tools/faint_engine_timing.py": "783734e739b96b5f73dd6d231c5d84b4927524898daeb9acb54d51516c24a17b",
+    "anc_lab/live_engine.py": "12614333e2e2a93775828f810a51ae6e6b04bcd093372107440e4862ec065364",
+    "anc_lab/faint_tones.py": "b74f1371f91aaf9f2895df35d9b874a56f3de35037a4bdd76bc9976e9f6d67a0",
+    "anc_lab/antihum.py": "599bd571cf75c3c18719540e7c32dd0a1f67f3fca6c761273bce2ce955d01c23",
+    "anc_lab/tone_selection.py": "45c4e543f096ed82d63a3ce8f8a6d5ac7da181cc76777dbdf7fc8a6c1d35a3cf",
+    "anc_lab/tune_app.py": "1e5185b56c0d98ae6afb3c186726d15124d94c63af4e23b2c6cc50e795f7ff4f",
+    "anc_lab/engine_candidate.py": "e4fd1e810b3388419979695f5f01036258c3496ee8ec7513fc4cb7d792ed7916"
+  }
+}

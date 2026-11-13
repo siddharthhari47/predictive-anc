@@ -1,0 +1,15 @@
+# Fixed tuning across predictor switches: prepared experiment
+
+21 October 2026. Preparation only, no new simulated-ear result. The unchanged live app uses v2. No sound is played.
+
+Use the exact 48 room/source draws in `results-tune-by-ear-sim-01/protocol.json` and `tune_by_ear.json`, preserving original files, room impulse responses, earphone transfer functions, noise seeds, calibration prefix and held-out suffix. This is development/integration evidence on already-seen rooms, not independent physical validation.
+
+The current tune-sim consumes per-tone frequencies and complex phasors. The tested L2 chooser emits waveform blocks. An adapter must carry each contributing predictor's frequency/phasor and the actual sample-by-sample crossfade weights; fitting new tones to the mixed waveform would change the method. Preserve frequency association, tone releases, fading-out ghost tones, zero output, and the fact that the bank uses different components at different horizons. Arbitrary live lead times (30/200 ms in the old simulation) also require an explicit, validated horizon mapping; the fresh 20/120 ms waveform pass cannot be silently reused as that mapping.
+
+First establish rendering parity: at the two already tested horizons, the component adapter must reconstruct the stored mixed waveform, including switches, to the same numerical tolerance as the timing adapter. The existing v2 renderer must reproduce the old room results before a candidate comparison is interpreted.
+
+Then run the existing simulated listener's level/phase/check sequence against each method using calibration data only, with identical listener seeds. Freeze each method's tuning for the whole scored suffix. Include (a) v2 tuned on v2, (b) chooser tuned on chooser, and (c) v2 tuning reused while switching to the chooser, explicitly diagnostic. Retuning after each switch is forbidden in the primary comparison. Retain muted/no-tone scenes and report the fraction of scenes that actually switch; absence of switching cannot validate switch robustness.
+
+Report paired simulated-ear tone attenuation and 35–350 Hz attenuation, all third-octave and whole-band amplification, clipping, gate/selector transitions, and fixed one-second windows before/after every switch. Report rooms within source groups, not as independent recordings. Include a deliberately phase/level-biased synthetic switching control and a no-switch control so the check can demonstrate the suspected failure.
+
+Before running the new simulation, freeze implementation hashes, the exact horizon/renderer mapping, listener choices, primary aggregation, minimum switching coverage, harm limits and source-group uncertainty rule. These choices are not yet frozen because the component adapter does not exist. Keep the original simulation intact and use a new result directory. Any discovered harm is a development result; changes require separate validation. Only after timing and this integration check can an engine change be proposed for Sid's review. Physical proof still requires calibrated low-output near-ear measurement.

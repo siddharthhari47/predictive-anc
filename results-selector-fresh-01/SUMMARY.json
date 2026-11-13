@@ -1,0 +1,665 @@
+{
+  "usable_sources": 35,
+  "tonal_sources": 25,
+  "methods": {
+    "zero": {
+      "20": {
+        "n": 25,
+        "mean_db": -4.196488143360214,
+        "median_db": -4.523208751131319,
+        "mean_bootstrap95": [
+          -5.491226758829803,
+          -2.9536531649617257
+        ],
+        "minimum_db": -10.487983060825105,
+        "maximum_db": -0.020897011080355285,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 0,
+          "losses": 25,
+          "ties": 0
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 0,
+          "losses": 25,
+          "ties": 0
+        },
+        "strong_losses_over_1db": [
+          {
+            "id": "fresh-004",
+            "title": "File:Washing machine last spin.ogg",
+            "paired_gain_db": -6.364542792181292
+          },
+          {
+            "id": "fresh-005",
+            "title": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+            "paired_gain_db": -8.801380929505221
+          },
+          {
+            "id": "fresh-006",
+            "title": "File:Denford Novaturn CNC Lathe (video) - Nottingham Hackspace.webm",
+            "paired_gain_db": -8.334635288731478
+          },
+          {
+            "id": "fresh-011",
+            "title": "File:Carding machine 1913 – Mueller Woollen Cloth Mill.ogv",
+            "paired_gain_db": -5.659447693610943
+          },
+          {
+            "id": "fresh-017",
+            "title": "File:19th century sawmill.webm",
+            "paired_gain_db": -7.613366355302663
+          },
+          {
+            "id": "fresh-018",
+            "title": "File:Aurora generator test.webm",
+            "paired_gain_db": -4.694220947604434
+          },
+          {
+            "id": "fresh-019",
+            "title": "File:Porsche F218 Engine.flac",
+            "paired_gain_db": -10.487983060825105
+          },
+          {
+            "id": "fresh-021",
+            "title": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+            "paired_gain_db": -6.343788436311311
+          },
+          {
+            "id": "fresh-024",
+            "title": "File:Northern Trains 323239 DMSO A, on the Crewe to Manchester line, Jan 2022.ogg",
+            "paired_gain_db": -8.136408967568277
+          },
+          {
+            "id": "fresh-029",
+            "title": "File:Solaris Urbino 12 Hybrid 1848, engine sounds, Szczecin, 2022.mp3",
+            "paired_gain_db": -4.523208751131319
+          },
+          {
+            "id": "fresh-034",
+            "title": "File:Two Black Hawk Helicopters depart to deliver Relief Items to Babuyan Claro, Calayan, Cagayan from Lal-Lo, Cagayan - 30 September 2025.webm",
+            "paired_gain_db": -4.656348212082725
+          },
+          {
+            "id": "fresh-035",
+            "title": "File:Aerial view from Deccan Charters helicopter at EXCON 2025 (BIEC) 03.webm",
+            "paired_gain_db": -5.300773512004813
+          },
+          {
+            "id": "fresh-040",
+            "title": "File:Diesel Engine connecting to a Train (Coupling).webm",
+            "paired_gain_db": -9.480805096486634
+          }
+        ],
+        "band_boost_cases": 0,
+        "whole_band_boost_cases": 0,
+        "whole_band_gain_mean_db": 0.0
+      },
+      "120": {
+        "n": 25,
+        "mean_db": -3.419526735593209,
+        "median_db": -3.2655278609411904,
+        "mean_bootstrap95": [
+          -4.58814857905589,
+          -2.3321055003811946
+        ],
+        "minimum_db": -10.224257740643413,
+        "maximum_db": 0.007099635316272479,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 1,
+          "losses": 24,
+          "ties": 0
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 0,
+          "losses": 24,
+          "ties": 1
+        },
+        "strong_losses_over_1db": [
+          {
+            "id": "fresh-004",
+            "title": "File:Washing machine last spin.ogg",
+            "paired_gain_db": -6.255959985459524
+          },
+          {
+            "id": "fresh-005",
+            "title": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+            "paired_gain_db": -5.4082429018138125
+          },
+          {
+            "id": "fresh-006",
+            "title": "File:Denford Novaturn CNC Lathe (video) - Nottingham Hackspace.webm",
+            "paired_gain_db": -7.6956766857205485
+          },
+          {
+            "id": "fresh-011",
+            "title": "File:Carding machine 1913 – Mueller Woollen Cloth Mill.ogv",
+            "paired_gain_db": -4.179524710682677
+          },
+          {
+            "id": "fresh-017",
+            "title": "File:19th century sawmill.webm",
+            "paired_gain_db": -5.498701196847001
+          },
+          {
+            "id": "fresh-018",
+            "title": "File:Aurora generator test.webm",
+            "paired_gain_db": -3.5484031051744864
+          },
+          {
+            "id": "fresh-019",
+            "title": "File:Porsche F218 Engine.flac",
+            "paired_gain_db": -10.224257740643413
+          },
+          {
+            "id": "fresh-021",
+            "title": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+            "paired_gain_db": -5.732824646275967
+          },
+          {
+            "id": "fresh-024",
+            "title": "File:Northern Trains 323239 DMSO A, on the Crewe to Manchester line, Jan 2022.ogg",
+            "paired_gain_db": -7.073436349272236
+          },
+          {
+            "id": "fresh-029",
+            "title": "File:Solaris Urbino 12 Hybrid 1848, engine sounds, Szczecin, 2022.mp3",
+            "paired_gain_db": -4.002933590271817
+          },
+          {
+            "id": "fresh-034",
+            "title": "File:Two Black Hawk Helicopters depart to deliver Relief Items to Babuyan Claro, Calayan, Cagayan from Lal-Lo, Cagayan - 30 September 2025.webm",
+            "paired_gain_db": -3.2655278609411904
+          },
+          {
+            "id": "fresh-035",
+            "title": "File:Aerial view from Deccan Charters helicopter at EXCON 2025 (BIEC) 03.webm",
+            "paired_gain_db": -4.749969614423221
+          },
+          {
+            "id": "fresh-040",
+            "title": "File:Diesel Engine connecting to a Train (Coupling).webm",
+            "paired_gain_db": -7.891323653842546
+          }
+        ],
+        "band_boost_cases": 0,
+        "whole_band_boost_cases": 0,
+        "whole_band_gain_mean_db": 0.0
+      }
+    },
+    "v2_gated": {
+      "20": {
+        "n": 25,
+        "mean_db": 0.0,
+        "median_db": 0.0,
+        "mean_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "minimum_db": 0.0,
+        "maximum_db": 0.0,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 0,
+          "losses": 0,
+          "ties": 25
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 0,
+          "losses": 0,
+          "ties": 25
+        },
+        "strong_losses_over_1db": [],
+        "band_boost_cases": 7,
+        "whole_band_boost_cases": 0,
+        "whole_band_gain_mean_db": 0.8954856966867037
+      },
+      "120": {
+        "n": 25,
+        "mean_db": 0.0,
+        "median_db": 0.0,
+        "mean_bootstrap95": [
+          0.0,
+          0.0
+        ],
+        "minimum_db": 0.0,
+        "maximum_db": 0.0,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 0,
+          "losses": 0,
+          "ties": 25
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 0,
+          "losses": 0,
+          "ties": 25
+        },
+        "strong_losses_over_1db": [],
+        "band_boost_cases": 8,
+        "whole_band_boost_cases": 0,
+        "whole_band_gain_mean_db": 0.6886557407966432
+      }
+    },
+    "joint_gated": {
+      "20": {
+        "n": 25,
+        "mean_db": -0.30595315516479427,
+        "median_db": -0.011367920484642621,
+        "mean_bootstrap95": [
+          -1.1759716610229136,
+          0.4940689164965008
+        ],
+        "minimum_db": -5.767299868285631,
+        "maximum_db": 3.603196099858147,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 12,
+          "losses": 13,
+          "ties": 0
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 12,
+          "losses": 13,
+          "ties": 0
+        },
+        "strong_losses_over_1db": [
+          {
+            "id": "fresh-004",
+            "title": "File:Washing machine last spin.ogg",
+            "paired_gain_db": -2.598444397731264
+          },
+          {
+            "id": "fresh-005",
+            "title": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+            "paired_gain_db": -4.560871965826093
+          },
+          {
+            "id": "fresh-017",
+            "title": "File:19th century sawmill.webm",
+            "paired_gain_db": -5.767299868285631
+          },
+          {
+            "id": "fresh-019",
+            "title": "File:Porsche F218 Engine.flac",
+            "paired_gain_db": -1.837420956933462
+          },
+          {
+            "id": "fresh-029",
+            "title": "File:Solaris Urbino 12 Hybrid 1848, engine sounds, Szczecin, 2022.mp3",
+            "paired_gain_db": -4.123407567193122
+          },
+          {
+            "id": "fresh-034",
+            "title": "File:Two Black Hawk Helicopters depart to deliver Relief Items to Babuyan Claro, Calayan, Cagayan from Lal-Lo, Cagayan - 30 September 2025.webm",
+            "paired_gain_db": -1.296914971739242
+          }
+        ],
+        "band_boost_cases": 2,
+        "whole_band_boost_cases": 0,
+        "whole_band_gain_mean_db": 0.8544557455430739
+      },
+      "120": {
+        "n": 25,
+        "mean_db": -0.532261064079666,
+        "median_db": -0.01201637717408266,
+        "mean_bootstrap95": [
+          -1.3272876305225014,
+          0.2015643189196583
+        ],
+        "minimum_db": -5.176945198083854,
+        "maximum_db": 3.387900881374076,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 11,
+          "losses": 14,
+          "ties": 0
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 10,
+          "losses": 14,
+          "ties": 1
+        },
+        "strong_losses_over_1db": [
+          {
+            "id": "fresh-004",
+            "title": "File:Washing machine last spin.ogg",
+            "paired_gain_db": -1.1429431346481866
+          },
+          {
+            "id": "fresh-005",
+            "title": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+            "paired_gain_db": -3.2805847473482994
+          },
+          {
+            "id": "fresh-017",
+            "title": "File:19th century sawmill.webm",
+            "paired_gain_db": -4.6524878281801145
+          },
+          {
+            "id": "fresh-019",
+            "title": "File:Porsche F218 Engine.flac",
+            "paired_gain_db": -5.176945198083854
+          },
+          {
+            "id": "fresh-021",
+            "title": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+            "paired_gain_db": -2.025066664644819
+          },
+          {
+            "id": "fresh-029",
+            "title": "File:Solaris Urbino 12 Hybrid 1848, engine sounds, Szczecin, 2022.mp3",
+            "paired_gain_db": -3.7669135226249817
+          }
+        ],
+        "band_boost_cases": 2,
+        "whole_band_boost_cases": 0,
+        "whole_band_gain_mean_db": 0.6584026383434362
+      }
+    },
+    "fade0.1_linear_gated": {
+      "20": {
+        "n": 25,
+        "mean_db": -0.01345452009567353,
+        "median_db": 0.07440901068067696,
+        "mean_bootstrap95": [
+          -0.8739610246539888,
+          0.7981240443810963
+        ],
+        "minimum_db": -4.724485387711198,
+        "maximum_db": 4.261283950467446,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 13,
+          "losses": 12,
+          "ties": 0
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 13,
+          "losses": 12,
+          "ties": 0
+        },
+        "strong_losses_over_1db": [
+          {
+            "id": "fresh-004",
+            "title": "File:Washing machine last spin.ogg",
+            "paired_gain_db": -2.3056116388174894
+          },
+          {
+            "id": "fresh-005",
+            "title": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+            "paired_gain_db": -4.292774979673431
+          },
+          {
+            "id": "fresh-017",
+            "title": "File:19th century sawmill.webm",
+            "paired_gain_db": -4.724485387711198
+          },
+          {
+            "id": "fresh-029",
+            "title": "File:Solaris Urbino 12 Hybrid 1848, engine sounds, Szczecin, 2022.mp3",
+            "paired_gain_db": -4.330056384812146
+          },
+          {
+            "id": "fresh-034",
+            "title": "File:Two Black Hawk Helicopters depart to deliver Relief Items to Babuyan Claro, Calayan, Cagayan from Lal-Lo, Cagayan - 30 September 2025.webm",
+            "paired_gain_db": -1.3557101664280795
+          }
+        ],
+        "band_boost_cases": 1,
+        "whole_band_boost_cases": 0,
+        "whole_band_gain_mean_db": 0.9142404903328744
+      },
+      "120": {
+        "n": 25,
+        "mean_db": -0.4574874167085375,
+        "median_db": -0.10136225953402866,
+        "mean_bootstrap95": [
+          -1.2494949688200292,
+          0.2787042898010792
+        ],
+        "minimum_db": -5.559945532742015,
+        "maximum_db": 3.519081997972047,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 11,
+          "losses": 14,
+          "ties": 0
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 10,
+          "losses": 14,
+          "ties": 1
+        },
+        "strong_losses_over_1db": [
+          {
+            "id": "fresh-005",
+            "title": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+            "paired_gain_db": -3.3086812875542644
+          },
+          {
+            "id": "fresh-017",
+            "title": "File:19th century sawmill.webm",
+            "paired_gain_db": -4.0916391314292415
+          },
+          {
+            "id": "fresh-019",
+            "title": "File:Porsche F218 Engine.flac",
+            "paired_gain_db": -5.559945532742015
+          },
+          {
+            "id": "fresh-021",
+            "title": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+            "paired_gain_db": -2.0559695365235298
+          },
+          {
+            "id": "fresh-029",
+            "title": "File:Solaris Urbino 12 Hybrid 1848, engine sounds, Szczecin, 2022.mp3",
+            "paired_gain_db": -2.9704236950005956
+          }
+        ],
+        "band_boost_cases": 1,
+        "whole_band_boost_cases": 0,
+        "whole_band_gain_mean_db": 0.6599624289855864
+      }
+    },
+    "prefix_ar": {
+      "20": {
+        "n": 25,
+        "mean_db": 0.14747648223933943,
+        "median_db": 0.6955339298788967,
+        "mean_bootstrap95": [
+          -1.2769355924622425,
+          1.4807548521382032
+        ],
+        "minimum_db": -8.763097186758323,
+        "maximum_db": 7.1823222344444595,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 14,
+          "losses": 11,
+          "ties": 0
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 14,
+          "losses": 11,
+          "ties": 0
+        },
+        "strong_losses_over_1db": [
+          {
+            "id": "fresh-004",
+            "title": "File:Washing machine last spin.ogg",
+            "paired_gain_db": -7.2668034839424385
+          },
+          {
+            "id": "fresh-005",
+            "title": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+            "paired_gain_db": -1.5417433917317291
+          },
+          {
+            "id": "fresh-019",
+            "title": "File:Porsche F218 Engine.flac",
+            "paired_gain_db": -8.763097186758323
+          },
+          {
+            "id": "fresh-021",
+            "title": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+            "paired_gain_db": -2.813327384917606
+          },
+          {
+            "id": "fresh-024",
+            "title": "File:Northern Trains 323239 DMSO A, on the Crewe to Manchester line, Jan 2022.ogg",
+            "paired_gain_db": -4.883498337095524
+          },
+          {
+            "id": "fresh-029",
+            "title": "File:Solaris Urbino 12 Hybrid 1848, engine sounds, Szczecin, 2022.mp3",
+            "paired_gain_db": -1.2543265401235755
+          }
+        ],
+        "band_boost_cases": 27,
+        "whole_band_boost_cases": 1,
+        "whole_band_gain_mean_db": 0.5761727080788199
+      },
+      "120": {
+        "n": 25,
+        "mean_db": -1.1278042801938997,
+        "median_db": -0.7817069500238274,
+        "mean_bootstrap95": [
+          -2.481118857693737,
+          0.12372339319364639
+        ],
+        "minimum_db": -9.629663544455632,
+        "maximum_db": 3.7630300425443988,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 11,
+          "losses": 14,
+          "ties": 0
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 11,
+          "losses": 14,
+          "ties": 0
+        },
+        "strong_losses_over_1db": [
+          {
+            "id": "fresh-004",
+            "title": "File:Washing machine last spin.ogg",
+            "paired_gain_db": -6.628926904443081
+          },
+          {
+            "id": "fresh-005",
+            "title": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+            "paired_gain_db": -7.197600875592515
+          },
+          {
+            "id": "fresh-017",
+            "title": "File:19th century sawmill.webm",
+            "paired_gain_db": -2.5402846635878915
+          },
+          {
+            "id": "fresh-019",
+            "title": "File:Porsche F218 Engine.flac",
+            "paired_gain_db": -9.629663544455632
+          },
+          {
+            "id": "fresh-021",
+            "title": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+            "paired_gain_db": -5.210507295670427
+          },
+          {
+            "id": "fresh-024",
+            "title": "File:Northern Trains 323239 DMSO A, on the Crewe to Manchester line, Jan 2022.ogg",
+            "paired_gain_db": -2.3481090707285652
+          },
+          {
+            "id": "fresh-029",
+            "title": "File:Solaris Urbino 12 Hybrid 1848, engine sounds, Szczecin, 2022.mp3",
+            "paired_gain_db": -3.513478358483087
+          }
+        ],
+        "band_boost_cases": 21,
+        "whole_band_boost_cases": 5,
+        "whole_band_gain_mean_db": 0.06664658224718814
+      }
+    },
+    "causal_L2": {
+      "20": {
+        "n": 25,
+        "mean_db": 0.5362336271697719,
+        "median_db": 0.0,
+        "mean_bootstrap95": [
+          0.12122314580254304,
+          1.0434992876475564
+        ],
+        "minimum_db": -0.5157721711232561,
+        "maximum_db": 4.261283952779937,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 8,
+          "losses": 3,
+          "ties": 14
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 7,
+          "losses": 2,
+          "ties": 16
+        },
+        "strong_losses_over_1db": [],
+        "band_boost_cases": 5,
+        "whole_band_boost_cases": 0,
+        "whole_band_gain_mean_db": 0.9951236968903983
+      },
+      "120": {
+        "n": 25,
+        "mean_db": 0.335483741305343,
+        "median_db": 0.0,
+        "mean_bootstrap95": [
+          0.016215101008700286,
+          0.7290306256237676
+        ],
+        "minimum_db": -0.7012404492399344,
+        "maximum_db": 3.519081991458819,
+        "numerical": {
+          "tolerance_db": 1e-08,
+          "wins": 7,
+          "losses": 5,
+          "ties": 13
+        },
+        "practical": {
+          "tolerance_db": 0.01,
+          "wins": 7,
+          "losses": 4,
+          "ties": 14
+        },
+        "strong_losses_over_1db": [],
+        "band_boost_cases": 7,
+        "whole_band_boost_cases": 0,
+        "whole_band_gain_mean_db": 0.7870884260555953
+      }
+    }
+  },
+  "criteria": {
+    "at_least_30_usable_recordings": true,
+    "at_least_20_tonal_recordings": true,
+    "mean_paired_20ms_ci_lower_above_zero": true,
+    "no_strong_20ms_loss_over_1db": true,
+    "no_more_band_boost_cases_both_horizons": true,
+    "no_whole_band_boost_cases_both_horizons": true
+  },
+  "decision": "pass_frozen_offline_criteria",
+  "interpretation": "Source-bootstrap uncertainty is conditional on a purposive public collection. One uploader/author per source does not prove population representativeness. This is reference prediction, not physical ANC."
+}

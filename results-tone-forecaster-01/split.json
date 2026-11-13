@@ -1,0 +1,164 @@
+{
+  "kind": "tone_forecaster_development_test_split",
+  "created_utc": "2026-10-17T17:12:19.065961+00:00",
+  "rule": "Group decodable acoustic recordings by author/collection; shuffle groups with numpy default_rng(20261017); add groups to development until it holds at least 5 recordings that had reference tones in results-real-hums-01; the rest is test. Electrical mains-hum clips: development only. Undecodable file excluded.",
+  "seed": 20261017,
+  "group_order_after_shuffle": [
+    "stephan",
+    "Work With Sounds",
+    "Antti Luode",
+    "Beeld en Geluid",
+    "Gravity Sound",
+    "Marhesky",
+    "Hippocampuz",
+    "the_riel_thing",
+    "Doggo19292"
+  ],
+  "groups": {
+    "Gravity Sound": [
+      "Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "Air_conditioner_hum_Gravity_Sound_.wav",
+      "Fan_Gravity_Sound_.wav"
+    ],
+    "stephan": [
+      "Inside_of_refrigerator.ogg",
+      "Microwave_oven.ogg",
+      "Table_ventilator.ogg"
+    ],
+    "Beeld en Geluid": [
+      "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg"
+    ],
+    "Work With Sounds": [
+      "WWS_Aircompressor.ogg",
+      "WWS_Bediadiesellocomotiveidling.ogg",
+      "WWS_Compressor.ogg"
+    ],
+    "Antti Luode": [
+      "Server_Room_Antti_Luode_.mp3"
+    ],
+    "Marhesky": [
+      "Sistema_de_ventilaci_n.ogg"
+    ],
+    "Doggo19292": [
+      "Sounds_made_by_a_fan.wav"
+    ],
+    "Hippocampuz": [
+      "Ventilador_de_estudio.ogg"
+    ],
+    "the_riel_thing": [
+      "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg"
+    ]
+  },
+  "development_groups": [
+    "stephan",
+    "Work With Sounds"
+  ],
+  "test_groups": [
+    "Antti Luode",
+    "Beeld en Geluid",
+    "Gravity Sound",
+    "Marhesky",
+    "Hippocampuz",
+    "the_riel_thing",
+    "Doggo19292"
+  ],
+  "development_files": [
+    {
+      "file": "Inside_of_refrigerator.ogg",
+      "sha256": "72931e7edfff30120bc29399a546bab4f6d73ad80f7e86adc5135680c7cb4a71",
+      "had_reference_tones_in_real_hums_01": false
+    },
+    {
+      "file": "Microwave_oven.ogg",
+      "sha256": "759485241e417d6f156a8478324f706a6f4b5f220e741302c5c7dcb1220ab8ec",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Table_ventilator.ogg",
+      "sha256": "fd6c831ceede2019c73185fc858b0ab09c71619655125f4f8ecb22d4053d0bbc",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "WWS_Aircompressor.ogg",
+      "sha256": "46c60a8f08bff754320790eba0ccfe824c213cac167edaf8aeab1992e25a8b96",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "WWS_Bediadiesellocomotiveidling.ogg",
+      "sha256": "530cc9dcaf1b09c3dd05b7505692cea69e90ff413c2eb9e0849cca61a2ebef46",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "WWS_Compressor.ogg",
+      "sha256": "227ff8b3ddb3c5931dfcf1fd1a2c8465ee8a94fe339b8e1bb9c567429ba0aa69",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "MainsBrum50Hz.ogg",
+      "sha256": "88bd2a95cae498ffc4534ca51001c5375f99067eea42f10fa87ea5ff85f58997",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Mains_hum_60_Hz.ogg",
+      "sha256": "dd11780ff2161f3a2f0ced1ed7128f9ddf6772e2df2b1bf246222abc2552aee5",
+      "had_reference_tones_in_real_hums_01": true
+    }
+  ],
+  "test_files": [
+    {
+      "file": "Server_Room_Antti_Luode_.mp3",
+      "sha256": "7e3ddf366a9941208a2c5374659cad64831328d7c7ae82f8a139ff3c35ffbc80",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "sha256": "9251b3f770293da9fb2f63babf189eeb9e4f5f3593971544036103acb80b93c2",
+      "had_reference_tones_in_real_hums_01": false
+    },
+    {
+      "file": "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "sha256": "ecb3c01279dc5f1c69b13ff75d694385f6c879e83c0c9b4a041812b6f92428bd",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "sha256": "bb9e9358e2b7041cab8f35d93e712727ddccc3490d075ef907b0923bbb0a1861",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+      "sha256": "bac546ddd06be356facb3dd9c842635afad312412fe058e14d7e2fb07e4f34d0",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Fan_Gravity_Sound_.wav",
+      "sha256": "0710f0d6fcaa7abef3ea2a697ecbae0c0e6703fc0f3998eb1d7e002b5db5c946",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Sistema_de_ventilaci_n.ogg",
+      "sha256": "e99f2f4d3b779701fad26a4958fabc2a9a10010dd614d7a9b4495671ba4ba13c",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Ventilador_de_estudio.ogg",
+      "sha256": "ee0c47862713f722634be55e88320522368afeb359af70370b1d31b2fb5e7878",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "sha256": "f491ebfdea51fdf64f6e76698b0036328a9abdd865b4e259ce4d7b3b24384430",
+      "had_reference_tones_in_real_hums_01": false
+    },
+    {
+      "file": "Sounds_made_by_a_fan.wav",
+      "sha256": "14aeb4433d1f4e113c8f462ec5a1926eafaf572420cb8053a155462137c98707",
+      "had_reference_tones_in_real_hums_01": true
+    }
+  ],
+  "excluded": {
+    "Resident_air-conditioned_out_door_unit.ogg": "could not be decoded in results-real-hums-01"
+  },
+  "independence": "NOT independent. Every file, development and test, was analysed in results-real-hums-01 (frozen v1/v2, prefix AR) and its per-file scores were read before this split, including the finding that prefix AR beats v2 at the tones. Test files are untouched by forecaster development in this study, but the motivating gap was measured on them."
+}

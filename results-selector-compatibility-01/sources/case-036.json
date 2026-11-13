@@ -1,0 +1,31 @@
+{
+  "id": "case-036",
+  "title": "Son_démarrage_Mp14-8.ogg",
+  "cohort": "former-test-05",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-036.npz",
+  "arrays_sha256": "17fc4cbbd6bcb65dc34f80b9ada8fc1a26778b11fabef58d6bbaed949f8c4a14",
+  "reference_sha256": "42de2e7f6da79918cbd1e9be7b2e43b5341581906f1ea6a9f9992c15b1bb743e",
+  "seconds": 25.444,
+  "prefix_seconds": 10.1775,
+  "counts": {
+    "frames_after_warmup": 2394,
+    "v2_components_before_gate": 0,
+    "bank_components_before_gate": 0,
+    "frames_both_gates_open": 2394,
+    "bank_components_without_v2_match": 0
+  },
+  "all": {
+    "matched_tone_frames": 0
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 0
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-036.npz",
+  "ratio_arrays_sha256": "03036b8f7a3b1ede701c902b3f12bd454e9a0da9bcca09d1983bf07d3ca4dbae"
+}

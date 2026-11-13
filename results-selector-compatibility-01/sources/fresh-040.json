@@ -1,0 +1,110 @@
+{
+  "id": "fresh-040",
+  "title": "File:Diesel Engine connecting to a Train (Coupling).webm",
+  "cohort": "transport engine",
+  "acoustic": true,
+  "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-040.npz",
+  "arrays_sha256": "b91a490a184b366cdb3d2837571d8e79fae7d8ebf3aeb722153545a735b403f4",
+  "reference_sha256": "7296df00fab1d1dbdd7011c11d906f18174805025754c45dffc0884a86b12197",
+  "seconds": 89.9935,
+  "prefix_seconds": 35.997,
+  "counts": {
+    "frames_after_warmup": 8849,
+    "v2_components_before_gate": 19121,
+    "bank_components_before_gate": 25311,
+    "frames_both_gates_open": 8849,
+    "bank_components_without_v2_match": 6503,
+    "eligible_v2_components": 19121,
+    "matched_tone_frames": 18808,
+    "v2_without_bank_match": 313
+  },
+  "all": {
+    "matched_tone_frames": 18808,
+    "mismatch": {
+      "p05": 0.04061402239108046,
+      "p50": 0.2228674009427944,
+      "p95": 0.8657164200945121,
+      "p99": 1.3135690448778639,
+      "max": 2.8668562769055614
+    },
+    "ramped_mismatch": {
+      "p05": 0.04061402239108046,
+      "p50": 0.2228674009427944,
+      "p95": 0.8657164200945121,
+      "p99": 1.3135690448778639,
+      "max": 2.8668562769055614
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": 1.2524869136924275,
+      "p50": 13.039069032146006,
+      "p95": 27.826481632785423,
+      "p99": 35.19072438706546,
+      "max": 59.39713116601478
+    },
+    "fraction_mismatch_above_0_1": 0.7853041259038707,
+    "fraction_mismatch_above_1": 0.030837941301573798,
+    "v2_energy_weighted_rms_mismatch": 0.2867333022433247,
+    "absolute_phase_difference_deg": {
+      "p05": 1.0148996848408123,
+      "p50": 11.675725032013254,
+      "p95": 51.943390669638134,
+      "p99": 90.31445928727703,
+      "max": 179.95319875326697
+    },
+    "amplitude_ratio": {
+      "p05": 0.7861742244820991,
+      "p50": 0.978923440279603,
+      "p95": 1.110567317779265,
+      "p99": 1.2315131731215123,
+      "max": 2.8657023527704992
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 10694,
+    "mismatch": {
+      "p05": 0.04626090279121835,
+      "p50": 0.24858016396236093,
+      "p95": 0.8763700450226002,
+      "p99": 1.296936539900822,
+      "max": 2.8668562769055614
+    },
+    "ramped_mismatch": {
+      "p05": 0.04626090279121835,
+      "p50": 0.24858016396236093,
+      "p95": 0.8763700450226002,
+      "p99": 1.296936539900822,
+      "max": 2.8668562769055614
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": 1.1462531465332937,
+      "p50": 12.090670612105843,
+      "p95": 26.695721793808026,
+      "p99": 33.86970304128153,
+      "max": 52.49538969462003
+    },
+    "fraction_mismatch_above_0_1": 0.8191509257527586,
+    "fraction_mismatch_above_1": 0.030671404525902377,
+    "v2_energy_weighted_rms_mismatch": 0.3193535778527747,
+    "absolute_phase_difference_deg": {
+      "p05": 1.121385776613725,
+      "p50": 13.101003618808676,
+      "p95": 53.062740626540766,
+      "p99": 89.9482609699275,
+      "max": 178.79080693139153
+    },
+    "amplitude_ratio": {
+      "p05": 0.7946422791562504,
+      "p50": 0.9752433093004456,
+      "p95": 1.1171992437348446,
+      "p99": 1.2316158928540308,
+      "max": 2.8657023527704992
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\fresh-040.npz",
+  "ratio_arrays_sha256": "a2d43803b16fc083fa2ad57594bec3bb6f49919974d25a408aefd0c4d43e7cb2"
+}

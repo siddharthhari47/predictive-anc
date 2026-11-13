@@ -1,0 +1,80 @@
+{
+  "kind": "synthetic_reference_frequency_generalization",
+  "fs": 2000,
+  "block": 20,
+  "partition_seconds": [
+    6,
+    2,
+    4
+  ],
+  "horizon_start_ms": [
+    20.0,
+    120.0
+  ],
+  "development_frequencies_hz": [
+    [
+      47.3,
+      113.7,
+      231.2
+    ],
+    [
+      68.4,
+      154.8,
+      302.6
+    ],
+    [
+      90.1,
+      182.5,
+      267.9
+    ]
+  ],
+  "held_out_frequencies_hz": {
+    "single_tone": [
+      57.6
+    ],
+    "unrelated_tones": [
+      103.2,
+      187.4,
+      319.6
+    ],
+    "harmonic_tones": [
+      79.7,
+      159.4,
+      239.1
+    ],
+    "broadband_negative_control": []
+  },
+  "development_seeds": [
+    401,
+    402,
+    403
+  ],
+  "held_out_seeds": [
+    701,
+    702,
+    703,
+    704
+  ],
+  "criterion": "Choose maximum validation 35-350 Hz prediction gain, including zero; require >=6 dB test band gain and full NRMSE <=1.",
+  "adaptation": "Automatic tracker detection and ridge/MLP fitting see only each new source training prefix. No ground-truth frequency labels enter predictors.",
+  "frozen_transfer": "Pooled MLP weights trained only on three development sources. New-source normalization uses its six-second prefix; this is unsupervised calibration, not an uncalibrated zero-shot claim.",
+  "limitations": "Small synthetic diagnostic, one seed per source. No measured acoustic path, playback, or ear residual. No claim of arbitrary-tone universality.",
+  "code_sha256": {
+    "assessment.py": "e8f1585b5e93d31b2414d3584b775a5a190f3c5e2464d9e01c08d7f039d3f7c6",
+    "assessment_report.py": "cc018b4b5d2009e07edfefb14f9b6cd550b31342e35d63b4130e84d697ea95a0",
+    "capture.py": "7c7ad086229a7b2159867028cb657abf70d3bd680d2b8d4b3c232f6407d726d8",
+    "cli.py": "9d2df091eccabc4bdee4eb8d7de418252333766c53ae533185ae3b0287822150",
+    "control.py": "bca6e2ec9324e78af38cc7e8319f4ad1ea12a7c4ced09d0cf1b8a0d08a976576",
+    "experiment.py": "8258c4c7b01d21b45c3b9f73d2bfc0b8d21054839b42bc05eb66083c043b261c",
+    "generalization.py": "68cad42262ea32dceff43481077180577229dcb826b12767987f3ca350d8ce21",
+    "metrics.py": "bb7157f0c12aed8c10c64370dce1b96cf8cf999d9f9a2f167ec8ebeb6e51709f",
+    "predictors.py": "b0139129d0eb57a2a09e183156c262f1642a794b4e6a0b2fddc7aa4ae7263320",
+    "report.py": "fc955594fd436e56193f6b163caafe16093a64f206da53219a2dd7444ef34c0d",
+    "signals.py": "898d1d791e631e7ca8b97d7d1004fe6832150cb90204875de8100530a1a3292f",
+    "source_report.py": "18d77d88ad79482b47f93928ddc8a0eea3878b6c661fa3e487a623f0f27caf78",
+    "source_study.py": "b96682ba15cfca084d4d11bfe0a7030f7506da3af368b8405ddaf6c1dd1f4945",
+    "__init__.py": "6038f282e0b1f79f6b38af5a34e66446e6b5a920532b6f93908650c9e36de856",
+    "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+  },
+  "created_utc": "2026-10-16T09:55:58.783171+00:00"
+}

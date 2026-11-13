@@ -1,0 +1,111 @@
+{
+  "id": "fresh-020",
+  "title": "File:Ferrari 250 GTO, Engine Sound.ogg",
+  "cohort": "transport engine",
+  "acoustic": true,
+  "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-020.npz",
+  "arrays_sha256": "a7b152cf5eda2e07d9a44f45a89cd1dc148959e454b9c0027b55887e4507ad9d",
+  "reference_sha256": "882ea12cda7f80091b3dfbc9d8eeb882b78a1c99696dd7afad6c2f828b982421",
+  "seconds": 59.8825,
+  "prefix_seconds": 23.953,
+  "counts": {
+    "frames_after_warmup": 5838,
+    "v2_components_before_gate": 3334,
+    "bank_components_before_gate": 2982,
+    "frames_both_gates_open": 5838,
+    "bank_components_without_v2_match": 476,
+    "eligible_v2_components": 3334,
+    "matched_tone_frames": 2505,
+    "v2_without_bank_match": 827,
+    "ambiguous_matches": 2
+  },
+  "all": {
+    "matched_tone_frames": 2505,
+    "mismatch": {
+      "p05": 0.13575333844011248,
+      "p50": 0.6033646446808181,
+      "p95": 1.5209614638593378,
+      "p99": 1.9618746657351895,
+      "max": 2.8146274674143537
+    },
+    "ramped_mismatch": {
+      "p05": 0.13575333844011248,
+      "p50": 0.6033646446808181,
+      "p95": 1.5209614638593378,
+      "p99": 1.9618746657351895,
+      "max": 2.8146274674143537
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -3.642363570027705,
+      "p50": 4.388402834824342,
+      "p95": 17.345358911816728,
+      "p99": 24.268281679565995,
+      "max": 35.181532908195784
+    },
+    "fraction_mismatch_above_0_1": 0.9712574850299401,
+    "fraction_mismatch_above_1": 0.21477045908183634,
+    "v2_energy_weighted_rms_mismatch": 0.7930656745729789,
+    "absolute_phase_difference_deg": {
+      "p05": 2.794771271538704,
+      "p50": 30.310185580627326,
+      "p95": 115.93501898870268,
+      "p99": 160.09166215643967,
+      "max": 178.9465362976135
+    },
+    "amplitude_ratio": {
+      "p05": 0.3570617200945123,
+      "p50": 0.8619772218816132,
+      "p95": 1.3642972573342393,
+      "p99": 1.8301994561629313,
+      "max": 2.859864063628498
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 405,
+    "mismatch": {
+      "p05": 0.2575247896182139,
+      "p50": 0.6850967014060066,
+      "p95": 1.278213443496613,
+      "p99": 1.4994580843039356,
+      "max": 1.967721614113966
+    },
+    "ramped_mismatch": {
+      "p05": 0.2575247896182139,
+      "p50": 0.6850967014060066,
+      "p95": 1.278213443496613,
+      "p99": 1.4994580843039356,
+      "max": 1.967721614113966
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.1320460993626424,
+      "p50": 3.2849624702113136,
+      "p95": 11.783629171546796,
+      "p99": 18.618691347393483,
+      "max": 26.54491523903428
+    },
+    "fraction_mismatch_above_0_1": 0.9901234567901235,
+    "fraction_mismatch_above_1": 0.1728395061728395,
+    "v2_energy_weighted_rms_mismatch": 0.7002820566427645,
+    "absolute_phase_difference_deg": {
+      "p05": 5.517226130039289,
+      "p50": 35.172056072048875,
+      "p95": 110.48710305171552,
+      "p99": 162.2952042642307,
+      "max": 176.35816500255635
+    },
+    "amplitude_ratio": {
+      "p05": 0.21811963941311316,
+      "p50": 0.6612101230800012,
+      "p95": 1.326300874575528,
+      "p99": 1.9724892968478445,
+      "max": 2.6099606223597727
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\fresh-020.npz",
+  "ratio_arrays_sha256": "6a38605f1639476cebec2e4c9a022fb9a544bc1a0d8175173c91278f7ebc3373"
+}

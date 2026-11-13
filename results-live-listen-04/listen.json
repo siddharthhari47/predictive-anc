@@ -1,0 +1,326 @@
+{
+  "created_utc": "2026-11-12T18:08:34.689908+00:00",
+  "kind": "descriptive; one rule fixed before listening",
+  "seconds": 30,
+  "audio_stored": false,
+  "played_anything": false,
+  "earbud_anc_reported": "off",
+  "rule": {
+    "hum": "strongest line 190-210 Hz on the laptop microphone",
+    "heard_if_above_floor_db": 6.0,
+    "same_hum_within_hz": 2.0,
+    "floor": "median of the dB spectrum over +-50 Hz, 0.25 Hz bins"
+  },
+  "devices": {
+    "earbuds": {
+      "name": "Headset Microphone (Soundform ANC Wired Earbuds)",
+      "index": 14,
+      "default_samplerate": 48000.0,
+      "max_input_channels": 2
+    },
+    "laptop": {
+      "name": "Microphone Array (Intel® Smart Sound Technology for Digital Microphones)",
+      "index": 15,
+      "default_samplerate": 48000.0,
+      "max_input_channels": 2
+    }
+  },
+  "capture": {
+    "earbuds": {
+      "samples": 1440000,
+      "expected": 1440000,
+      "callbacks": 3000,
+      "channels_opened": 1,
+      "open_errors": [],
+      "stream_latency_s": 0.022,
+      "status_flag_count": 0,
+      "status_flags_first": []
+    },
+    "laptop": {
+      "samples": 1440000,
+      "expected": 1440000,
+      "callbacks": 3003,
+      "channels_opened": 1,
+      "open_errors": [],
+      "stream_latency_s": 0.022,
+      "status_flag_count": 0,
+      "status_flags_first": []
+    }
+  },
+  "sounddevice": "0.5.6",
+  "portaudio": "PortAudio V19.7.0-devel, revision unknown",
+  "rule_hum": {
+    "hz": 208.75,
+    "above_floor_db": 3.229546351019252,
+    "level_db": -53.95904932181645,
+    "heard": false
+  },
+  "earbuds": {
+    "rms_dbfs": -70.64866603847298,
+    "peak_dbfs": -20.58605876296998,
+    "exact_zero_share": 0.0018534722222222223,
+    "near_full_scale_share": 0.0,
+    "lines": [
+      {
+        "hz": 364.0,
+        "above_floor_db": 15.26818244047314,
+        "width_hz": 7.869546120398127,
+        "level_db": -91.7467406815372
+      },
+      {
+        "hz": 367.25,
+        "above_floor_db": 10.888693412279224,
+        "width_hz": 0.7278066601725186,
+        "level_db": -96.09188321899
+      },
+      {
+        "hz": 485.5,
+        "above_floor_db": 13.046752898539026,
+        "width_hz": 6.4765520837704,
+        "level_db": -94.32713024692347
+      }
+    ],
+    "hum": {
+      "hz": 209.75,
+      "above_floor_db": 3.867845425427234,
+      "level_db": -106.00435314414709,
+      "heard": false
+    },
+    "every_3_s": [
+      {
+        "start_s": 0.0,
+        "rms_dbfs": -61.138393751315874,
+        "hum_hz": 209.66666666666666,
+        "hum_level_db": -99.43456160545267
+      },
+      {
+        "start_s": 3.0,
+        "rms_dbfs": -78.13296525716996,
+        "hum_hz": 205.45833333333331,
+        "hum_level_db": -112.39526356248686
+      },
+      {
+        "start_s": 6.0,
+        "rms_dbfs": -81.82337993430367,
+        "hum_hz": 194.5,
+        "hum_level_db": -115.4254446832597
+      },
+      {
+        "start_s": 9.0,
+        "rms_dbfs": -83.37990427826968,
+        "hum_hz": 192.16666666666666,
+        "hum_level_db": -111.53729473544286
+      },
+      {
+        "start_s": 12.0,
+        "rms_dbfs": -79.7574120626628,
+        "hum_hz": 209.625,
+        "hum_level_db": -111.80763477701932
+      },
+      {
+        "start_s": 15.0,
+        "rms_dbfs": -84.051505531515,
+        "hum_hz": 192.20833333333331,
+        "hum_level_db": -120.32531969543933
+      },
+      {
+        "start_s": 18.0,
+        "rms_dbfs": -81.31926943858,
+        "hum_hz": 209.95833333333331,
+        "hum_level_db": -112.33512845386038
+      },
+      {
+        "start_s": 21.0,
+        "rms_dbfs": -82.6050571894969,
+        "hum_hz": 191.375,
+        "hum_level_db": -109.20195422994547
+      },
+      {
+        "start_s": 24.0,
+        "rms_dbfs": -77.23214425626037,
+        "hum_hz": 206.29166666666666,
+        "hum_level_db": -104.18086801060147
+      },
+      {
+        "start_s": 27.0,
+        "rms_dbfs": -77.20864850509551,
+        "hum_hz": 209.75,
+        "hum_level_db": -104.12302505649214
+      }
+    ],
+    "detectors": {
+      "smoothed": {
+        "counters": {
+          "origins": 3000,
+          "origins_with_tones": 78,
+          "origins_gate_open_with_tones": 78,
+          "fast_drops": 22
+        },
+        "tones_by_rounded_hz": {
+          "122": 21,
+          "121": 20,
+          "123": 14,
+          "124": 17,
+          "120": 2,
+          "125": 4
+        },
+        "blocks_on_hum": 0,
+        "first_on_hum_s": null,
+        "share_on_hum_after_10_s": 0.0
+      },
+      "faint": {
+        "counters": {
+          "origins": 3000,
+          "origins_with_tones": 78,
+          "origins_gate_open_with_tones": 78,
+          "fast_drops": 22
+        },
+        "tones_by_rounded_hz": {
+          "122": 21,
+          "121": 20,
+          "123": 14,
+          "124": 17,
+          "120": 2,
+          "125": 4
+        },
+        "blocks_on_hum": 0,
+        "first_on_hum_s": null,
+        "share_on_hum_after_10_s": 0.0
+      }
+    },
+    "predictability": "not worked out: the hum is not heard here"
+  },
+  "laptop": {
+    "rms_dbfs": -25.533919297401482,
+    "peak_dbfs": -7.764958347366058,
+    "exact_zero_share": 0.0012729166666666668,
+    "near_full_scale_share": 0.0,
+    "lines": [],
+    "hum": {
+      "hz": 208.75,
+      "above_floor_db": 3.229546351019252,
+      "level_db": -53.95904932181645,
+      "heard": false
+    },
+    "every_3_s": [
+      {
+        "start_s": 0.0,
+        "rms_dbfs": -26.95576303920939,
+        "hum_hz": 190.16666666666666,
+        "hum_level_db": -56.68782276169491
+      },
+      {
+        "start_s": 3.0,
+        "rms_dbfs": -25.546424988271525,
+        "hum_hz": 191.08333333333331,
+        "hum_level_db": -52.63177201994368
+      },
+      {
+        "start_s": 6.0,
+        "rms_dbfs": -25.486877865618712,
+        "hum_hz": 208.29166666666666,
+        "hum_level_db": -55.15081330164031
+      },
+      {
+        "start_s": 9.0,
+        "rms_dbfs": -24.78177384313581,
+        "hum_hz": 209.16666666666666,
+        "hum_level_db": -55.14698276991559
+      },
+      {
+        "start_s": 12.0,
+        "rms_dbfs": -25.2486018668354,
+        "hum_hz": 202.91666666666666,
+        "hum_level_db": -54.622834207697764
+      },
+      {
+        "start_s": 15.0,
+        "rms_dbfs": -25.21921739908035,
+        "hum_hz": 209.58333333333331,
+        "hum_level_db": -54.58185749241166
+      },
+      {
+        "start_s": 18.0,
+        "rms_dbfs": -25.18105936984011,
+        "hum_hz": 196.33333333333331,
+        "hum_level_db": -54.69267445340552
+      },
+      {
+        "start_s": 21.0,
+        "rms_dbfs": -25.25391928182033,
+        "hum_hz": 206.25,
+        "hum_level_db": -54.46594090242975
+      },
+      {
+        "start_s": 24.0,
+        "rms_dbfs": -26.27400496249659,
+        "hum_hz": 192.25,
+        "hum_level_db": -54.95803970759664
+      },
+      {
+        "start_s": 27.0,
+        "rms_dbfs": -25.781977412768843,
+        "hum_hz": 190.04166666666666,
+        "hum_level_db": -55.57879294427277
+      }
+    ],
+    "detectors": {
+      "smoothed": {
+        "counters": {
+          "origins": 3000,
+          "origins_with_tones": 97,
+          "origins_gate_open_with_tones": 97,
+          "fast_drops": 3
+        },
+        "tones_by_rounded_hz": {
+          "193": 9,
+          "192": 15,
+          "191": 25,
+          "190": 9,
+          "194": 27,
+          "195": 12
+        },
+        "blocks_on_hum": 0,
+        "first_on_hum_s": null,
+        "share_on_hum_after_10_s": 0.0
+      },
+      "faint": {
+        "counters": {
+          "origins": 3000,
+          "origins_with_tones": 97,
+          "origins_gate_open_with_tones": 97,
+          "fast_drops": 3
+        },
+        "tones_by_rounded_hz": {
+          "193": 9,
+          "192": 15,
+          "191": 25,
+          "190": 9,
+          "194": 27,
+          "195": 12
+        },
+        "blocks_on_hum": 0,
+        "first_on_hum_s": null,
+        "share_on_hum_after_10_s": 0.0
+      }
+    },
+    "predictability": "not worked out: the hum is not heard here"
+  },
+  "coherence": {
+    "at_hum": 0.14098418257448256,
+    "best_within_2_hz": 0.14098418257448256,
+    "median_100_300_hz_away_from_hum": 0.05193835059398923,
+    "segments": 14
+  },
+  "code_sha256": {
+    "research-tools/listen_check_03.py": "25d9b34804b50705321d44f41f4524d2b305b3d0537a00bdb996b1c21fdb703a",
+    "research-tools/fan_predictability_02.py": "b0d897429e29b287c6023eeb0a348b292f46dafd021ecc168e91b7d2f4e8f57e",
+    "research-tools/fan_predictability.py": "039407d14076fe6c06b27f1d29ed2f4bfc4ff482c840b1b189c31db170b6b855",
+    "anc_lab/tune_app.py": "fd86132e9c344336a877c09f3cc7943fbc28fea44fb7d488fd2ea227954d0cd3",
+    "anc_lab/live_engine.py": "12614333e2e2a93775828f810a51ae6e6b04bcd093372107440e4862ec065364",
+    "anc_lab/faint_tones.py": "b74f1371f91aaf9f2895df35d9b874a56f3de35037a4bdd76bc9976e9f6d67a0",
+    "anc_lab/antihum.py": "599bd571cf75c3c18719540e7c32dd0a1f67f3fca6c761273bce2ce955d01c23",
+    "research-tools/listen_check_04.py": "606bc480559bcfd389fb4d8482b9a3b66c0e3c3130b160ad99227c42619163a0"
+  },
+  "complete": true
+}

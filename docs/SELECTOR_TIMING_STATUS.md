@@ -1,0 +1,16 @@
+# Chooser timing and tuning integration status
+
+> **26 October tuning diagnosis:** Claude review #55 is completed on all 78 eligible v2 tones. Six of 40 kept tones make their individual auditory band louder during tuning. Ten of 38 muted tones have at least 1 dB of potential prefix benefit, but only three had already found such a setting. Final checks can also mistake changing background sound for an anti-hum effect. Original tuning reproduces in all 37 eligible rooms. Keep v2 live; next isolate better search from better comparison evidence, before widening the menu. These are seen-data simulated-ear diagnostics; quiet-machine timing and physical ANC remain unvalidated. Read [current tuning diagnosis](TUNING_ACCURACY_STATUS.md). Earlier next-step statements below are historical.
+
+**24 October follow-up diagnostics:** Claude review #53 is tested. The compressor supports a bad accepted tuning setting: best v2/bank phases differ by 4.37 degrees, while accepted v2 is 152.58 degrees from its own prefix optimum. Of 72 primary rooms, 34 had intermittent detections below the menu rule, one had no detection, 11 were fully muted by the final listening check, and 26 kept active settings. Direct comparison of all 78 available recordings finds substantial predictor disagreement on real audio; fixed tuning cannot be assumed interchangeable. Prior room/fresh results remain unchanged. Keep v2 live; next diagnose menu eligibility and tuning acceptance, not a larger switch cohort. Quiet-machine timing and physical ANC remain unvalidated.
+
+[Timing report](../results-selector-timing-01/REPORT.md) · [Component report](../results-selector-components-01/REPORT.md) · [Fresh accuracy result](../results-selector-fresh-01/REPORT.md)
+
+The 5 ms threshold is a reserve for the 2 kHz forecast core, not a measurement of a complete live app. Original p99 ranged 14.15–27.53 ms; cached 4.52–15.41 ms; uncached v2 comparison core 5.94–13.04 ms. The cache lowered p99 in every paired source/repetition, but did not lower the total >5 ms count. Preserve the contended diagnostic and repeat the frozen schedule in a new output location only when the machine qualifies as quiet. Do not terminate unrelated work. A smaller tracker bank would be a new accuracy candidate.
+
+The earlier 20/120 ms component adapter preserves the original tone frequencies, phasors, ghosts and sample-level fades. Its extra diagnostic fit is outside the measured timing core. It supports only the tested sample horizons; the old room leads of 30/200 ms are not silently treated as 20/120 ms. The existing live renderer excludes DC and ramps its output gate; the reference forecasts use hard gates and include DC. Both conventions must remain explicit in the room comparison.
+
+Four new component unit checks and the earlier three timing-adapter checks passed. The timing report independently recomputed 1,093 sample/receipt checks; the component receipt report records its own count. No full-suite claim, downloads, capture, playback, live-engine changes or physical ANC result.
+
+
+The separate exact-lead room bridge and 72-room comparison are now complete. Read [room status](SELECTOR_ROOM_STATUS.md); timing evidence above is unchanged. The room result does not resolve the quiet-machine gate or warrant engine promotion.

@@ -1,0 +1,749 @@
+{
+  "id": "fresh-010",
+  "title": "File:Kolbenverdichter zur Hummerbeckenbelüftung.webm",
+  "file": "fresh-010.webm",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Kolbenverdichter_zur_Hummerbeckenbel%C3%BCftung.webm?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Kolbenverdichter_zur_Hummerbeckenbel%C3%BCftung.webm",
+  "sha1": "c0ede980fb8835d785401fd0ed3ee42cd9ee3985",
+  "bytes": 34983241,
+  "seconds_metadata": 54.733000000000004,
+  "mime": "video/webm",
+  "uploader": "Santasantaxxx",
+  "author": "Santasantaxxx",
+  "licence": "CC BY-SA 4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "description": "Two reciprocating compressors with leather seals are driven by a Siemens-Schuckert 500 V electric motor with slider cranks. The blue compression vessel was used from 1910 to aerate the fish and lobster basin of Villa Haas in Sinn.",
+  "cohort": "stationary machinery",
+  "metadata_rationale": "Metadata describes stationary machinery. Operating state, tonal content and audio quality are unverified; first 90 seconds only.",
+  "credited_author_seen_before": false,
+  "acoustic": true,
+  "status": "scored",
+  "audio": {
+    "sample_rate": 48000,
+    "channels": 2,
+    "channel_used": 0,
+    "ogg_skeleton_removed": false,
+    "stereo_channel_correlation": 0.999998653225505,
+    "decoded_seconds": 54.730895833333335,
+    "peak_digital": 0.06939131021499634,
+    "rms_digital": 0.0061279799139393265,
+    "near_full_scale_fraction": 0.0,
+    "resampling_group_delay_seconds": 0.005
+  },
+  "actual_scored_seconds_per_horizon": 32.71,
+  "prefix_seconds": 21.892,
+  "reference_tones_hz": [
+    158.0,
+    172.25,
+    180.5,
+    201.25,
+    209.25,
+    219.5
+  ],
+  "reference_tone_band_power_fraction": 0.2838720025344115,
+  "scores": [
+    {
+      "method": "zero",
+      "horizon_start_ms": 20.0,
+      "band_gain_db": 0.0,
+      "tone_band_gain_db": 0.0,
+      "third_octave_change_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_third_octave_change_db": 0.0,
+      "third_octave_boosts_over_1db": 0
+    },
+    {
+      "method": "v2_gated",
+      "horizon_start_ms": 20.0,
+      "band_gain_db": -0.10220850071803857,
+      "tone_band_gain_db": 0.11944578013221152,
+      "third_octave_change_db": [
+        0.19633997985004065,
+        0.24429804212772988,
+        0.0825233415801823,
+        -0.016814400849246455,
+        -0.3983454133584929,
+        -0.004546175482423472,
+        0.1259535097895148,
+        0.1684085518644316,
+        0.11312412456907092,
+        0.11700309919698001
+      ],
+      "max_third_octave_change_db": 0.24429804212772988,
+      "third_octave_boosts_over_1db": 0
+    },
+    {
+      "method": "joint_gated",
+      "horizon_start_ms": 20.0,
+      "band_gain_db": 0.06596189211681108,
+      "tone_band_gain_db": 0.37434783315004544,
+      "third_octave_change_db": [
+        0.26009631534727107,
+        0.034066513867162744,
+        0.0990550330869352,
+        -0.4162152948846838,
+        -1.1505925858036596,
+        -0.09188470077582188,
+        0.023834350651872928,
+        -0.12713251153148863,
+        0.07693353043080783,
+        0.05835098706328519
+      ],
+      "max_third_octave_change_db": 0.26009631534727107,
+      "third_octave_boosts_over_1db": 0
+    },
+    {
+      "method": "fade0.1_linear_gated",
+      "horizon_start_ms": 20.0,
+      "band_gain_db": 0.06861680810564086,
+      "tone_band_gain_db": 0.40700459215294277,
+      "third_octave_change_db": [
+        0.060263055180246196,
+        -0.04410278757346096,
+        0.08740043379505029,
+        -0.3848450650043864,
+        -1.294833964097144,
+        -0.10563240476556665,
+        0.06481500707538565,
+        -0.17260299304893592,
+        0.0836693888031266,
+        0.03824671671946127
+      ],
+      "max_third_octave_change_db": 0.08740043379505029,
+      "third_octave_boosts_over_1db": 0
+    },
+    {
+      "method": "prefix_ar",
+      "horizon_start_ms": 20.0,
+      "band_gain_db": -1.6392370097014453,
+      "tone_band_gain_db": -1.0048810822617262,
+      "third_octave_change_db": [
+        11.861792969605439,
+        12.054052345627863,
+        10.943838931591337,
+        11.67789952711354,
+        3.8681419680900806,
+        2.9566326787946946,
+        -0.00946962031246353,
+        0.8920062110515083,
+        0.5854249681406675,
+        0.35173955127190826
+      ],
+      "max_third_octave_change_db": 12.054052345627863,
+      "third_octave_boosts_over_1db": 6
+    },
+    {
+      "method": "causal_L2",
+      "horizon_start_ms": 20.0,
+      "band_gain_db": 0.0,
+      "tone_band_gain_db": 0.0,
+      "third_octave_change_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_third_octave_change_db": 0.0,
+      "third_octave_boosts_over_1db": 0
+    },
+    {
+      "method": "zero",
+      "horizon_start_ms": 120.0,
+      "band_gain_db": 0.0,
+      "tone_band_gain_db": 0.0,
+      "third_octave_change_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_third_octave_change_db": 0.0,
+      "third_octave_boosts_over_1db": 0
+    },
+    {
+      "method": "v2_gated",
+      "horizon_start_ms": 120.0,
+      "band_gain_db": -0.01658481407638146,
+      "tone_band_gain_db": 0.34026129952776896,
+      "third_octave_change_db": [
+        0.9238378979951793,
+        0.21114900480242077,
+        0.18451465093440356,
+        0.04555791628712947,
+        -0.02710403293986516,
+        0.11568958736656379,
+        -0.013193476573098922,
+        -0.0259764802785338,
+        0.11347792626571034,
+        0.014427032066507098
+      ],
+      "max_third_octave_change_db": 0.9238378979951793,
+      "third_octave_boosts_over_1db": 0
+    },
+    {
+      "method": "joint_gated",
+      "horizon_start_ms": 120.0,
+      "band_gain_db": 0.10839922158192807,
+      "tone_band_gain_db": 0.6646440715338431,
+      "third_octave_change_db": [
+        0.35290450323073774,
+        0.497081955336243,
+        0.02554031936065186,
+        -0.4599180826961454,
+        -0.5400409368995053,
+        0.09534470134082429,
+        0.05067734150528153,
+        -0.38186579764908457,
+        0.05973432556155879,
+        -0.023512072825736353
+      ],
+      "max_third_octave_change_db": 0.497081955336243,
+      "third_octave_boosts_over_1db": 0
+    },
+    {
+      "method": "fade0.1_linear_gated",
+      "horizon_start_ms": 120.0,
+      "band_gain_db": 0.12172505084137918,
+      "tone_band_gain_db": 0.6563035485606363,
+      "third_octave_change_db": [
+        0.1896255564093137,
+        0.22925877464460304,
+        -0.013197750997514239,
+        -0.4274726512492596,
+        -1.4285639867586586,
+        0.16409356000153696,
+        0.04652499507579149,
+        -0.3512165671155753,
+        0.01691212856005551,
+        -0.02404816724352712
+      ],
+      "max_third_octave_change_db": 0.22925877464460304,
+      "third_octave_boosts_over_1db": 0
+    },
+    {
+      "method": "prefix_ar",
+      "horizon_start_ms": 120.0,
+      "band_gain_db": -2.334020829742676,
+      "tone_band_gain_db": -0.8503452141174301,
+      "third_octave_change_db": [
+        15.483146487454656,
+        13.23894060726717,
+        13.138196552973456,
+        13.477925230323777,
+        5.110191129426625,
+        3.3247143299208877,
+        0.8359624595116267,
+        1.04591448700953,
+        0.5066266452551547,
+        0.3589454069939202
+      ],
+      "max_third_octave_change_db": 15.483146487454656,
+      "third_octave_boosts_over_1db": 7
+    },
+    {
+      "method": "causal_L2",
+      "horizon_start_ms": 120.0,
+      "band_gain_db": 0.0,
+      "tone_band_gain_db": 0.0,
+      "third_octave_change_db": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "max_third_octave_change_db": 0.0,
+      "third_octave_boosts_over_1db": 0
+    }
+  ],
+  "selector_details": {
+    "20": {
+      "switches": 1,
+      "full_history_rows_required": 200
+    },
+    "120": {
+      "switches": 1,
+      "full_history_rows_required": 200
+    }
+  },
+  "method_info": {
+    "v2": {
+      "fast_drops": 518,
+      "forecast_ms_per_origin": 1.2172800776204622,
+      "gate_open_fraction": [
+        0.9593420809462206,
+        0.9593420809462206
+      ],
+      "seconds": 8.504649499955121
+    },
+    "joint": {
+      "block_ms_mean": 3.127773461655301,
+      "block_ms_p99": 15.355422975844688,
+      "block_ms_max": 18.75099999597296,
+      "own_block_ms_mean": 2.8036965934313227,
+      "own_block_ms_p99": 6.334370989352463,
+      "own_block_ms_max": 8.138899982441217,
+      "counters": {
+        "origins": 5460,
+        "origins_with_output": 4065,
+        "fast_drops": 1647,
+        "tones_off_by_check": 972,
+        "choice_histogram": [
+          547,
+          2417,
+          3891,
+          2583,
+          2486,
+          1147,
+          730,
+          3282
+        ],
+        "output_moved": 0,
+        "output_off": 0,
+        "setting_switches": [
+          6,
+          3
+        ],
+        "setting_histogram": [
+          [
+            0,
+            0,
+            0,
+            400,
+            50,
+            1958,
+            0,
+            200,
+            2852,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            100,
+            0,
+            1300,
+            0,
+            0,
+            1887,
+            2173,
+            0
+          ]
+        ],
+        "band_checks": [
+          102,
+          101
+        ]
+      },
+      "seconds_by_part": {
+        "observe": 1.4942,
+        "origin": 15.457,
+        "selector": 1.7695,
+        "candidates": 0.2977,
+        "joint": 8.4136
+      },
+      "settings": {
+        "taus_seconds": [
+          0.025,
+          0.05,
+          0.1,
+          0.2,
+          0.4,
+          0.8,
+          1.6
+        ],
+        "default_tau_seconds": 0.1,
+        "frequency_loop_multiple": 3.999999999999999,
+        "check_horizons": [
+          41,
+          60
+        ],
+        "check_lowpass_seconds": 0.0,
+        "error_average_seconds": 1.0000000000000053,
+        "warmup_checks": 30,
+        "off_margin_db": -0.0,
+        "release": {
+          "ratio": 0.5,
+          "seconds": 0.1
+        },
+        "release_long_seconds": 0.3,
+        "candidates": {
+          "window_seconds": 4.0,
+          "segment_seconds": 1.0,
+          "prominence_db": 10.0,
+          "update_seconds": 0.5,
+          "acquire": 2,
+          "history": 3,
+          "release": 2,
+          "band_hz": [
+            35.0,
+            350.0
+          ],
+          "max_lines": 6
+        },
+        "selector": {
+          "window_seconds": 1.0,
+          "nw": 4.0,
+          "alpha_family": 0.01,
+          "acquire": 2,
+          "history": 3,
+          "release": 4,
+          "associate_hz": 2.0,
+          "update_seconds": 0.25,
+          "band_hz": [
+            35.0,
+            350.0
+          ],
+          "max_tones": 6,
+          "warm_up_seconds": 1.25
+        },
+        "max_tones": 8,
+        "output_rule": {
+          "min_tau_seconds": 0.0,
+          "min_tau_lines_seconds": 0.0,
+          "lean_db": null
+        },
+        "joint_check": {
+          "horizon_groups": [
+            [
+              41,
+              60
+            ],
+            [
+              241,
+              260
+            ]
+          ],
+          "settings": [
+            {
+              "extra_min_tau_seconds": 0.0,
+              "line_finder_tones": true
+            },
+            {
+              "extra_min_tau_seconds": 0.05,
+              "line_finder_tones": true
+            },
+            {
+              "extra_min_tau_seconds": 0.1,
+              "line_finder_tones": true
+            },
+            {
+              "extra_min_tau_seconds": 0.2,
+              "line_finder_tones": true
+            },
+            {
+              "extra_min_tau_seconds": 0.4,
+              "line_finder_tones": true
+            },
+            {
+              "extra_min_tau_seconds": 0.0,
+              "line_finder_tones": false
+            },
+            {
+              "extra_min_tau_seconds": 0.05,
+              "line_finder_tones": false
+            },
+            {
+              "extra_min_tau_seconds": 0.1,
+              "line_finder_tones": false
+            },
+            {
+              "extra_min_tau_seconds": 0.2,
+              "line_finder_tones": false
+            },
+            {
+              "extra_min_tau_seconds": 0.4,
+              "line_finder_tones": false
+            }
+          ],
+          "margin_db": 0.5,
+          "tie_db": 0.25,
+          "switch_db": 0.2,
+          "window_seconds": 4.0,
+          "update_seconds": 0.5,
+          "history_checks": 16,
+          "min_checks_to_decide": 5,
+          "start_setting": [
+            0.1,
+            false
+          ],
+          "bands_hz": [
+            39.37,
+            49.61,
+            62.5,
+            78.75,
+            99.21,
+            125.0,
+            157.49,
+            198.43,
+            250.0,
+            314.98
+          ]
+        }
+      },
+      "gate_open_fraction": [
+        0.9543522454259841,
+        0.9543522454259841
+      ],
+      "seconds": 17.67263990000356
+    },
+    "fade0.1_linear": {
+      "block_ms_mean": 3.279474834370386,
+      "block_ms_p99": 16.041791006573476,
+      "block_ms_max": 19.5971000357531,
+      "own_block_ms_mean": 2.9432197061969454,
+      "own_block_ms_p99": 6.6982250136788934,
+      "own_block_ms_max": 8.610099961515516,
+      "counters": {
+        "origins": 5460,
+        "origins_with_output": 4430,
+        "fast_drops": 1647,
+        "tones_off_by_check": 972,
+        "choice_histogram": [
+          547,
+          2417,
+          3891,
+          2583,
+          2486,
+          1147,
+          730,
+          3282
+        ],
+        "output_moved": 0,
+        "output_off": 0,
+        "setting_switches": [
+          4,
+          2
+        ],
+        "setting_histogram": [
+          [
+            0,
+            0,
+            0,
+            250,
+            550,
+            1808,
+            0,
+            0,
+            2852,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            450,
+            0,
+            3123,
+            0,
+            0,
+            1887,
+            0,
+            0
+          ]
+        ],
+        "band_checks": [
+          102,
+          101
+        ],
+        "ghosts": 238,
+        "fading_tone_blocks": 19540
+      },
+      "seconds_by_part": {
+        "observe": 1.5545,
+        "origin": 16.2188,
+        "selector": 1.836,
+        "candidates": 0.3068,
+        "joint": 8.9017
+      },
+      "settings": {
+        "taus_seconds": [
+          0.025,
+          0.05,
+          0.1,
+          0.2,
+          0.4,
+          0.8,
+          1.6
+        ],
+        "default_tau_seconds": 0.1,
+        "frequency_loop_multiple": 3.999999999999999,
+        "check_horizons": [
+          41,
+          60
+        ],
+        "check_lowpass_seconds": 0.0,
+        "error_average_seconds": 1.0000000000000053,
+        "warmup_checks": 30,
+        "off_margin_db": -0.0,
+        "release": {
+          "ratio": 0.5,
+          "seconds": 0.1
+        },
+        "release_long_seconds": 0.3,
+        "candidates": {
+          "window_seconds": 4.0,
+          "segment_seconds": 1.0,
+          "prominence_db": 10.0,
+          "update_seconds": 0.5,
+          "acquire": 2,
+          "history": 3,
+          "release": 2,
+          "band_hz": [
+            35.0,
+            350.0
+          ],
+          "max_lines": 6
+        },
+        "selector": {
+          "window_seconds": 1.0,
+          "nw": 4.0,
+          "alpha_family": 0.01,
+          "acquire": 2,
+          "history": 3,
+          "release": 4,
+          "associate_hz": 2.0,
+          "update_seconds": 0.25,
+          "band_hz": [
+            35.0,
+            350.0
+          ],
+          "max_tones": 6,
+          "warm_up_seconds": 1.25
+        },
+        "max_tones": 8,
+        "output_rule": {
+          "min_tau_seconds": 0.0,
+          "min_tau_lines_seconds": 0.0,
+          "lean_db": null
+        },
+        "joint_check": {
+          "horizon_groups": [
+            [
+              41,
+              60
+            ],
+            [
+              241,
+              260
+            ]
+          ],
+          "settings": [
+            {
+              "extra_min_tau_seconds": 0.0,
+              "line_finder_tones": true
+            },
+            {
+              "extra_min_tau_seconds": 0.05,
+              "line_finder_tones": true
+            },
+            {
+              "extra_min_tau_seconds": 0.1,
+              "line_finder_tones": true
+            },
+            {
+              "extra_min_tau_seconds": 0.2,
+              "line_finder_tones": true
+            },
+            {
+              "extra_min_tau_seconds": 0.4,
+              "line_finder_tones": true
+            },
+            {
+              "extra_min_tau_seconds": 0.0,
+              "line_finder_tones": false
+            },
+            {
+              "extra_min_tau_seconds": 0.05,
+              "line_finder_tones": false
+            },
+            {
+              "extra_min_tau_seconds": 0.1,
+              "line_finder_tones": false
+            },
+            {
+              "extra_min_tau_seconds": 0.2,
+              "line_finder_tones": false
+            },
+            {
+              "extra_min_tau_seconds": 0.4,
+              "line_finder_tones": false
+            }
+          ],
+          "margin_db": 0.5,
+          "tie_db": 0.25,
+          "switch_db": 0.2,
+          "window_seconds": 4.0,
+          "update_seconds": 0.5,
+          "history_checks": 16,
+          "min_checks_to_decide": 5,
+          "start_setting": [
+            0.1,
+            false
+          ],
+          "bands_hz": [
+            39.37,
+            49.61,
+            62.5,
+            78.75,
+            99.21,
+            125.0,
+            157.49,
+            198.43,
+            250.0,
+            314.98
+          ]
+        },
+        "fades": {
+          "fade_in_seconds": 0.1,
+          "fade_out_seconds": 0.1,
+          "shape": "linear",
+          "switch_fade_seconds": 0.0
+        }
+      },
+      "gate_open_fraction": [
+        0.9541674367030124,
+        0.9541674367030124
+      ],
+      "seconds": 18.662491199967917
+    },
+    "prefix_ar": {
+      "seconds": 0.07449279999127612
+    }
+  },
+  "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-010.npz",
+  "arrays_sha256": "60ed34bcff3575a13594a7d514371b49345e674e0312804d6257cecf8963918e",
+  "decoded_path": "results-selector-fresh-01\\test\\decoded\\fresh-010.wav",
+  "decoded_sha256": "10fe3c88f5cd5655dd5bf8d31949a4827fe67b7f2f238b353f6f465f19ca1176",
+  "runtime_seconds": 47.21560070000123
+}

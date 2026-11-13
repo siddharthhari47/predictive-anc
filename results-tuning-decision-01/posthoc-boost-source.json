@@ -1,0 +1,125 @@
+{
+  "label": "POST HOC, 29 Oct 2026, after the frozen verdict; does not change it.",
+  "question": "Does the improved search produce settings that boost third-octave bands, or does it only keep more tones?",
+  "worst_band_location_sigma1": {
+    "O": {
+      "other band": 27,
+      "own band of a kept tone": 9
+    },
+    "S": {
+      "other band": 37,
+      "own band of a kept tone": 10
+    },
+    "D": {
+      "other band": 32,
+      "own band of a kept tone": 4
+    },
+    "SD": {
+      "other band": 35,
+      "own band of a kept tone": 3
+    }
+  },
+  "worst_band_share_of_room_power": "typically 0.01-0.6% of the scored 35-350 Hz room power (SD harmed runs)",
+  "harms_by_kept_set_sigma1": {
+    "S_vs_O": {
+      "same kept set": {
+        "runs": 162,
+        "S": 16,
+        "O": 15
+      },
+      "S keeps more": {
+        "runs": 108,
+        "S": 20,
+        "O": 10
+      },
+      "S keeps fewer": {
+        "runs": 81,
+        "S": 9,
+        "O": 9
+      },
+      "different, same count": {
+        "runs": 19,
+        "S": 2,
+        "O": 2
+      }
+    },
+    "SD_vs_O": {
+      "same kept set": {
+        "runs": 170,
+        "SD": 18,
+        "O": 16
+      },
+      "SD keeps more": {
+        "runs": 90,
+        "SD": 13,
+        "O": 8
+      },
+      "SD keeps fewer": {
+        "runs": 100,
+        "SD": 5,
+        "O": 9
+      },
+      "different, same count": {
+        "runs": 10,
+        "SD": 2,
+        "O": 3
+      }
+    }
+  },
+  "spill_examples_SD_sigma1": [
+    {
+      "room": "old-007-r0",
+      "seed_index": 0,
+      "band_hz": 100,
+      "kept_tones_hz": [
+        120.0,
+        240.1
+      ],
+      "off_power": 1.364e-05,
+      "on_power": 1.763e-05,
+      "antihum_alone_power": 7.38e-07,
+      "antihum_peak_hz": 110.0
+    },
+    {
+      "room": "old-001-r2",
+      "seed_index": 1,
+      "band_hz": 100,
+      "kept_tones_hz": [
+        273.5
+      ],
+      "off_power": 1.463e-06,
+      "on_power": 2.042e-06,
+      "antihum_alone_power": 5.16e-07,
+      "antihum_peak_hz": 111.5
+    },
+    {
+      "room": "old-014-r1",
+      "seed_index": 1,
+      "band_hz": 79.4,
+      "kept_tones_hz": [
+        91.2,
+        60.8,
+        55.8
+      ],
+      "off_power": 8.98e-07,
+      "on_power": 1.239e-06,
+      "antihum_alone_power": 1.7e-07,
+      "antihum_peak_hz": 89.0
+    },
+    {
+      "room": "fresh-035-r0",
+      "seed_index": 4,
+      "band_hz": 79.4,
+      "kept_tones_hz": [
+        100.7,
+        68.7,
+        77.8
+      ],
+      "off_power": 1.054e-05,
+      "on_power": 1.608e-05,
+      "antihum_alone_power": 1.87e-06,
+      "antihum_peak_hz": 77.75
+    }
+  ],
+  "reading": "With the same kept tones the search harms as often as the original tuner (16 vs 15). Its extra harms come from keeping more tones. Harms sit in a near-silent neighbouring band that the anti-hum renderer spills into; in old-007-r0 the rise (4.0e-6) is about five times the anti-hum power alone (7.4e-7), so the spill adds coherently to existing room content (likely the hum's own modulation sidebands reproduced with the wrong phase). Gain and phase choices cannot remove a spill whose ratio to the tone is fixed by the renderer; only muting the tone or changing the engine output can."
+}

@@ -1,0 +1,107 @@
+{
+  "created_utc": "2026-11-06T12:21:40.595569+00:00",
+  "kind": "descriptive, no pass bar",
+  "method": {
+    "order_samples": 400,
+    "analysis_rate": 2000,
+    "band_hz": 5.0,
+    "train": "first half",
+    "test": "second half after a 1 s gap",
+    "predictor": "ridge least squares, linear in past microphone samples"
+  },
+  "recordings": [
+    {
+      "recording": "sid-recording-7 (6 Nov, Windows Sound Recorder)",
+      "seconds": 13.18,
+      "line_hz": 199.75,
+      "line_above_floor_db": 12.121163466101116,
+      "line_width_3db_hz": 0.5,
+      "hum_leftover_db": {
+        "5": -4.930277718931438,
+        "10": -4.41156217565221,
+        "20": -3.5306278589843316,
+        "50": -1.883009007156812,
+        "100": -0.9817654530941557,
+        "200": -0.42084871323256323
+      },
+      "steady_control_leftover_db": {
+        "5": -16.47259493105271,
+        "10": -16.562226760354093,
+        "20": -16.829712301355777,
+        "50": -18.050074186252147,
+        "100": -18.737772039959196,
+        "200": -16.876968749302886
+      }
+    },
+    {
+      "recording": "goal1_fan_01 (October, laptop mic)",
+      "seconds": 30.0,
+      "line_hz": 51.5,
+      "line_above_floor_db": 9.669261506957966,
+      "line_width_3db_hz": 1.25,
+      "hum_leftover_db": {
+        "5": -4.326508554458885,
+        "10": -4.013804593272166,
+        "20": -3.060293416933673,
+        "50": -1.1629373123510485,
+        "100": -0.02316538244833838,
+        "200": 0.25714399094571827
+      },
+      "steady_control_leftover_db": {
+        "5": -15.604026904687899,
+        "10": -15.800713511870514,
+        "20": -16.16443157498508,
+        "50": -17.965634729488983,
+        "100": -19.35116734427709,
+        "200": -15.82116397645626
+      }
+    },
+    {
+      "recording": "source-study fan_on (October, laptop mic)",
+      "seconds": 30.0,
+      "line_hz": 41.25,
+      "line_above_floor_db": 21.646101989652735,
+      "line_width_3db_hz": 0.25,
+      "hum_leftover_db": {
+        "5": -9.475551898502296,
+        "10": -8.804864181680909,
+        "20": -8.11088165596534,
+        "50": -6.310348979425293,
+        "100": -5.5667483959626685,
+        "200": -5.783171518992869
+      },
+      "steady_control_leftover_db": {
+        "5": -20.265211146237018,
+        "10": -20.276203292633088,
+        "20": -20.40833837669662,
+        "50": -21.48466643833529,
+        "100": -22.086553164658746,
+        "200": -20.305495816637613
+      }
+    }
+  ],
+  "windows_reported_latency": [
+    {
+      "name": "Speakers (Realtek(R) Audio)",
+      "input_s": null,
+      "output_s": 0.01
+    },
+    {
+      "name": "Headset Earphone (Soundform ANC Wired Earbuds)",
+      "input_s": null,
+      "output_s": 0.01
+    },
+    {
+      "name": "Headset Microphone (Soundform ANC Wired Earbuds)",
+      "input_s": 0.01,
+      "output_s": null
+    },
+    {
+      "name": "Microphone Array (Intel® Smart Sound Technology for Digital Microphones)",
+      "input_s": 0.01,
+      "output_s": null
+    }
+  ],
+  "complete": true,
+  "code_sha256": "039407d14076fe6c06b27f1d29ed2f4bfc4ff482c840b1b189c31db170b6b855"
+}

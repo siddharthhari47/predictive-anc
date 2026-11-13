@@ -1,0 +1,364 @@
+{
+  "created_utc": "2026-10-31T16:01:57.466978+00:00",
+  "kind": "offline_streaming_smoother_timing",
+  "question": "Does the s30 smoother fit the engine worker loop, and does the whole loop fit its block?",
+  "inputs": "Simulated room microphone, first 30 s, first eligible room of each of the 14 eligible sources of results-tuning-fresh-02. Seen recordings, no new media.",
+  "cases": [
+    {
+      "case_id": "tg-006-r1",
+      "source_id": "tg-006",
+      "room_index": 1,
+      "seed": 2764883920,
+      "menu_tones": 1,
+      "tone_hz": [
+        196.89472132849932
+      ],
+      "seeds": [
+        2764883920,
+        3585347488,
+        49251917,
+        1392665134,
+        1350140640,
+        2055681954,
+        3621186598,
+        1165936410,
+        2296033725,
+        570223368
+      ]
+    },
+    {
+      "case_id": "tg-007-r0",
+      "source_id": "tg-007",
+      "room_index": 0,
+      "seed": 2573944863,
+      "menu_tones": 1,
+      "tone_hz": [
+        153.29757886679081
+      ],
+      "seeds": [
+        2573944863,
+        1641291862,
+        379195677,
+        4247425788,
+        2596291483,
+        2188119353,
+        3365187579,
+        540330622,
+        2293592474,
+        310873282
+      ]
+    },
+    {
+      "case_id": "tg-011-r0",
+      "source_id": "tg-011",
+      "room_index": 0,
+      "seed": 804948745,
+      "menu_tones": 1,
+      "tone_hz": [
+        90.43138049105028
+      ],
+      "seeds": [
+        804948745,
+        2855787024,
+        3618428956,
+        1885307169,
+        3681647793,
+        178389813,
+        642106282,
+        1231488305,
+        2226686836,
+        2763979265
+      ]
+    },
+    {
+      "case_id": "tg-012-r0",
+      "source_id": "tg-012",
+      "room_index": 0,
+      "seed": 1473285558,
+      "menu_tones": 1,
+      "tone_hz": [
+        248.0253482705774
+      ],
+      "seeds": [
+        1473285558,
+        696133995,
+        2286245878,
+        109551364,
+        1937888477,
+        3931241574,
+        993634560,
+        885964418,
+        2577244512,
+        2367447492
+      ]
+    },
+    {
+      "case_id": "tg-013-r1",
+      "source_id": "tg-013",
+      "room_index": 1,
+      "seed": 2976870645,
+      "menu_tones": 1,
+      "tone_hz": [
+        110.95232395672618
+      ],
+      "seeds": [
+        2976870645,
+        1426944492,
+        3883261244,
+        1976675261,
+        3791811183,
+        752552610,
+        2351975503,
+        1493799546,
+        3151368469,
+        344815674
+      ]
+    },
+    {
+      "case_id": "tg-021-r2",
+      "source_id": "tg-021",
+      "room_index": 2,
+      "seed": 2540460369,
+      "menu_tones": 1,
+      "tone_hz": [
+        87.10301270077882
+      ],
+      "seeds": [
+        2540460369,
+        3066059544,
+        215193686,
+        3431394302,
+        3301145701,
+        1789933704,
+        2662001219,
+        4176099883,
+        3286044213,
+        2063775822
+      ]
+    },
+    {
+      "case_id": "tg-036-r0",
+      "source_id": "tg-036",
+      "room_index": 0,
+      "seed": 1952893102,
+      "menu_tones": 3,
+      "tone_hz": [
+        143.4403318014267,
+        295.613518072122,
+        159.281096874333
+      ],
+      "seeds": [
+        1952893102,
+        169361375,
+        226429101,
+        2081546725,
+        4276554840,
+        2136863949,
+        2087651220,
+        3972433373,
+        3095395745,
+        2183541194
+      ]
+    },
+    {
+      "case_id": "tg-037-r0",
+      "source_id": "tg-037",
+      "room_index": 0,
+      "seed": 2302109274,
+      "menu_tones": 3,
+      "tone_hz": [
+        126.7209258346929,
+        79.02992260904489,
+        110.94940686092038
+      ],
+      "seeds": [
+        2302109274,
+        924635149,
+        3586225690,
+        4220911317,
+        2238788584,
+        3116708310,
+        2070853287,
+        2837954689,
+        1528041429,
+        1767026707
+      ]
+    },
+    {
+      "case_id": "tg-039-r0",
+      "source_id": "tg-039",
+      "room_index": 0,
+      "seed": 2510646966,
+      "menu_tones": 1,
+      "tone_hz": [
+        100.0002124767688
+      ],
+      "seeds": [
+        2510646966,
+        1121112205,
+        2525540815,
+        410866780,
+        813994747,
+        1598333573,
+        4164467987,
+        1258938561,
+        2279246341,
+        3610080422
+      ]
+    },
+    {
+      "case_id": "tg-058-r0",
+      "source_id": "tg-058",
+      "room_index": 0,
+      "seed": 1698351225,
+      "menu_tones": 2,
+      "tone_hz": [
+        59.011732860892124,
+        253.09728233645285
+      ],
+      "seeds": [
+        1698351225,
+        2587141494,
+        1678657105,
+        2285643415,
+        3652939201,
+        3277480743,
+        2661943120,
+        702293286,
+        646915917,
+        2828183623
+      ]
+    },
+    {
+      "case_id": "tg-062-r0",
+      "source_id": "tg-062",
+      "room_index": 0,
+      "seed": 2985803839,
+      "menu_tones": 1,
+      "tone_hz": [
+        77.30896591234452
+      ],
+      "seeds": [
+        2985803839,
+        1729567559,
+        2165148706,
+        1035921698,
+        2476360020,
+        3005090137,
+        3515199249,
+        435585458,
+        4073898895,
+        87260416
+      ]
+    },
+    {
+      "case_id": "tg-063-r0",
+      "source_id": "tg-063",
+      "room_index": 0,
+      "seed": 4065041087,
+      "menu_tones": 2,
+      "tone_hz": [
+        138.20260025357211,
+        123.03780799404097
+      ],
+      "seeds": [
+        4065041087,
+        28985273,
+        2729761854,
+        555467729,
+        3640057707,
+        2429245320,
+        3150732776,
+        1934655381,
+        1498747611,
+        3688467749
+      ]
+    },
+    {
+      "case_id": "tg-067-r0",
+      "source_id": "tg-067",
+      "room_index": 0,
+      "seed": 4107560540,
+      "menu_tones": 1,
+      "tone_hz": [
+        58.78950614926101
+      ],
+      "seeds": [
+        4107560540,
+        514432385,
+        2723657770,
+        1862868615,
+        1986540768,
+        1683215009,
+        1056519835,
+        43309518,
+        64302746,
+        1152060530
+      ]
+    },
+    {
+      "case_id": "tg-071-r1",
+      "source_id": "tg-071",
+      "room_index": 1,
+      "seed": 4198772780,
+      "menu_tones": 2,
+      "tone_hz": [
+        50.65895231744633,
+        101.35114880206959
+      ],
+      "seeds": [
+        4198772780,
+        1359635985,
+        1298722699,
+        1924008317,
+        1206696279,
+        592131354,
+        2401260199,
+        895379381,
+        2568591205,
+        2472121044
+      ]
+    }
+  ],
+  "alpha": 0.3,
+  "variants": {
+    "live": "Detector as the app runs it today, tapers recomputed.",
+    "cached_dpss": "Same output, tapers cached in a scoped research cache."
+  },
+  "schedule": "2 serial repetitions, declared order then reverse; variant order alternates. One logical processor, numerical threads limited to one.",
+  "parity": "engine_smoothing.smooth_arrays applied to the engine log is the reference. Raw and smoothed outputs must match on every room and variant first (rtol 1e-8, atol 1e-9, exact gate), and again after each timed run.",
+  "timed": {
+    "engine_push": "AntiHumEngine.push for one 10 ms block",
+    "smoother_step": "PhasorSmoother.step",
+    "path": "push plus smoother, per block",
+    "synthesis": "synthesize for 480 samples at 48000 Hz, gain on every tone. Descriptive, it belongs to the output callback."
+  },
+  "not_timed": "Decimation, locks, the window, audio callbacks, device transport and any acoustic path.",
+  "quiet": {
+    "preflight_attempts": 3,
+    "seconds_per_attempt": 10,
+    "maximum_system_cpu_percent": 5.0,
+    "during_max_background_percent": 5.0,
+    "processor": "least busy permitted logical CPU in the last window, ties by index",
+    "do_not_stop_other_work": true
+  },
+  "decision": {
+    "smoother": "Pass if smoother_step p99 < 0.5 ms in every run. Contention only slows it, so a pass under load stands; a miss under load is inconclusive.",
+    "path": "Pass or fail on path p99 < 5.0 ms in every run, only if every run is quiet; otherwise inconclusive, diagnostic only. Same bar as results-selector-timing-01.",
+    "variants": "Decided separately for each variant. live is the one that describes the app today.",
+    "backlog": "Largest queue behind real time is reported per run, not part of the rule. The app refuses to play forecasts older than 250 ms."
+  },
+  "caveats": "One machine, one schedule, CPython on Windows. Not a complete app schedule, no device was opened, and no physical ANC is claimed.",
+  "code_sha256": {
+    "anc_lab/smoother_timing.py": "9350a2936426a932f3da6556cc4395cc91320c6340fbf34a06d7e85f395bc4f9",
+    "tests/test_smoother_timing.py": "678e208ce94b7d5953f80bd45c05f85e306de49fb3473db37605e48ca31adb02",
+    "docs/SMOOTHER_TIMING.md": "ee58d93c7e580af2fdad3aaeea22d1161fc3826cc7a6deaf8aed54990e0b78df",
+    "anc_lab/engine_smoothing.py": "4141084ebd4d8948182177b0355c8085607f707a5d070c609320ee9c03adde1a",
+    "anc_lab/antihum.py": "599bd571cf75c3c18719540e7c32dd0a1f67f3fca6c761273bce2ce955d01c23",
+    "anc_lab/tuning_fresh.py": "1bcbd52757fe85107043f8cc9aafdd01bee5b976235b93433f3f339fd66c0cc7",
+    "anc_lab/tuning_fresh_02.py": "f2414ac5487fce5716bbbff082657af116b5e100d324ae824bf2ddf516f7fed8",
+    "anc_lab/selector_stream_profile.py": "ac5e9ff821d5c486a1a98f9d9e0eb5623b4a1ec8c0e559a746e7e297bb6af8ed"
+  },
+  "rooms_sha256": "f48754dcdac4716848b5700735cb996935efbf21e8883f208c6c76fb70e67cfe",
+  "fresh_protocol_sha256": "3455b068536c137d3298b4e8de243dc7043a6450f1a6eaf301f63fa8e1cc3a71"
+}

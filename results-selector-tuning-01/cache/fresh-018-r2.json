@@ -1,0 +1,153 @@
+{
+  "source_id": "fresh-018",
+  "case_id": "fresh-018-r2",
+  "file": "File:Aurora generator test.webm",
+  "cohort": "switch_enriched_seen",
+  "room_index": 2,
+  "seed": 2615006741,
+  "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-018.npz",
+  "source_sha256": "052ebce7e1e2189d7f2e6b06e12ed8a72367c061c91f9d6f5dddb3b487afa4e7",
+  "reference_tones_hz": [
+    60.0,
+    120.0,
+    180.0,
+    239.75,
+    300.0
+  ],
+  "geometry": {
+    "dims_m": [
+      4.592612891880837,
+      4.199650449339556,
+      2.7527701002867873
+    ],
+    "rt60_s": 0.32167841452464035,
+    "source": [
+      0.529524483366304,
+      2.256423814465408,
+      1.184666885146335
+    ],
+    "mic": [
+      1.7081058056047584,
+      2.0778988263087586,
+      0.9
+    ],
+    "ears": [
+      [
+        2.0747530646446264,
+        2.350790356845256,
+        1.2
+      ],
+      [
+        2.079446271371954,
+        2.3313488082800164,
+        1.2
+      ],
+      [
+        2.086486081462946,
+        2.3021864854321574,
+        1.2
+      ],
+      [
+        2.0982190982812656,
+        2.2535826140190585,
+        1.2
+      ],
+      [
+        2.121685131917905,
+        2.1563748711928614,
+        1.2
+      ]
+    ],
+    "facing_deg": 226.7405034355122,
+    "move_direction_deg": 283.5716016178722,
+    "earphone_highpass_hz": 69.48547921274233,
+    "source_to_ear_m": 1.5481832957150974,
+    "source_to_mic_m": 1.2255449155476072
+  },
+  "tones": [
+    {
+      "frequency": 300.1026922171684,
+      "presence": 0.5616438356164384,
+      "mic_amplitude": 0.008200079385907643,
+      "ear_over_mic": [
+        0.2161124932564705,
+        -1.0705055917800554
+      ],
+      "w_unit_earphone": [
+        -0.6661507179701647,
+        -0.8966902091061917
+      ],
+      "w": [
+        -1.0131020750401456,
+        -1.3637134765564445
+      ],
+      "earphone_phase_deg": 48.022046682544335
+    },
+    {
+      "frequency": 179.9190926741835,
+      "presence": 0.5082912761355444,
+      "mic_amplitude": 0.0037888575619479136,
+      "ear_over_mic": [
+        0.822131522226162,
+        -0.5433532146709147
+      ],
+      "w_unit_earphone": [
+        -0.808954743907797,
+        0.674551472090296
+      ],
+      "w": [
+        -1.230282738662851,
+        1.025878194920254
+      ],
+      "earphone_phase_deg": -173.63780318353056
+    }
+  ],
+  "prefix": 58480,
+  "n": 146200,
+  "warm": 3000,
+  "earphone_gain": 0.6575356367163373,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 314821970,
+      "1.0": 658059416,
+      "2.0": 60430298
+    },
+    "200": {
+      "0.5": 715295392,
+      "1.0": 859598876,
+      "2.0": 631988291
+    }
+  },
+  "switches": {
+    "30": [
+      {
+        "row": 7061,
+        "arrival_sample": 141305,
+        "arrival_seconds": 70.6525,
+        "from_arm": 1,
+        "to_arm": 2,
+        "command_exposed": true,
+        "complete_200ms_window": true
+      }
+    ],
+    "200": [
+      {
+        "row": 7055,
+        "arrival_sample": 141525,
+        "arrival_seconds": 70.7625,
+        "from_arm": 1,
+        "to_arm": 2,
+        "command_exposed": true,
+        "complete_200ms_window": true
+      }
+    ]
+  },
+  "prefix_switches": {
+    "30": 1,
+    "200": 1
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\fresh-018-r2.npz",
+  "cache_sha256": "d60bfb7dcbf7f3feebb4c1f4b545e31445ae6e743a5deae0b1198ae1bde2a3ea",
+  "v2_trace_matches_original": true
+}

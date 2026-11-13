@@ -1,0 +1,113 @@
+{
+  "id": "case-027",
+  "title": "Het_vermalen_van_fruit_in_een_blender_-_SoundCloud_-_marloeskunst.ogg",
+  "cohort": "former-test-04",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-027.npz",
+  "arrays_sha256": "dc9ca4a78a76d396c4e6217ac4186891e5548993a5169e86f8ab0756cb5cb62c",
+  "reference_sha256": "1dc944f0b7c081ed767fac32235cdbc35d5ba6759a487f716eec247a68f9b59c",
+  "seconds": 30.741,
+  "prefix_seconds": 12.296,
+  "counts": {
+    "frames_after_warmup": 2924,
+    "v2_components_before_gate": 307,
+    "bank_components_before_gate": 508,
+    "frames_both_gates_open": 2893,
+    "bank_components_without_v2_match": 296,
+    "eligible_v2_components": 283,
+    "matched_tone_frames": 181,
+    "v2_without_bank_match": 102,
+    "frames_bank_only_gate": 7,
+    "frames_both_gates_closed": 10,
+    "frames_v2_only_gate": 14
+  },
+  "all": {
+    "matched_tone_frames": 181,
+    "mismatch": {
+      "p05": 0.24460388139508613,
+      "p50": 0.6890772791149143,
+      "p95": 1.0081842573224404,
+      "p99": 1.6670799283617166,
+      "max": 2.192694422295639
+    },
+    "ramped_mismatch": {
+      "p05": 0.24460388139508613,
+      "p50": 0.6928023053736466,
+      "p95": 1.0496192077478619,
+      "p99": 3.4871395671781245,
+      "max": 16.911868563978086
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -0.07079823396540133,
+      "p50": 3.2346413960668707,
+      "p95": 12.230733116469422,
+      "p99": 19.90398754958502,
+      "max": 37.63870549073146
+    },
+    "fraction_mismatch_above_0_1": 0.988950276243094,
+    "fraction_mismatch_above_1": 0.055248618784530384,
+    "v2_energy_weighted_rms_mismatch": 0.7298247310180758,
+    "absolute_phase_difference_deg": {
+      "p05": 3.1809094772822504,
+      "p50": 33.99365145310515,
+      "p95": 57.94947238015234,
+      "p99": 172.6004401781221,
+      "max": 178.9510767655497
+    },
+    "amplitude_ratio": {
+      "p05": 0.08887680813302833,
+      "p50": 0.7113398838323144,
+      "p95": 1.46855215024893,
+      "p99": 2.0809785354010426,
+      "max": 3.0958592692499765
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 118,
+    "mismatch": {
+      "p05": 0.2337762741357097,
+      "p50": 0.6752538847174818,
+      "p95": 0.8537892303021992,
+      "p99": 0.9422484687649356,
+      "max": 0.9461353122645455
+    },
+    "ramped_mismatch": {
+      "p05": 0.2337762741357097,
+      "p50": 0.6752538847174818,
+      "p95": 0.8537892303021992,
+      "p99": 0.9422484687649356,
+      "max": 0.9461353122645455
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": 1.3730872707644655,
+      "p50": 3.4106593748594154,
+      "p95": 12.686361488661804,
+      "p99": 21.246524370233665,
+      "max": 37.63870549073146
+    },
+    "fraction_mismatch_above_0_1": 0.9830508474576272,
+    "fraction_mismatch_above_1": 0.0,
+    "v2_energy_weighted_rms_mismatch": 0.719178055771013,
+    "absolute_phase_difference_deg": {
+      "p05": 4.068945951695902,
+      "p50": 38.63162912202705,
+      "p95": 56.38353030984386,
+      "p99": 61.61069733235731,
+      "max": 62.65233867822063
+    },
+    "amplitude_ratio": {
+      "p05": 0.497953968838477,
+      "p50": 0.7803544149516806,
+      "p95": 1.2784877051470058,
+      "p99": 1.3164768477074063,
+      "max": 1.3476538928615789
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-027.npz",
+  "ratio_arrays_sha256": "6dae8f8be7e07f4249d09fcc1db803edf7e94704dae192dfff0ce71ecd8fd435"
+}

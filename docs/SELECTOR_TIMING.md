@@ -1,0 +1,19 @@
+# Chooser timing and integration gate
+
+21 October 2026. Written before the new timing measurement. This is offline software work; no audio device is opened and the live engine remains v2.
+
+Claude's review #47 is accepted with two qualifications: the observed worst 20 ms loss was 0.516 dB on this finite collection, not a guarantee for new sounds; fan/AC benefit remains unproven, while transport engines are also within the original research brief. Four of 25 tonal sources carry nearly all of the fresh mean gain. Preserve the fresh pass and its limited scope.
+
+The timing gate is the **whole forecast computation path at p99 <5 ms per 10 ms input block**, for every fixed source and repetition, on one logical processor with numerical-library threads limited to one. Include both independent tone detectors, v2 and faded-bank forecasts at both 20/120 ms horizons, matured-error gates, the chooser's bandpass/error history, and rendered crossfades. Report p50, p95, p99, maximum, >5 ms and >10 ms counts, wall time and thread CPU time. Startup and selector-update blocks count. Also report the late suffix separately; never choose the faster result.
+
+This measures the forecast core at its 2 kHz analysis rate. Source decoding, input resampling, UI, real-device callbacks, output rendering at device rate, and OS/audio transport are outside the timed section. The unused half-block is a reserve, not a measurement of those costs. Passing this gate would not establish a complete live application's schedulability or acoustic performance.
+
+Inputs are now-seen saved reference arrays. Fixed IDs: fresh-001/002/004 (indoor controls), 005/010 (20 ms regressions), 021 (120 ms regression), 018/025/026/035 (four largest 20 ms wins), 007/023 (no-tone controls). Use the first 30 seconds, all available forecast origins beginning at 0.5 seconds. Two serial repetitions, second in reverse source order. No source replacement or choosing a favorable interval. This is a bounded engineering profile, not a new accuracy test or exhaustive operating-range certification.
+
+Before interpreting any timing, a streaming implementation must reproduce the stored v2, faded-bank and chooser forecasts at both horizons on all fixed inputs (absolute/relative tolerances 1e-9/1e-8) and the chooser decisions exactly. It must update using only newly received samples, with bounded history and complete matured target blocks. A parity failure invalidates timing conclusions until diagnosed and recorded.
+
+Quiet qualification: observe three 10-second preflight windows, at most three attempts, without stopping other processes. A qualifying window has average total system CPU <=5%. Choose the permitted logical processor with the lowest mean utilization in that window (ties by index). If no window qualifies, use the last window's least busy processor and label all results contended. Each run also requires estimated background CPU <=5% of whole-machine capacity, subtracting this process's CPU time. A contended measurement cannot receive a quiet-machine pass or a definitive quiet-machine failure. Preserve it as a diagnostic; do not ask to terminate someone else's job.
+
+Failure plan, fixed before measurement: first examine a numerically equivalent fallback that caches only deterministic DPSS tapers used by both unchanged tone detectors. Cache keys include every argument, values are immutable, cache starts empty each run, and full forecast/decision parity is required. Benchmark it under the same schedule and criterion, even if the original passes. This is an implementation alternative, not a change in tracked tones or memories. If it still misses the gate, design reduced-memory/rotating-bank variants as new development candidates with fresh accuracy validation; do not inherit the unchanged chooser's pass.
+
+After timing, the next integration check is [fixed tuning across predictor switches](SELECTOR_TUNING_CHECK.md). Neither test promotes the engine automatically.

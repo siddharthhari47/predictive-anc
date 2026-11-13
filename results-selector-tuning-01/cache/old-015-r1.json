@@ -1,0 +1,108 @@
+{
+  "file": "WWS_Compressor.ogg",
+  "room_index": 1,
+  "seed": 3490323806,
+  "reference_tones_hz": [
+    36.0,
+    54.0,
+    63.0,
+    72.0,
+    81.0,
+    90.0
+  ],
+  "source_id": "old-015",
+  "case_id": "old-015-r1",
+  "cohort": "original48",
+  "old_index": 46,
+  "source_path": "external-audio\\wikimedia-commons-2026-10-16\\WWS_Compressor.ogg",
+  "source_sha256": "227ff8b3ddb3c5931dfcf1fd1a2c8465ee8a94fe339b8e1bb9c567429ba0aa69",
+  "geometry": {
+    "dims_m": [
+      4.764534780486562,
+      3.4324575128089716,
+      2.6903744422769256
+    ],
+    "rt60_s": 0.48041006833901817,
+    "source": [
+      2.97982360738618,
+      2.4415629211006973,
+      0.27846681631022024
+    ],
+    "mic": [
+      2.417560329103212,
+      2.1799105684515965,
+      0.9
+    ],
+    "ears": [
+      [
+        2.4802244547712897,
+        1.727170900039102,
+        1.2
+      ],
+      [
+        2.4960128278760654,
+        1.7148937963617523,
+        1.2
+      ],
+      [
+        2.519695387533229,
+        1.696478140845728,
+        1.2
+      ],
+      [
+        2.559166320295169,
+        1.6657853816523538,
+        1.2
+      ],
+      [
+        2.638108185819048,
+        1.6043998632656058,
+        1.2
+      ]
+    ],
+    "facing_deg": 107.9608930622154,
+    "move_direction_deg": 322.13121706912494,
+    "earphone_highpass_hz": 96.57650118413324,
+    "source_to_ear_m": 1.2685340680058257,
+    "source_to_mic_m": 0.8780122130015465
+  },
+  "tones": [],
+  "prefix": 100400,
+  "n": 251040,
+  "warm": 3000,
+  "earphone_gain": 1.0,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 487969895,
+      "1.0": 732229856,
+      "2.0": 32792204
+    },
+    "200": {
+      "0.5": 543187474,
+      "1.0": 980978631,
+      "2.0": 91588075
+    }
+  },
+  "switches": {
+    "30": [
+      {
+        "row": 10109,
+        "arrival_sample": 202265,
+        "arrival_seconds": 101.1325,
+        "from_arm": 1,
+        "to_arm": 2,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ],
+    "200": []
+  },
+  "prefix_switches": {
+    "30": 1,
+    "200": 1
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\old-015-r1.npz",
+  "cache_sha256": "8bac8ac5c1c3f71a2c860b8de0ab6c2c2a4e1f77b0afaf23a94f23211be5bf0a",
+  "v2_trace_matches_original": true
+}

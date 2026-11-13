@@ -1,0 +1,113 @@
+{
+  "id": "fresh-006",
+  "title": "File:Denford Novaturn CNC Lathe (video) - Nottingham Hackspace.webm",
+  "cohort": "stationary machinery",
+  "acoustic": true,
+  "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-006.npz",
+  "arrays_sha256": "848b3670e2f7ad4110ced323436280cc8b3dc8e94470d9cc1377ec609c184e9b",
+  "reference_sha256": "62a0410358f209471cdd54f9f249778ab3581f638f8b261e3c9bfdf374648e99",
+  "seconds": 53.1515,
+  "prefix_seconds": 21.2605,
+  "counts": {
+    "frames_after_warmup": 5165,
+    "v2_components_before_gate": 8940,
+    "bank_components_before_gate": 10150,
+    "frames_both_gates_open": 5062,
+    "bank_components_without_v2_match": 1738,
+    "eligible_v2_components": 8814,
+    "matched_tone_frames": 8178,
+    "v2_without_bank_match": 636,
+    "frames_both_gates_closed": 46,
+    "frames_bank_only_gate": 45,
+    "frames_v2_only_gate": 12
+  },
+  "all": {
+    "matched_tone_frames": 8178,
+    "mismatch": {
+      "p05": 0.02328959876564132,
+      "p50": 0.29608231553921005,
+      "p95": 1.2434788255156686,
+      "p99": 1.6747963991253585,
+      "max": 4.1862626267139165
+    },
+    "ramped_mismatch": {
+      "p05": 0.02328959876564132,
+      "p50": 0.29694730554700244,
+      "p95": 1.2505823399778353,
+      "p99": 1.7376626335226342,
+      "max": 8.517559765142884
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.8927677124774087,
+      "p50": 10.571751060355838,
+      "p95": 32.65676166251159,
+      "p99": 39.562672136232564,
+      "max": 57.21791202557977
+    },
+    "fraction_mismatch_above_0_1": 0.6768158473954512,
+    "fraction_mismatch_above_1": 0.10613842015162632,
+    "v2_energy_weighted_rms_mismatch": 0.14574430884804895,
+    "absolute_phase_difference_deg": {
+      "p05": 0.4939400783187976,
+      "p50": 10.769644425180033,
+      "p95": 81.9227081105069,
+      "p99": 131.5300571734442,
+      "max": 177.93785972669514
+    },
+    "amplitude_ratio": {
+      "p05": 0.44487561449774443,
+      "p50": 0.9778879903660316,
+      "p95": 1.312831978913009,
+      "p99": 1.8695265386069098,
+      "max": 5.167790920239094
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 6558,
+    "mismatch": {
+      "p05": 0.026330197522801236,
+      "p50": 0.3635812269687795,
+      "p95": 1.2642965812158053,
+      "p99": 1.6904741513325772,
+      "max": 4.1862626267139165
+    },
+    "ramped_mismatch": {
+      "p05": 0.026330197522801236,
+      "p50": 0.3640234231347276,
+      "p95": 1.2720957992047728,
+      "p99": 1.7623890076472106,
+      "max": 8.517559765142884
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.036979210987372,
+      "p50": 8.787971769716101,
+      "p95": 31.590917715123386,
+      "p99": 38.752261967399285,
+      "max": 57.21791202557977
+    },
+    "fraction_mismatch_above_0_1": 0.7384873437023483,
+    "fraction_mismatch_above_1": 0.1195486428789265,
+    "v2_energy_weighted_rms_mismatch": 0.16596313857567394,
+    "absolute_phase_difference_deg": {
+      "p05": 0.5784293777759426,
+      "p50": 14.530043943453602,
+      "p95": 85.04897992096923,
+      "p99": 132.7215281338182,
+      "max": 177.93785972669514
+    },
+    "amplitude_ratio": {
+      "p05": 0.45221682246068245,
+      "p50": 0.9691638162597092,
+      "p95": 1.3399710116048043,
+      "p99": 1.903836497059179,
+      "max": 5.167790920239094
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\fresh-006.npz",
+  "ratio_arrays_sha256": "e807efc96077096534a641e652763026dbd997a85136cbbd1aead3c40f7881f5"
+}

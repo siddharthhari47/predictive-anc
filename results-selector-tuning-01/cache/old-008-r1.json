@@ -1,0 +1,123 @@
+{
+  "file": "Sounds_made_by_a_fan.wav",
+  "room_index": 1,
+  "seed": 914623506,
+  "reference_tones_hz": [
+    82.75,
+    165.25,
+    330.75
+  ],
+  "source_id": "old-008",
+  "case_id": "old-008-r1",
+  "cohort": "original48",
+  "old_index": 25,
+  "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Sounds_made_by_a_fan.wav",
+  "source_sha256": "14aeb4433d1f4e113c8f462ec5a1926eafaf572420cb8053a155462137c98707",
+  "geometry": {
+    "dims_m": [
+      3.4733664166107996,
+      2.679206745965696,
+      2.5134954185818743
+    ],
+    "rt60_s": 0.30090850245108547,
+    "source": [
+      3.0529487502568338,
+      0.4655993520831426,
+      0.32325232380320507
+    ],
+    "mic": [
+      1.6209645367052608,
+      0.5380450908249983,
+      0.9
+    ],
+    "ears": [
+      [
+        1.634228634518352,
+        0.9949083785919239,
+        1.2
+      ],
+      [
+        1.6524773237935777,
+        1.0030928357966666,
+        1.2
+      ],
+      [
+        1.679850357706416,
+        1.0153695216037806,
+        1.2
+      ],
+      [
+        1.7254720808944803,
+        1.0358306646156374,
+        1.2
+      ],
+      [
+        1.8167155272706086,
+        1.076752950639351,
+        1.2
+      ]
+    ],
+    "facing_deg": 278.41759852909456,
+    "move_direction_deg": 24.15602544211863,
+    "earphone_highpass_hz": 64.11276617287551,
+    "source_to_ear_m": 1.7497489248635545,
+    "source_to_mic_m": 1.5454659669242714
+  },
+  "tones": [],
+  "prefix": 44020,
+  "n": 110080,
+  "warm": 3000,
+  "earphone_gain": 1.0,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 97047079,
+      "1.0": 782221236,
+      "2.0": 837253828
+    },
+    "200": {
+      "0.5": 397075972,
+      "1.0": 130781408,
+      "2.0": 1030210023
+    }
+  },
+  "switches": {
+    "30": [],
+    "200": [
+      {
+        "row": 2302,
+        "arrival_sample": 46465,
+        "arrival_seconds": 23.2325,
+        "from_arm": 0,
+        "to_arm": 2,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 4045,
+        "arrival_sample": 81325,
+        "arrival_seconds": 40.6625,
+        "from_arm": 2,
+        "to_arm": 0,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 4812,
+        "arrival_sample": 96665,
+        "arrival_seconds": 48.3325,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ]
+  },
+  "prefix_switches": {
+    "30": 0,
+    "200": 0
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\old-008-r1.npz",
+  "cache_sha256": "4b403ff640171e3105950911d86b3312ce14c854b2ead48e2893503e8c0b4e29",
+  "v2_trace_matches_original": true
+}

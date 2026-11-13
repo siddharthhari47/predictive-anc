@@ -1,0 +1,31 @@
+{
+  "id": "case-043",
+  "title": "results-source-study-01/fan_off.wav",
+  "cohort": "personal-seen-secondary",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-043.npz",
+  "arrays_sha256": "0c34e7dc8f90a92b69aaf9f74635a9c95032d6556f993f8fe8d2a8c168a9f2eb",
+  "reference_sha256": "09b28342ee8e1dd420c1a7dc91cf335c3d6939f44c8cd90e8b82f7dbe645f7bd",
+  "seconds": 30.0,
+  "prefix_seconds": 12.0,
+  "counts": {
+    "frames_after_warmup": 2850,
+    "v2_components_before_gate": 0,
+    "bank_components_before_gate": 0,
+    "frames_both_gates_open": 2850,
+    "bank_components_without_v2_match": 0
+  },
+  "all": {
+    "matched_tone_frames": 0
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 0
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-043.npz",
+  "ratio_arrays_sha256": "03036b8f7a3b1ede701c902b3f12bd454e9a0da9bcca09d1983bf07d3ca4dbae"
+}

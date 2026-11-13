@@ -1,0 +1,2200 @@
+{
+  "case_id": "old-010-r1",
+  "source_id": "old-010",
+  "parity_fields": 45,
+  "saved_settings_and_summaries_match": true,
+  "sessions": [
+    {
+      "frequency": 120.02350336191967,
+      "initial": {
+        "start_gain": 64.5326158438338,
+        "min_gain": 2.016644245119806,
+        "max_gain": 29.241734421913083,
+        "check_on_first": [
+          false,
+          true
+        ],
+        "sweep_turns": 1
+      },
+      "summary": {
+        "frequency": 120.02350336191967,
+        "gain": 0.0,
+        "phase_deg": 89.88023387593275,
+        "kept": false,
+        "gain_before_check": 17.686532288665457,
+        "flags": [
+          "one sweep direction only (reaction delay not cancelled)",
+          "no benefit heard: switched off"
+        ],
+        "questions": 13,
+        "sweeps": 3,
+        "presses": 1,
+        "listening_seconds": 72.0
+      },
+      "steps": [
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 14.620867210956542,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 58.48346884382617,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 7.310433605478271,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 29.241734421913083,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "same"
+        },
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 10.338514351695414,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 20.67702870339083,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "same"
+        },
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 12.294634825593931,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 17.38723931477951,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "sweep",
+          "presented": [
+            {
+              "label": "sweep",
+              "frequency": 120.02350336191967,
+              "gain": 15.944168751820028,
+              "phase_deg": 0.0,
+              "offset_hz": 0.25,
+              "offset_origin_s": 0.0,
+              "seconds": 4.0
+            }
+          ],
+          "answer": [
+            0.9764470430659193
+          ]
+        },
+        {
+          "kind": "sweep",
+          "presented": [
+            {
+              "label": "sweep",
+              "frequency": 120.02350336191967,
+              "gain": 15.944168751820028,
+              "phase_deg": 0.0,
+              "offset_hz": -0.25,
+              "offset_origin_s": 0.0,
+              "seconds": 4.0
+            }
+          ],
+          "answer": []
+        },
+        {
+          "kind": "sweep",
+          "presented": [
+            {
+              "label": "sweep",
+              "frequency": 120.02350336191967,
+              "gain": 15.944168751820028,
+              "phase_deg": 0.0,
+              "offset_hz": -0.25,
+              "offset_origin_s": 0.0,
+              "seconds": 4.0
+            }
+          ],
+          "answer": []
+        },
+        {
+          "kind": "phase",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 15.944168751820028,
+              "phase_deg": 57.880233875932745,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 15.944168751820028,
+              "phase_deg": 117.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "same"
+        },
+        {
+          "kind": "phase",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 15.944168751820028,
+              "phase_deg": 72.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 15.944168751820028,
+              "phase_deg": 102.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "same"
+        },
+        {
+          "kind": "phase",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 15.944168751820028,
+              "phase_deg": 79.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 15.944168751820028,
+              "phase_deg": 95.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "same"
+        },
+        {
+          "kind": "phase",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 15.944168751820028,
+              "phase_deg": 83.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 15.944168751820028,
+              "phase_deg": 91.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "gain",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 12.264745193707713,
+              "phase_deg": 89.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 20.727419377366036,
+              "phase_deg": 89.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "same"
+        },
+        {
+          "kind": "gain",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 13.864494566800026,
+              "phase_deg": 89.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 18.33579406459303,
+              "phase_deg": 89.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "gain",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 15.979641241249729,
+              "phase_deg": 89.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 18.295091257106815,
+              "phase_deg": 89.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "check",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 0.0,
+              "phase_deg": 89.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 17.686532288665457,
+              "phase_deg": 89.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "check",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 120.02350336191967,
+              "gain": 17.686532288665457,
+              "phase_deg": 89.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 120.02350336191967,
+              "gain": 0.0,
+              "phase_deg": 89.88023387593275,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        }
+      ],
+      "comparisons": [
+        {
+          "kind": "level",
+          "frequency": 120.02350336191967,
+          "answer": "A",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 14.620867210956542,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 58.48346884382617,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -67.24027926441899,
+            -66.8552126114562
+          ],
+          "noise_db": [
+            -1.2796864364212872,
+            -0.6405748470038194
+          ],
+          "noisy_levels_db": [
+            -68.51996570084027,
+            -67.49578745846001
+          ]
+        },
+        {
+          "kind": "level",
+          "frequency": 120.02350336191967,
+          "answer": "same",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 7.310433605478271,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 29.241734421913083,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -67.4786686047023,
+            -67.11998337151606
+          ],
+          "noise_db": [
+            -0.37677919613619665,
+            -0.4428516414015947
+          ],
+          "noisy_levels_db": [
+            -67.8554478008385,
+            -67.56283501291765
+          ]
+        },
+        {
+          "kind": "level",
+          "frequency": 120.02350336191967,
+          "answer": "same",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 10.338514351695414,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 20.67702870339083,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -67.36765814374364,
+            -66.9776660480668
+          ],
+          "noise_db": [
+            -0.7637220033886232,
+            -0.40256237527216876
+          ],
+          "noisy_levels_db": [
+            -68.13138014713226,
+            -67.38022842333896
+          ]
+        },
+        {
+          "kind": "level",
+          "frequency": 120.02350336191967,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 12.294634825593931,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 17.38723931477951,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -67.34287726140072,
+            -67.11036877995778
+          ],
+          "noise_db": [
+            2.7184527309262108,
+            1.4664875509441044
+          ],
+          "noisy_levels_db": [
+            -64.6244245304745,
+            -65.64388122901367
+          ]
+        },
+        {
+          "kind": "phase",
+          "frequency": 120.02350336191967,
+          "answer": "same",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 15.944168751820028,
+                "phase_deg": 57.880233875932745,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 15.944168751820028,
+                "phase_deg": 117.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -59.75717042192695,
+            -60.888821473912444
+          ],
+          "noise_db": [
+            -1.587771862049294,
+            0.2657847711672509
+          ],
+          "noisy_levels_db": [
+            -61.344942283976245,
+            -60.623036702745196
+          ]
+        },
+        {
+          "kind": "phase",
+          "frequency": 120.02350336191967,
+          "answer": "same",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 15.944168751820028,
+                "phase_deg": 72.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 15.944168751820028,
+                "phase_deg": 102.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -59.76780373066881,
+            -60.91136091671481
+          ],
+          "noise_db": [
+            -0.2647953762031483,
+            0.3967986867735369
+          ],
+          "noisy_levels_db": [
+            -60.032599106871956,
+            -60.514562229941276
+          ]
+        },
+        {
+          "kind": "phase",
+          "frequency": 120.02350336191967,
+          "answer": "same",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 15.944168751820028,
+                "phase_deg": 79.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 15.944168751820028,
+                "phase_deg": 95.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -59.771950330615965,
+            -60.92187712738537
+          ],
+          "noise_db": [
+            -1.0787263574989765,
+            0.515715305988542
+          ],
+          "noisy_levels_db": [
+            -60.850676688114945,
+            -60.40616182139683
+          ]
+        },
+        {
+          "kind": "phase",
+          "frequency": 120.02350336191967,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 15.944168751820028,
+                "phase_deg": 83.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 15.944168751820028,
+                "phase_deg": 91.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -59.77404940807822,
+            -60.92779277834041
+          ],
+          "noise_db": [
+            1.494427205950526,
+            1.065992477096347
+          ],
+          "noisy_levels_db": [
+            -58.2796222021277,
+            -59.86180030124407
+          ]
+        },
+        {
+          "kind": "gain",
+          "frequency": 120.02350336191967,
+          "answer": "same",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 12.264745193707713,
+                "phase_deg": 89.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 20.727419377366036,
+                "phase_deg": 89.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -59.786771203645024,
+            -60.71786358072644
+          ],
+          "noise_db": [
+            -0.8264158125796482,
+            0.3101019470291969
+          ],
+          "noisy_levels_db": [
+            -60.61318701622467,
+            -60.40776163369724
+          ]
+        },
+        {
+          "kind": "gain",
+          "frequency": 120.02350336191967,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 13.864494566800026,
+                "phase_deg": 89.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 18.33579406459303,
+                "phase_deg": 89.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -59.78310540475164,
+            -60.83017165473475
+          ],
+          "noise_db": [
+            1.1198951146675533,
+            0.556169022264401
+          ],
+          "noisy_levels_db": [
+            -58.66321029008408,
+            -60.27400263247035
+          ]
+        },
+        {
+          "kind": "gain",
+          "frequency": 120.02350336191967,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 15.979641241249729,
+                "phase_deg": 89.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 18.295091257106815,
+                "phase_deg": 89.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -59.776677715895836,
+            -60.83198381205989
+          ],
+          "noise_db": [
+            0.3146476435278918,
+            -0.6313291994940247
+          ],
+          "noisy_levels_db": [
+            -59.462030072367945,
+            -61.463313011553915
+          ]
+        },
+        {
+          "kind": "check",
+          "frequency": 120.02350336191967,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 0.0,
+                "phase_deg": 89.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 17.686532288665457,
+                "phase_deg": 89.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -59.78050442950259,
+            -60.85866823297843
+          ],
+          "noise_db": [
+            1.3076404123870322,
+            -0.3598720547852952
+          ],
+          "noisy_levels_db": [
+            -58.47286401711556,
+            -61.21854028776372
+          ],
+          "on_index": 1,
+          "on_minus_off_db": -1.0781638034758387,
+          "noisy_on_minus_off_db": -2.745676270648161,
+          "choice_as_on_off": "on",
+          "choice_probabilities": {
+            "on": 0.5220383808570644,
+            "same": 0.40711080169017977,
+            "off": 0.07085081745275579
+          },
+          "same_interval": [
+            {
+              "off_db": -59.78050442950259,
+              "on_db": -59.770183136783565,
+              "on_minus_off_db": 0.010321292719027042
+            },
+            {
+              "off_db": -61.24352875885564,
+              "on_db": -60.85866823297843,
+              "on_minus_off_db": 0.3848605258772082
+            }
+          ],
+          "off_background_on_interval_minus_off_interval_db": -1.463024329353047
+        },
+        {
+          "kind": "check",
+          "frequency": 120.02350336191967,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 17.686532288665457,
+                "phase_deg": 89.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 120.02350336191967,
+                "gain": 0.0,
+                "phase_deg": 89.88023387593275,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -59.770183136783565,
+            -61.24352875885564
+          ],
+          "noise_db": [
+            0.760545767643694,
+            -1.7721294500737135
+          ],
+          "noisy_levels_db": [
+            -59.009637369139874,
+            -63.01565820892935
+          ],
+          "on_index": 0,
+          "on_minus_off_db": 1.473345622072074,
+          "noisy_on_minus_off_db": 4.006020839789478,
+          "choice_as_on_off": "off",
+          "choice_probabilities": {
+            "on": 0.04015247100099946,
+            "same": 0.32877100447809626,
+            "off": 0.6310765245209042
+          },
+          "same_interval": [
+            {
+              "off_db": -59.78050442950259,
+              "on_db": -59.770183136783565,
+              "on_minus_off_db": 0.010321292719027042
+            },
+            {
+              "off_db": -61.24352875885564,
+              "on_db": -60.85866823297843,
+              "on_minus_off_db": 0.3848605258772082
+            }
+          ],
+          "off_background_on_interval_minus_off_interval_db": 1.463024329353047
+        }
+      ],
+      "conditional_keep_probability": 0.20893871845832662,
+      "same_interval_keep_probabilities": [
+        0.3036205165965255,
+        0.192003408424112
+      ]
+    },
+    {
+      "frequency": 112.6682052801772,
+      "initial": {
+        "start_gain": 3.6673462312796876,
+        "min_gain": 0.11460456972749024,
+        "max_gain": 35.52851101200254,
+        "check_on_first": [
+          false,
+          true
+        ],
+        "sweep_turns": 1
+      },
+      "summary": {
+        "frequency": 112.6682052801772,
+        "gain": 0.0,
+        "phase_deg": 171.9694205825113,
+        "kept": false,
+        "gain_before_check": 0.3161354258927674,
+        "flags": [
+          "no benefit heard: switched off"
+        ],
+        "questions": 17,
+        "sweeps": 2,
+        "presses": 2,
+        "listening_seconds": 92.0
+      },
+      "steps": [
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 1.8336731156398438,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 7.334692462559375,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.9168365578199219,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 3.6673462312796876,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.45841827890996095,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 1.8336731156398438,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.22920913945498048,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.9168365578199219,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "same"
+        },
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.32415067363709943,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.648301347274199,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.22920913945498042,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.4584182789099609,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "A"
+        },
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.1620753368185497,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.32415067363709943,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "same"
+        },
+        {
+          "kind": "level",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.19274114371108178,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.27257713946351364,
+              "phase_deg": 0.0,
+              "offset_hz": 1.0,
+              "offset_origin_s": 0.0,
+              "seconds": 3.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "sweep",
+          "presented": [
+            {
+              "label": "sweep",
+              "frequency": 112.6682052801772,
+              "gain": 0.24995433897320557,
+              "phase_deg": 0.0,
+              "offset_hz": 0.25,
+              "offset_origin_s": 0.0,
+              "seconds": 4.0
+            }
+          ],
+          "answer": [
+            2.01437757748634
+          ]
+        },
+        {
+          "kind": "sweep",
+          "presented": [
+            {
+              "label": "sweep",
+              "frequency": 112.6682052801772,
+              "gain": 0.24995433897320557,
+              "phase_deg": 0.0,
+              "offset_hz": -0.25,
+              "offset_origin_s": 0.0,
+              "seconds": 4.0
+            }
+          ],
+          "answer": [
+            2.4039460089860896
+          ]
+        },
+        {
+          "kind": "phase",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.24995433897320557,
+              "phase_deg": 132.4694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.24995433897320557,
+              "phase_deg": 192.4694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "same"
+        },
+        {
+          "kind": "phase",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.24995433897320557,
+              "phase_deg": 147.4694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.24995433897320557,
+              "phase_deg": 177.4694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "phase",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.24995433897320557,
+              "phase_deg": 161.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.24995433897320557,
+              "phase_deg": 177.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "same"
+        },
+        {
+          "kind": "phase",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.24995433897320557,
+              "phase_deg": 165.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.24995433897320557,
+              "phase_deg": 173.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "gain",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.19227256844092735,
+              "phase_deg": 171.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.32494064066516726,
+              "phase_deg": 171.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "gain",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.24781895190795541,
+              "phase_deg": 171.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.327740563898271,
+              "phase_deg": 171.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "gain",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.28562584270142943,
+              "phase_deg": 171.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.3270130273088666,
+              "phase_deg": 171.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "check",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.0,
+              "phase_deg": 171.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.3161354258927674,
+              "phase_deg": 171.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        },
+        {
+          "kind": "check",
+          "presented": [
+            {
+              "label": "A",
+              "frequency": 112.6682052801772,
+              "gain": 0.3161354258927674,
+              "phase_deg": 171.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            },
+            {
+              "label": "B",
+              "frequency": 112.6682052801772,
+              "gain": 0.0,
+              "phase_deg": 171.9694205825113,
+              "offset_hz": 0.0,
+              "offset_origin_s": 0.0,
+              "seconds": 2.0
+            }
+          ],
+          "answer": "B"
+        }
+      ],
+      "comparisons": [
+        {
+          "kind": "level",
+          "frequency": 112.6682052801772,
+          "answer": "A",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 1.8336731156398438,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 7.334692462559375,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -68.11240717388033,
+            -67.8689535276047
+          ],
+          "noise_db": [
+            -0.8302004242335872,
+            0.9181206156940723
+          ],
+          "noisy_levels_db": [
+            -68.94260759811391,
+            -66.95083291191062
+          ]
+        },
+        {
+          "kind": "level",
+          "frequency": 112.6682052801772,
+          "answer": "A",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.9168365578199219,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 3.6673462312796876,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -68.24110247572672,
+            -68.04145810145059
+          ],
+          "noise_db": [
+            -0.8402700518535782,
+            1.241712783225261
+          ],
+          "noisy_levels_db": [
+            -69.0813725275803,
+            -66.79974531822532
+          ]
+        },
+        {
+          "kind": "level",
+          "frequency": 112.6682052801772,
+          "answer": "A",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.45841827890996095,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 1.8336731156398438,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -68.2642168221503,
+            -68.11240717388033
+          ],
+          "noise_db": [
+            -1.0040953938239956,
+            0.6353750090514878
+          ],
+          "noisy_levels_db": [
+            -69.2683122159743,
+            -67.47703216482884
+          ]
+        },
+        {
+          "kind": "level",
+          "frequency": 112.6682052801772,
+          "answer": "same",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.22920913945498048,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.9168365578199219,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -68.29060916045648,
+            -68.24110247572672
+          ],
+          "noise_db": [
+            -1.2619973078227789,
+            -0.6856945219809804
+          ],
+          "noisy_levels_db": [
+            -69.55260646827927,
+            -68.9267969977077
+          ]
+        },
+        {
+          "kind": "level",
+          "frequency": 112.6682052801772,
+          "answer": "A",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.32415067363709943,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.648301347274199,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -68.27988062185429,
+            -68.26414289098311
+          ],
+          "noise_db": [
+            1.0406546551081983,
+            2.168700347269519
+          ],
+          "noisy_levels_db": [
+            -67.23922596674609,
+            -66.09544254371359
+          ]
+        },
+        {
+          "kind": "level",
+          "frequency": 112.6682052801772,
+          "answer": "A",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.22920913945498042,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.4584182789099609,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -68.29060916045648,
+            -68.2642168221503
+          ],
+          "noise_db": [
+            -2.0569575457118856,
+            -0.17374452748991207
+          ],
+          "noisy_levels_db": [
+            -70.34756670616837,
+            -68.43796134964022
+          ]
+        },
+        {
+          "kind": "level",
+          "frequency": 112.6682052801772,
+          "answer": "same",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.1620753368185497,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.32415067363709943,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -68.3000984169548,
+            -68.27988062185429
+          ],
+          "noise_db": [
+            0.12571302996537942,
+            -0.7283543417275298
+          ],
+          "noisy_levels_db": [
+            -68.17438538698941,
+            -69.00823496358181
+          ]
+        },
+        {
+          "kind": "level",
+          "frequency": 112.6682052801772,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.19274114371108178,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 1.5,
+              "end_s": 4.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.27257713946351364,
+                "phase_deg": 0.0,
+                "offset_hz": 1.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -68.29576541912482,
+            -68.28706198451138
+          ],
+          "noise_db": [
+            1.607030638134701,
+            -0.19426937239970796
+          ],
+          "noisy_levels_db": [
+            -66.68873478099012,
+            -68.48133135691108
+          ]
+        },
+        {
+          "kind": "phase",
+          "frequency": 112.6682052801772,
+          "answer": "same",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.24995433897320557,
+                "phase_deg": 132.4694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.24995433897320557,
+                "phase_deg": 192.4694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -60.02693833942012,
+            -61.594013732376226
+          ],
+          "noise_db": [
+            -0.9231073145589717,
+            0.7906646939473008
+          ],
+          "noisy_levels_db": [
+            -60.95004565397909,
+            -60.80334903842893
+          ]
+        },
+        {
+          "kind": "phase",
+          "frequency": 112.6682052801772,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.24995433897320557,
+                "phase_deg": 147.4694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.24995433897320557,
+                "phase_deg": 177.4694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -60.02706692806359,
+            -61.59559428115722
+          ],
+          "noise_db": [
+            0.06754587124645064,
+            -1.6996067635995897
+          ],
+          "noisy_levels_db": [
+            -59.95952105681714,
+            -63.29520104475681
+          ]
+        },
+        {
+          "kind": "phase",
+          "frequency": 112.6682052801772,
+          "answer": "same",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.24995433897320557,
+                "phase_deg": 161.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.24995433897320557,
+                "phase_deg": 177.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -60.027303630563054,
+            -61.59554166135987
+          ],
+          "noise_db": [
+            -1.512392663803574,
+            -0.7088356540932492
+          ],
+          "noisy_levels_db": [
+            -61.53969629436663,
+            -62.30437731545312
+          ]
+        },
+        {
+          "kind": "phase",
+          "frequency": 112.6682052801772,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.24995433897320557,
+                "phase_deg": 165.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.24995433897320557,
+                "phase_deg": 173.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -60.027386503213776,
+            -61.59596110851541
+          ],
+          "noise_db": [
+            -0.7523012595657292,
+            -2.120844896834616
+          ],
+          "noisy_levels_db": [
+            -60.7796877627795,
+            -63.71680600535003
+          ]
+        },
+        {
+          "kind": "gain",
+          "frequency": 112.6682052801772,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.19227256844092735,
+                "phase_deg": 171.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.32494064066516726,
+                "phase_deg": 171.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -60.02784053684099,
+            -61.596466902177326
+          ],
+          "noise_db": [
+            -1.4069417591882556,
+            -2.021277464151474
+          ],
+          "noisy_levels_db": [
+            -61.43478229602925,
+            -63.6177443663288
+          ]
+        },
+        {
+          "kind": "gain",
+          "frequency": 112.6682052801772,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.24781895190795541,
+                "phase_deg": 171.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.327740563898271,
+                "phase_deg": 171.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -60.027535433225,
+            -61.59647772176345
+          ],
+          "noise_db": [
+            1.4973528068242663,
+            -1.3218340240157604
+          ],
+          "noisy_levels_db": [
+            -58.53018262640073,
+            -62.91831174577921
+          ]
+        },
+        {
+          "kind": "gain",
+          "frequency": 112.6682052801772,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.28562584270142943,
+                "phase_deg": 171.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.3270130273088666,
+                "phase_deg": 171.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -60.027324602329706,
+            -61.59647491243999
+          ],
+          "noise_db": [
+            0.2337164630978613,
+            -1.5485326572530451
+          ],
+          "noisy_levels_db": [
+            -59.79360813923184,
+            -63.145007569693036
+          ]
+        },
+        {
+          "kind": "check",
+          "frequency": 112.6682052801772,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.0,
+                "phase_deg": 171.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.3161354258927674,
+                "phase_deg": 171.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -60.028853884609276,
+            -61.596432737383054
+          ],
+          "noise_db": [
+            0.8078488935397407,
+            -0.5296649474990962
+          ],
+          "noisy_levels_db": [
+            -59.221004991069535,
+            -62.12609768488215
+          ],
+          "on_index": 1,
+          "on_minus_off_db": -1.567578852773778,
+          "noisy_on_minus_off_db": -2.9050926938126125,
+          "choice_as_on_off": "on",
+          "choice_probabilities": {
+            "on": 0.6559146700189595,
+            "same": 0.3093658008693015,
+            "off": 0.034719529111739
+          },
+          "same_interval": [
+            {
+              "off_db": -60.028853884609276,
+              "on_db": -60.027152595457494,
+              "on_minus_off_db": 0.0017012891517822482
+            },
+            {
+              "off_db": -61.5950661223329,
+              "on_db": -61.596432737383054,
+              "on_minus_off_db": -0.0013666150501521201
+            }
+          ],
+          "off_background_on_interval_minus_off_interval_db": -1.5662122377236258
+        },
+        {
+          "kind": "check",
+          "frequency": 112.6682052801772,
+          "answer": "B",
+          "intervals": [
+            {
+              "start_s": 1.5,
+              "end_s": 3.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.3161354258927674,
+                "phase_deg": 171.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            },
+            {
+              "start_s": 3.5,
+              "end_s": 5.5,
+              "setting": {
+                "frequency": 112.6682052801772,
+                "gain": 0.0,
+                "phase_deg": 171.9694205825113,
+                "offset_hz": 0.0,
+                "offset_origin_s": 0.0
+              }
+            }
+          ],
+          "noiseless_levels_db": [
+            -60.027152595457494,
+            -61.5950661223329
+          ],
+          "noise_db": [
+            0.43436614448894856,
+            -0.6471026744761559
+          ],
+          "noisy_levels_db": [
+            -59.592786450968546,
+            -62.24216879680906
+          ],
+          "on_index": 0,
+          "on_minus_off_db": 1.567913526875408,
+          "noisy_on_minus_off_db": 2.6493823458405146,
+          "choice_as_on_off": "off",
+          "choice_probabilities": {
+            "on": 0.03470136741166144,
+            "same": 0.30929686219623775,
+            "off": 0.6560017703921008
+          },
+          "same_interval": [
+            {
+              "off_db": -60.028853884609276,
+              "on_db": -60.027152595457494,
+              "on_minus_off_db": 0.0017012891517822482
+            },
+            {
+              "off_db": -61.5950661223329,
+              "on_db": -61.596432737383054,
+              "on_minus_off_db": -0.0013666150501521201
+            }
+          ],
+          "off_background_on_interval_minus_off_interval_db": 1.5662122377236258
+        }
+      ],
+      "conditional_keep_probability": 0.23636890158093998,
+      "same_interval_keep_probabilities": [
+        0.3064917650750194,
+        0.30751650838025235
+      ]
+    }
+  ]
+}

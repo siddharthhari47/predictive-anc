@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-21T14:26:54.363964+00:00",
+  "original_protocol_sha256": "f395e6a2b9b20dfc4ac5d9d2b33f07e6f9b4c8ed4ead0240fb333e5b8b974308",
+  "acquisition_amendment_sha256": "c77ec958c0b8c07856e9997589ed973afcd51f9b65498dc83eded7f22fefea26",
+  "before_fresh_decoding_and_scoring": true,
+  "reason": "Code inspection found six frozen .ogv sources labelled application/ogg. The runner only recognized video/* MIME and would wrongly send video containers to the audio-only loader.",
+  "change": "Route video MIME, .ogv/.webm/.mp4/.mkv containers or official video derivatives through the already frozen first-audio-track ffmpeg decoder. Ordinary audio keeps the original loader. Add explicit immutable amendment verification to the runner.",
+  "scientific_invariants": "No source-list, candidate, comparator, normalization, resampling, crop, score, eligibility or decision-rule change. No fresh audio decoded, listened to or scored before this amendment.",
+  "code_changes": {
+    "anc_lab/selector_fresh_study.py": {
+      "before_sha256": "bfd2123b68f660c7b2c347b222e637d8d62b78e7b7223e11df3eb0559b34fd5a",
+      "after_sha256": "7a4614c8f99cb458384e8f7c1d1f8bd8483527524e1edbf16b6755fe7d185a98",
+      "preserved_original": "results-selector-fresh-01/runner-before-decoder-fix.py"
+    }
+  },
+  "added_tests_sha256": {
+    "tests/test_selector_media_dispatch.py": "bc80a5bb01f1d5e4c6d3dd77de4c1db88fec00295ed7bc2fd5ce2c534b7dfe83"
+  },
+  "validation": {
+    "targeted_checks_passed": 18,
+    "elapsed_seconds": 0.51,
+    "includes": "Existing causal selector invariants, seen-data score parity, study aggregation and two metadata-only dispatch cases"
+  },
+  "preparer_sha256": "77c337c6f856348d0eb37f132fb9c7dee54a0fa09dbb7a2a4035a6cd6d9ce67f"
+}

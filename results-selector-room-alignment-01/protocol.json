@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-10-22T14:41:37.861360+00:00",
+  "frequencies_hz": [
+    47.3,
+    137.4,
+    299.3,
+    343.7
+  ],
+  "drifts_hz_per_second": [
+    0.0,
+    0.01
+  ],
+  "seconds": 12,
+  "evaluate_after_seconds": 10,
+  "amplitude": 0.01,
+  "phase_radians": 0.71,
+  "noise_sd": 1e-06,
+  "seed": 20261022,
+  "leads_ms": [
+    30,
+    200
+  ],
+  "maximum_pair_phase_degrees": 1.0,
+  "maximum_pair_level_db": 0.1,
+  "code_sha256": {
+    "anc_lab/selector_room_alignment.py": "2d964584ec08b4fa06a47e658631afa808d2f480ce8f66c7aa1c9ed7b7125457",
+    "anc_lab/selector_room_stream.py": "6097ef0392631864e598f3d21571ae0ab26e100903c04b7c41727fee58275273",
+    "anc_lab/selector_stream_profile.py": "ac5e9ff821d5c486a1a98f9d9e0eb5623b4a1ec8c0e559a746e7e297bb6af8ed",
+    "anc_lab/antihum.py": "599bd571cf75c3c18719540e7c32dd0a1f67f3fca6c761273bce2ce955d01c23",
+    "anc_lab/tone_react.py": "8c038a65a0c78bd1fd30feef3ede4c600802befed25947dfeeeff5418c2d51e1",
+    "anc_lab/tone_floors.py": "75af3cfc5a326ced876108aefa97066487873c2136b0d28a29587278af0eeedc",
+    "anc_lab/tone_forecasters.py": "2b0499a2963a1fe245a48f3b28eb3afe369d1a649e9fe8063dedc5e4abc193bd",
+    "anc_lab/predictors.py": "9a9c0a34939450e983b28ae0237e80b45169ed4171fe63b5f9b21d0a1249e36d"
+  },
+  "source_protocol_sha256": "f395e6a2b9b20dfc4ac5d9d2b33f07e6f9b4c8ed4ead0240fb333e5b8b974308",
+  "scope": "Known stable and very slowly drifting synthetic tones only; no room ear score. Genuine predictor bias distinguished from time-reference mistakes."
+}

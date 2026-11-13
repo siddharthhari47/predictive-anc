@@ -1,0 +1,1306 @@
+{
+  "created_utc": "2026-10-22T14:54:49.621191+00:00",
+  "client_date": "2026-10-22",
+  "kind": "seen_data_simulated_ear_fixed_tuning_integration",
+  "code_sha256": {
+    "anc_lab/assessment.py": "e8f1585b5e93d31b2414d3584b775a5a190f3c5e2464d9e01c08d7f039d3f7c6",
+    "anc_lab/forecaster_report_02.py": "e2472ca8643412caceddeecfd80191a93a064402f6dcdcddd1916466ebaecd37",
+    "anc_lab/forecaster_report_03.py": "34e81eda0449832249568c89e6154894603fdfeee00961e01b8e3e50a37158dc",
+    "anc_lab/forecaster_report_04.py": "fca9d4901f6f2089e5016c942cd9ce2c986089a0f02905319e8daf249797ec30",
+    "anc_lab/forecaster_report_05.py": "10d1791ba90959b9077699daa96864119298497ef8ec228dceab742bee4aff75",
+    "anc_lab/forecaster_study.py": "40bf7d2a804ad75bed59af71debde1a1e85c18cb9afa02b17e7f478b81de6386",
+    "anc_lab/forecaster_study_02.py": "2dd895b877935d1af1d9e409dc45fe0ba2b0f82a96425d3d4ca0f7f4196a2507",
+    "anc_lab/forecaster_study_03.py": "8a19d0b1ae664c58a18dd8914d176625278057cf4f9bd10ee7850d01ee8e593e",
+    "anc_lab/forecaster_study_04.py": "a258d0165df5579426c21607a2a20ed86f45737da12825a170b31a9212d23705",
+    "anc_lab/forecaster_study_05.py": "2d0a883d5ae3fffe5af02b18c7a6dd5d957324cb555d76b675129499d9e838c2",
+    "anc_lab/generalization.py": "68cad42262ea32dceff43481077180577229dcb826b12767987f3ca350d8ce21",
+    "anc_lab/predictors.py": "9a9c0a34939450e983b28ae0237e80b45169ed4171fe63b5f9b21d0a1249e36d",
+    "anc_lab/real_hum_study.py": "82709997723aacc38ebe7881fec4687acb311dc7ae9456611ffc45cbc696e686",
+    "anc_lab/release_study.py": "99902b2d94820ad33b49f9d3cda66df496da7a35d78a6ade5d5268c6bd51bbef",
+    "anc_lab/selection_study.py": "97d66a392b21f57ac4461405cccce6b5dad35e6b904f6d55166de93eb30255bd",
+    "anc_lab/selector_headroom.py": "999979c1e18d9fe492e993c0c1bf73cf361af0ca27fd105ca2bd13dad6d158d6",
+    "anc_lab/tone_cap.py": "071afd02a41a87930f6d3e255980f8f76b2c7179644ad27bf35d0f6d0dcbdbab",
+    "anc_lab/tone_floors.py": "75af3cfc5a326ced876108aefa97066487873c2136b0d28a29587278af0eeedc",
+    "anc_lab/tone_forecasters.py": "2b0499a2963a1fe245a48f3b28eb3afe369d1a649e9fe8063dedc5e4abc193bd",
+    "anc_lab/tone_gate_fade.py": "a3220d667b0c95176bc562adb99cb7f56a83863b3e296efec0d46c21efa63439",
+    "anc_lab/tone_react.py": "8c038a65a0c78bd1fd30feef3ede4c600802befed25947dfeeeff5418c2d51e1",
+    "anc_lab/tone_selection.py": "45c4e543f096ed82d63a3ce8f8a6d5ac7da181cc76777dbdf7fc8a6c1d35a3cf",
+    "tests/test_selector_headroom.py": "1965730fd0f8f421519cdbe50e004d2e5f4e7ccdef85326f04223292ca8df7e5",
+    "anc_lab/selector_fresh_study.py": "7a4614c8f99cb458384e8f7c1d1f8bd8483527524e1edbf16b6755fe7d185a98",
+    "tests/test_selector_fresh_study.py": "cfa5a1342433b31d991d82838223fa7e97a1b5a784b11555259b190587add789",
+    "anc_lab/selector_stream_profile.py": "ac5e9ff821d5c486a1a98f9d9e0eb5623b4a1ec8c0e559a746e7e297bb6af8ed",
+    "anc_lab/selector_timing_study.py": "c3388c93c5b9e6cba5fec3250792e941676bdcce965509717fc5639d6aaf6181",
+    "tests/test_selector_stream_profile.py": "eb1aebf14ecead7f3038ae875f93fea4cbdd33fe080bb491a696cd1db38ccdcd",
+    "docs/SELECTOR_TIMING.md": "601cb04c403158dd9ba6a7f08baf7730550cafb3d5a7396f4e4b191a04cf742f",
+    "docs/SELECTOR_TUNING_CHECK.md": "aa415beb5b8eca34bc1dc90807997fb8d964bfa2a9bc618b8f66518ddbf82243",
+    "anc_lab/selector_components.py": "22dfe4aa61d708988b814d43c011588b04987abfe77557ebb597fe8e16117677",
+    "anc_lab/selector_component_study.py": "5a28e2c48efb8054aef4b56a4e5c1760324b892ca8394cb1b9fc9f7ad36f546a",
+    "tests/test_selector_components.py": "4b4ea92efa40edacf6ef6e8217fe0eb6131eb1f9cd10a8c817965e09bb02df02",
+    "anc_lab/antihum.py": "599bd571cf75c3c18719540e7c32dd0a1f67f3fca6c761273bce2ce955d01c23",
+    "anc_lab/antihum_study.py": "f5073fec968b5a9cf2ee55317896636f29408c125f127206a0fa667e49a8ed6d",
+    "anc_lab/selector_room_study.py": "80e5d0f0a0b37b64f7efe6ce3992d45ea550d91b78125ee2ebdbde4b895cabdb",
+    "anc_lab/selector_room_stream.py": "6097ef0392631864e598f3d21571ae0ab26e100903c04b7c41727fee58275273",
+    "anc_lab/selector_room_scoring.py": "d03b7cfb845165b893906c3ea458a41aa42eec1d033bf567b3d97068fe4446de",
+    "anc_lab/selector_room_baseline.py": "4a1a68ea4405f1b78a85589f357f7eef085d707ea5f8d1456fdcc26540715b10",
+    "anc_lab/selector_room_alignment.py": "2d964584ec08b4fa06a47e658631afa808d2f480ce8f66c7aa1c9ed7b7125457",
+    "anc_lab/tuning.py": "0129e314fe6688c2b5b0f31c5f8d07c93aeadf0c50295a79a641b21f2cdf3d9e",
+    "tests/test_selector_room_stream.py": "f68384a07856142e20fbc1fa48dd83e6a65d9c384c9ac75d4dcd5bddc4765545",
+    "tests/test_selector_room_scoring.py": "f9a26c465fe5d522879753bb9d22cf0bb7c60d1751d62e8ebc7a1c45d83b377a",
+    "docs/SELECTOR_ROOM_TEST.md": "c86c3e2413058cd295b25d2b57a4b645d209bdca98bd995552aa4a3db7d9b3c1"
+  },
+  "original_cases": [
+    {
+      "file": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "room_index": 0,
+      "seed": 1418724997,
+      "reference_tones_hz": [
+        54.75,
+        164.25,
+        177.5,
+        219.0,
+        273.75,
+        328.5
+      ],
+      "source_id": "old-000",
+      "case_id": "old-000-r0",
+      "cohort": "original48",
+      "old_index": 0,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "source_sha256": "bb9e9358e2b7041cab8f35d93e712727ddccc3490d075ef907b0923bbb0a1861"
+    },
+    {
+      "file": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "room_index": 1,
+      "seed": 1752248450,
+      "reference_tones_hz": [
+        54.75,
+        164.25,
+        177.5,
+        219.0,
+        273.75,
+        328.5
+      ],
+      "source_id": "old-000",
+      "case_id": "old-000-r1",
+      "cohort": "original48",
+      "old_index": 1,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "source_sha256": "bb9e9358e2b7041cab8f35d93e712727ddccc3490d075ef907b0923bbb0a1861"
+    },
+    {
+      "file": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "room_index": 2,
+      "seed": 3648228979,
+      "reference_tones_hz": [
+        54.75,
+        164.25,
+        177.5,
+        219.0,
+        273.75,
+        328.5
+      ],
+      "source_id": "old-000",
+      "case_id": "old-000-r2",
+      "cohort": "original48",
+      "old_index": 2,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "source_sha256": "bb9e9358e2b7041cab8f35d93e712727ddccc3490d075ef907b0923bbb0a1861"
+    },
+    {
+      "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+      "room_index": 0,
+      "seed": 3342812311,
+      "reference_tones_hz": [
+        54.75,
+        109.5,
+        164.25,
+        218.75,
+        273.5,
+        328.25
+      ],
+      "source_id": "old-001",
+      "case_id": "old-001-r0",
+      "cohort": "original48",
+      "old_index": 3,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Air_conditioner_hum_Gravity_Sound_.wav",
+      "source_sha256": "bac546ddd06be356facb3dd9c842635afad312412fe058e14d7e2fb07e4f34d0"
+    },
+    {
+      "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+      "room_index": 1,
+      "seed": 422083014,
+      "reference_tones_hz": [
+        54.75,
+        109.5,
+        164.25,
+        218.75,
+        273.5,
+        328.25
+      ],
+      "source_id": "old-001",
+      "case_id": "old-001-r1",
+      "cohort": "original48",
+      "old_index": 4,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Air_conditioner_hum_Gravity_Sound_.wav",
+      "source_sha256": "bac546ddd06be356facb3dd9c842635afad312412fe058e14d7e2fb07e4f34d0"
+    },
+    {
+      "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+      "room_index": 2,
+      "seed": 1616030784,
+      "reference_tones_hz": [
+        54.75,
+        109.5,
+        164.25,
+        218.75,
+        273.5,
+        328.25
+      ],
+      "source_id": "old-001",
+      "case_id": "old-001-r2",
+      "cohort": "original48",
+      "old_index": 5,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Air_conditioner_hum_Gravity_Sound_.wav",
+      "source_sha256": "bac546ddd06be356facb3dd9c842635afad312412fe058e14d7e2fb07e4f34d0"
+    },
+    {
+      "file": "Fan_Gravity_Sound_.wav",
+      "room_index": 0,
+      "seed": 200526917,
+      "reference_tones_hz": [
+        42.5,
+        120.0
+      ],
+      "source_id": "old-002",
+      "case_id": "old-002-r0",
+      "cohort": "original48",
+      "old_index": 6,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Fan_Gravity_Sound_.wav",
+      "source_sha256": "0710f0d6fcaa7abef3ea2a697ecbae0c0e6703fc0f3998eb1d7e002b5db5c946"
+    },
+    {
+      "file": "Fan_Gravity_Sound_.wav",
+      "room_index": 1,
+      "seed": 4035060032,
+      "reference_tones_hz": [
+        42.5,
+        120.0
+      ],
+      "source_id": "old-002",
+      "case_id": "old-002-r1",
+      "cohort": "original48",
+      "old_index": 7,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Fan_Gravity_Sound_.wav",
+      "source_sha256": "0710f0d6fcaa7abef3ea2a697ecbae0c0e6703fc0f3998eb1d7e002b5db5c946"
+    },
+    {
+      "file": "Fan_Gravity_Sound_.wav",
+      "room_index": 2,
+      "seed": 4097696884,
+      "reference_tones_hz": [
+        42.5,
+        120.0
+      ],
+      "source_id": "old-002",
+      "case_id": "old-002-r2",
+      "cohort": "original48",
+      "old_index": 8,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Fan_Gravity_Sound_.wav",
+      "source_sha256": "0710f0d6fcaa7abef3ea2a697ecbae0c0e6703fc0f3998eb1d7e002b5db5c946"
+    },
+    {
+      "file": "Inside_of_refrigerator.ogg",
+      "room_index": 0,
+      "seed": 1410293409,
+      "reference_tones_hz": [],
+      "source_id": "old-003",
+      "case_id": "old-003-r0",
+      "cohort": "original48",
+      "old_index": 9,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Inside_of_refrigerator.ogg",
+      "source_sha256": "72931e7edfff30120bc29399a546bab4f6d73ad80f7e86adc5135680c7cb4a71"
+    },
+    {
+      "file": "Inside_of_refrigerator.ogg",
+      "room_index": 1,
+      "seed": 1331241171,
+      "reference_tones_hz": [],
+      "source_id": "old-003",
+      "case_id": "old-003-r1",
+      "cohort": "original48",
+      "old_index": 10,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Inside_of_refrigerator.ogg",
+      "source_sha256": "72931e7edfff30120bc29399a546bab4f6d73ad80f7e86adc5135680c7cb4a71"
+    },
+    {
+      "file": "Inside_of_refrigerator.ogg",
+      "room_index": 2,
+      "seed": 3047807063,
+      "reference_tones_hz": [],
+      "source_id": "old-003",
+      "case_id": "old-003-r2",
+      "cohort": "original48",
+      "old_index": 11,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Inside_of_refrigerator.ogg",
+      "source_sha256": "72931e7edfff30120bc29399a546bab4f6d73ad80f7e86adc5135680c7cb4a71"
+    },
+    {
+      "file": "Microwave_oven.ogg",
+      "room_index": 0,
+      "seed": 3996399935,
+      "reference_tones_hz": [
+        100.0,
+        172.75,
+        200.0,
+        300.0,
+        350.0
+      ],
+      "source_id": "old-004",
+      "case_id": "old-004-r0",
+      "cohort": "original48",
+      "old_index": 12,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Microwave_oven.ogg",
+      "source_sha256": "759485241e417d6f156a8478324f706a6f4b5f220e741302c5c7dcb1220ab8ec"
+    },
+    {
+      "file": "Microwave_oven.ogg",
+      "room_index": 1,
+      "seed": 2498573952,
+      "reference_tones_hz": [
+        100.0,
+        172.75,
+        200.0,
+        300.0,
+        350.0
+      ],
+      "source_id": "old-004",
+      "case_id": "old-004-r1",
+      "cohort": "original48",
+      "old_index": 13,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Microwave_oven.ogg",
+      "source_sha256": "759485241e417d6f156a8478324f706a6f4b5f220e741302c5c7dcb1220ab8ec"
+    },
+    {
+      "file": "Microwave_oven.ogg",
+      "room_index": 2,
+      "seed": 2504435153,
+      "reference_tones_hz": [
+        100.0,
+        172.75,
+        200.0,
+        300.0,
+        350.0
+      ],
+      "source_id": "old-004",
+      "case_id": "old-004-r2",
+      "cohort": "original48",
+      "old_index": 14,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Microwave_oven.ogg",
+      "source_sha256": "759485241e417d6f156a8478324f706a6f4b5f220e741302c5c7dcb1220ab8ec"
+    },
+    {
+      "file": "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 0,
+      "seed": 3803811371,
+      "reference_tones_hz": [],
+      "source_id": "old-005",
+      "case_id": "old-005-r0",
+      "cohort": "original48",
+      "old_index": 15,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "source_sha256": "9251b3f770293da9fb2f63babf189eeb9e4f5f3593971544036103acb80b93c2"
+    },
+    {
+      "file": "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 1,
+      "seed": 3876409121,
+      "reference_tones_hz": [],
+      "source_id": "old-005",
+      "case_id": "old-005-r1",
+      "cohort": "original48",
+      "old_index": 16,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "source_sha256": "9251b3f770293da9fb2f63babf189eeb9e4f5f3593971544036103acb80b93c2"
+    },
+    {
+      "file": "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 2,
+      "seed": 808168865,
+      "reference_tones_hz": [],
+      "source_id": "old-005",
+      "case_id": "old-005-r2",
+      "cohort": "original48",
+      "old_index": 17,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "source_sha256": "9251b3f770293da9fb2f63babf189eeb9e4f5f3593971544036103acb80b93c2"
+    },
+    {
+      "file": "Server_Room_Antti_Luode_.mp3",
+      "room_index": 0,
+      "seed": 599661294,
+      "reference_tones_hz": [
+        51.75,
+        147.0,
+        220.0,
+        247.25,
+        294.25,
+        329.75
+      ],
+      "source_id": "old-006",
+      "case_id": "old-006-r0",
+      "cohort": "original48",
+      "old_index": 18,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Server_Room_Antti_Luode_.mp3",
+      "source_sha256": "7e3ddf366a9941208a2c5374659cad64831328d7c7ae82f8a139ff3c35ffbc80"
+    },
+    {
+      "file": "Server_Room_Antti_Luode_.mp3",
+      "room_index": 1,
+      "seed": 2520173827,
+      "reference_tones_hz": [
+        51.75,
+        147.0,
+        220.0,
+        247.25,
+        294.25,
+        329.75
+      ],
+      "source_id": "old-006",
+      "case_id": "old-006-r1",
+      "cohort": "original48",
+      "old_index": 19,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Server_Room_Antti_Luode_.mp3",
+      "source_sha256": "7e3ddf366a9941208a2c5374659cad64831328d7c7ae82f8a139ff3c35ffbc80"
+    },
+    {
+      "file": "Server_Room_Antti_Luode_.mp3",
+      "room_index": 2,
+      "seed": 3536545967,
+      "reference_tones_hz": [
+        51.75,
+        147.0,
+        220.0,
+        247.25,
+        294.25,
+        329.75
+      ],
+      "source_id": "old-006",
+      "case_id": "old-006-r2",
+      "cohort": "original48",
+      "old_index": 20,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Server_Room_Antti_Luode_.mp3",
+      "source_sha256": "7e3ddf366a9941208a2c5374659cad64831328d7c7ae82f8a139ff3c35ffbc80"
+    },
+    {
+      "file": "Sistema_de_ventilaci_n.ogg",
+      "room_index": 0,
+      "seed": 2141230246,
+      "reference_tones_hz": [
+        82.25,
+        105.75,
+        120.0,
+        161.75,
+        172.75,
+        240.0
+      ],
+      "source_id": "old-007",
+      "case_id": "old-007-r0",
+      "cohort": "original48",
+      "old_index": 21,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Sistema_de_ventilaci_n.ogg",
+      "source_sha256": "e99f2f4d3b779701fad26a4958fabc2a9a10010dd614d7a9b4495671ba4ba13c"
+    },
+    {
+      "file": "Sistema_de_ventilaci_n.ogg",
+      "room_index": 1,
+      "seed": 1537821137,
+      "reference_tones_hz": [
+        82.25,
+        105.75,
+        120.0,
+        161.75,
+        172.75,
+        240.0
+      ],
+      "source_id": "old-007",
+      "case_id": "old-007-r1",
+      "cohort": "original48",
+      "old_index": 22,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Sistema_de_ventilaci_n.ogg",
+      "source_sha256": "e99f2f4d3b779701fad26a4958fabc2a9a10010dd614d7a9b4495671ba4ba13c"
+    },
+    {
+      "file": "Sistema_de_ventilaci_n.ogg",
+      "room_index": 2,
+      "seed": 2759348175,
+      "reference_tones_hz": [
+        82.25,
+        105.75,
+        120.0,
+        161.75,
+        172.75,
+        240.0
+      ],
+      "source_id": "old-007",
+      "case_id": "old-007-r2",
+      "cohort": "original48",
+      "old_index": 23,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Sistema_de_ventilaci_n.ogg",
+      "source_sha256": "e99f2f4d3b779701fad26a4958fabc2a9a10010dd614d7a9b4495671ba4ba13c"
+    },
+    {
+      "file": "Sounds_made_by_a_fan.wav",
+      "room_index": 0,
+      "seed": 2127839800,
+      "reference_tones_hz": [
+        82.75,
+        165.25,
+        330.75
+      ],
+      "source_id": "old-008",
+      "case_id": "old-008-r0",
+      "cohort": "original48",
+      "old_index": 24,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Sounds_made_by_a_fan.wav",
+      "source_sha256": "14aeb4433d1f4e113c8f462ec5a1926eafaf572420cb8053a155462137c98707"
+    },
+    {
+      "file": "Sounds_made_by_a_fan.wav",
+      "room_index": 1,
+      "seed": 914623506,
+      "reference_tones_hz": [
+        82.75,
+        165.25,
+        330.75
+      ],
+      "source_id": "old-008",
+      "case_id": "old-008-r1",
+      "cohort": "original48",
+      "old_index": 25,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Sounds_made_by_a_fan.wav",
+      "source_sha256": "14aeb4433d1f4e113c8f462ec5a1926eafaf572420cb8053a155462137c98707"
+    },
+    {
+      "file": "Sounds_made_by_a_fan.wav",
+      "room_index": 2,
+      "seed": 2578468062,
+      "reference_tones_hz": [
+        82.75,
+        165.25,
+        330.75
+      ],
+      "source_id": "old-008",
+      "case_id": "old-008-r2",
+      "cohort": "original48",
+      "old_index": 26,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Sounds_made_by_a_fan.wav",
+      "source_sha256": "14aeb4433d1f4e113c8f462ec5a1926eafaf572420cb8053a155462137c98707"
+    },
+    {
+      "file": "Table_ventilator.ogg",
+      "room_index": 0,
+      "seed": 1739033678,
+      "reference_tones_hz": [
+        59.25,
+        67.25,
+        100.0,
+        118.75,
+        134.5,
+        201.75
+      ],
+      "source_id": "old-009",
+      "case_id": "old-009-r0",
+      "cohort": "original48",
+      "old_index": 27,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Table_ventilator.ogg",
+      "source_sha256": "fd6c831ceede2019c73185fc858b0ab09c71619655125f4f8ecb22d4053d0bbc"
+    },
+    {
+      "file": "Table_ventilator.ogg",
+      "room_index": 1,
+      "seed": 2791999306,
+      "reference_tones_hz": [
+        59.25,
+        67.25,
+        100.0,
+        118.75,
+        134.5,
+        201.75
+      ],
+      "source_id": "old-009",
+      "case_id": "old-009-r1",
+      "cohort": "original48",
+      "old_index": 28,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Table_ventilator.ogg",
+      "source_sha256": "fd6c831ceede2019c73185fc858b0ab09c71619655125f4f8ecb22d4053d0bbc"
+    },
+    {
+      "file": "Table_ventilator.ogg",
+      "room_index": 2,
+      "seed": 322769391,
+      "reference_tones_hz": [
+        59.25,
+        67.25,
+        100.0,
+        118.75,
+        134.5,
+        201.75
+      ],
+      "source_id": "old-009",
+      "case_id": "old-009-r2",
+      "cohort": "original48",
+      "old_index": 29,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Table_ventilator.ogg",
+      "source_sha256": "fd6c831ceede2019c73185fc858b0ab09c71619655125f4f8ecb22d4053d0bbc"
+    },
+    {
+      "file": "Ventilador_de_estudio.ogg",
+      "room_index": 0,
+      "seed": 449114344,
+      "reference_tones_hz": [
+        37.5,
+        112.75,
+        120.0,
+        225.5
+      ],
+      "source_id": "old-010",
+      "case_id": "old-010-r0",
+      "cohort": "original48",
+      "old_index": 30,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Ventilador_de_estudio.ogg",
+      "source_sha256": "ee0c47862713f722634be55e88320522368afeb359af70370b1d31b2fb5e7878"
+    },
+    {
+      "file": "Ventilador_de_estudio.ogg",
+      "room_index": 1,
+      "seed": 3523887622,
+      "reference_tones_hz": [
+        37.5,
+        112.75,
+        120.0,
+        225.5
+      ],
+      "source_id": "old-010",
+      "case_id": "old-010-r1",
+      "cohort": "original48",
+      "old_index": 31,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Ventilador_de_estudio.ogg",
+      "source_sha256": "ee0c47862713f722634be55e88320522368afeb359af70370b1d31b2fb5e7878"
+    },
+    {
+      "file": "Ventilador_de_estudio.ogg",
+      "room_index": 2,
+      "seed": 486577749,
+      "reference_tones_hz": [
+        37.5,
+        112.75,
+        120.0,
+        225.5
+      ],
+      "source_id": "old-010",
+      "case_id": "old-010-r2",
+      "cohort": "original48",
+      "old_index": 32,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Ventilador_de_estudio.ogg",
+      "source_sha256": "ee0c47862713f722634be55e88320522368afeb359af70370b1d31b2fb5e7878"
+    },
+    {
+      "file": "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "room_index": 0,
+      "seed": 3835775477,
+      "reference_tones_hz": [],
+      "source_id": "old-011",
+      "case_id": "old-011-r0",
+      "cohort": "original48",
+      "old_index": 33,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "source_sha256": "f491ebfdea51fdf64f6e76698b0036328a9abdd865b4e259ce4d7b3b24384430"
+    },
+    {
+      "file": "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "room_index": 1,
+      "seed": 2466934167,
+      "reference_tones_hz": [],
+      "source_id": "old-011",
+      "case_id": "old-011-r1",
+      "cohort": "original48",
+      "old_index": 34,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "source_sha256": "f491ebfdea51fdf64f6e76698b0036328a9abdd865b4e259ce4d7b3b24384430"
+    },
+    {
+      "file": "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "room_index": 2,
+      "seed": 1149968348,
+      "reference_tones_hz": [],
+      "source_id": "old-011",
+      "case_id": "old-011-r2",
+      "cohort": "original48",
+      "old_index": 35,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "source_sha256": "f491ebfdea51fdf64f6e76698b0036328a9abdd865b4e259ce4d7b3b24384430"
+    },
+    {
+      "file": "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 0,
+      "seed": 808729041,
+      "reference_tones_hz": [
+        43.0,
+        57.0,
+        64.5,
+        97.0,
+        129.25,
+        244.5
+      ],
+      "source_id": "old-012",
+      "case_id": "old-012-r0",
+      "cohort": "original48",
+      "old_index": 36,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "source_sha256": "ecb3c01279dc5f1c69b13ff75d694385f6c879e83c0c9b4a041812b6f92428bd"
+    },
+    {
+      "file": "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 1,
+      "seed": 1882116635,
+      "reference_tones_hz": [
+        43.0,
+        57.0,
+        64.5,
+        97.0,
+        129.25,
+        244.5
+      ],
+      "source_id": "old-012",
+      "case_id": "old-012-r1",
+      "cohort": "original48",
+      "old_index": 37,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "source_sha256": "ecb3c01279dc5f1c69b13ff75d694385f6c879e83c0c9b4a041812b6f92428bd"
+    },
+    {
+      "file": "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 2,
+      "seed": 2763494727,
+      "reference_tones_hz": [
+        43.0,
+        57.0,
+        64.5,
+        97.0,
+        129.25,
+        244.5
+      ],
+      "source_id": "old-012",
+      "case_id": "old-012-r2",
+      "cohort": "original48",
+      "old_index": 38,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "source_sha256": "ecb3c01279dc5f1c69b13ff75d694385f6c879e83c0c9b4a041812b6f92428bd"
+    },
+    {
+      "file": "WWS_Aircompressor.ogg",
+      "room_index": 0,
+      "seed": 4111078081,
+      "reference_tones_hz": [
+        161.0,
+        169.0,
+        177.0,
+        185.25,
+        193.5,
+        225.25
+      ],
+      "source_id": "old-013",
+      "case_id": "old-013-r0",
+      "cohort": "original48",
+      "old_index": 39,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\WWS_Aircompressor.ogg",
+      "source_sha256": "46c60a8f08bff754320790eba0ccfe824c213cac167edaf8aeab1992e25a8b96"
+    },
+    {
+      "file": "WWS_Aircompressor.ogg",
+      "room_index": 1,
+      "seed": 3291410885,
+      "reference_tones_hz": [
+        161.0,
+        169.0,
+        177.0,
+        185.25,
+        193.5,
+        225.25
+      ],
+      "source_id": "old-013",
+      "case_id": "old-013-r1",
+      "cohort": "original48",
+      "old_index": 40,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\WWS_Aircompressor.ogg",
+      "source_sha256": "46c60a8f08bff754320790eba0ccfe824c213cac167edaf8aeab1992e25a8b96"
+    },
+    {
+      "file": "WWS_Aircompressor.ogg",
+      "room_index": 2,
+      "seed": 3188179325,
+      "reference_tones_hz": [
+        161.0,
+        169.0,
+        177.0,
+        185.25,
+        193.5,
+        225.25
+      ],
+      "source_id": "old-013",
+      "case_id": "old-013-r2",
+      "cohort": "original48",
+      "old_index": 41,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\WWS_Aircompressor.ogg",
+      "source_sha256": "46c60a8f08bff754320790eba0ccfe824c213cac167edaf8aeab1992e25a8b96"
+    },
+    {
+      "file": "WWS_Bediadiesellocomotiveidling.ogg",
+      "room_index": 0,
+      "seed": 854903819,
+      "reference_tones_hz": [
+        50.75,
+        55.75,
+        61.0,
+        86.25,
+        91.25,
+        131.75
+      ],
+      "source_id": "old-014",
+      "case_id": "old-014-r0",
+      "cohort": "original48",
+      "old_index": 42,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\WWS_Bediadiesellocomotiveidling.ogg",
+      "source_sha256": "530cc9dcaf1b09c3dd05b7505692cea69e90ff413c2eb9e0849cca61a2ebef46"
+    },
+    {
+      "file": "WWS_Bediadiesellocomotiveidling.ogg",
+      "room_index": 1,
+      "seed": 3082221690,
+      "reference_tones_hz": [
+        50.75,
+        55.75,
+        61.0,
+        86.25,
+        91.25,
+        131.75
+      ],
+      "source_id": "old-014",
+      "case_id": "old-014-r1",
+      "cohort": "original48",
+      "old_index": 43,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\WWS_Bediadiesellocomotiveidling.ogg",
+      "source_sha256": "530cc9dcaf1b09c3dd05b7505692cea69e90ff413c2eb9e0849cca61a2ebef46"
+    },
+    {
+      "file": "WWS_Bediadiesellocomotiveidling.ogg",
+      "room_index": 2,
+      "seed": 3737948817,
+      "reference_tones_hz": [
+        50.75,
+        55.75,
+        61.0,
+        86.25,
+        91.25,
+        131.75
+      ],
+      "source_id": "old-014",
+      "case_id": "old-014-r2",
+      "cohort": "original48",
+      "old_index": 44,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\WWS_Bediadiesellocomotiveidling.ogg",
+      "source_sha256": "530cc9dcaf1b09c3dd05b7505692cea69e90ff413c2eb9e0849cca61a2ebef46"
+    },
+    {
+      "file": "WWS_Compressor.ogg",
+      "room_index": 0,
+      "seed": 4104263550,
+      "reference_tones_hz": [
+        36.0,
+        54.0,
+        63.0,
+        72.0,
+        81.0,
+        90.0
+      ],
+      "source_id": "old-015",
+      "case_id": "old-015-r0",
+      "cohort": "original48",
+      "old_index": 45,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\WWS_Compressor.ogg",
+      "source_sha256": "227ff8b3ddb3c5931dfcf1fd1a2c8465ee8a94fe339b8e1bb9c567429ba0aa69"
+    },
+    {
+      "file": "WWS_Compressor.ogg",
+      "room_index": 1,
+      "seed": 3490323806,
+      "reference_tones_hz": [
+        36.0,
+        54.0,
+        63.0,
+        72.0,
+        81.0,
+        90.0
+      ],
+      "source_id": "old-015",
+      "case_id": "old-015-r1",
+      "cohort": "original48",
+      "old_index": 46,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\WWS_Compressor.ogg",
+      "source_sha256": "227ff8b3ddb3c5931dfcf1fd1a2c8465ee8a94fe339b8e1bb9c567429ba0aa69"
+    },
+    {
+      "file": "WWS_Compressor.ogg",
+      "room_index": 2,
+      "seed": 2595952183,
+      "reference_tones_hz": [
+        36.0,
+        54.0,
+        63.0,
+        72.0,
+        81.0,
+        90.0
+      ],
+      "source_id": "old-015",
+      "case_id": "old-015-r2",
+      "cohort": "original48",
+      "old_index": 47,
+      "source_path": "external-audio\\wikimedia-commons-2026-10-16\\WWS_Compressor.ogg",
+      "source_sha256": "227ff8b3ddb3c5931dfcf1fd1a2c8465ee8a94fe339b8e1bb9c567429ba0aa69"
+    }
+  ],
+  "conditional_supplement_cases": [
+    {
+      "source_id": "fresh-005",
+      "case_id": "fresh-005-r0",
+      "file": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+      "cohort": "switch_enriched_seen",
+      "room_index": 0,
+      "seed": 616913424,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-005.npz",
+      "source_sha256": "0e942181e83ad59596baa6a415b37e33b7b6f12a27162cff1e4cccbdd0aa5886",
+      "reference_tones_hz": [
+        44.25,
+        59.25,
+        75.0,
+        90.0,
+        119.5,
+        149.25
+      ]
+    },
+    {
+      "source_id": "fresh-005",
+      "case_id": "fresh-005-r1",
+      "file": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+      "cohort": "switch_enriched_seen",
+      "room_index": 1,
+      "seed": 1583070807,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-005.npz",
+      "source_sha256": "0e942181e83ad59596baa6a415b37e33b7b6f12a27162cff1e4cccbdd0aa5886",
+      "reference_tones_hz": [
+        44.25,
+        59.25,
+        75.0,
+        90.0,
+        119.5,
+        149.25
+      ]
+    },
+    {
+      "source_id": "fresh-005",
+      "case_id": "fresh-005-r2",
+      "file": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+      "cohort": "switch_enriched_seen",
+      "room_index": 2,
+      "seed": 3892791364,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-005.npz",
+      "source_sha256": "0e942181e83ad59596baa6a415b37e33b7b6f12a27162cff1e4cccbdd0aa5886",
+      "reference_tones_hz": [
+        44.25,
+        59.25,
+        75.0,
+        90.0,
+        119.5,
+        149.25
+      ]
+    },
+    {
+      "source_id": "fresh-010",
+      "case_id": "fresh-010-r0",
+      "file": "File:Kolbenverdichter zur Hummerbeckenbelüftung.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 0,
+      "seed": 3580407418,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-010.npz",
+      "source_sha256": "60ed34bcff3575a13594a7d514371b49345e674e0312804d6257cecf8963918e",
+      "reference_tones_hz": [
+        158.0,
+        172.25,
+        180.5,
+        201.25,
+        209.25,
+        219.5
+      ]
+    },
+    {
+      "source_id": "fresh-010",
+      "case_id": "fresh-010-r1",
+      "file": "File:Kolbenverdichter zur Hummerbeckenbelüftung.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 1,
+      "seed": 1883707182,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-010.npz",
+      "source_sha256": "60ed34bcff3575a13594a7d514371b49345e674e0312804d6257cecf8963918e",
+      "reference_tones_hz": [
+        158.0,
+        172.25,
+        180.5,
+        201.25,
+        209.25,
+        219.5
+      ]
+    },
+    {
+      "source_id": "fresh-010",
+      "case_id": "fresh-010-r2",
+      "file": "File:Kolbenverdichter zur Hummerbeckenbelüftung.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 2,
+      "seed": 99929107,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-010.npz",
+      "source_sha256": "60ed34bcff3575a13594a7d514371b49345e674e0312804d6257cecf8963918e",
+      "reference_tones_hz": [
+        158.0,
+        172.25,
+        180.5,
+        201.25,
+        209.25,
+        219.5
+      ]
+    },
+    {
+      "source_id": "fresh-018",
+      "case_id": "fresh-018-r0",
+      "file": "File:Aurora generator test.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 0,
+      "seed": 2846441656,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-018.npz",
+      "source_sha256": "052ebce7e1e2189d7f2e6b06e12ed8a72367c061c91f9d6f5dddb3b487afa4e7",
+      "reference_tones_hz": [
+        60.0,
+        120.0,
+        180.0,
+        239.75,
+        300.0
+      ]
+    },
+    {
+      "source_id": "fresh-018",
+      "case_id": "fresh-018-r1",
+      "file": "File:Aurora generator test.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 1,
+      "seed": 3007232627,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-018.npz",
+      "source_sha256": "052ebce7e1e2189d7f2e6b06e12ed8a72367c061c91f9d6f5dddb3b487afa4e7",
+      "reference_tones_hz": [
+        60.0,
+        120.0,
+        180.0,
+        239.75,
+        300.0
+      ]
+    },
+    {
+      "source_id": "fresh-018",
+      "case_id": "fresh-018-r2",
+      "file": "File:Aurora generator test.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 2,
+      "seed": 2615006741,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-018.npz",
+      "source_sha256": "052ebce7e1e2189d7f2e6b06e12ed8a72367c061c91f9d6f5dddb3b487afa4e7",
+      "reference_tones_hz": [
+        60.0,
+        120.0,
+        180.0,
+        239.75,
+        300.0
+      ]
+    },
+    {
+      "source_id": "fresh-021",
+      "case_id": "fresh-021-r0",
+      "file": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+      "cohort": "switch_enriched_seen",
+      "room_index": 0,
+      "seed": 2557201203,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-021.npz",
+      "source_sha256": "2fc100d8754796f164696beba683af7fbbd471ec80a9aeaafe74aa91e26c4ee4",
+      "reference_tones_hz": [
+        39.0,
+        53.25,
+        58.5,
+        78.0,
+        89.0,
+        160.0
+      ]
+    },
+    {
+      "source_id": "fresh-021",
+      "case_id": "fresh-021-r1",
+      "file": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+      "cohort": "switch_enriched_seen",
+      "room_index": 1,
+      "seed": 2678590831,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-021.npz",
+      "source_sha256": "2fc100d8754796f164696beba683af7fbbd471ec80a9aeaafe74aa91e26c4ee4",
+      "reference_tones_hz": [
+        39.0,
+        53.25,
+        58.5,
+        78.0,
+        89.0,
+        160.0
+      ]
+    },
+    {
+      "source_id": "fresh-021",
+      "case_id": "fresh-021-r2",
+      "file": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+      "cohort": "switch_enriched_seen",
+      "room_index": 2,
+      "seed": 2060465083,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-021.npz",
+      "source_sha256": "2fc100d8754796f164696beba683af7fbbd471ec80a9aeaafe74aa91e26c4ee4",
+      "reference_tones_hz": [
+        39.0,
+        53.25,
+        58.5,
+        78.0,
+        89.0,
+        160.0
+      ]
+    },
+    {
+      "source_id": "fresh-023",
+      "case_id": "fresh-023-r0",
+      "file": "File:London Underground 1995 Stock train going from Old Street station to Angel station.ogg",
+      "cohort": "switch_enriched_seen",
+      "room_index": 0,
+      "seed": 250158405,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-023.npz",
+      "source_sha256": "ef9767d96593ad5c037d0ce9714c892e0482270866873a772e1c511ef671a971",
+      "reference_tones_hz": []
+    },
+    {
+      "source_id": "fresh-023",
+      "case_id": "fresh-023-r1",
+      "file": "File:London Underground 1995 Stock train going from Old Street station to Angel station.ogg",
+      "cohort": "switch_enriched_seen",
+      "room_index": 1,
+      "seed": 3058025923,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-023.npz",
+      "source_sha256": "ef9767d96593ad5c037d0ce9714c892e0482270866873a772e1c511ef671a971",
+      "reference_tones_hz": []
+    },
+    {
+      "source_id": "fresh-023",
+      "case_id": "fresh-023-r2",
+      "file": "File:London Underground 1995 Stock train going from Old Street station to Angel station.ogg",
+      "cohort": "switch_enriched_seen",
+      "room_index": 2,
+      "seed": 2004523488,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-023.npz",
+      "source_sha256": "ef9767d96593ad5c037d0ce9714c892e0482270866873a772e1c511ef671a971",
+      "reference_tones_hz": []
+    },
+    {
+      "source_id": "fresh-025",
+      "case_id": "fresh-025-r0",
+      "file": "File:TG16 diesel locomotive interior.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 0,
+      "seed": 3451169257,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-025.npz",
+      "source_sha256": "1ba336c0926184d309fb33c5cb4aa005563031c3b91a427b51de4415c48f11f5",
+      "reference_tones_hz": [
+        233.25,
+        245.0,
+        256.5,
+        268.25,
+        280.0,
+        291.5
+      ]
+    },
+    {
+      "source_id": "fresh-025",
+      "case_id": "fresh-025-r1",
+      "file": "File:TG16 diesel locomotive interior.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 1,
+      "seed": 1074794563,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-025.npz",
+      "source_sha256": "1ba336c0926184d309fb33c5cb4aa005563031c3b91a427b51de4415c48f11f5",
+      "reference_tones_hz": [
+        233.25,
+        245.0,
+        256.5,
+        268.25,
+        280.0,
+        291.5
+      ]
+    },
+    {
+      "source_id": "fresh-025",
+      "case_id": "fresh-025-r2",
+      "file": "File:TG16 diesel locomotive interior.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 2,
+      "seed": 3066590184,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-025.npz",
+      "source_sha256": "1ba336c0926184d309fb33c5cb4aa005563031c3b91a427b51de4415c48f11f5",
+      "reference_tones_hz": [
+        233.25,
+        245.0,
+        256.5,
+        268.25,
+        280.0,
+        291.5
+      ]
+    },
+    {
+      "source_id": "fresh-026",
+      "case_id": "fresh-026-r0",
+      "file": "File:Diesel Freight Train NSW.ogv",
+      "cohort": "switch_enriched_seen",
+      "room_index": 0,
+      "seed": 2209035717,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-026.npz",
+      "source_sha256": "e59aa1506229fb4e600b386801f914002bc74c902e972284e43a036855d2fc19",
+      "reference_tones_hz": [
+        295.0
+      ]
+    },
+    {
+      "source_id": "fresh-026",
+      "case_id": "fresh-026-r1",
+      "file": "File:Diesel Freight Train NSW.ogv",
+      "cohort": "switch_enriched_seen",
+      "room_index": 1,
+      "seed": 1752144261,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-026.npz",
+      "source_sha256": "e59aa1506229fb4e600b386801f914002bc74c902e972284e43a036855d2fc19",
+      "reference_tones_hz": [
+        295.0
+      ]
+    },
+    {
+      "source_id": "fresh-026",
+      "case_id": "fresh-026-r2",
+      "file": "File:Diesel Freight Train NSW.ogv",
+      "cohort": "switch_enriched_seen",
+      "room_index": 2,
+      "seed": 3374358646,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-026.npz",
+      "source_sha256": "e59aa1506229fb4e600b386801f914002bc74c902e972284e43a036855d2fc19",
+      "reference_tones_hz": [
+        295.0
+      ]
+    },
+    {
+      "source_id": "fresh-035",
+      "case_id": "fresh-035-r0",
+      "file": "File:Aerial view from Deccan Charters helicopter at EXCON 2025 (BIEC) 03.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 0,
+      "seed": 1438069516,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-035.npz",
+      "source_sha256": "31fe5c87ab633cf7a750c58de348fad77cc9b71d585f91935d5a05392cb9372e",
+      "reference_tones_hz": [
+        68.5,
+        77.75,
+        90.5,
+        97.0,
+        100.75,
+        194.25
+      ]
+    },
+    {
+      "source_id": "fresh-035",
+      "case_id": "fresh-035-r1",
+      "file": "File:Aerial view from Deccan Charters helicopter at EXCON 2025 (BIEC) 03.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 1,
+      "seed": 1723919026,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-035.npz",
+      "source_sha256": "31fe5c87ab633cf7a750c58de348fad77cc9b71d585f91935d5a05392cb9372e",
+      "reference_tones_hz": [
+        68.5,
+        77.75,
+        90.5,
+        97.0,
+        100.75,
+        194.25
+      ]
+    },
+    {
+      "source_id": "fresh-035",
+      "case_id": "fresh-035-r2",
+      "file": "File:Aerial view from Deccan Charters helicopter at EXCON 2025 (BIEC) 03.webm",
+      "cohort": "switch_enriched_seen",
+      "room_index": 2,
+      "seed": 2683311826,
+      "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-035.npz",
+      "source_sha256": "31fe5c87ab633cf7a750c58de348fad77cc9b71d585f91935d5a05392cb9372e",
+      "reference_tones_hz": [
+        68.5,
+        77.75,
+        90.5,
+        97.0,
+        100.75,
+        194.25
+      ]
+    }
+  ],
+  "baseline_results_sha256": "cdd558e5cbf3465625b2b6ec8cbe904a41acecabc4a392e0f5901683712689f7",
+  "alignment_results_sha256": "cf0b12d408bd606e884d9373e4047578a677d2e9666012f8a8570eadd3b30c25",
+  "fresh_protocol_sha256": "f395e6a2b9b20dfc4ac5d9d2b33f07e6f9b4c8ed4ead0240fb333e5b8b974308",
+  "lead_ms": {
+    "primary": 30,
+    "exploratory": 200
+  },
+  "decision_stream": "Original hard-gated 20/120 ms groups; 2 s completed-error L2, 1 dB margin, 100 ms fade, 3 s start floor. Native live origins seen-1 and common x[0] input. Primary output 30 ms uses group 20; exploratory output 200 ms uses group 120.",
+  "rendering": "Exact native per-tone renderer: no DC, each arm gate ramps over the block before L2 sample weights mix. Same prefix tone menu and native tuning seed in every arm. Untuned frequencies remain silent.",
+  "coverage": "Before any new ear score, count suffix transitions and command exposure at each lead. Primary requires >=6 distinct sources with at least one nonzero matched-tone command transition and complete +/-100 ms scoring window. If original48 has fewer, append ALL 24 fixed supplemental rooms once; no further source selection. Preserve original48 and enriched results separately.",
+  "arms": [
+    "zero",
+    "v2_tuned",
+    "chooser_reuse_v2",
+    "chooser_tuned",
+    "noncausal_unclipped_linear_retune_bound"
+  ],
+  "primary_arm": "chooser_reuse_v2",
+  "listener_sigma_db": 1.0,
+  "tuning": "Original first-40% prefix and warmup, loop only within prefix; identical initial seeds, per-method fixed settings over entire suffix. Retune bound explicitly noncausal and excluded from pass criteria.",
+  "score_start": "prefix + 0.5 seconds; all available suffix, no crop selection",
+  "noninferiority": {
+    "aggregate": "Mean rooms within each source, then equal source weights; tonal metrics use existing reference tone definitions; no-tone rooms remain in all harm counts.",
+    "mean_margin_db": -0.5,
+    "source_margin_db": -1.0,
+    "bootstrap": "20,000 source resamples, seed 20261022, two-sided 95% percentile interval; lower bound >= -0.5 required for a pass",
+    "bands": "No new room/source/third-octave amplification >1 dB where v2 <=1 dB; no new 35-350 Hz amplification >0.5 dB",
+    "switches": "Every complete +/-100 ms window around first arriving command of a suffix switch: 35-350 Hz residual power no more than +3 dB over simultaneous v2. Report all windows and missing/boundary cases. This is not an audibility threshold.",
+    "clipping": "No increase in clipped fraction above v2 by more than 1e-6",
+    "insufficient_coverage": "Inconclusive, with observed harms still fully reported; never safe"
+  },
+  "secondary_reference": "Hard-gated DC-inclusive unweighted forecasts at exact output leads, measured at simulated microphone only, separate from ear scores.",
+  "oracle": "Unconstrained per-tone complex coefficients at each suffix switch, jointly fit to future band-filtered ear residual. Retains acoustic/filter transients; ignores cap. Upper bound only for the specified unclipped linear family, not implementable listener tuning.",
+  "workers": 2,
+  "unit_checks": 5,
+  "development_notes": [
+    "Synthetic oracle control first exposed an incorrect post-filter coefficient model; corrected before freeze to place segment settings before the filters and fit segments jointly. All five targeted checks pass."
+  ],
+  "limits": "Seen sources and synthetic modal rooms, no physical SPL, leakage or Bluetooth jitter measurement; 200 ms exploratory. No quiet timing claim and no engine promotion."
+}

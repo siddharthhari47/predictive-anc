@@ -1,0 +1,113 @@
+{
+  "id": "case-025",
+  "title": "Buzzing_Speakers.ogg",
+  "cohort": "former-test-02",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-025.npz",
+  "arrays_sha256": "142a172228dcef4d9f287b990da047b3effff4df9e650fdd0366c860caf871b7",
+  "reference_sha256": "b104f7cfea91167a2322a409c8e2e69168583762164f179f5021b0c9980f2ec8",
+  "seconds": 17.293,
+  "prefix_seconds": 6.917,
+  "counts": {
+    "frames_after_warmup": 1579,
+    "v2_components_before_gate": 2045,
+    "bank_components_before_gate": 2871,
+    "frames_both_gates_open": 1468,
+    "bank_components_without_v2_match": 771,
+    "eligible_v2_components": 1847,
+    "matched_tone_frames": 1691,
+    "frames_v2_only_gate": 28,
+    "frames_both_gates_closed": 76,
+    "frames_bank_only_gate": 7,
+    "v2_without_bank_match": 156
+  },
+  "all": {
+    "matched_tone_frames": 1691,
+    "mismatch": {
+      "p05": 0.08300935677422869,
+      "p50": 0.48654393133921336,
+      "p95": 1.3886326896132948,
+      "p99": 2.1075337514332073,
+      "max": 3.8971284447883114
+    },
+    "ramped_mismatch": {
+      "p05": 0.08300935677422869,
+      "p50": 0.4959157529788568,
+      "p95": 1.4571633208672545,
+      "p99": 2.7057248887409195,
+      "max": 6.267544607585339
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.851742865221356,
+      "p50": 6.257558800540577,
+      "p95": 21.617596492275126,
+      "p99": 27.946638468248945,
+      "max": 55.609709220669316
+    },
+    "fraction_mismatch_above_0_1": 0.9314015375517445,
+    "fraction_mismatch_above_1": 0.17681845062093435,
+    "v2_energy_weighted_rms_mismatch": 0.2781101007542991,
+    "absolute_phase_difference_deg": {
+      "p05": 1.1150806956834765,
+      "p50": 22.237252238572243,
+      "p95": 101.73316051283783,
+      "p99": 150.00318471931297,
+      "max": 178.27907071021662
+    },
+    "amplitude_ratio": {
+      "p05": 0.23960182905270466,
+      "p50": 0.895001343553894,
+      "p95": 1.4550537387548026,
+      "p99": 2.2196432709352343,
+      "max": 4.599716067811761
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 1643,
+    "mismatch": {
+      "p05": 0.08726150583296818,
+      "p50": 0.5043561486494568,
+      "p95": 1.3931889038710725,
+      "p99": 2.10796693236695,
+      "max": 3.8971284447883114
+    },
+    "ramped_mismatch": {
+      "p05": 0.08726150583296818,
+      "p50": 0.5152355441784793,
+      "p95": 1.463780888836351,
+      "p99": 2.9668719861938664,
+      "max": 6.267544607585339
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.8801988401037555,
+      "p50": 5.945253605636954,
+      "p95": 21.18367887615622,
+      "p99": 27.357531053734093,
+      "max": 55.609709220669316
+    },
+    "fraction_mismatch_above_0_1": 0.9373097991479001,
+    "fraction_mismatch_above_1": 0.1819841752891053,
+    "v2_energy_weighted_rms_mismatch": 0.2885935878339833,
+    "absolute_phase_difference_deg": {
+      "p05": 1.2136443311919942,
+      "p50": 22.97907652288287,
+      "p95": 102.1112185136264,
+      "p99": 150.24674923484662,
+      "max": 178.27907071021662
+    },
+    "amplitude_ratio": {
+      "p05": 0.23909931801226156,
+      "p50": 0.8923437622819748,
+      "p95": 1.4578888379220265,
+      "p99": 2.25327916044531,
+      "max": 4.599716067811761
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-025.npz",
+  "ratio_arrays_sha256": "3de2be81c1fdba0dc1483d77d900ac6265b0281f4d9633447653e9c76caf0a63"
+}

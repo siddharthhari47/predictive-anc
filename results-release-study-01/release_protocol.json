@@ -1,0 +1,1103 @@
+{
+  "kind": "tone_release_tuning_and_multiseed_evaluation",
+  "fs": 2000,
+  "block": 20,
+  "seconds": 12,
+  "horizon_start_ms": [
+    20.0,
+    120.0
+  ],
+  "v1": {
+    "selector": {
+      "alpha": 0.01,
+      "acquire": 2,
+      "history": 3,
+      "release": 4
+    },
+    "forecaster": {
+      "window_seconds": 0.6,
+      "release_ratio": null,
+      "release_window_seconds": 0.1
+    },
+    "gate": {
+      "min_gain_db": -1.0,
+      "lookback": 25,
+      "min_matured": 10,
+      "shared_group": null
+    },
+    "source": "results-tone-selection-01/selection_protocol.json"
+  },
+  "v2": {
+    "selector": {
+      "alpha": 0.01,
+      "acquire": 2,
+      "history": 3,
+      "release": 4
+    },
+    "forecaster": {
+      "window_seconds": 0.3,
+      "release_ratio": 0.5,
+      "release_window_seconds": 0.1
+    },
+    "gate": {
+      "min_gain_db": -1.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": 0
+    }
+  },
+  "stage_a_grid": {
+    "release": [
+      "1",
+      "2",
+      "4"
+    ],
+    "release_ratio": [
+      "None",
+      "0.3",
+      "0.5"
+    ],
+    "release_window_seconds": [
+      "0.1",
+      "0.2"
+    ],
+    "tracker_window_seconds": [
+      "0.6",
+      "0.3"
+    ]
+  },
+  "stage_a": [
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 1
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": null,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.254713568495581,
+      "dev_worst_scene_objective": -0.002888014053223531
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 1
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": null,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.709397534203337,
+      "dev_worst_scene_objective": -0.006146460501724153
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 1
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.480348334223249,
+      "dev_worst_scene_objective": -0.002817441328117545
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 1
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.827375350021882,
+      "dev_worst_scene_objective": -0.006013131840223599
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 1
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.3336308003562225,
+      "dev_worst_scene_objective": -0.002888014053223531
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 1
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.724003613821896,
+      "dev_worst_scene_objective": -0.006146460501724153
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 1
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.529478979644967,
+      "dev_worst_scene_objective": -0.0024967365335878174
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 1
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.862617999274958,
+      "dev_worst_scene_objective": -0.006242692425281874
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 1
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.392049684271253,
+      "dev_worst_scene_objective": -0.002888014053223531
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 1
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.74008329259215,
+      "dev_worst_scene_objective": -0.006146460501724153
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 2
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": null,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.19146686192838,
+      "dev_worst_scene_objective": -0.03307963479770759
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 2
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": null,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.708760603610808,
+      "dev_worst_scene_objective": -0.008938468923909412
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 2
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.481749987638829,
+      "dev_worst_scene_objective": -0.004506570302770622
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 2
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.8280935492621335,
+      "dev_worst_scene_objective": -0.008805272684428187
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 2
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.335114727718915,
+      "dev_worst_scene_objective": -0.004577215853515667
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 2
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.7247539517089905,
+      "dev_worst_scene_objective": -0.008938468923909412
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 2
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.530995308587582,
+      "dev_worst_scene_objective": -0.004186405230995164
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 2
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.863330247271159,
+      "dev_worst_scene_objective": -0.009055771852505931
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 2
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.3935142741924444,
+      "dev_worst_scene_objective": -0.004577215853515667
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 2
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.7408895274576555,
+      "dev_worst_scene_objective": -0.008938468923909412
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 4
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": null,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.19206039920442,
+      "dev_worst_scene_objective": -0.0523357378137681
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 4
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": null,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.709913037439538,
+      "dev_worst_scene_objective": -0.015073871761621753
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 4
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.48341737240539,
+      "dev_worst_scene_objective": -0.010254377274334451
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 4
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.8290996902702465,
+      "dev_worst_scene_objective": -0.01524512038455995
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 4
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.337036604124634,
+      "dev_worst_scene_objective": -0.010548828820293303
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 4
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.3,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.7258921680078645,
+      "dev_worst_scene_objective": -0.015073871761621753
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 4
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.532676267067448,
+      "dev_worst_scene_objective": -0.00937170067661771
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 4
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.1
+      },
+      "dev_objective": 7.864252322615361,
+      "dev_worst_scene_objective": -0.016258831927394093
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 4
+      },
+      "forecaster": {
+        "window_seconds": 0.6,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.395502341547388,
+      "dev_worst_scene_objective": -0.010548828820293303
+    },
+    {
+      "selector": {
+        "alpha": 0.01,
+        "acquire": 2,
+        "history": 3,
+        "release": 4
+      },
+      "forecaster": {
+        "window_seconds": 0.3,
+        "release_ratio": 0.5,
+        "release_window_seconds": 0.2
+      },
+      "dev_objective": 7.742035571003823,
+      "dev_worst_scene_objective": -0.015073871761621753
+    }
+  ],
+  "stage_b_grid": {
+    "min_gain_db": [
+      "None",
+      "-1.0",
+      "0.0",
+      "1.0",
+      "3.0"
+    ],
+    "lookback": [
+      "5",
+      "10",
+      "25"
+    ],
+    "shared_group": [
+      "None",
+      "0"
+    ]
+  },
+  "stage_b": [
+    {
+      "min_gain_db": null,
+      "lookback": 25,
+      "min_matured": 12,
+      "shared_group": null,
+      "dev_objective": 7.864252322615361,
+      "dev_worst_scene_objective": -0.016258831927394093
+    },
+    {
+      "min_gain_db": -1.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": null,
+      "dev_objective": 7.894714999941328,
+      "dev_worst_scene_objective": -0.016258831927394093
+    },
+    {
+      "min_gain_db": -1.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": 0,
+      "dev_objective": 7.903126941237338,
+      "dev_worst_scene_objective": -0.016258831927394093
+    },
+    {
+      "min_gain_db": -1.0,
+      "lookback": 10,
+      "min_matured": 5,
+      "shared_group": null,
+      "dev_objective": 7.775616075603019,
+      "dev_worst_scene_objective": -0.016258831927394093
+    },
+    {
+      "min_gain_db": -1.0,
+      "lookback": 10,
+      "min_matured": 5,
+      "shared_group": 0,
+      "dev_objective": 7.788245275305357,
+      "dev_worst_scene_objective": -0.016258831927394093
+    },
+    {
+      "min_gain_db": -1.0,
+      "lookback": 25,
+      "min_matured": 12,
+      "shared_group": null,
+      "dev_objective": 7.823914785440956,
+      "dev_worst_scene_objective": -0.016258831927394093
+    },
+    {
+      "min_gain_db": -1.0,
+      "lookback": 25,
+      "min_matured": 12,
+      "shared_group": 0,
+      "dev_objective": 7.842250973087896,
+      "dev_worst_scene_objective": -0.016258831927394093
+    },
+    {
+      "min_gain_db": 0.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": null,
+      "dev_objective": 7.841574155206004,
+      "dev_worst_scene_objective": -0.006947713123420841
+    },
+    {
+      "min_gain_db": 0.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": 0,
+      "dev_objective": 7.851816276791392,
+      "dev_worst_scene_objective": -0.008138563189237358
+    },
+    {
+      "min_gain_db": 0.0,
+      "lookback": 10,
+      "min_matured": 5,
+      "shared_group": null,
+      "dev_objective": 7.72864595026821,
+      "dev_worst_scene_objective": -0.005700300482937083
+    },
+    {
+      "min_gain_db": 0.0,
+      "lookback": 10,
+      "min_matured": 5,
+      "shared_group": 0,
+      "dev_objective": 7.730878926141003,
+      "dev_worst_scene_objective": -0.004445065782303272
+    },
+    {
+      "min_gain_db": 0.0,
+      "lookback": 25,
+      "min_matured": 12,
+      "shared_group": null,
+      "dev_objective": 7.715044091202788,
+      "dev_worst_scene_objective": -0.003146527353740875
+    },
+    {
+      "min_gain_db": 0.0,
+      "lookback": 25,
+      "min_matured": 12,
+      "shared_group": 0,
+      "dev_objective": 7.745116999531103,
+      "dev_worst_scene_objective": -0.0025467359399347755
+    },
+    {
+      "min_gain_db": 1.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": null,
+      "dev_objective": 7.749313426235243,
+      "dev_worst_scene_objective": 0.0
+    },
+    {
+      "min_gain_db": 1.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": 0,
+      "dev_objective": 7.7840712114980715,
+      "dev_worst_scene_objective": 0.0
+    },
+    {
+      "min_gain_db": 1.0,
+      "lookback": 10,
+      "min_matured": 5,
+      "shared_group": null,
+      "dev_objective": 7.616806362333331,
+      "dev_worst_scene_objective": 0.0
+    },
+    {
+      "min_gain_db": 1.0,
+      "lookback": 10,
+      "min_matured": 5,
+      "shared_group": 0,
+      "dev_objective": 7.65156811053342,
+      "dev_worst_scene_objective": 0.0
+    },
+    {
+      "min_gain_db": 1.0,
+      "lookback": 25,
+      "min_matured": 12,
+      "shared_group": null,
+      "dev_objective": 7.518433985791144,
+      "dev_worst_scene_objective": 0.0
+    },
+    {
+      "min_gain_db": 1.0,
+      "lookback": 25,
+      "min_matured": 12,
+      "shared_group": 0,
+      "dev_objective": 7.544605935438867,
+      "dev_worst_scene_objective": 0.0
+    },
+    {
+      "min_gain_db": 3.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": null,
+      "dev_objective": 7.659309067530846,
+      "dev_worst_scene_objective": 0.0
+    },
+    {
+      "min_gain_db": 3.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": 0,
+      "dev_objective": 7.685503236367735,
+      "dev_worst_scene_objective": 0.0
+    },
+    {
+      "min_gain_db": 3.0,
+      "lookback": 10,
+      "min_matured": 5,
+      "shared_group": null,
+      "dev_objective": 7.563632051034258,
+      "dev_worst_scene_objective": 0.0
+    },
+    {
+      "min_gain_db": 3.0,
+      "lookback": 10,
+      "min_matured": 5,
+      "shared_group": 0,
+      "dev_objective": 7.590290113920529,
+      "dev_worst_scene_objective": 0.0
+    },
+    {
+      "min_gain_db": 3.0,
+      "lookback": 25,
+      "min_matured": 12,
+      "shared_group": null,
+      "dev_objective": 7.383233869094998,
+      "dev_worst_scene_objective": 0.0
+    },
+    {
+      "min_gain_db": 3.0,
+      "lookback": 25,
+      "min_matured": 12,
+      "shared_group": 0,
+      "dev_objective": 7.406292411083348,
+      "dev_worst_scene_objective": 0.0
+    }
+  ],
+  "v1_dev_objective": 7.34601845823866,
+  "objective": "Mean over development scenes of the mean band gain (capped at 20 dB) over the 2.5-11.8 s window and each 1.5 s post-onset/offset window, both horizons. Stage A (selector release, fast amplitude release, tracker window) without gate; then stage B (gate) on the stage-A winner. Ties (objective equal to 0.001 dB): longer tracker window, then larger selector release, i.e. the setting closer to v1. Stage B ties prefer no gate.",
+  "development_draws": [
+    {
+      "single": [
+        47.3
+      ],
+      "unrelated": [
+        47.3,
+        113.7,
+        231.2
+      ],
+      "harmonic": [
+        60.2,
+        120.4,
+        180.6
+      ],
+      "drift": [
+        68.4,
+        154.8
+      ],
+      "appear": [
+        231.2
+      ],
+      "stop": [
+        90.1,
+        267.9
+      ],
+      "change_a": [
+        113.7
+      ],
+      "change_b": [
+        182.5,
+        302.6
+      ],
+      "weak": [
+        68.4,
+        231.2
+      ],
+      "rumble": [
+        47.3,
+        154.8
+      ]
+    },
+    {
+      "single": [
+        323.8
+      ],
+      "unrelated": [
+        123.0,
+        143.5,
+        265.6
+      ],
+      "appear": [
+        243.9
+      ],
+      "stop": [
+        183.7,
+        203.4
+      ],
+      "weak": [
+        144.6,
+        205.5
+      ],
+      "rumble": [
+        305.3,
+        322.5
+      ],
+      "harmonic": [
+        41.2,
+        82.4,
+        123.6
+      ],
+      "drift": [
+        162.08,
+        262.37
+      ],
+      "change_a": [
+        82.6
+      ],
+      "change_b": [
+        163.6,
+        183.6
+      ]
+    },
+    {
+      "single": [
+        307.3
+      ],
+      "unrelated": [
+        203.9,
+        266.2,
+        306.9
+      ],
+      "appear": [
+        183.2
+      ],
+      "stop": [
+        165.0,
+        263.7
+      ],
+      "weak": [
+        47.5,
+        183.1
+      ],
+      "rumble": [
+        87.5,
+        305.2
+      ],
+      "harmonic": [
+        41.3,
+        82.6,
+        123.9
+      ],
+      "drift": [
+        162.02,
+        302.42
+      ],
+      "change_a": [
+        203.2
+      ],
+      "change_b": [
+        122.6,
+        242.7
+      ]
+    }
+  ],
+  "development_seeds": "3100+100*repeat+scene index",
+  "test_draws": [
+    {
+      "single": [
+        316.7
+      ],
+      "unrelated": [
+        97.0,
+        195.3,
+        217.2
+      ],
+      "appear": [
+        313.9
+      ],
+      "stop": [
+        94.7,
+        296.8
+      ],
+      "weak": [
+        253.8,
+        296.8
+      ],
+      "rumble": [
+        177.4,
+        316.6
+      ],
+      "harmonic": [
+        97.1,
+        194.2,
+        291.3
+      ],
+      "drift": [
+        92.35,
+        212.45
+      ],
+      "change_a": [
+        292.9
+      ],
+      "change_b": [
+        194.0,
+        217.0
+      ]
+    },
+    {
+      "single": [
+        217.4
+      ],
+      "unrelated": [
+        92.6,
+        175.8,
+        195.1
+      ],
+      "appear": [
+        314.7
+      ],
+      "stop": [
+        52.8,
+        216.9
+      ],
+      "weak": [
+        52.5,
+        92.6
+      ],
+      "rumble": [
+        292.6,
+        316.7
+      ],
+      "harmonic": [
+        97.6,
+        195.2,
+        292.8
+      ],
+      "drift": [
+        92.27,
+        292.48
+      ],
+      "change_a": [
+        293.5
+      ],
+      "change_b": [
+        53.3,
+        274.3
+      ]
+    },
+    {
+      "single": [
+        274.4
+      ],
+      "unrelated": [
+        174.9,
+        194.6,
+        215.0
+      ],
+      "appear": [
+        117.2
+      ],
+      "stop": [
+        157.0,
+        194.7
+      ],
+      "weak": [
+        94.2,
+        173.4
+      ],
+      "rumble": [
+        215.3,
+        313.9
+      ],
+      "harmonic": [
+        97.0,
+        194.0,
+        291.0
+      ],
+      "drift": [
+        212.08,
+        292.42
+      ],
+      "change_a": [
+        215.2
+      ],
+      "change_b": [
+        55.2,
+        294.6
+      ]
+    },
+    {
+      "single": [
+        54.7
+      ],
+      "unrelated": [
+        117.4,
+        217.3,
+        316.4
+      ],
+      "appear": [
+        233.8
+      ],
+      "stop": [
+        214.6,
+        235.6
+      ],
+      "weak": [
+        176.9,
+        274.0
+      ],
+      "rumble": [
+        116.3,
+        216.4
+      ],
+      "harmonic": [
+        97.0,
+        194.0,
+        291.0
+      ],
+      "drift": [
+        92.33,
+        292.31
+      ],
+      "change_a": [
+        52.6
+      ],
+      "change_b": [
+        213.6,
+        253.6
+      ]
+    },
+    {
+      "single": [
+        296.3
+      ],
+      "unrelated": [
+        116.6,
+        272.9,
+        317.4
+      ],
+      "appear": [
+        173.9
+      ],
+      "stop": [
+        176.0,
+        272.7
+      ],
+      "weak": [
+        192.5,
+        214.6
+      ],
+      "rumble": [
+        193.5,
+        234.6
+      ],
+      "harmonic": [
+        97.0,
+        194.0,
+        291.0
+      ],
+      "drift": [
+        92.4,
+        292.05
+      ],
+      "change_a": [
+        235.0
+      ],
+      "change_b": [
+        93.0,
+        296.6
+      ]
+    }
+  ],
+  "test_seeds": "4100+100*repeat+scene index",
+  "freshness": "Development random draws in even 10 Hz bands, test in odd 10 Hz bands (interior 2.5-7.5 Hz; harmonic groups 1-9 Hz; drift tones start at 10k+2 to 10k+2.5 and drift paths avoid forbidden frequencies). Test frequencies checked > 2 Hz from all development, earlier held-out and study-01 test frequencies.",
+  "why_new_test_scenes": "The release weakness was found on study-01 test scenes, so those are no longer untouched.",
+  "limitations": "Synthetic reference prediction only. No acoustic path, playback timing, microphone processing or ear measurement.",
+  "code_sha256": {
+    "assessment.py": "e8f1585b5e93d31b2414d3584b775a5a190f3c5e2464d9e01c08d7f039d3f7c6",
+    "assessment_report.py": "cc018b4b5d2009e07edfefb14f9b6cd550b31342e35d63b4130e84d697ea95a0",
+    "capture.py": "7c7ad086229a7b2159867028cb657abf70d3bd680d2b8d4b3c232f6407d726d8",
+    "cli.py": "4acd39a21d83532299ed5bc05c23c7e4cb71a948736a010f9bf4d1192dde0284",
+    "control.py": "bca6e2ec9324e78af38cc7e8319f4ad1ea12a7c4ced09d0cf1b8a0d08a976576",
+    "experiment.py": "8258c4c7b01d21b45c3b9f73d2bfc0b8d21054839b42bc05eb66083c043b261c",
+    "generalization.py": "68cad42262ea32dceff43481077180577229dcb826b12767987f3ca350d8ce21",
+    "metrics.py": "bb7157f0c12aed8c10c64370dce1b96cf8cf999d9f9a2f167ec8ebeb6e51709f",
+    "predictors.py": "b0139129d0eb57a2a09e183156c262f1642a794b4e6a0b2fddc7aa4ae7263320",
+    "release_report.py": "4a9fad60f517fb7f4e2e174a3ade37e93d78397cb063e7777266190697d37924",
+    "release_study.py": "99902b2d94820ad33b49f9d3cda66df496da7a35d78a6ade5d5268c6bd51bbef",
+    "report.py": "fc955594fd436e56193f6b163caafe16093a64f206da53219a2dd7444ef34c0d",
+    "selection_report.py": "9caef0b0d04c0ead90708e38ace08c7e43a542c9c578a248bbcc700412d31e16",
+    "selection_study.py": "97d66a392b21f57ac4461405cccce6b5dad35e6b904f6d55166de93eb30255bd",
+    "signals.py": "898d1d791e631e7ca8b97d7d1004fe6832150cb90204875de8100530a1a3292f",
+    "source_report.py": "18d77d88ad79482b47f93928ddc8a0eea3878b6c661fa3e487a623f0f27caf78",
+    "source_study.py": "b96682ba15cfca084d4d11bfe0a7030f7506da3af368b8405ddaf6c1dd1f4945",
+    "tone_selection.py": "f202a382b8319c7ff780bc703ae9005e458f15fadcca55c012873e81e8c84a4b",
+    "__init__.py": "f0b2227f2d056cf56679806e195a2a02fe2ede3c96afae6a9dd75d44d3c670ce",
+    "__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+  },
+  "created_utc": "2026-10-16T12:11:23.486745+00:00"
+}

@@ -1,0 +1,1 @@
+Research helper snapshot for review-53 diagnostics. Depends on the existing project and its local data. Do not rerun into the completed output directory. The manifest hashes source/helpers only; no audio, forecast or ratio arrays are included.

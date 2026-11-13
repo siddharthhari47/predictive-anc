@@ -1,0 +1,178 @@
+runtime 2.9 min
+--- recordings + all scenes
+gcheck_cos8|cos12             rec  1/ 8 wb 0 tone 5.23 band 1.55  syn 17/28 obj 6.96
+gcheck_cos8|cos12in4out       rec  1/ 7 wb 0 tone 5.29 band 1.56  syn 17/27 obj 6.99
+gcheck_cos8|cos3              rec  1/ 8 wb 0 tone 5.27 band 1.56  syn 20/27 obj 7.0
+gcheck_cos8|cos5              rec  1/ 8 wb 0 tone 5.26 band 1.56  syn 18/28 obj 6.98
+gcheck_cos8|cos8              rec  1/ 8 wb 0 tone 5.24 band 1.56  syn 17/28 obj 6.97
+gcheck_cos8|cos8in3out        rec  1/ 8 wb 0 tone 5.29 band 1.56  syn 18/27 obj 7.0
+gcheck_cos8|hard              rec  1/ 8 wb 0 tone 5.3 band 1.56  syn 23/32 obj 7.04
+gcheck_cos8|none              rec  1/ 8 wb 0 tone 5.22 band 1.55  syn 18/28 obj 6.94
+gcheck_hard|cos12             rec  1/ 6 wb 0 tone 5.25 band 1.57  syn 17/27 obj 6.98
+gcheck_hard|cos12in4out       rec  1/ 6 wb 0 tone 5.3 band 1.58  syn 18/27 obj 7.01
+gcheck_hard|cos3              rec  1/ 7 wb 0 tone 5.28 band 1.57  syn 19/27 obj 7.03
+gcheck_hard|cos5              rec  1/ 6 wb 0 tone 5.27 band 1.57  syn 18/28 obj 7.01
+gcheck_hard|cos8              rec  1/ 6 wb 0 tone 5.25 band 1.57  syn 18/27 obj 6.99
+gcheck_hard|cos8in3out        rec  1/ 6 wb 0 tone 5.3 band 1.58  syn 18/27 obj 7.02
+gcheck_hard|hard              rec  1/ 7 wb 0 tone 5.31 band 1.57  syn 21/31 obj 7.06
+gcheck_hard|none              rec  1/ 6 wb 0 tone 5.24 band 1.57  syn 18/27 obj 6.96
+joint|cos12                   rec  1/ 8 wb 0 tone 5.49 band 1.59  syn 19/27 obj 6.97
+joint|cos12in4out             rec  1/ 7 wb 0 tone 5.54 band 1.60  syn 19/27 obj 7.0
+joint|cos3                    rec  1/ 8 wb 0 tone 5.53 band 1.59  syn 21/27 obj 7.02
+joint|cos5                    rec  1/ 8 wb 0 tone 5.51 band 1.59  syn 20/28 obj 7.0
+joint|cos8                    rec  1/ 8 wb 0 tone 5.5 band 1.59  syn 19/27 obj 6.98
+joint|cos8in3out              rec  1/ 8 wb 0 tone 5.55 band 1.60  syn 19/27 obj 7.02
+joint|hard                    rec  1/ 8 wb 0 tone 5.56 band 1.59  syn 24/32 obj 7.05
+joint|none                    rec  1/ 8 wb 0 tone 5.48 band 1.58  syn 20/27 obj 6.95
+v2|cos12                      rec  8/11 wb 0 tone 3.31 band 0.98  syn 40/57 obj 6.99
+v2|cos12in4out                rec  8/11 wb 0 tone 3.23 band 0.98  syn 40/55 obj 6.96
+v2|cos3                       rec  8/11 wb 0 tone 3.22 band 0.98  syn 42/58 obj 7.0
+v2|cos5                       rec  8/11 wb 0 tone 3.28 band 0.98  syn 40/58 obj 6.99
+v2|cos8                       rec  8/11 wb 0 tone 3.3 band 0.98  syn 40/58 obj 6.99
+v2|cos8in3out                 rec  8/11 wb 0 tone 3.17 band 0.98  syn 40/56 obj 6.98
+v2|hard                       rec  9/11 wb 0 tone 3.15 band 0.98  syn 45/63 obj 7.02
+v2|none                       rec  8/11 wb 0 tone 3.32 band 0.98  syn 40/57 obj 7.01
+zero                          rec  0/ 0 wb 0 tone 0.0 band 0.00  syn  0/ 0 obj None
+--- standard scenes
+gcheck_cos8|cos12             syn 15/20 obj 7.67
+gcheck_cos8|cos12in4out       syn 15/19 obj 7.73
+gcheck_cos8|cos3              syn 15/19 obj 7.74
+gcheck_cos8|cos5              syn 15/20 obj 7.71
+gcheck_cos8|cos8              syn 15/20 obj 7.69
+gcheck_cos8|cos8in3out        syn 15/19 obj 7.74
+gcheck_cos8|hard              syn 15/21 obj 7.79
+gcheck_cos8|none              syn 16/20 obj 7.65
+gcheck_hard|cos12             syn 15/20 obj 7.67
+gcheck_hard|cos12in4out       syn 15/19 obj 7.73
+gcheck_hard|cos3              syn 15/19 obj 7.74
+gcheck_hard|cos5              syn 15/20 obj 7.71
+gcheck_hard|cos8              syn 15/20 obj 7.69
+gcheck_hard|cos8in3out        syn 15/19 obj 7.74
+gcheck_hard|hard              syn 15/21 obj 7.79
+gcheck_hard|none              syn 16/20 obj 7.65
+joint|cos12                   syn 15/20 obj 7.67
+joint|cos12in4out             syn 15/19 obj 7.73
+joint|cos3                    syn 15/19 obj 7.74
+joint|cos5                    syn 15/20 obj 7.71
+joint|cos8                    syn 15/20 obj 7.69
+joint|cos8in3out              syn 15/19 obj 7.74
+joint|hard                    syn 15/21 obj 7.79
+joint|none                    syn 16/20 obj 7.65
+v2|cos12                      syn 27/36 obj 7.84
+v2|cos12in4out                syn 27/34 obj 7.82
+v2|cos3                       syn 27/34 obj 7.87
+v2|cos5                       syn 27/35 obj 7.84
+v2|cos8                       syn 27/35 obj 7.83
+v2|cos8in3out                 syn 27/34 obj 7.84
+v2|hard                       syn 28/38 obj 7.9
+v2|none                       syn 27/36 obj 7.86
+zero                          syn  0/ 0 obj None
+--- wander scenes
+gcheck_cos8|cos12             syn  1/ 2 obj 4.93
+gcheck_cos8|cos12in4out       syn  1/ 2 obj 4.93
+gcheck_cos8|cos3              syn  1/ 2 obj 4.93
+gcheck_cos8|cos5              syn  1/ 2 obj 4.93
+gcheck_cos8|cos8              syn  1/ 2 obj 4.93
+gcheck_cos8|cos8in3out        syn  1/ 2 obj 4.93
+gcheck_cos8|hard              syn  1/ 2 obj 4.93
+gcheck_cos8|none              syn  1/ 2 obj 4.93
+gcheck_hard|cos12             syn  0/ 1 obj 4.95
+gcheck_hard|cos12in4out       syn  1/ 1 obj 4.94
+gcheck_hard|cos3              syn  1/ 1 obj 4.95
+gcheck_hard|cos5              syn  1/ 1 obj 4.95
+gcheck_hard|cos8              syn  1/ 1 obj 4.95
+gcheck_hard|cos8in3out        syn  1/ 1 obj 4.94
+gcheck_hard|hard              syn  1/ 1 obj 4.95
+gcheck_hard|none              syn  0/ 1 obj 4.95
+joint|cos12                   syn  2/ 2 obj 4.94
+joint|cos12in4out             syn  2/ 2 obj 4.94
+joint|cos3                    syn  2/ 2 obj 4.94
+joint|cos5                    syn  2/ 2 obj 4.94
+joint|cos8                    syn  2/ 2 obj 4.94
+joint|cos8in3out              syn  2/ 2 obj 4.94
+joint|hard                    syn  2/ 2 obj 4.94
+joint|none                    syn  2/ 2 obj 4.95
+v2|cos12                      syn  3/ 7 obj 4.45
+v2|cos12in4out                syn  3/ 7 obj 4.38
+v2|cos3                       syn  5/10 obj 4.4
+v2|cos5                       syn  3/ 9 obj 4.42
+v2|cos8                       syn  3/ 9 obj 4.44
+v2|cos8in3out                 syn  3/ 8 obj 4.38
+v2|hard                       syn  7/11 obj 4.39
+v2|none                       syn  3/ 7 obj 4.45
+zero                          syn  0/ 0 obj None
+--- buzz scenes
+gcheck_cos8|cos12             syn  1/ 6 obj 5.75
+gcheck_cos8|cos12in4out       syn  1/ 6 obj 5.74
+gcheck_cos8|cos3              syn  4/ 6 obj 5.75
+gcheck_cos8|cos5              syn  2/ 6 obj 5.75
+gcheck_cos8|cos8              syn  1/ 6 obj 5.75
+gcheck_cos8|cos8in3out        syn  2/ 6 obj 5.74
+gcheck_cos8|hard              syn  7/ 9 obj 5.75
+gcheck_cos8|none              syn  1/ 6 obj 5.75
+gcheck_hard|cos12             syn  2/ 6 obj 5.89
+gcheck_hard|cos12in4out       syn  2/ 7 obj 5.88
+gcheck_hard|cos3              syn  3/ 7 obj 5.89
+gcheck_hard|cos5              syn  2/ 7 obj 5.89
+gcheck_hard|cos8              syn  2/ 6 obj 5.89
+gcheck_hard|cos8in3out        syn  2/ 7 obj 5.88
+gcheck_hard|hard              syn  5/ 9 obj 5.89
+gcheck_hard|none              syn  2/ 6 obj 5.89
+joint|cos12                   syn  2/ 5 obj 5.84
+joint|cos12in4out             syn  2/ 6 obj 5.83
+joint|cos3                    syn  4/ 6 obj 5.84
+joint|cos5                    syn  3/ 6 obj 5.84
+joint|cos8                    syn  2/ 5 obj 5.84
+joint|cos8in3out              syn  2/ 6 obj 5.83
+joint|hard                    syn  7/ 9 obj 5.84
+joint|none                    syn  2/ 5 obj 5.84
+v2|cos12                      syn 10/14 obj 5.71
+v2|cos12in4out                syn 10/14 obj 5.7
+v2|cos3                       syn 10/14 obj 5.7
+v2|cos5                       syn 10/14 obj 5.71
+v2|cos8                       syn 10/14 obj 5.71
+v2|cos8in3out                 syn 10/14 obj 5.7
+v2|hard                       syn 10/14 obj 5.71
+v2|none                       syn 10/14 obj 5.71
+zero                          syn  0/ 0 obj None
+--- boosts per key (recordings, all scenes)
+gcheck_cos8|cos5              rec  1/ 8 wb 0 tone 5.26 band 1.56  syn 18/28 obj 6.98
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 3.27), ('tones_stop_9s', 120.0, 4.68), ('source_change_9s', 20.0, 3.44), ('source_change_9s', 120.0, 3.88), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.26), ('source_change_9s', 20.0, 2.7), ('source_change_9s', 120.0, 2.05), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.8), ('source_change_9s', 120.0, 2.44), ('wander_fast', 120.0, 1.22), ('buzz_wander', 20.0, 1.15), ('buzz_am', 120.0, 1.33)]
+gcheck_cos8|cos8              rec  1/ 8 wb 0 tone 5.24 band 1.56  syn 17/28 obj 6.97
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 3.59), ('tones_stop_9s', 120.0, 4.7), ('source_change_9s', 20.0, 3.54), ('source_change_9s', 120.0, 3.9), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.01), ('source_change_9s', 20.0, 2.68), ('source_change_9s', 120.0, 2.04), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.85), ('source_change_9s', 120.0, 2.44), ('wander_fast', 120.0, 1.21), ('buzz_am', 120.0, 1.36)]
+gcheck_cos8|cos8in3out        rec  1/ 8 wb 0 tone 5.29 band 1.56  syn 18/27 obj 7.0
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 2.96), ('tones_stop_9s', 120.0, 4.69), ('source_change_9s', 20.0, 3.4), ('source_change_9s', 120.0, 3.96), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.78), ('source_change_9s', 20.0, 2.81), ('source_change_9s', 120.0, 2.11), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.74), ('source_change_9s', 120.0, 2.45), ('wander_fast', 120.0, 1.27), ('buzz_wander', 20.0, 1.03), ('buzz_am', 120.0, 1.29)]
+gcheck_cos8|hard              rec  1/ 8 wb 0 tone 5.3 band 1.56  syn 23/32 obj 7.04
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 2.23), ('tones_stop_9s', 120.0, 4.58), ('source_change_9s', 20.0, 3.12), ('source_change_9s', 120.0, 4.44), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.7), ('source_change_9s', 20.0, 3.48), ('source_change_9s', 120.0, 2.63), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.88), ('source_change_9s', 120.0, 2.49), ('wander_fast', 120.0, 1.3), ('buzz_wander', 20.0, 1.71), ('buzz_wander', 120.0, 1.51), ('buzz_am', 20.0, 2.06), ('buzz_am', 120.0, 2.54), ('buzz_wander', 120.0, 1.05), ('buzz_am', 20.0, 1.78), ('buzz_am', 120.0, 1.11)]
+gcheck_cos8|none              rec  1/ 8 wb 0 tone 5.22 band 1.55  syn 18/28 obj 6.94
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 4.19), ('tones_stop_9s', 120.0, 4.74), ('source_change_9s', 20.0, 3.67), ('source_change_9s', 120.0, 3.93), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.01), ('tones_stop_9s', 120.0, 1.35), ('source_change_9s', 20.0, 2.68), ('source_change_9s', 120.0, 2.05), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.91), ('source_change_9s', 120.0, 2.45), ('wander_fast', 120.0, 1.21), ('buzz_am', 120.0, 1.41)]
+gcheck_hard|cos5              rec  1/ 6 wb 0 tone 5.27 band 1.57  syn 18/28 obj 7.01
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 3.27), ('tones_stop_9s', 120.0, 4.68), ('source_change_9s', 20.0, 3.44), ('source_change_9s', 120.0, 3.88), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.26), ('source_change_9s', 20.0, 2.7), ('source_change_9s', 120.0, 2.05), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.8), ('source_change_9s', 120.0, 2.44), ('wander_fast', 20.0, 1.08), ('buzz_wander', 20.0, 1.21), ('buzz_am', 120.0, 1.33)]
+gcheck_hard|cos8              rec  1/ 6 wb 0 tone 5.25 band 1.57  syn 18/27 obj 6.99
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 3.59), ('tones_stop_9s', 120.0, 4.7), ('source_change_9s', 20.0, 3.54), ('source_change_9s', 120.0, 3.9), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.01), ('source_change_9s', 20.0, 2.68), ('source_change_9s', 120.0, 2.04), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.85), ('source_change_9s', 120.0, 2.44), ('wander_fast', 20.0, 1.01), ('buzz_wander', 20.0, 1.09), ('buzz_am', 120.0, 1.36)]
+gcheck_hard|cos8in3out        rec  1/ 6 wb 0 tone 5.3 band 1.58  syn 18/27 obj 7.02
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 2.96), ('tones_stop_9s', 120.0, 4.69), ('source_change_9s', 20.0, 3.4), ('source_change_9s', 120.0, 3.96), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.78), ('source_change_9s', 20.0, 2.81), ('source_change_9s', 120.0, 2.11), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.74), ('source_change_9s', 120.0, 2.45), ('wander_fast', 20.0, 1.09), ('buzz_wander', 20.0, 1.28), ('buzz_am', 120.0, 1.29)]
+gcheck_hard|hard              rec  1/ 7 wb 0 tone 5.31 band 1.57  syn 21/31 obj 7.06
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 2.23), ('tones_stop_9s', 120.0, 4.58), ('source_change_9s', 20.0, 3.12), ('source_change_9s', 120.0, 4.44), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.7), ('source_change_9s', 20.0, 3.48), ('source_change_9s', 120.0, 2.63), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.88), ('source_change_9s', 120.0, 2.49), ('wander_fast', 20.0, 1.22), ('buzz_wander', 20.0, 2.06), ('buzz_wander', 120.0, 3.1), ('buzz_am', 20.0, 2.03), ('buzz_am', 120.0, 2.54), ('buzz_wander', 120.0, 1.05)]
+gcheck_hard|none              rec  1/ 6 wb 0 tone 5.24 band 1.57  syn 18/27 obj 6.96
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 4.19), ('tones_stop_9s', 120.0, 4.74), ('source_change_9s', 20.0, 3.67), ('source_change_9s', 120.0, 3.93), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.01), ('tones_stop_9s', 120.0, 1.35), ('source_change_9s', 20.0, 2.68), ('source_change_9s', 120.0, 2.05), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.91), ('source_change_9s', 120.0, 2.45), ('buzz_wander', 20.0, 1.11), ('buzz_am', 120.0, 1.41)]
+joint|cos5                    rec  1/ 8 wb 0 tone 5.51 band 1.59  syn 20/28 obj 7.0
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 3.27), ('tones_stop_9s', 120.0, 4.68), ('source_change_9s', 20.0, 3.44), ('source_change_9s', 120.0, 3.88), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.26), ('source_change_9s', 20.0, 2.7), ('source_change_9s', 120.0, 2.05), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.8), ('source_change_9s', 120.0, 2.44), ('wander_fast', 20.0, 1.39), ('wander_fast', 120.0, 1.1), ('buzz_wander', 120.0, 1.27), ('buzz_am', 20.0, 1.24), ('buzz_am', 120.0, 1.33)]
+joint|cos8                    rec  1/ 8 wb 0 tone 5.5 band 1.59  syn 19/27 obj 6.98
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 3.59), ('tones_stop_9s', 120.0, 4.7), ('source_change_9s', 20.0, 3.54), ('source_change_9s', 120.0, 3.9), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.01), ('source_change_9s', 20.0, 2.68), ('source_change_9s', 120.0, 2.04), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.85), ('source_change_9s', 120.0, 2.44), ('wander_fast', 20.0, 1.31), ('wander_fast', 120.0, 1.11), ('buzz_am', 20.0, 1.03), ('buzz_am', 120.0, 1.36)]
+joint|cos8in3out              rec  1/ 8 wb 0 tone 5.55 band 1.60  syn 19/27 obj 7.02
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 2.96), ('tones_stop_9s', 120.0, 4.69), ('source_change_9s', 20.0, 3.4), ('source_change_9s', 120.0, 3.96), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.78), ('source_change_9s', 20.0, 2.81), ('source_change_9s', 120.0, 2.11), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.74), ('source_change_9s', 120.0, 2.45), ('wander_fast', 20.0, 1.42), ('wander_fast', 120.0, 1.15), ('buzz_am', 20.0, 1.02), ('buzz_am', 120.0, 1.29)]
+joint|hard                    rec  1/ 8 wb 0 tone 5.56 band 1.59  syn 24/32 obj 7.05
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 2.23), ('tones_stop_9s', 120.0, 4.58), ('source_change_9s', 20.0, 3.12), ('source_change_9s', 120.0, 4.44), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.7), ('source_change_9s', 20.0, 3.48), ('source_change_9s', 120.0, 2.63), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.88), ('source_change_9s', 120.0, 2.49), ('wander_fast', 20.0, 1.52), ('wander_fast', 120.0, 1.31), ('buzz_wander', 20.0, 1.35), ('buzz_wander', 120.0, 1.81), ('buzz_am', 20.0, 2.14), ('buzz_am', 120.0, 2.54), ('buzz_wander', 120.0, 1.05), ('buzz_am', 20.0, 1.78), ('buzz_am', 120.0, 1.15)]
+joint|none                    rec  1/ 8 wb 0 tone 5.48 band 1.58  syn 20/27 obj 6.95
+       [('Mains_hum_60_Hz.og', 20.0, 1.35), ('drifting_tones', 20.0, 2.07), ('tone_appears_9s', 20.0, 2.35), ('tone_appears_9s', 120.0, 2.41), ('tones_stop_9s', 20.0, 4.19), ('tones_stop_9s', 120.0, 4.74), ('source_change_9s', 20.0, 3.67), ('source_change_9s', 120.0, 3.93), ('tone_appears_9s', 120.0, 1.56), ('tones_stop_9s', 20.0, 1.01), ('tones_stop_9s', 120.0, 1.35), ('source_change_9s', 20.0, 2.68), ('source_change_9s', 120.0, 2.05), ('tone_appears_9s', 20.0, 2.75), ('tone_appears_9s', 120.0, 3.76), ('source_change_9s', 20.0, 1.91), ('source_change_9s', 120.0, 2.45), ('wander_fast', 20.0, 1.25), ('wander_fast', 120.0, 1.12), ('buzz_am', 20.0, 1.05), ('buzz_am', 120.0, 1.41)]
+v2|cos5                       rec  8/11 wb 0 tone 3.28 band 0.98  syn 40/58 obj 6.99
+       [('Table_ventilator.o', 20.0, 1.09), ('Table_ventilator.o', 120.0, 1.19), ('WWS_Aircompressor.', 120.0, 1.95), ('WWS_Bediadieselloc', 20.0, 7.92), ('WWS_Bediadieselloc', 120.0, 12.1), ('MainsBrum50Hz.ogg', 20.0, 1.39), ('Mains_hum_60_Hz.og', 20.0, 2.57), ('Mains_hum_60_Hz.og', 120.0, 4.4), ('single_tone', 20.0, 1.02), ('single_tone', 120.0, 1.27), ('unrelated_tones', 20.0, 1.84), ('unrelated_tones', 120.0, 1.07), ('harmonic_tones', 20.0, 1.39), ('drifting_tones', 20.0, 1.18), ('tone_appears_9s', 20.0, 2.39), ('tone_appears_9s', 120.0, 2.45), ('tones_stop_9s', 20.0, 1.97), ('tones_stop_9s', 120.0, 4.75), ('source_change_9s', 20.0, 3.22), ('source_change_9s', 120.0, 3.93), ('tones_in_rumble', 20.0, 2.17), ('tones_in_rumble', 120.0, 1.63), ('harmonic_tones', 20.0, 1.01), ('tone_appears_9s', 120.0, 1.54), ('tones_stop_9s', 20.0, 1.15), ('source_change_9s', 20.0, 2.06), ('source_change_9s', 120.0, 2.24), ('harmonic_tones', 20.0, 1.49), ('tone_appears_9s', 20.0, 2.82), ('tone_appears_9s', 120.0, 3.79), ('source_change_9s', 20.0, 1.8), ('source_change_9s', 120.0, 2.45), ('weak_tones_in_noise', 20.0, 1.97), ('tones_in_rumble', 20.0, 3.41), ('tones_in_rumble', 120.0, 3.75), ('wander_fast', 20.0, 1.96), ('wander_fast', 120.0, 1.37), ('wander_mixed_noisy', 20.0, 1.93), ('buzz_steady', 20.0, 1.73), ('buzz_steady', 120.0, 1.28), ('buzz_wander', 20.0, 1.83), ('buzz_wander', 120.0, 1.82), ('buzz_harmonic', 120.0, 1.31), ('buzz_am', 20.0, 1.82), ('buzz_am', 120.0, 3.72), ('buzz_wander', 120.0, 1.39), ('buzz_am', 20.0, 1.44), ('buzz_am', 120.0, 2.56)]
+v2|cos8                       rec  8/11 wb 0 tone 3.3 band 0.98  syn 40/58 obj 6.99
+       [('Table_ventilator.o', 20.0, 1.09), ('Table_ventilator.o', 120.0, 1.19), ('WWS_Aircompressor.', 120.0, 1.94), ('WWS_Bediadieselloc', 20.0, 8.1), ('WWS_Bediadieselloc', 120.0, 12.22), ('MainsBrum50Hz.ogg', 20.0, 1.39), ('Mains_hum_60_Hz.og', 20.0, 2.57), ('Mains_hum_60_Hz.og', 120.0, 4.4), ('single_tone', 20.0, 1.02), ('single_tone', 120.0, 1.27), ('unrelated_tones', 20.0, 1.84), ('unrelated_tones', 120.0, 1.07), ('harmonic_tones', 20.0, 1.39), ('drifting_tones', 20.0, 1.18), ('tone_appears_9s', 20.0, 2.39), ('tone_appears_9s', 120.0, 2.45), ('tones_stop_9s', 20.0, 2.2), ('tones_stop_9s', 120.0, 4.8), ('source_change_9s', 20.0, 3.36), ('source_change_9s', 120.0, 3.98), ('tones_in_rumble', 20.0, 1.78), ('tones_in_rumble', 120.0, 1.28), ('harmonic_tones', 20.0, 1.01), ('tone_appears_9s', 120.0, 1.54), ('tones_stop_9s', 120.0, 1.08), ('source_change_9s', 20.0, 2.02), ('source_change_9s', 120.0, 2.32), ('harmonic_tones', 20.0, 1.49), ('tone_appears_9s', 20.0, 2.82), ('tone_appears_9s', 120.0, 3.79), ('source_change_9s', 20.0, 1.89), ('source_change_9s', 120.0, 2.45), ('weak_tones_in_noise', 20.0, 1.97), ('tones_in_rumble', 20.0, 2.36), ('tones_in_rumble', 120.0, 2.91), ('wander_fast', 20.0, 1.92), ('wander_fast', 120.0, 1.26), ('wander_mixed_noisy', 20.0, 1.93), ('buzz_steady', 20.0, 1.73), ('buzz_steady', 120.0, 1.28), ('buzz_wander', 20.0, 1.79), ('buzz_wander', 120.0, 1.92), ('buzz_harmonic', 120.0, 1.31), ('buzz_am', 20.0, 1.82), ('buzz_am', 120.0, 3.72), ('buzz_wander', 120.0, 1.39), ('buzz_am', 20.0, 1.41), ('buzz_am', 120.0, 2.63)]
+v2|cos8in3out                 rec  8/11 wb 0 tone 3.17 band 0.98  syn 40/56 obj 6.98
+       [('Table_ventilator.o', 20.0, 1.09), ('Table_ventilator.o', 120.0, 1.17), ('WWS_Aircompressor.', 120.0, 1.92), ('WWS_Bediadieselloc', 20.0, 7.42), ('WWS_Bediadieselloc', 120.0, 11.62), ('MainsBrum50Hz.ogg', 20.0, 1.39), ('Mains_hum_60_Hz.og', 20.0, 2.57), ('Mains_hum_60_Hz.og', 120.0, 4.4), ('single_tone', 20.0, 1.02), ('single_tone', 120.0, 1.27), ('unrelated_tones', 20.0, 1.84), ('unrelated_tones', 120.0, 1.07), ('harmonic_tones', 20.0, 1.39), ('drifting_tones', 20.0, 1.18), ('tone_appears_9s', 20.0, 2.39), ('tone_appears_9s', 120.0, 2.45), ('tones_stop_9s', 20.0, 1.67), ('tones_stop_9s', 120.0, 4.72), ('source_change_9s', 20.0, 3.17), ('source_change_9s', 120.0, 3.96), ('tones_in_rumble', 20.0, 2.51), ('tones_in_rumble', 120.0, 2.06), ('harmonic_tones', 20.0, 1.01), ('tone_appears_9s', 120.0, 1.54), ('tones_stop_9s', 20.0, 1.66), ('source_change_9s', 20.0, 2.22), ('source_change_9s', 120.0, 2.12), ('harmonic_tones', 20.0, 1.49), ('tone_appears_9s', 20.0, 2.82), ('tone_appears_9s', 120.0, 3.79), ('source_change_9s', 20.0, 1.71), ('source_change_9s', 120.0, 2.45), ('weak_tones_in_noise', 20.0, 1.97), ('tones_in_rumble', 20.0, 4.03), ('tones_in_rumble', 120.0, 3.93), ('wander_fast', 20.0, 1.79), ('wander_fast', 120.0, 1.53), ('wander_mixed_noisy', 20.0, 1.93), ('buzz_steady', 20.0, 1.73), ('buzz_steady', 120.0, 1.28), ('buzz_wander', 20.0, 2.0), ('buzz_wander', 120.0, 1.54), ('buzz_harmonic', 120.0, 1.31), ('buzz_am', 20.0, 1.82), ('buzz_am', 120.0, 3.72), ('buzz_wander', 120.0, 1.39), ('buzz_am', 20.0, 1.44), ('buzz_am', 120.0, 2.51)]
+v2|hard                       rec  9/11 wb 0 tone 3.15 band 0.98  syn 45/63 obj 7.02
+       [('Table_ventilator.o', 20.0, 1.18), ('Table_ventilator.o', 120.0, 1.25), ('WWS_Aircompressor.', 20.0, 1.44), ('WWS_Aircompressor.', 120.0, 2.53), ('WWS_Bediadieselloc', 20.0, 8.34), ('WWS_Bediadieselloc', 120.0, 12.28), ('MainsBrum50Hz.ogg', 20.0, 1.39), ('Mains_hum_60_Hz.og', 20.0, 2.57), ('Mains_hum_60_Hz.og', 120.0, 4.4), ('single_tone', 20.0, 1.02), ('single_tone', 120.0, 1.27), ('unrelated_tones', 20.0, 1.84), ('unrelated_tones', 120.0, 1.07), ('harmonic_tones', 20.0, 1.39), ('drifting_tones', 20.0, 1.18), ('tone_appears_9s', 20.0, 2.39), ('tone_appears_9s', 120.0, 2.45), ('tones_stop_9s', 20.0, 1.01), ('tones_stop_9s', 120.0, 4.58), ('source_change_9s', 20.0, 3.2), ('source_change_9s', 120.0, 4.46), ('tones_in_rumble', 20.0, 2.48), ('tones_in_rumble', 120.0, 2.47), ('harmonic_tones', 20.0, 1.01), ('tone_appears_9s', 120.0, 1.54), ('tones_stop_9s', 20.0, 1.56), ('source_change_9s', 20.0, 3.04), ('source_change_9s', 120.0, 2.27), ('tones_in_rumble', 20.0, 1.37), ('harmonic_tones', 20.0, 1.49), ('tone_appears_9s', 20.0, 2.82), ('tone_appears_9s', 120.0, 3.79), ('source_change_9s', 20.0, 1.89), ('source_change_9s', 120.0, 2.5), ('weak_tones_in_noise', 20.0, 1.97), ('tones_in_rumble', 20.0, 4.02), ('tones_in_rumble', 120.0, 3.84), ('wander_fast', 20.0, 2.24), ('wander_fast', 120.0, 1.9), ('wander_am_rumble', 20.0, 1.36), ('wander_am_rumble', 120.0, 1.64), ('wander_mixed_noisy', 20.0, 1.93), ('wander_am_rumble', 20.0, 1.66), ('wander_am_rumble', 120.0, 1.59), ('buzz_steady', 20.0, 1.73), ('buzz_steady', 120.0, 1.28), ('buzz_wander', 20.0, 1.77), ('buzz_wander', 120.0, 2.02), ('buzz_harmonic', 120.0, 1.31), ('buzz_am', 20.0, 1.82), ('buzz_am', 120.0, 3.72), ('buzz_wander', 120.0, 1.39), ('buzz_am', 20.0, 1.45), ('buzz_am', 120.0, 2.62)]
+v2|none                       rec  8/11 wb 0 tone 3.32 band 0.98  syn 40/57 obj 7.01
+       [('Table_ventilator.o', 20.0, 1.11), ('Table_ventilator.o', 120.0, 1.21), ('WWS_Aircompressor.', 120.0, 1.95), ('WWS_Bediadieselloc', 20.0, 8.31), ('WWS_Bediadieselloc', 120.0, 12.36), ('MainsBrum50Hz.ogg', 20.0, 1.39), ('Mains_hum_60_Hz.og', 20.0, 2.57), ('Mains_hum_60_Hz.og', 120.0, 4.4), ('single_tone', 20.0, 1.02), ('single_tone', 120.0, 1.27), ('unrelated_tones', 20.0, 1.84), ('unrelated_tones', 120.0, 1.07), ('harmonic_tones', 20.0, 1.39), ('drifting_tones', 20.0, 1.18), ('tone_appears_9s', 20.0, 2.39), ('tone_appears_9s', 120.0, 2.45), ('tones_stop_9s', 20.0, 2.41), ('tones_stop_9s', 120.0, 4.87), ('source_change_9s', 20.0, 3.52), ('source_change_9s', 120.0, 4.05), ('tones_in_rumble', 20.0, 1.4), ('tones_in_rumble', 120.0, 1.23), ('harmonic_tones', 20.0, 1.01), ('tone_appears_9s', 120.0, 1.54), ('tones_stop_9s', 20.0, 1.02), ('tones_stop_9s', 120.0, 1.56), ('source_change_9s', 20.0, 2.02), ('source_change_9s', 120.0, 2.39), ('harmonic_tones', 20.0, 1.49), ('tone_appears_9s', 20.0, 2.82), ('tone_appears_9s', 120.0, 3.79), ('source_change_9s', 20.0, 2.0), ('source_change_9s', 120.0, 2.45), ('weak_tones_in_noise', 20.0, 1.97), ('tones_in_rumble', 120.0, 2.05), ('wander_fast', 20.0, 1.95), ('wander_fast', 120.0, 1.25), ('wander_mixed_noisy', 20.0, 1.93), ('buzz_steady', 20.0, 1.73), ('buzz_steady', 120.0, 1.28), ('buzz_wander', 20.0, 1.72), ('buzz_wander', 120.0, 2.92), ('buzz_harmonic', 120.0, 1.31), ('buzz_am', 20.0, 1.82), ('buzz_am', 120.0, 3.72), ('buzz_wander', 120.0, 1.39), ('buzz_am', 20.0, 1.4), ('buzz_am', 120.0, 2.7)]

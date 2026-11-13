@@ -1,0 +1,155 @@
+{
+  "id": "fresh-025",
+  "title": "File:TG16 diesel locomotive interior.webm",
+  "cohort": "transport engine",
+  "acoustic": true,
+  "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-025.npz",
+  "arrays_sha256": "1ba336c0926184d309fb33c5cb4aa005563031c3b91a427b51de4415c48f11f5",
+  "reference_sha256": "50c51bd236f029e689b7c89b345a4b3b6713ca1d5607fabea6668f829bcb9070",
+  "seconds": 89.9935,
+  "prefix_seconds": 35.997,
+  "counts": {
+    "frames_after_warmup": 8849,
+    "v2_components_before_gate": 3805,
+    "bank_components_before_gate": 10568,
+    "frames_both_gates_open": 8558,
+    "bank_components_without_v2_match": 6419,
+    "eligible_v2_components": 3304,
+    "matched_tone_frames": 3034,
+    "v2_without_bank_match": 270,
+    "frames_bank_only_gate": 86,
+    "frames_both_gates_closed": 32,
+    "frames_v2_only_gate": 173
+  },
+  "all": {
+    "matched_tone_frames": 3034,
+    "mismatch": {
+      "p05": 0.10746642465833402,
+      "p50": 0.4803779152482138,
+      "p95": 1.3093241777915738,
+      "p99": 1.8427897532712127,
+      "max": 4.508399314033341
+    },
+    "ramped_mismatch": {
+      "p05": 0.10877035602901043,
+      "p50": 0.4949784149858142,
+      "p95": 1.5297843467998422,
+      "p99": 5.061904155996455,
+      "max": 8.498317032641905
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.340930516516213,
+      "p50": 6.3683393447810115,
+      "p95": 19.374548255659157,
+      "p99": 26.86203614191739,
+      "max": 48.44042695240317
+    },
+    "fraction_mismatch_above_0_1": 0.957811470006592,
+    "fraction_mismatch_above_1": 0.13150955833882663,
+    "v2_energy_weighted_rms_mismatch": 0.5467191454895985,
+    "absolute_phase_difference_deg": {
+      "p05": 2.2876804722930233,
+      "p50": 23.925746029414935,
+      "p95": 90.6163735330024,
+      "p99": 132.944092692656,
+      "max": 170.26222770694523
+    },
+    "amplitude_ratio": {
+      "p05": 0.44427296808862576,
+      "p50": 0.9300205316566779,
+      "p95": 1.2946233341619073,
+      "p99": 1.8349835127881589,
+      "max": 3.5447684457783675
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 833,
+    "mismatch": {
+      "p05": 0.12310930624229752,
+      "p50": 0.5469590628540847,
+      "p95": 1.4060960915811191,
+      "p99": 1.6758997593464278,
+      "max": 1.9050648628511297
+    },
+    "ramped_mismatch": {
+      "p05": 0.12417303710908603,
+      "p50": 0.5521969959394659,
+      "p95": 1.454048418542873,
+      "p99": 4.497910939428614,
+      "max": 6.766885487388861
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.960213901646192,
+      "p50": 5.2409035443326815,
+      "p95": 18.194185551106017,
+      "p99": 23.952986466134767,
+      "max": 48.44042695240317
+    },
+    "fraction_mismatch_above_0_1": 0.9687875150060024,
+    "fraction_mismatch_above_1": 0.18127250900360145,
+    "v2_energy_weighted_rms_mismatch": 0.6432699593208085,
+    "absolute_phase_difference_deg": {
+      "p05": 2.693613224633529,
+      "p50": 29.114870332967545,
+      "p95": 88.83679405876707,
+      "p99": 116.64708875666342,
+      "max": 142.31208753758344
+    },
+    "amplitude_ratio": {
+      "p05": 0.5068697192467867,
+      "p50": 0.937419161938266,
+      "p95": 1.1573102108915696,
+      "p99": 1.419820708415466,
+      "max": 1.8301876723682655
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 104,
+    "mismatch": {
+      "p05": 0.07689822063720196,
+      "p50": 0.3165107253778216,
+      "p95": 0.785129026681677,
+      "p99": 1.0533069951427638,
+      "max": 1.3949924842513481
+    },
+    "ramped_mismatch": {
+      "p05": 0.12087204710189052,
+      "p50": 0.33509436849280294,
+      "p95": 5.066047412520947,
+      "p99": 6.541488312391683,
+      "max": 8.498317032641905
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": 2.1059453038873,
+      "p50": 9.992384127517543,
+      "p95": 22.295552674848306,
+      "p99": 26.889916558651784,
+      "max": 27.813351374653198
+    },
+    "fraction_mismatch_above_0_1": 0.9326923076923077,
+    "fraction_mismatch_above_1": 0.019230769230769232,
+    "v2_energy_weighted_rms_mismatch": 0.3143375787136429,
+    "absolute_phase_difference_deg": {
+      "p05": 3.5760773857328685,
+      "p50": 16.464511023351005,
+      "p95": 43.45443685881154,
+      "p99": 48.90570465003367,
+      "max": 55.599348959169134
+    },
+    "amplitude_ratio": {
+      "p05": 0.8447106487831375,
+      "p50": 0.9685267240719546,
+      "p95": 1.1270847180693266,
+      "p99": 1.5729646574209606,
+      "max": 1.8682315859391245
+    }
+  },
+  "selector_transitions": 3,
+  "transition_origins": [
+    56459,
+    103519,
+    105399
+  ],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\fresh-025.npz",
+  "ratio_arrays_sha256": "9c2392df7e4d527238b93806773166ff5e09775939fcfe822ffdff6ba5b368a2"
+}

@@ -1,0 +1,57 @@
+{
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.10",
+  "logical_cpus": 32,
+  "physical_cores": 24,
+  "selected_logical_cpu": 5,
+  "quiet_preflight": false,
+  "preflight_windows": [
+    {
+      "attempt": 1,
+      "system_mean_percent": 29.745624999999997,
+      "qualifies": false
+    },
+    {
+      "attempt": 2,
+      "system_mean_percent": 13.3740625,
+      "qualifies": false
+    },
+    {
+      "attempt": 3,
+      "system_mean_percent": 12.2859375,
+      "qualifies": false
+    }
+  ],
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 24,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\talk2.000\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-b788215d9d47792bcba3a2e2a7114320.dll",
+      "version": "0.3.33.112.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 24,
+      "prefix": "libscipy_openblas",
+      "filepath": "C:\\Users\\talk2.000\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy.libs\\libscipy_openblas-197ee2fc9b4d071f7e048078cac74115.dll",
+      "version": "0.3.31.dev",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 32,
+      "prefix": "vcomp",
+      "filepath": "C:\\Users\\talk2.000\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\sklearn\\.libs\\vcomp140.dll",
+      "version": null
+    }
+  ],
+  "started_utc": "2026-10-31T16:03:20.931522+00:00",
+  "protocol_sha256": "2d09de199e8e5a9f87035942cc01b246d07d001f4e339827e142e18d22e0e2c4"
+}

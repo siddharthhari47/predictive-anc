@@ -1,0 +1,142 @@
+{
+  "created_utc": "2026-10-21T15:42:42.096751+00:00",
+  "kind": "offline_forecast_chain_timing",
+  "fresh_protocol_sha256": "f395e6a2b9b20dfc4ac5d9d2b33f07e6f9b4c8ed4ead0240fb333e5b8b974308",
+  "fresh_results_sha256": "2653ac76f20cb44b2656a52dba31e200acdbebea0b62e6635aa22750002d72e3",
+  "code_sha256": {
+    "anc_lab/assessment.py": "e8f1585b5e93d31b2414d3584b775a5a190f3c5e2464d9e01c08d7f039d3f7c6",
+    "anc_lab/forecaster_report_02.py": "e2472ca8643412caceddeecfd80191a93a064402f6dcdcddd1916466ebaecd37",
+    "anc_lab/forecaster_report_03.py": "34e81eda0449832249568c89e6154894603fdfeee00961e01b8e3e50a37158dc",
+    "anc_lab/forecaster_report_04.py": "fca9d4901f6f2089e5016c942cd9ce2c986089a0f02905319e8daf249797ec30",
+    "anc_lab/forecaster_report_05.py": "10d1791ba90959b9077699daa96864119298497ef8ec228dceab742bee4aff75",
+    "anc_lab/forecaster_study.py": "40bf7d2a804ad75bed59af71debde1a1e85c18cb9afa02b17e7f478b81de6386",
+    "anc_lab/forecaster_study_02.py": "2dd895b877935d1af1d9e409dc45fe0ba2b0f82a96425d3d4ca0f7f4196a2507",
+    "anc_lab/forecaster_study_03.py": "8a19d0b1ae664c58a18dd8914d176625278057cf4f9bd10ee7850d01ee8e593e",
+    "anc_lab/forecaster_study_04.py": "a258d0165df5579426c21607a2a20ed86f45737da12825a170b31a9212d23705",
+    "anc_lab/forecaster_study_05.py": "2d0a883d5ae3fffe5af02b18c7a6dd5d957324cb555d76b675129499d9e838c2",
+    "anc_lab/generalization.py": "68cad42262ea32dceff43481077180577229dcb826b12767987f3ca350d8ce21",
+    "anc_lab/predictors.py": "9a9c0a34939450e983b28ae0237e80b45169ed4171fe63b5f9b21d0a1249e36d",
+    "anc_lab/real_hum_study.py": "82709997723aacc38ebe7881fec4687acb311dc7ae9456611ffc45cbc696e686",
+    "anc_lab/release_study.py": "99902b2d94820ad33b49f9d3cda66df496da7a35d78a6ade5d5268c6bd51bbef",
+    "anc_lab/selection_study.py": "97d66a392b21f57ac4461405cccce6b5dad35e6b904f6d55166de93eb30255bd",
+    "anc_lab/selector_headroom.py": "999979c1e18d9fe492e993c0c1bf73cf361af0ca27fd105ca2bd13dad6d158d6",
+    "anc_lab/tone_cap.py": "071afd02a41a87930f6d3e255980f8f76b2c7179644ad27bf35d0f6d0dcbdbab",
+    "anc_lab/tone_floors.py": "75af3cfc5a326ced876108aefa97066487873c2136b0d28a29587278af0eeedc",
+    "anc_lab/tone_forecasters.py": "2b0499a2963a1fe245a48f3b28eb3afe369d1a649e9fe8063dedc5e4abc193bd",
+    "anc_lab/tone_gate_fade.py": "a3220d667b0c95176bc562adb99cb7f56a83863b3e296efec0d46c21efa63439",
+    "anc_lab/tone_react.py": "8c038a65a0c78bd1fd30feef3ede4c600802befed25947dfeeeff5418c2d51e1",
+    "anc_lab/tone_selection.py": "45c4e543f096ed82d63a3ce8f8a6d5ac7da181cc76777dbdf7fc8a6c1d35a3cf",
+    "tests/test_selector_headroom.py": "1965730fd0f8f421519cdbe50e004d2e5f4e7ccdef85326f04223292ca8df7e5",
+    "anc_lab/selector_fresh_study.py": "7a4614c8f99cb458384e8f7c1d1f8bd8483527524e1edbf16b6755fe7d185a98",
+    "tests/test_selector_fresh_study.py": "cfa5a1342433b31d991d82838223fa7e97a1b5a784b11555259b190587add789",
+    "anc_lab/selector_stream_profile.py": "ac5e9ff821d5c486a1a98f9d9e0eb5623b4a1ec8c0e559a746e7e297bb6af8ed",
+    "anc_lab/selector_timing_study.py": "c3388c93c5b9e6cba5fec3250792e941676bdcce965509717fc5639d6aaf6181",
+    "tests/test_selector_stream_profile.py": "eb1aebf14ecead7f3038ae875f93fea4cbdd33fe080bb491a696cd1db38ccdcd",
+    "docs/SELECTOR_TIMING.md": "601cb04c403158dd9ba6a7f08baf7730550cafb3d5a7396f4e4b191a04cf742f",
+    "docs/SELECTOR_TUNING_CHECK.md": "aa415beb5b8eca34bc1dc90807997fb8d964bfa2a9bc618b8f66518ddbf82243"
+  },
+  "cases": [
+    {
+      "id": "fresh-001",
+      "title": "File:German Pool hand dryer with AXIAL fan!.webm",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-001.npz",
+      "arrays_sha256": "5324b62341d18b62631cbd0a0fb2b8cf3ca28007f91712a6690d4c521412724d"
+    },
+    {
+      "id": "fresh-002",
+      "title": "File:WWS Ventilationfan.ogg",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-002.npz",
+      "arrays_sha256": "5d87bac2edcabb0fa8903903b4b54d58e5bee3c2a28dea220f43d573517819b1"
+    },
+    {
+      "id": "fresh-004",
+      "title": "File:Washing machine last spin.ogg",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-004.npz",
+      "arrays_sha256": "1a65a8f5e8c33fc8eb957db75fb740834fb07a63afae5aae6bcbc4cefff72ab3"
+    },
+    {
+      "id": "fresh-005",
+      "title": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-005.npz",
+      "arrays_sha256": "0e942181e83ad59596baa6a415b37e33b7b6f12a27162cff1e4cccbdd0aa5886"
+    },
+    {
+      "id": "fresh-010",
+      "title": "File:Kolbenverdichter zur Hummerbeckenbelüftung.webm",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-010.npz",
+      "arrays_sha256": "60ed34bcff3575a13594a7d514371b49345e674e0312804d6257cecf8963918e"
+    },
+    {
+      "id": "fresh-021",
+      "title": "File:Kiha-E120 Diesel Yonesaka Line.wav",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-021.npz",
+      "arrays_sha256": "2fc100d8754796f164696beba683af7fbbd471ec80a9aeaafe74aa91e26c4ee4"
+    },
+    {
+      "id": "fresh-018",
+      "title": "File:Aurora generator test.webm",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-018.npz",
+      "arrays_sha256": "052ebce7e1e2189d7f2e6b06e12ed8a72367c061c91f9d6f5dddb3b487afa4e7"
+    },
+    {
+      "id": "fresh-025",
+      "title": "File:TG16 diesel locomotive interior.webm",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-025.npz",
+      "arrays_sha256": "1ba336c0926184d309fb33c5cb4aa005563031c3b91a427b51de4415c48f11f5"
+    },
+    {
+      "id": "fresh-026",
+      "title": "File:Diesel Freight Train NSW.ogv",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-026.npz",
+      "arrays_sha256": "e59aa1506229fb4e600b386801f914002bc74c902e972284e43a036855d2fc19"
+    },
+    {
+      "id": "fresh-035",
+      "title": "File:Aerial view from Deccan Charters helicopter at EXCON 2025 (BIEC) 03.webm",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-035.npz",
+      "arrays_sha256": "31fe5c87ab633cf7a750c58de348fad77cc9b71d585f91935d5a05392cb9372e"
+    },
+    {
+      "id": "fresh-007",
+      "title": "File:Kente weaving machine 03.wav",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-007.npz",
+      "arrays_sha256": "fba4845cad8cd99a112109de6d3ef83e1d88fea363ab8173d104ffd13d7e0182"
+    },
+    {
+      "id": "fresh-023",
+      "title": "File:London Underground 1995 Stock train going from Old Street station to Angel station.ogg",
+      "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-023.npz",
+      "arrays_sha256": "ef9767d96593ad5c037d0ce9714c892e0482270866873a772e1c511ef671a971"
+    }
+  ],
+  "input_seconds": 30,
+  "repetitions": 2,
+  "order": "declared order, then reverse; original/cache order alternates per source and repetition",
+  "variants": [
+    "original",
+    "cached_dpss"
+  ],
+  "baseline": "v2 alone separately, including its detector and gate",
+  "criterion": "All per-source, per-repetition full-core wall p99 <5 ms per 10 ms block; max and misses reported, not hidden.",
+  "parity": {
+    "atol": 1e-09,
+    "rtol": 1e-08,
+    "decisions": "exact",
+    "variants": "both, every declared source"
+  },
+  "quiet": {
+    "preflight_attempts": 3,
+    "seconds_per_attempt": 10,
+    "maximum_system_cpu_percent": 5.0,
+    "during_max_background_percent": 5.0,
+    "processor": "least busy permitted logical CPU in selected window; ties by index",
+    "nonquiet": "Run diagnostic only; no quiet-machine pass or definitive quiet failure"
+  },
+  "scope": "2 kHz forecast core, both horizons, independent selectors, v2/fade, gates, L2 filtering/error/history and crossfade. Excludes file loading, normalization/resampling, UI, device-rate synthesis, audio callbacks and transport.",
+  "safety": "No audio devices or live-engine changes; all input/forecast arrays local.",
+  "checks_before_freeze": {
+    "unit_tests": 3,
+    "seconds": 0.174
+  },
+  "fallback": "Only deterministic DPSS cache, new empty cache each run; original detectors and settings untouched. Reduced-bank models require separate accuracy studies."
+}

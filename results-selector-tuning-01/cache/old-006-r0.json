@@ -1,0 +1,117 @@
+{
+  "file": "Server_Room_Antti_Luode_.mp3",
+  "room_index": 0,
+  "seed": 599661294,
+  "reference_tones_hz": [
+    51.75,
+    147.0,
+    220.0,
+    247.25,
+    294.25,
+    329.75
+  ],
+  "source_id": "old-006",
+  "case_id": "old-006-r0",
+  "cohort": "original48",
+  "old_index": 18,
+  "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Server_Room_Antti_Luode_.mp3",
+  "source_sha256": "7e3ddf366a9941208a2c5374659cad64831328d7c7ae82f8a139ff3c35ffbc80",
+  "geometry": {
+    "dims_m": [
+      4.133897519008834,
+      3.5510398457950534,
+      2.4888321395829975
+    ],
+    "rt60_s": 0.4944053844820746,
+    "source": [
+      0.941401603414908,
+      3.1974701130502554,
+      0.5462679939671893
+    ],
+    "mic": [
+      2.8074922481982036,
+      1.3330139510112564,
+      0.9
+    ],
+    "ears": [
+      [
+        2.353398087637602,
+        1.2810669266040513,
+        1.2
+      ],
+      [
+        2.3507221895608286,
+        1.261246745740025,
+        1.2
+      ],
+      [
+        2.3467083424456687,
+        1.231516474443985,
+        1.2
+      ],
+      [
+        2.340018597253735,
+        1.181966022283919,
+        1.2
+      ],
+      [
+        2.3266391068698686,
+        1.0828651179637867,
+        1.2
+      ]
+    ],
+    "facing_deg": 16.60669548814367,
+    "move_direction_deg": 262.31105920289673,
+    "earphone_highpass_hz": 61.6188285654214,
+    "source_to_ear_m": 2.4685422378784803,
+    "source_to_mic_m": 2.6615066046893303
+  },
+  "tones": [],
+  "prefix": 136600,
+  "n": 341540,
+  "warm": 3000,
+  "earphone_gain": 1.0,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 716598681,
+      "1.0": 977589548,
+      "2.0": 493694064
+    },
+    "200": {
+      "0.5": 787553581,
+      "1.0": 102966448,
+      "2.0": 418444264
+    }
+  },
+  "switches": {
+    "30": [],
+    "200": [
+      {
+        "row": 15306,
+        "arrival_sample": 306545,
+        "arrival_seconds": 153.2725,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 16309,
+        "arrival_sample": 326605,
+        "arrival_seconds": 163.3025,
+        "from_arm": 1,
+        "to_arm": 2,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ]
+  },
+  "prefix_switches": {
+    "30": 1,
+    "200": 0
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\old-006-r0.npz",
+  "cache_sha256": "89ff58dfe3f27340cc70c44c61a63a06b9ffcbfafbbd1b483526c2f9deb69581",
+  "v2_trace_matches_original": true
+}

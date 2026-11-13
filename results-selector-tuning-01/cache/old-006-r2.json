@@ -1,0 +1,144 @@
+{
+  "file": "Server_Room_Antti_Luode_.mp3",
+  "room_index": 2,
+  "seed": 3536545967,
+  "reference_tones_hz": [
+    51.75,
+    147.0,
+    220.0,
+    247.25,
+    294.25,
+    329.75
+  ],
+  "source_id": "old-006",
+  "case_id": "old-006-r2",
+  "cohort": "original48",
+  "old_index": 20,
+  "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Server_Room_Antti_Luode_.mp3",
+  "source_sha256": "7e3ddf366a9941208a2c5374659cad64831328d7c7ae82f8a139ff3c35ffbc80",
+  "geometry": {
+    "dims_m": [
+      4.4331448059787,
+      2.535134298090406,
+      2.4529070228906282
+    ],
+    "rt60_s": 0.4408238656527157,
+    "source": [
+      2.548997479932534,
+      1.533123797194365,
+      0.741751551933207
+    ],
+    "mic": [
+      1.0857121623395647,
+      1.293564863222478,
+      0.9
+    ],
+    "ears": [
+      [
+        0.8322343858479461,
+        0.9132373506430368,
+        1.2
+      ],
+      [
+        0.8389161537556251,
+        0.9320881855748883,
+        1.2
+      ],
+      [
+        0.8489388056171436,
+        0.9603644379726654,
+        1.2
+      ],
+      [
+        0.8656432253863412,
+        1.007491525302294,
+        1.2
+      ],
+      [
+        0.8990520649247364,
+        1.1017456999615511,
+        1.2
+      ]
+    ],
+    "facing_deg": 66.39823841310871,
+    "move_direction_deg": 70.4828867213082,
+    "earphone_highpass_hz": 85.99354570632761,
+    "source_to_ear_m": 1.88189435622315,
+    "source_to_mic_m": 1.491185761347141
+  },
+  "tones": [],
+  "prefix": 136600,
+  "n": 341540,
+  "warm": 3000,
+  "earphone_gain": 1.0,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 396852211,
+      "1.0": 443568224,
+      "2.0": 299102087
+    },
+    "200": {
+      "0.5": 656424626,
+      "1.0": 894329320,
+      "2.0": 844480952
+    }
+  },
+  "switches": {
+    "30": [],
+    "200": [
+      {
+        "row": 8033,
+        "arrival_sample": 161085,
+        "arrival_seconds": 80.5425,
+        "from_arm": 2,
+        "to_arm": 1,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 9025,
+        "arrival_sample": 180925,
+        "arrival_seconds": 90.4625,
+        "from_arm": 1,
+        "to_arm": 0,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 9740,
+        "arrival_sample": 195225,
+        "arrival_seconds": 97.6125,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 10033,
+        "arrival_sample": 201085,
+        "arrival_seconds": 100.5425,
+        "from_arm": 1,
+        "to_arm": 0,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 10776,
+        "arrival_sample": 215945,
+        "arrival_seconds": 107.9725,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ]
+  },
+  "prefix_switches": {
+    "30": 1,
+    "200": 2
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\old-006-r2.npz",
+  "cache_sha256": "5c75ce5aa3628b0052dacabc8f6dd6eaa32418b515c71fdbe721b7a7710a69dd",
+  "v2_trace_matches_original": true
+}

@@ -1,0 +1,577 @@
+{
+  "kind": "original_room_baseline_reproduction",
+  "created_utc": "2026-10-22T14:34:18.649062+00:00",
+  "original_protocol_sha256": "871d1baf480b43d0a51e8589bd3cc58c03926079ebeb7c0155177ce1324d6778",
+  "original_results_sha256": "fb1f95da79a6e8a1146e48a8d42ed10a4f1cceaaa0c49392e7352b58bcb1de40",
+  "code_sha256": {
+    "anc_lab/selector_room_baseline.py": "4a1a68ea4405f1b78a85589f357f7eef085d707ea5f8d1456fdcc26540715b10",
+    "anc_lab/antihum_study.py": "f5073fec968b5a9cf2ee55317896636f29408c125f127206a0fa667e49a8ed6d",
+    "anc_lab/antihum.py": "599bd571cf75c3c18719540e7c32dd0a1f67f3fca6c761273bce2ce955d01c23",
+    "anc_lab/tuning.py": "0129e314fe6688c2b5b0f31c5f8d07c93aeadf0c50295a79a641b21f2cdf3d9e",
+    "anc_lab/predictors.py": "9a9c0a34939450e983b28ae0237e80b45169ed4171fe63b5f9b21d0a1249e36d",
+    "anc_lab/tone_selection.py": "45c4e543f096ed82d63a3ce8f8a6d5ac7da181cc76777dbdf7fc8a6c1d35a3cf",
+    "anc_lab/real_hum_study.py": "82709997723aacc38ebe7881fec4687acb311dc7ae9456611ffc45cbc696e686"
+  },
+  "source_sha256": {
+    "Air_conditioner_hum_2_Gravity_Sound_.wav": "bb9e9358e2b7041cab8f35d93e712727ddccc3490d075ef907b0923bbb0a1861",
+    "Air_conditioner_hum_Gravity_Sound_.wav": "bac546ddd06be356facb3dd9c842635afad312412fe058e14d7e2fb07e4f34d0",
+    "Fan_Gravity_Sound_.wav": "0710f0d6fcaa7abef3ea2a697ecbae0c0e6703fc0f3998eb1d7e002b5db5c946",
+    "Inside_of_refrigerator.ogg": "72931e7edfff30120bc29399a546bab4f6d73ad80f7e86adc5135680c7cb4a71",
+    "Microwave_oven.ogg": "759485241e417d6f156a8478324f706a6f4b5f220e741302c5c7dcb1220ab8ec",
+    "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg": "9251b3f770293da9fb2f63babf189eeb9e4f5f3593971544036103acb80b93c2",
+    "Server_Room_Antti_Luode_.mp3": "7e3ddf366a9941208a2c5374659cad64831328d7c7ae82f8a139ff3c35ffbc80",
+    "Sistema_de_ventilaci_n.ogg": "e99f2f4d3b779701fad26a4958fabc2a9a10010dd614d7a9b4495671ba4ba13c",
+    "Sounds_made_by_a_fan.wav": "14aeb4433d1f4e113c8f462ec5a1926eafaf572420cb8053a155462137c98707",
+    "Table_ventilator.ogg": "fd6c831ceede2019c73185fc858b0ab09c71619655125f4f8ecb22d4053d0bbc",
+    "Ventilador_de_estudio.ogg": "ee0c47862713f722634be55e88320522368afeb359af70370b1d31b2fb5e7878",
+    "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg": "f491ebfdea51fdf64f6e76698b0036328a9abdd865b4e259ce4d7b3b24384430",
+    "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg": "ecb3c01279dc5f1c69b13ff75d694385f6c879e83c0c9b4a041812b6f92428bd",
+    "WWS_Aircompressor.ogg": "46c60a8f08bff754320790eba0ccfe824c213cac167edaf8aeab1992e25a8b96",
+    "WWS_Bediadiesellocomotiveidling.ogg": "530cc9dcaf1b09c3dd05b7505692cea69e90ff413c2eb9e0849cca61a2ebef46",
+    "WWS_Compressor.ogg": "227ff8b3ddb3c5931dfcf1fd1a2c8465ee8a94fe339b8e1bb9c567429ba0aa69"
+  },
+  "cases": [
+    {
+      "file": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "room_index": 0,
+      "seed": 1418724997,
+      "reference_tones_hz": [
+        54.75,
+        164.25,
+        177.5,
+        219.0,
+        273.75,
+        328.5
+      ]
+    },
+    {
+      "file": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "room_index": 1,
+      "seed": 1752248450,
+      "reference_tones_hz": [
+        54.75,
+        164.25,
+        177.5,
+        219.0,
+        273.75,
+        328.5
+      ]
+    },
+    {
+      "file": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "room_index": 2,
+      "seed": 3648228979,
+      "reference_tones_hz": [
+        54.75,
+        164.25,
+        177.5,
+        219.0,
+        273.75,
+        328.5
+      ]
+    },
+    {
+      "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+      "room_index": 0,
+      "seed": 3342812311,
+      "reference_tones_hz": [
+        54.75,
+        109.5,
+        164.25,
+        218.75,
+        273.5,
+        328.25
+      ]
+    },
+    {
+      "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+      "room_index": 1,
+      "seed": 422083014,
+      "reference_tones_hz": [
+        54.75,
+        109.5,
+        164.25,
+        218.75,
+        273.5,
+        328.25
+      ]
+    },
+    {
+      "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+      "room_index": 2,
+      "seed": 1616030784,
+      "reference_tones_hz": [
+        54.75,
+        109.5,
+        164.25,
+        218.75,
+        273.5,
+        328.25
+      ]
+    },
+    {
+      "file": "Fan_Gravity_Sound_.wav",
+      "room_index": 0,
+      "seed": 200526917,
+      "reference_tones_hz": [
+        42.5,
+        120.0
+      ]
+    },
+    {
+      "file": "Fan_Gravity_Sound_.wav",
+      "room_index": 1,
+      "seed": 4035060032,
+      "reference_tones_hz": [
+        42.5,
+        120.0
+      ]
+    },
+    {
+      "file": "Fan_Gravity_Sound_.wav",
+      "room_index": 2,
+      "seed": 4097696884,
+      "reference_tones_hz": [
+        42.5,
+        120.0
+      ]
+    },
+    {
+      "file": "Inside_of_refrigerator.ogg",
+      "room_index": 0,
+      "seed": 1410293409,
+      "reference_tones_hz": []
+    },
+    {
+      "file": "Inside_of_refrigerator.ogg",
+      "room_index": 1,
+      "seed": 1331241171,
+      "reference_tones_hz": []
+    },
+    {
+      "file": "Inside_of_refrigerator.ogg",
+      "room_index": 2,
+      "seed": 3047807063,
+      "reference_tones_hz": []
+    },
+    {
+      "file": "Microwave_oven.ogg",
+      "room_index": 0,
+      "seed": 3996399935,
+      "reference_tones_hz": [
+        100.0,
+        172.75,
+        200.0,
+        300.0,
+        350.0
+      ]
+    },
+    {
+      "file": "Microwave_oven.ogg",
+      "room_index": 1,
+      "seed": 2498573952,
+      "reference_tones_hz": [
+        100.0,
+        172.75,
+        200.0,
+        300.0,
+        350.0
+      ]
+    },
+    {
+      "file": "Microwave_oven.ogg",
+      "room_index": 2,
+      "seed": 2504435153,
+      "reference_tones_hz": [
+        100.0,
+        172.75,
+        200.0,
+        300.0,
+        350.0
+      ]
+    },
+    {
+      "file": "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 0,
+      "seed": 3803811371,
+      "reference_tones_hz": []
+    },
+    {
+      "file": "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 1,
+      "seed": 3876409121,
+      "reference_tones_hz": []
+    },
+    {
+      "file": "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 2,
+      "seed": 808168865,
+      "reference_tones_hz": []
+    },
+    {
+      "file": "Server_Room_Antti_Luode_.mp3",
+      "room_index": 0,
+      "seed": 599661294,
+      "reference_tones_hz": [
+        51.75,
+        147.0,
+        220.0,
+        247.25,
+        294.25,
+        329.75
+      ]
+    },
+    {
+      "file": "Server_Room_Antti_Luode_.mp3",
+      "room_index": 1,
+      "seed": 2520173827,
+      "reference_tones_hz": [
+        51.75,
+        147.0,
+        220.0,
+        247.25,
+        294.25,
+        329.75
+      ]
+    },
+    {
+      "file": "Server_Room_Antti_Luode_.mp3",
+      "room_index": 2,
+      "seed": 3536545967,
+      "reference_tones_hz": [
+        51.75,
+        147.0,
+        220.0,
+        247.25,
+        294.25,
+        329.75
+      ]
+    },
+    {
+      "file": "Sistema_de_ventilaci_n.ogg",
+      "room_index": 0,
+      "seed": 2141230246,
+      "reference_tones_hz": [
+        82.25,
+        105.75,
+        120.0,
+        161.75,
+        172.75,
+        240.0
+      ]
+    },
+    {
+      "file": "Sistema_de_ventilaci_n.ogg",
+      "room_index": 1,
+      "seed": 1537821137,
+      "reference_tones_hz": [
+        82.25,
+        105.75,
+        120.0,
+        161.75,
+        172.75,
+        240.0
+      ]
+    },
+    {
+      "file": "Sistema_de_ventilaci_n.ogg",
+      "room_index": 2,
+      "seed": 2759348175,
+      "reference_tones_hz": [
+        82.25,
+        105.75,
+        120.0,
+        161.75,
+        172.75,
+        240.0
+      ]
+    },
+    {
+      "file": "Sounds_made_by_a_fan.wav",
+      "room_index": 0,
+      "seed": 2127839800,
+      "reference_tones_hz": [
+        82.75,
+        165.25,
+        330.75
+      ]
+    },
+    {
+      "file": "Sounds_made_by_a_fan.wav",
+      "room_index": 1,
+      "seed": 914623506,
+      "reference_tones_hz": [
+        82.75,
+        165.25,
+        330.75
+      ]
+    },
+    {
+      "file": "Sounds_made_by_a_fan.wav",
+      "room_index": 2,
+      "seed": 2578468062,
+      "reference_tones_hz": [
+        82.75,
+        165.25,
+        330.75
+      ]
+    },
+    {
+      "file": "Table_ventilator.ogg",
+      "room_index": 0,
+      "seed": 1739033678,
+      "reference_tones_hz": [
+        59.25,
+        67.25,
+        100.0,
+        118.75,
+        134.5,
+        201.75
+      ]
+    },
+    {
+      "file": "Table_ventilator.ogg",
+      "room_index": 1,
+      "seed": 2791999306,
+      "reference_tones_hz": [
+        59.25,
+        67.25,
+        100.0,
+        118.75,
+        134.5,
+        201.75
+      ]
+    },
+    {
+      "file": "Table_ventilator.ogg",
+      "room_index": 2,
+      "seed": 322769391,
+      "reference_tones_hz": [
+        59.25,
+        67.25,
+        100.0,
+        118.75,
+        134.5,
+        201.75
+      ]
+    },
+    {
+      "file": "Ventilador_de_estudio.ogg",
+      "room_index": 0,
+      "seed": 449114344,
+      "reference_tones_hz": [
+        37.5,
+        112.75,
+        120.0,
+        225.5
+      ]
+    },
+    {
+      "file": "Ventilador_de_estudio.ogg",
+      "room_index": 1,
+      "seed": 3523887622,
+      "reference_tones_hz": [
+        37.5,
+        112.75,
+        120.0,
+        225.5
+      ]
+    },
+    {
+      "file": "Ventilador_de_estudio.ogg",
+      "room_index": 2,
+      "seed": 486577749,
+      "reference_tones_hz": [
+        37.5,
+        112.75,
+        120.0,
+        225.5
+      ]
+    },
+    {
+      "file": "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "room_index": 0,
+      "seed": 3835775477,
+      "reference_tones_hz": []
+    },
+    {
+      "file": "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "room_index": 1,
+      "seed": 2466934167,
+      "reference_tones_hz": []
+    },
+    {
+      "file": "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "room_index": 2,
+      "seed": 1149968348,
+      "reference_tones_hz": []
+    },
+    {
+      "file": "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 0,
+      "seed": 808729041,
+      "reference_tones_hz": [
+        43.0,
+        57.0,
+        64.5,
+        97.0,
+        129.25,
+        244.5
+      ]
+    },
+    {
+      "file": "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 1,
+      "seed": 1882116635,
+      "reference_tones_hz": [
+        43.0,
+        57.0,
+        64.5,
+        97.0,
+        129.25,
+        244.5
+      ]
+    },
+    {
+      "file": "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "room_index": 2,
+      "seed": 2763494727,
+      "reference_tones_hz": [
+        43.0,
+        57.0,
+        64.5,
+        97.0,
+        129.25,
+        244.5
+      ]
+    },
+    {
+      "file": "WWS_Aircompressor.ogg",
+      "room_index": 0,
+      "seed": 4111078081,
+      "reference_tones_hz": [
+        161.0,
+        169.0,
+        177.0,
+        185.25,
+        193.5,
+        225.25
+      ]
+    },
+    {
+      "file": "WWS_Aircompressor.ogg",
+      "room_index": 1,
+      "seed": 3291410885,
+      "reference_tones_hz": [
+        161.0,
+        169.0,
+        177.0,
+        185.25,
+        193.5,
+        225.25
+      ]
+    },
+    {
+      "file": "WWS_Aircompressor.ogg",
+      "room_index": 2,
+      "seed": 3188179325,
+      "reference_tones_hz": [
+        161.0,
+        169.0,
+        177.0,
+        185.25,
+        193.5,
+        225.25
+      ]
+    },
+    {
+      "file": "WWS_Bediadiesellocomotiveidling.ogg",
+      "room_index": 0,
+      "seed": 854903819,
+      "reference_tones_hz": [
+        50.75,
+        55.75,
+        61.0,
+        86.25,
+        91.25,
+        131.75
+      ]
+    },
+    {
+      "file": "WWS_Bediadiesellocomotiveidling.ogg",
+      "room_index": 1,
+      "seed": 3082221690,
+      "reference_tones_hz": [
+        50.75,
+        55.75,
+        61.0,
+        86.25,
+        91.25,
+        131.75
+      ]
+    },
+    {
+      "file": "WWS_Bediadiesellocomotiveidling.ogg",
+      "room_index": 2,
+      "seed": 3737948817,
+      "reference_tones_hz": [
+        50.75,
+        55.75,
+        61.0,
+        86.25,
+        91.25,
+        131.75
+      ]
+    },
+    {
+      "file": "WWS_Compressor.ogg",
+      "room_index": 0,
+      "seed": 4104263550,
+      "reference_tones_hz": [
+        36.0,
+        54.0,
+        63.0,
+        72.0,
+        81.0,
+        90.0
+      ]
+    },
+    {
+      "file": "WWS_Compressor.ogg",
+      "room_index": 1,
+      "seed": 3490323806,
+      "reference_tones_hz": [
+        36.0,
+        54.0,
+        63.0,
+        72.0,
+        81.0,
+        90.0
+      ]
+    },
+    {
+      "file": "WWS_Compressor.ogg",
+      "room_index": 2,
+      "seed": 2595952183,
+      "reference_tones_hz": [
+        36.0,
+        54.0,
+        63.0,
+        72.0,
+        81.0,
+        90.0
+      ]
+    }
+  ],
+  "parity": {
+    "atol": 1e-09,
+    "rtol": 1e-08,
+    "exclude": [
+      "seconds",
+      "engine_ms_per_block"
+    ],
+    "scope": "Every saved scalar, room, tuning summary and metric, except elapsed times"
+  },
+  "workers": 2,
+  "safety": "Pure offline original simulator; no audio device, output overwrite or candidate ear score."
+}

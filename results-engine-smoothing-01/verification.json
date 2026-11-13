@@ -1,0 +1,102 @@
+{
+  "created_utc": "2026-10-29T04:24:31.368588+00:00",
+  "hashes": "protocol, code and decision-01 case hashes match (es.verified passed)",
+  "parity_fields_exact": 1792,
+  "summary_parity_fields": 1792,
+  "v2_runs_identical_to_decision_01": true,
+  "runs": 6660,
+  "independent": {
+    "sigma1_O": {
+      "tone_level_minus_O": 0.0,
+      "room_harms": 36,
+      "harmful_keeps": 62
+    },
+    "sigma1_SD": {
+      "tone_level_minus_O": 0.1461,
+      "room_harms": 38,
+      "harmful_keeps": 21
+    },
+    "sigma1_O-s30": {
+      "tone_level_minus_O": -0.0063,
+      "room_harms": 26,
+      "harmful_keeps": 63
+    },
+    "sigma1_SD-s30": {
+      "tone_level_minus_O": 0.1337,
+      "room_harms": 22,
+      "harmful_keeps": 14
+    },
+    "sigma1_O-s10": {
+      "tone_level_minus_O": -0.0573,
+      "room_harms": 23,
+      "harmful_keeps": 64
+    },
+    "sigma1_SD-s10": {
+      "tone_level_minus_O": 0.0928,
+      "room_harms": 14,
+      "harmful_keeps": 16
+    },
+    "sigma0.5_O": {
+      "tone_level_minus_O": 0.0,
+      "room_harms": 34,
+      "harmful_keeps": 52
+    },
+    "sigma0.5_SD": {
+      "tone_level_minus_O": 0.1602,
+      "room_harms": 38,
+      "harmful_keeps": 7
+    },
+    "sigma0.5_O-s30": {
+      "tone_level_minus_O": -0.0139,
+      "room_harms": 16,
+      "harmful_keeps": 49
+    },
+    "sigma0.5_SD-s30": {
+      "tone_level_minus_O": 0.1505,
+      "room_harms": 19,
+      "harmful_keeps": 6
+    },
+    "sigma0.5_O-s10": {
+      "tone_level_minus_O": -0.037,
+      "room_harms": 18,
+      "harmful_keeps": 48
+    },
+    "sigma0.5_SD-s10": {
+      "tone_level_minus_O": 0.1149,
+      "room_harms": 12,
+      "harmful_keeps": 7
+    },
+    "sigma2_O": {
+      "tone_level_minus_O": 0.0,
+      "room_harms": 42,
+      "harmful_keeps": 70
+    },
+    "sigma2_SD": {
+      "tone_level_minus_O": 0.0859,
+      "room_harms": 45,
+      "harmful_keeps": 40
+    },
+    "sigma2_O-s30": {
+      "tone_level_minus_O": -0.0319,
+      "room_harms": 26,
+      "harmful_keeps": 71
+    },
+    "sigma2_SD-s30": {
+      "tone_level_minus_O": 0.0815,
+      "room_harms": 30,
+      "harmful_keeps": 42
+    },
+    "sigma2_O-s10": {
+      "tone_level_minus_O": -0.0428,
+      "room_harms": 25,
+      "harmful_keeps": 69
+    },
+    "sigma2_SD-s10": {
+      "tone_level_minus_O": 0.0766,
+      "room_harms": 24,
+      "harmful_keeps": 30
+    }
+  },
+  "summary_matches_independent_recount": true,
+  "tests": "21 checks in tests/test_engine_smoothing.py, test_tuning_decision.py and test_tuning_ablation.py pass"
+}

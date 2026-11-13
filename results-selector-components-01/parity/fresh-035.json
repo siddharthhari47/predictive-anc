@@ -1,0 +1,28 @@
+{
+  "id": "fresh-035",
+  "passed": true,
+  "origins": 2950,
+  "exact_choices": true,
+  "max_error_to_saved": {
+    "v2_gated": 4.515832152662824e-14,
+    "fade0.1_linear_gated": 0.0,
+    "causal_L2": 2.914335439641036e-14
+  },
+  "max_error_to_local_core": {
+    "v2_gated": 4.515832152662824e-14,
+    "fade0.1_linear_gated": 0.0,
+    "causal_L2": 2.914335439641036e-14
+  },
+  "unity_tuned_drive_max_error": 4.440892098500626e-16,
+  "chooser_transitions_by_horizon": [
+    1,
+    1
+  ],
+  "mixed_blocks_by_horizon": [
+    10,
+    10
+  ],
+  "ghost_frames": 350,
+  "gate_change_frames": 32,
+  "maximum_absolute_fitted_dc": 0.021539782097858798
+}

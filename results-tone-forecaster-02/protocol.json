@@ -1,0 +1,575 @@
+{
+  "kind": "tone_forecaster_02_frozen_protocol",
+  "created_utc": "2026-10-18T11:46:30.210444+00:00",
+  "development_run": "results-tone-forecaster-02\\development\\dev-01",
+  "rule": "Written after the diagnostic trials on development material (results-tone-forecaster-02/diagnosis) and before the formal development run. Candidates, all gated: the line-finder bank with a 0.2 s memory floor for line-finder tones (floor_lines0.2), and the line-finder bank with the joint band check (joint). Eligible only if, on development material: (a) whole-band boosts (whole 35-350 Hz band below -0.5 dB at either horizon, any development recording) are no more than v2 + gate has; (b) third-octave boosts (a third-octave band 1 dB or more louder, any development recording and horizon) are no more than v2 + gate has and fewer than bank_wide_lines + gate has; (c) near-boosts (a band 0.5 dB or more louder, same cases) are fewer than v2 + gate has and fewer than bank_wide_lines + gate has, a margin because study 01's candidate passed (b) on development and failed it on test; (d) third-octave boosts in the late windows of the synthetic development scenes are fewer than v2 + gate has and fewer than bank_wide_lines + gate has; (e) the tone gain is kept: the median, over development acoustic recordings with reference tones, of the tone-bin gain averaged over both horizons is at least v2 + gate's plus half of the amount by which bank_wide_lines + gate exceeds v2 + gate; (f) the median whole-band gain over development acoustic recordings, averaged over both horizons, is at least v2 + gate's minus 0.1 dB; (g) the mean synthetic development objective is at least v2 + gate's minus 0.5 dB and its synthetic windows below -0.5 dB are no more than v2 + gate has; (h) its own compute time per 10 ms block, excluding the tone-selector update that v2 also runs, is below 5 ms at the 99th percentile on every development recording and scene (offline Python, one thread, measured under the parallel pool). Among eligible candidates, pick the one with the fewest near-boosts (development recordings plus late synthetic windows, 0.5 dB or more); ties go to the higher tone-bin median. If none is eligible, no candidate is frozen and v2 stays.",
+  "rule_table": [
+    {
+      "candidate": "floor_lines0.2",
+      "tone_bin_median_db": 6.145007361751096,
+      "tone_bin_needed_db": 4.721421828630921,
+      "whole_band_median_db": 2.3297335054273307,
+      "third_octave_boosts": 3,
+      "near_boosts": 11,
+      "synthetic_late_boosts": 30,
+      "synthetic_late_near_boosts": 43,
+      "synthetic_objective_db": 7.6541982269460185,
+      "p99_block_ms": 2.819259996613255,
+      "checks": {
+        "a_whole_band_boosts": true,
+        "b_third_octave_boosts": true,
+        "c_near_boosts": false,
+        "d_synthetic_late_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": false
+    },
+    {
+      "candidate": "joint",
+      "tone_bin_median_db": 5.5567346997913845,
+      "tone_bin_needed_db": 4.721421828630921,
+      "whole_band_median_db": 1.5934124877326798,
+      "third_octave_boosts": 1,
+      "near_boosts": 8,
+      "synthetic_late_boosts": 17,
+      "synthetic_late_near_boosts": 23,
+      "synthetic_objective_db": 7.271180452630029,
+      "p99_block_ms": 4.077675018197624,
+      "checks": {
+        "a_whole_band_boosts": true,
+        "b_third_octave_boosts": true,
+        "c_near_boosts": true,
+        "d_synthetic_late_boosts": true,
+        "e_tone_gain_kept": true,
+        "f_whole_band": true,
+        "g_synthetic": true,
+        "h_time": true
+      },
+      "eligible": true
+    }
+  ],
+  "rule_reference": {
+    "v2": {
+      "third_octave_boosts": 9,
+      "near_boosts": 11,
+      "synthetic_late_boosts": 35,
+      "synthetic_late_near_boosts": 49,
+      "tone_bin_median_db": 3.1524364459341827,
+      "whole_band_median_db": 0.9815704366270679,
+      "synthetic_objective_db": 7.264473835931813,
+      "synthetic_windows_below_minus_half_db": 6
+    },
+    "bank_wide_lines": {
+      "third_octave_boosts": 4,
+      "near_boosts": 12,
+      "synthetic_late_boosts": 34,
+      "synthetic_late_near_boosts": 44,
+      "tone_bin_median_db": 6.290407211327659,
+      "whole_band_median_db": 2.322356170898141,
+      "synthetic_objective_db": 7.658067635974171,
+      "synthetic_windows_below_minus_half_db": 6
+    }
+  },
+  "frozen_candidate": {
+    "name": "joint",
+    "kind": "joint",
+    "nb_tau": 0.0,
+    "lines": true,
+    "options": {}
+  },
+  "frozen_candidate_note": null,
+  "comparators": [
+    {
+      "name": "v2",
+      "kind": "v2",
+      "window_seconds": 0.3
+    },
+    {
+      "name": "prefix_ar",
+      "kind": "prefix_ar"
+    },
+    {
+      "name": "online_ar",
+      "kind": "online_ar"
+    },
+    {
+      "name": "bank_wide_lines",
+      "kind": "bank",
+      "nb_tau": 0.0,
+      "lines": true
+    }
+  ],
+  "v2": {
+    "selector": {
+      "alpha": 0.01,
+      "acquire": 2,
+      "history": 3,
+      "release": 4
+    },
+    "forecaster": {
+      "window_seconds": 0.3,
+      "release_ratio": 0.5,
+      "release_window_seconds": 0.1
+    },
+    "gate": {
+      "min_gain_db": -1.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": 0
+    }
+  },
+  "fresh_recordings": [
+    {
+      "file": "Pump.ogg",
+      "title": "File:Pump.ogg",
+      "sha1": "67a50ed90d40716d360517fa5412728c4eb822ee",
+      "bytes": 577517,
+      "seconds": 31.6,
+      "author": "ezwa",
+      "licence": "Public domain",
+      "acoustic": true
+    },
+    {
+      "file": "The_Sound_of_MOXIE_at_Work_on_Mars_(PIA26041).wav",
+      "title": "File:The Sound of MOXIE at Work on Mars (PIA26041).wav",
+      "sha1": "cbbe0a741f6e853715ff4985a6a2f3264a007571",
+      "bytes": 7483896,
+      "seconds": 74.8,
+      "author": "NASA/JPL-Caltech/CNES/IRAP",
+      "licence": "Public domain",
+      "acoustic": true
+    },
+    {
+      "file": "Montreal_Clock_Tower_clock_mechanism.flac",
+      "title": "File:Montreal Clock Tower clock mechanism.flac",
+      "sha1": "6adfeface692fed477977c05b8d4f8fe50b3c05e",
+      "bytes": 7541121,
+      "seconds": 40.8,
+      "author": "Andy Mabbett",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": true
+    },
+    {
+      "file": "Siemens_Combino_Engine_Sound.wav",
+      "title": "File:Siemens Combino Engine Sound.wav",
+      "sha1": "a754053ed389eef7e6da6cddecad707e1518a5f5",
+      "bytes": 21168500,
+      "seconds": 120.0,
+      "author": "Dawidpl4553",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": true
+    },
+    {
+      "file": "Lille_subway_noise.wav",
+      "title": "File:Lille subway noise.wav",
+      "sha1": "5376ed0fbe22dd059ce33e1d96b7b4c53df208a8",
+      "bytes": 285582,
+      "seconds": 17.8,
+      "author": "Dazhoid",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": true
+    },
+    {
+      "file": "Stirling_marble_engine_000.ogg",
+      "title": "File:Stirling marble engine 000.ogg",
+      "sha1": "d31d23b652caf123943cb85131d6407d03de1f14",
+      "bytes": 790697,
+      "seconds": 28.2,
+      "author": "Nkim5706",
+      "licence": "CC BY-SA 3.0",
+      "acoustic": true
+    },
+    {
+      "file": "Buzzing_Speakers.ogg",
+      "title": "File:Buzzing Speakers.ogg",
+      "sha1": "a308007758f44df3ae1f44f50f062192db19a400",
+      "bytes": 225881,
+      "seconds": 17.3,
+      "author": "buzzingspeakers.com",
+      "licence": "CC BY-SA 3.0",
+      "acoustic": true
+    },
+    {
+      "file": "60-hz.wav",
+      "title": "File:60-hz.wav",
+      "sha1": "43bb3a76e976d070677aaf8befb6c2100262dd0b",
+      "bytes": 1927246,
+      "seconds": 20.1,
+      "author": "Rayo v.2.0",
+      "licence": "CC BY-SA 4.0",
+      "acoustic": false,
+      "note": "How it was captured is not stated; it may be a generated tone. Kept out of the acoustic medians; its boosts still count."
+    }
+  ],
+  "fresh_folder": "external-audio\\wikimedia-commons-fresh-02",
+  "fresh_independence": "Independent of all earlier work in this project: the eight recordings were chosen by their Commons title, description, length, licence and author only. None was downloaded, played or analysed before this protocol was frozen, and no author also made a development recording or a study-01 recording.",
+  "fresh_missing_rule": "A recording that cannot be downloaded is reported as missing and is not replaced; a present file whose size or SHA-1 differs stops the test.",
+  "seen_recordings": [
+    {
+      "file": "Server_Room_Antti_Luode_.mp3",
+      "sha256": "7e3ddf366a9941208a2c5374659cad64831328d7c7ae82f8a139ff3c35ffbc80",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Omvormer_en_compressor_van_een_tram_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "sha256": "9251b3f770293da9fb2f63babf189eeb9e4f5f3593971544036103acb80b93c2",
+      "had_reference_tones_in_real_hums_01": false
+    },
+    {
+      "file": "Ventilator_in_een_tunnel_-_SoundCloud_-_Beeld_en_Geluid.ogg",
+      "sha256": "ecb3c01279dc5f1c69b13ff75d694385f6c879e83c0c9b4a041812b6f92428bd",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Air_conditioner_hum_2_Gravity_Sound_.wav",
+      "sha256": "bb9e9358e2b7041cab8f35d93e712727ddccc3490d075ef907b0923bbb0a1861",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Air_conditioner_hum_Gravity_Sound_.wav",
+      "sha256": "bac546ddd06be356facb3dd9c842635afad312412fe058e14d7e2fb07e4f34d0",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Fan_Gravity_Sound_.wav",
+      "sha256": "0710f0d6fcaa7abef3ea2a697ecbae0c0e6703fc0f3998eb1d7e002b5db5c946",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Sistema_de_ventilaci_n.ogg",
+      "sha256": "e99f2f4d3b779701fad26a4958fabc2a9a10010dd614d7a9b4495671ba4ba13c",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Ventilador_de_estudio.ogg",
+      "sha256": "ee0c47862713f722634be55e88320522368afeb359af70370b1d31b2fb5e7878",
+      "had_reference_tones_in_real_hums_01": true
+    },
+    {
+      "file": "Ventilator_Marsmanplein_120919_05_-_SoundCloud_-_the_riel_thing.ogg",
+      "sha256": "f491ebfdea51fdf64f6e76698b0036328a9abdd865b4e259ce4d7b3b24384430",
+      "had_reference_tones_in_real_hums_01": false
+    },
+    {
+      "file": "Sounds_made_by_a_fan.wav",
+      "sha256": "14aeb4433d1f4e113c8f462ec5a1926eafaf572420cb8053a155462137c98707",
+      "had_reference_tones_in_real_hums_01": true
+    }
+  ],
+  "seen_note": "Secondary, not independent: the study-01 test recordings. Their study-01 boosts motivated this study, but no study-02 choice was made on them.",
+  "synthetic_test": {
+    "standard_seed": 20261020,
+    "standard_repeats": 3,
+    "standard_scene_seeds": "10100+100*repeat+scene index",
+    "wander_seed": 20261021,
+    "wander_repeats": 3,
+    "wander_scene_seeds": "11100+100*repeat+scene index",
+    "parity": 1,
+    "parity_note": "odd 10 Hz bands (development used even)",
+    "forbidden_within_hz": 2.0,
+    "forbidden_frequencies": [
+      41.2,
+      41.3,
+      44.6,
+      46.9,
+      47.3,
+      47.5,
+      57.6,
+      60.2,
+      62.8,
+      66.2,
+      68.4,
+      74.4,
+      77.0,
+      79.7,
+      82.4,
+      82.6,
+      85.3,
+      87.5,
+      90.1,
+      103.2,
+      113.7,
+      120.4,
+      122.6,
+      123.0,
+      123.1,
+      123.6,
+      123.7,
+      123.9,
+      126.4,
+      133.9,
+      137.2,
+      141.2,
+      143.5,
+      144.6,
+      147.2,
+      154.8,
+      159.4,
+      160.8,
+      162.02,
+      162.08,
+      162.8,
+      163.5,
+      163.6,
+      164.2,
+      165.0,
+      165.2,
+      168.02,
+      168.08,
+      170.6,
+      171.3,
+      180.6,
+      182.5,
+      183.1,
+      183.2,
+      183.6,
+      183.7,
+      184.1,
+      184.6,
+      187.4,
+      197.7,
+      203.2,
+      203.4,
+      203.9,
+      205.5,
+      208.9,
+      223.6,
+      231.2,
+      239.1,
+      242.7,
+      243.9,
+      247.3,
+      255.9,
+      262.37,
+      263.7,
+      264.3,
+      265.6,
+      266.2,
+      267.9,
+      268.37,
+      276.5,
+      282.5,
+      285.6,
+      285.7,
+      288.4,
+      302.42,
+      302.6,
+      303.2,
+      305.2,
+      305.3,
+      306.9,
+      307.3,
+      308.42,
+      311.8,
+      319.6,
+      322.5,
+      323.0,
+      323.8,
+      326.6,
+      327.3
+    ],
+    "not_excluded": "The study-01 and release-study test draws are not excluded: no study-02 choice used them, and excluding the study-01 test draws as well within 2 Hz leaves no room in either band parity (checked with a draw before this freeze).",
+    "standard_draws": [
+      {
+        "single": [
+          194.4
+        ],
+        "unrelated": [
+          95.6,
+          116.8,
+          236.1
+        ],
+        "appear": [
+          95.2
+        ],
+        "stop": [
+          116.7,
+          315.2
+        ],
+        "weak": [
+          53.6,
+          213.2
+        ],
+        "rumble": [
+          54.1,
+          217.3
+        ],
+        "harmonic": [
+          97.5,
+          195.0,
+          292.5
+        ],
+        "drift": [
+          92.2,
+          212.29
+        ],
+        "change_a": [
+          176.7
+        ],
+        "change_b": [
+          217.5,
+          235.5
+        ]
+      },
+      {
+        "single": [
+          174.5
+        ],
+        "unrelated": [
+          194.5,
+          215.8,
+          294.8
+        ],
+        "appear": [
+          234.8
+        ],
+        "stop": [
+          117.2,
+          252.8
+        ],
+        "weak": [
+          96.1,
+          314.3
+        ],
+        "rumble": [
+          94.5,
+          274.2
+        ],
+        "harmonic": [
+          97.4,
+          194.8,
+          292.2
+        ],
+        "drift": [
+          92.43,
+          292.4
+        ],
+        "change_a": [
+          292.7
+        ],
+        "change_b": [
+          175.8,
+          273.2
+        ]
+      },
+      {
+        "single": [
+          295.1
+        ],
+        "unrelated": [
+          96.9,
+          236.8,
+          294.3
+        ],
+        "appear": [
+          194.0
+        ],
+        "stop": [
+          195.6,
+          274.2
+        ],
+        "weak": [
+          92.9,
+          317.5
+        ],
+        "rumble": [
+          173.9,
+          195.4
+        ],
+        "harmonic": [
+          97.7,
+          195.4,
+          293.1
+        ],
+        "drift": [
+          92.43,
+          212.07
+        ],
+        "change_a": [
+          93.7
+        ],
+        "change_b": [
+          152.7,
+          176.2
+        ]
+      }
+    ],
+    "wander_draws": [
+      {
+        "slow": [
+          234.6,
+          315.5
+        ],
+        "fast": [
+          53.9,
+          253.4
+        ],
+        "mixed": [
+          213.6,
+          237.0,
+          273.1
+        ],
+        "am": [
+          216.8,
+          273.6
+        ]
+      },
+      {
+        "slow": [
+          253.4,
+          314.6
+        ],
+        "fast": [
+          174.7,
+          253.8
+        ],
+        "mixed": [
+          93.0,
+          174.1,
+          194.9
+        ],
+        "am": [
+          174.5,
+          236.4
+        ]
+      },
+      {
+        "slow": [
+          236.1,
+          316.7
+        ],
+        "fast": [
+          192.7,
+          296.2
+        ],
+        "mixed": [
+          97.3,
+          194.0,
+          212.9
+        ],
+        "am": [
+          55.2,
+          235.7
+        ]
+      }
+    ]
+  },
+  "primary_question": "On the fresh recordings, (1) are the boosts gone: does the frozen candidate + gate have no more third-octave boosts (a band 1 dB or more louder, any fresh recording, either horizon) and no more whole-band boosts than v2 + gate? (2) Is the tone gain kept: is its median tone-bin gain at 20 ms, over the fresh acoustic recordings with reference tones, above v2 + gate's? The two parts are answered separately. bank_wide_lines + gate, the study-01 candidate, is reported alongside so the report can say how much of its gain survives.",
+  "code_sha256": {
+    "tone_forecasters.py": "2b0499a2963a1fe245a48f3b28eb3afe369d1a649e9fe8063dedc5e4abc193bd",
+    "forecaster_study.py": "40bf7d2a804ad75bed59af71debde1a1e85c18cb9afa02b17e7f478b81de6386",
+    "tone_selection.py": "45c4e543f096ed82d63a3ce8f8a6d5ac7da181cc76777dbdf7fc8a6c1d35a3cf",
+    "predictors.py": "9a9c0a34939450e983b28ae0237e80b45169ed4171fe63b5f9b21d0a1249e36d",
+    "real_hum_study.py": "82709997723aacc38ebe7881fec4687acb311dc7ae9456611ffc45cbc696e686",
+    "release_study.py": "99902b2d94820ad33b49f9d3cda66df496da7a35d78a6ade5d5268c6bd51bbef",
+    "selection_study.py": "97d66a392b21f57ac4461405cccce6b5dad35e6b904f6d55166de93eb30255bd",
+    "assessment.py": "e8f1585b5e93d31b2414d3584b775a5a190f3c5e2464d9e01c08d7f039d3f7c6",
+    "generalization.py": "68cad42262ea32dceff43481077180577229dcb826b12767987f3ca350d8ce21",
+    "tone_floors.py": "75af3cfc5a326ced876108aefa97066487873c2136b0d28a29587278af0eeedc",
+    "forecaster_study_02.py": "2dd895b877935d1af1d9e409dc45fe0ba2b0f82a96425d3d4ca0f7f4196a2507",
+    "forecaster_report_02.py": "e2472ca8643412caceddeecfd80191a93a064402f6dcdcddd1916466ebaecd37"
+  }
+}

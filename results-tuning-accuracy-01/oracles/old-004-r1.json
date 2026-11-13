@@ -1,0 +1,232 @@
+{
+  "case_id": "old-004-r1",
+  "source_id": "old-004",
+  "tones": [
+    {
+      "case_id": "old-004-r1",
+      "source_id": "old-004",
+      "tone_index": 0,
+      "frequency": 300.00152123063015,
+      "kept": false,
+      "tuning": {
+        "frequency": 300.00152123063015,
+        "gain": 0.0,
+        "phase_deg": 329.1750726810459,
+        "kept": false,
+        "gain_before_check": 1.2327338373232548,
+        "flags": [
+          "no benefit heard: switched off"
+        ],
+        "questions": 14,
+        "sweeps": 2,
+        "presses": 5,
+        "listening_seconds": 90.0,
+        "oracle_gain": 1.0651891731622485,
+        "oracle_phase_deg": 329.40047403276054,
+        "start_gain": 0.3633966582939905,
+        "gain_error_db": 1.2688514716480808,
+        "phase_error_deg": -0.22540135171470865,
+        "predicted_tone_attenuation_db": 16.062779954006075,
+        "sweep_turns": 3
+      },
+      "oracle": {
+        "identifiable": true,
+        "coefficients": [
+          0.9050071257690392,
+          -0.5266088166261726
+        ],
+        "gain": 1.047069598183977,
+        "phase_deg": 329.8055762766755,
+        "condition": 1.0000792200421627,
+        "prefix_band_gain_db": 3.9034685336701584,
+        "prefix_off_power": 0.0001249395319234329,
+        "prefix_residual_power": 5.085726736528715e-05
+      },
+      "prefix_start_s": 1.5,
+      "prefix_end_s": 17.15,
+      "precheck_gain": 1.2327338373232548,
+      "phase_error_deg": -0.630503595629591,
+      "gain_error_db": 1.4178753425382682,
+      "projected_component_db": 15.005269274135529,
+      "idealized_equal_quadrature_db": 15.005297890520417,
+      "min_gain": 0.011356145571687203,
+      "max_gain": 2.923515616872058,
+      "oracle_in_gain_range": true,
+      "oracle_effect": {
+        "prefix_erb_db": 3.9034685336701584,
+        "suffix_erb_db": 5.182681850818228,
+        "unclipped_drive_peak": 0.02289658251468267,
+        "clipped_fraction": 0.0
+      },
+      "bounded_candidate_gain": 1.047069598183977,
+      "bounded_candidate_effect": {
+        "prefix_erb_db": 3.9034685336701584,
+        "suffix_erb_db": 5.182681850818228,
+        "unclipped_drive_peak": 0.022896582514682667,
+        "clipped_fraction": 0.0
+      },
+      "precheck_effect": {
+        "prefix_erb_db": 3.708118056638472,
+        "suffix_erb_db": 4.882410237932663,
+        "unclipped_drive_peak": 0.026985176456577636,
+        "clipped_fraction": 0.0
+      },
+      "final_effect": {
+        "prefix_erb_db": 0.0,
+        "suffix_erb_db": 0.0,
+        "unclipped_drive_peak": 0.0,
+        "clipped_fraction": 0.0
+      }
+    },
+    {
+      "case_id": "old-004-r1",
+      "source_id": "old-004",
+      "tone_index": 1,
+      "frequency": 200.00325010473495,
+      "kept": true,
+      "tuning": {
+        "frequency": 200.00325010473495,
+        "gain": 0.5224631896572571,
+        "phase_deg": 180.52567916883584,
+        "kept": true,
+        "gain_before_check": 0.5224631896572571,
+        "flags": [],
+        "questions": 16,
+        "sweeps": 2,
+        "presses": 6,
+        "listening_seconds": 102.0,
+        "oracle_gain": 0.7926698986142234,
+        "oracle_phase_deg": 165.8396035716236,
+        "start_gain": 0.16474750914160546,
+        "gain_error_db": -3.620733376689873,
+        "phase_error_deg": 14.686075597212238,
+        "predicted_tone_attenuation_db": 7.978715885447508,
+        "sweep_turns": 3
+      },
+      "oracle": {
+        "identifiable": true,
+        "coefficients": [
+          -0.7360089015166946,
+          0.19161372393374457
+        ],
+        "gain": 0.7605425184114093,
+        "phase_deg": 165.40745320489026,
+        "condition": 1.0001293472540453,
+        "prefix_band_gain_db": 2.496803960387331,
+        "prefix_off_power": 1.5175647830733808e-05,
+        "prefix_residual_power": 8.540176446422353e-06
+      },
+      "prefix_start_s": 1.5,
+      "prefix_end_s": 17.15,
+      "precheck_gain": 0.5224631896572571,
+      "phase_error_deg": 15.118225963945576,
+      "gain_error_db": -3.2613560196732783,
+      "projected_component_db": 8.37054137280086,
+      "idealized_equal_quadrature_db": 8.370022773028243,
+      "min_gain": 0.005148359660675171,
+      "max_gain": 5.271920292531375,
+      "oracle_in_gain_range": true,
+      "oracle_effect": {
+        "prefix_erb_db": 2.4968039603873318,
+        "suffix_erb_db": 1.1447393050982355,
+        "unclipped_drive_peak": 0.006589482775641463,
+        "clipped_fraction": 0.0
+      },
+      "bounded_candidate_gain": 0.7605425184114093,
+      "bounded_candidate_effect": {
+        "prefix_erb_db": 2.4968039603873318,
+        "suffix_erb_db": 1.1447393050982355,
+        "unclipped_drive_peak": 0.006589482775641464,
+        "clipped_fraction": 0.0
+      },
+      "precheck_effect": {
+        "prefix_erb_db": 2.0315757229365934,
+        "suffix_erb_db": 0.9759168627276654,
+        "unclipped_drive_peak": 0.004464049888988728,
+        "clipped_fraction": 0.0
+      },
+      "final_effect": {
+        "prefix_erb_db": 2.0315757229365934,
+        "suffix_erb_db": 0.9759168627276654,
+        "unclipped_drive_peak": 0.004464049888988728,
+        "clipped_fraction": 0.0
+      }
+    },
+    {
+      "case_id": "old-004-r1",
+      "source_id": "old-004",
+      "tone_index": 2,
+      "frequency": 99.97736877989135,
+      "kept": false,
+      "tuning": {
+        "frequency": 99.97736877989135,
+        "gain": 0.0,
+        "phase_deg": 355.76470385058127,
+        "kept": false,
+        "gain_before_check": 3.617621716064253,
+        "flags": [
+          "no benefit heard: switched off"
+        ],
+        "questions": 14,
+        "sweeps": 2,
+        "presses": 6,
+        "listening_seconds": 90.0,
+        "oracle_gain": 1.2663895705957708,
+        "oracle_phase_deg": 71.0365169513979,
+        "start_gain": 2.3315815674256894,
+        "gain_error_db": 9.117116535958326,
+        "phase_error_deg": -75.27181310081664,
+        "predicted_tone_attenuation_db": -8.869357415978351,
+        "sweep_turns": 3
+      },
+      "oracle": {
+        "identifiable": true,
+        "coefficients": [
+          0.4067157043103816,
+          0.9833336399551119
+        ],
+        "gain": 1.0641253270174804,
+        "phase_deg": 67.52956941913212,
+        "condition": 1.0014770384887126,
+        "prefix_band_gain_db": 0.9209890260912588,
+        "prefix_off_power": 7.067043218006486e-07,
+        "prefix_residual_power": 5.716613684756707e-07
+      },
+      "prefix_start_s": 1.5,
+      "prefix_end_s": 17.15,
+      "precheck_gain": 3.617621716064253,
+      "phase_error_deg": -71.76486556855082,
+      "gain_error_db": 10.628607443052886,
+      "projected_component_db": -10.194558910209562,
+      "idealized_equal_quadrature_db": -10.182766268868072,
+      "min_gain": 0.0728619239820528,
+      "max_gain": 57.91373051183944,
+      "oracle_in_gain_range": true,
+      "oracle_effect": {
+        "prefix_erb_db": 0.9209890260912588,
+        "suffix_erb_db": -0.0015586580877757037,
+        "unclipped_drive_peak": 0.0011798262399697161,
+        "clipped_fraction": 0.0
+      },
+      "bounded_candidate_gain": 1.0641253270174804,
+      "bounded_candidate_effect": {
+        "prefix_erb_db": 0.9209890260912588,
+        "suffix_erb_db": -0.0015586580877757037,
+        "unclipped_drive_peak": 0.0011798262399697163,
+        "clipped_fraction": 0.0
+      },
+      "precheck_effect": {
+        "prefix_erb_db": -4.482960756977897,
+        "suffix_erb_db": -0.0968935611819158,
+        "unclipped_drive_peak": 0.0040131013536336265,
+        "clipped_fraction": 0.0
+      },
+      "final_effect": {
+        "prefix_erb_db": 0.0,
+        "suffix_erb_db": 0.0,
+        "unclipped_drive_peak": 0.0,
+        "clipped_fraction": 0.0
+      }
+    }
+  ]
+}

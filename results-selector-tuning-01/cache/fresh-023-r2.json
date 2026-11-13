@@ -1,0 +1,90 @@
+{
+  "source_id": "fresh-023",
+  "case_id": "fresh-023-r2",
+  "file": "File:London Underground 1995 Stock train going from Old Street station to Angel station.ogg",
+  "cohort": "switch_enriched_seen",
+  "room_index": 2,
+  "seed": 2004523488,
+  "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-023.npz",
+  "source_sha256": "ef9767d96593ad5c037d0ce9714c892e0482270866873a772e1c511ef671a971",
+  "reference_tones_hz": [],
+  "geometry": {
+    "dims_m": [
+      3.4132504448657732,
+      4.102383417703841,
+      2.610957958974682
+    ],
+    "rt60_s": 0.30431747093690287,
+    "source": [
+      1.8650605301695842,
+      2.5418162368560506,
+      1.65546344740396
+    ],
+    "mic": [
+      0.8355225859702834,
+      3.402085041610298,
+      0.9
+    ],
+    "ears": [
+      [
+        1.1902754446623909,
+        3.1139003625418615,
+        1.2
+      ],
+      [
+        1.1711689488508696,
+        3.1079892020970488,
+        1.2
+      ],
+      [
+        1.1425092051335877,
+        3.09912246142983,
+        1.2
+      ],
+      [
+        1.0947429656047842,
+        3.084344560317798,
+        1.2
+      ],
+      [
+        0.9992104865471777,
+        3.0547887580937343,
+        1.2
+      ]
+    ],
+    "facing_deg": 150.99180011775297,
+    "move_direction_deg": 197.19100183634131,
+    "earphone_highpass_hz": 97.88489738457088,
+    "source_to_ear_m": 0.995018648270347,
+    "source_to_mic_m": 1.5397193950012125
+  },
+  "tones": [],
+  "prefix": 72000,
+  "n": 180000,
+  "warm": 3000,
+  "earphone_gain": 1.0,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 970427053,
+      "1.0": 55467167,
+      "2.0": 267440326
+    },
+    "200": {
+      "0.5": 483317778,
+      "1.0": 188851609,
+      "2.0": 902684740
+    }
+  },
+  "switches": {
+    "30": [],
+    "200": []
+  },
+  "prefix_switches": {
+    "30": 1,
+    "200": 1
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\fresh-023-r2.npz",
+  "cache_sha256": "f0b9cfc58a9f2884a4f69616e82577b2853c43f9e92326f134bae13907180c4b",
+  "v2_trace_matches_original": true
+}

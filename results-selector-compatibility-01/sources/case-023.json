@@ -1,0 +1,31 @@
+{
+  "id": "case-023",
+  "title": "Lille_subway_noise.wav",
+  "cohort": "former-test-02",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-023.npz",
+  "arrays_sha256": "283144e17392976c26d19b3cfe7c9bc7e38dfb63e478cfe674c2240a1902689d",
+  "reference_sha256": "55fe649b359a4f8c22118fc8bf8ff3cd6df72d7061ae932ecf4e9e42be1afc48",
+  "seconds": 17.846,
+  "prefix_seconds": 7.138,
+  "counts": {
+    "frames_after_warmup": 1634,
+    "v2_components_before_gate": 0,
+    "bank_components_before_gate": 0,
+    "frames_both_gates_open": 1634,
+    "bank_components_without_v2_match": 0
+  },
+  "all": {
+    "matched_tone_frames": 0
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 0
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-023.npz",
+  "ratio_arrays_sha256": "03036b8f7a3b1ede701c902b3f12bd454e9a0da9bcca09d1983bf07d3ca4dbae"
+}

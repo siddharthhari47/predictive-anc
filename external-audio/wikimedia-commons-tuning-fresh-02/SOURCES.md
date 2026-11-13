@@ -1,0 +1,75 @@
+# Second fresh tuner-test sources
+
+Media stay local. Every identity and licence was frozen before access.
+
+- tg-001.webm — File:Beijing Subway Line 2 Guloudajie Train Arriving 2014.webm; 2014Best; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Beijing_Subway_Line_2_Guloudajie_Train_Arriving_2014.webm
+- tg-002.ogv — File:ILA2012 Turbine long version smallscreen PD 2012.ogv; Bin im Garten; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:ILA2012_Turbine_long_version_smallscreen_PD_2012.ogv
+- tg-003.webm — File:Gateway subway station in Pittsburgh.webm; cbaile19; CC0; https://commons.wikimedia.org/wiki/File:Gateway_subway_station_in_Pittsburgh.webm
+- tg-004.webm — File:ICF Medha Rake entering Hemanta Mukhopadhyay Metro Station seen during Hemanta Mukhopadhyay metro station to Netaji Bhavan metro journey 01.webm; Chinakpradhan; CC0; https://commons.wikimedia.org/wiki/File:ICF_Medha_Rake_entering_Hemanta_Mukhopadhyay_Metro_Station_seen_during_Hemanta_Mukhopadhyay_metro_station_to_Netaji_Bhavan_metro_journey_01.webm
+- tg-005.ogv — File:Taxi Mustang 2017-08-04 083.ogv; Chris Light; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Taxi_Mustang_2017-08-04_083.ogv
+- tg-006.webm — File:Ascent by cable car to the fortress of Masada.webm; Davide Mauro; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Ascent_by_cable_car_to_the_fortress_of_Masada.webm
+- tg-007.ogg — File:Obalende bus park, Lagos Nigeria (Emeka Ogboh).ogg; Emeka Ogboh; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Obalende_bus_park,_Lagos_Nigeria_(Emeka_Ogboh).ogg
+- tg-008.webm — File:GM North VBA151S bus ride.webm; Mikey; CC BY 2.0; https://commons.wikimedia.org/wiki/File:GM_North_VBA151S_bus_ride.webm
+- tg-009.webm — File:SSC 2019-04-04-Video File-RS-25 Engine Test.webm; NASA; Public domain; https://commons.wikimedia.org/wiki/File:SSC_2019-04-04-Video_File-RS-25_Engine_Test.webm
+- tg-010.ogv — File:Excavator.ogv; Elekes Andor; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Excavator.ogv
+- tg-011.webm — File:2025-12-17 12 51 26 New Hope and Ivyland 40 (10-34-E class 2-8-0 "Consolidation" type steam locomotive) arriving with the noon Santa’s Steam Train Ride at New Hope Station in New Hope, Bucks County, Pennsylvania.webm; Famartin; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:2025-12-17_12_51_26_New_Hope_and_Ivyland_40_(10-34-E_class_2-8-0_%22Consolidation%22_type_steam_locomotive)_arriving_with_the_noon_Santa%E2%80%99s_Steam_Train_Ride_at_New_Hope_Station_in_New_Hope,_Bucks_County,_Pennsylvania.webm
+- tg-012.ogv — File:Video of Cockpit in night.ogv; Freshman404, with special thanks to Nick; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Video_of_Cockpit_in_night.ogv
+- tg-013.ogv — File:Lufthansa Boeing747 beginning to taxi.ogv; Garitzko; Public domain; https://commons.wikimedia.org/wiki/File:Lufthansa_Boeing747_beginning_to_taxi.ogv
+- tg-014.wav — File:MAN Lion's Coach Supreme - Euro 6 - Engine sound from rear seats climbing - 15% Hill in France.wav; Gibsonlp22; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:MAN_Lion%27s_Coach_Supreme_-_Euro_6_-_Engine_sound_from_rear_seats_climbing_-_15%25_Hill_in_France.wav
+- tg-015.webm — File:Penguin Island Ferry Gnangarra.webm; Gnangarra; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Penguin_Island_Ferry_Gnangarra.webm
+- tg-016.webm — File:Bumper motorbikes 2012-07-12.webm; GolhaMedia; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Bumper_motorbikes_2012-07-12.webm
+- tg-017.webm — File:Plane Spotting Cargolux Airlines International takeoff.webm; NewsInStar; CC BY 3.0; https://commons.wikimedia.org/wiki/File:Plane_Spotting_Cargolux_Airlines_International_takeoff.webm
+- tg-018.ogv — File:Montée sur le ferry à Bastia.ogv; Gzen92; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Mont%C3%A9e_sur_le_ferry_%C3%A0_Bastia.ogv
+- tg-019.webm — File:Nyora Railway Station.webm; Harryprosser; CC0; https://commons.wikimedia.org/wiki/File:Nyora_Railway_Station.webm
+- tg-020.webm — File:Plane landing at Tangier airport over Sidi Kacem beach.webm; Ideophagous; CC0; https://commons.wikimedia.org/wiki/File:Plane_landing_at_Tangier_airport_over_Sidi_Kacem_beach.webm
+- tg-021.webm — File:Lisbon ferry Belém – Trafaria – view of Belém Tower.webm; Ijon; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Lisbon_ferry_Bel%C3%A9m_%E2%80%93_Trafaria_%E2%80%93_view_of_Bel%C3%A9m_Tower.webm
+- tg-022.ogv — File:BürgenstockHammetschwand-Lift.ogv; Joergsam; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:B%C3%BCrgenstockHammetschwand-Lift.ogv
+- tg-023.webm — File:Excavator ballet, Oberlech 321, 6764 Lech am Arlberg, Austria-3.webm; KaiKemmann; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Excavator_ballet,_Oberlech_321,_6764_Lech_am_Arlberg,_Austria-3.webm
+- tg-024.ogg — File:F-HJOY Robinson R22 Beta II taxi video.ogg; Kakoula10; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:F-HJOY_Robinson_R22_Beta_II_taxi_video.ogg
+- tg-025.webm — File:Motorcycle ride around Guam, Honda cb1000r. Team T.W.O....webm; Roderick Houston; CC BY 3.0; https://commons.wikimedia.org/wiki/File:Motorcycle_ride_around_Guam,_Honda_cb1000r._Team_T.W.O....webm
+- tg-026.ogv — File:Praha tram junction 2012.theora.ogv; Kevin.B; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Praha_tram_junction_2012.theora.ogv
+- tg-027.ogv — File:Elite Factory in Nazareth Illit video 3.ogv; Laliv g; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Elite_Factory_in_Nazareth_Illit_video_3.ogv
+- tg-028.ogg — File:Sangi railway 607F tsurikake sound.ogg; ja:User:Tak0317; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Sangi_railway_607F_tsurikake_sound.ogg
+- tg-029.webm — File:Ruthin electrical substation between Ffordd Cae Glas and Gellifor - aerial video Jan 2025.webm; Llywelyn2000; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Ruthin_electrical_substation_between_Ffordd_Cae_Glas_and_Gellifor_-_aerial_video_Jan_2025.webm
+- tg-030.ogg — File:Tarumi Railway haimo295-315 mieji-kitagatamakuwa 20080409.ogg; Mitsuki-2368; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Tarumi_Railway_haimo295-315_mieji-kitagatamakuwa_20080409.ogg
+- tg-031.ogg — File:Jawa350 motorbike exhaust sound.ogg; Віктор Ходєєв /Viktor Khodyeyev; Public domain; https://commons.wikimedia.org/wiki/File:Jawa350_motorbike_exhaust_sound.ogg
+- tg-032.ogv — File:Desio manovra tram Bloccato 20100521.ogv; Moliva; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Desio_manovra_tram_Bloccato_20100521.ogv
+- tg-033.webm — File:No. 5 Elbe 2019-06-10, with crane ship.webm; Morn; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:No._5_Elbe_2019-06-10,_with_crane_ship.webm
+- tg-034.webm — File:Rance Tidal Power Station 2.webm; Mrbeachguide; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Rance_Tidal_Power_Station_2.webm
+- tg-035.ogv — File:Shanghai Maglev train ride.ogv; Mätes II.; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Shanghai_Maglev_train_ride.ogv
+- tg-036.webm — File:Borehole drill.webm; NairobiPapel; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Borehole_drill.webm
+- tg-037.webm — File:Deep foundation drilling - cut simple.webm; User:Drall; CC0; https://commons.wikimedia.org/wiki/File:Deep_foundation_drilling_-_cut_simple.webm
+- tg-038.ogg — File:Metro Mixcoac Linea 12 - Sonido ambiental.ogg; ProtoplasmaKid; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Metro_Mixcoac_Linea_12_-_Sonido_ambiental.ogg
+- tg-039.webm — File:Fan Sound Effect (5 Minutes).webm; Home Sound Effects; CC BY 3.0; https://commons.wikimedia.org/wiki/File:Fan_Sound_Effect_(5_Minutes).webm
+- tg-040.webm — File:A Kamov Ka-27 Helicopter Aboard the Admiral Vinogradov.webm; Rhk111; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:A_Kamov_Ka-27_Helicopter_Aboard_the_Admiral_Vinogradov.webm
+- tg-041.mpg — File:The Perrygrove Miniature Railway, Forrest of Dean.mpg; Rosser1954; CC BY 4.0; https://commons.wikimedia.org/wiki/File:The_Perrygrove_Miniature_Railway,_Forrest_of_Dean.mpg
+- tg-042.webm — File:Roti Making Machine - 450 per hour.webm; Kirtiraj Equipment - Food Machines Pvt Ltd; CC BY 3.0; https://commons.wikimedia.org/wiki/File:Roti_Making_Machine_-_450_per_hour.webm
+- tg-043.ogv — File:Demolition2 long reach excavator.ogv; Rupp.de; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Demolition2_long_reach_excavator.ogv
+- tg-044.ogg — File:South Australian Railways Garratt 406 starts off.ogg; SCHolar44; CC0; https://commons.wikimedia.org/wiki/File:South_Australian_Railways_Garratt_406_starts_off.ogg
+- tg-045.webm — File:View upwards the Fernsehturm Berlin elevator shaft.webm; Sebastian Wallroth; CC BY 3.0; https://commons.wikimedia.org/wiki/File:View_upwards_the_Fernsehturm_Berlin_elevator_shaft.webm
+- tg-046.webm — File:Hastings railway ride.webm; Secretlondon (talk); CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Hastings_railway_ride.webm
+- tg-047.webm — File:Rail Runner.webm; Granger Meador; CC BY 3.0; https://commons.wikimedia.org/wiki/File:Rail_Runner.webm
+- tg-048.ogv — File:Open Type Centrifugal Pump Impeller.ogv; Sm faysal; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Open_Type_Centrifugal_Pump_Impeller.ogv
+- tg-049.ogg — File:2011-06-05 19-32 Berlin TXL Airplane Flyover plus Wingtip Vortex.ogg; Fritz Schlüter; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:2011-06-05_19-32_Berlin_TXL_Airplane_Flyover_plus_Wingtip_Vortex.ogg
+- tg-050.webm — File:Train ride into Postojna Caves.webm; Indi Tourists; CC BY 3.0; https://commons.wikimedia.org/wiki/File:Train_ride_into_Postojna_Caves.webm
+- tg-051.webm — File:Plane flaps.webm; Chris Sampson; CC BY 2.0; https://commons.wikimedia.org/wiki/File:Plane_flaps.webm
+- tg-052.webm — File:L1 Train (PM246 01x019-020) entering Changping Station, Dongguan Rail Transit 20251228.webm; Tim Wu; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:L1_Train_(PM246_01x019-020)_entering_Changping_Station,_Dongguan_Rail_Transit_20251228.webm
+- tg-053.ogv — File:F101 - T-9 Jet Engine Test Cell.ogv; Timothy Kirchner; Public domain; https://commons.wikimedia.org/wiki/File:F101_-_T-9_Jet_Engine_Test_Cell.ogv
+- tg-054.webm — File:Some 60m down an 87m escalator at Náměstí Míru in Prague-8DmplVIFoVg.webm; bercenicity; CC BY 3.0; https://commons.wikimedia.org/wiki/File:Some_60m_down_an_87m_escalator_at_N%C3%A1m%C4%9Bst%C3%AD_M%C3%ADru_in_Prague-8DmplVIFoVg.webm
+- tg-055.ogv — File:South Ferry arrival vc.ogv; https://www.flickr.com/photos/dtjoyce/; CC BY 2.0; https://commons.wikimedia.org/wiki/File:South_Ferry_arrival_vc.ogv
+- tg-056.webm — File:Finkl Factory Chicago September 2003.webm; Victor Grigas; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Finkl_Factory_Chicago_September_2003.webm
+- tg-057.ogv — File:Kettle Corn Maker.ogv; Visitor7; CC BY-SA 3.0; https://commons.wikimedia.org/wiki/File:Kettle_Corn_Maker.ogv
+- tg-058.webm — File:Airplane landing batumi.webm; Vitaly Zdanevich; CC BY 4.0; https://commons.wikimedia.org/wiki/File:Airplane_landing_batumi.webm
+- tg-059.webm — File:Ferry MS Carl Wilhelmson departing from Lysekil, in winter.webm; W.carter; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Ferry_MS_Carl_Wilhelmson_departing_from_Lysekil,_in_winter.webm
+- tg-060.webm — File:Danhai LRT Trams at Tamsui District Office Station.webm; wctaiwan; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Danhai_LRT_Trams_at_Tamsui_District_Office_Station.webm
+- tg-061.webm — File:An Airplane landing at HKIA 202010311319.webm; IamCristYe; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:An_Airplane_landing_at_HKIA_202010311319.webm
+- tg-062.flac — File:Sound inside the Copa Airlines flight.flac; Wilfredor; CC0; https://commons.wikimedia.org/wiki/File:Sound_inside_the_Copa_Airlines_flight.flac
+- tg-063.oga — File:20220623 Noise pollution. Tomaszów Mazowiecki (60,000 population town), residential area.oga; WrS.tm.pl; Public domain; https://commons.wikimedia.org/wiki/File:20220623_Noise_pollution._Tomasz%C3%B3w_Mazowiecki_(60,000_population_town),_residential_area.oga
+- tg-064.webm — File:Finland railway bridge train ride.webm; DSPSuzemka; CC BY 3.0; https://commons.wikimedia.org/wiki/File:Finland_railway_bridge_train_ride.webm
+- tg-065.ogv — File:Weeks 533 crane passes north under HRLB jeh.ogv; Jim.henderson; CC0; https://commons.wikimedia.org/wiki/File:Weeks_533_crane_passes_north_under_HRLB_jeh.ogv
+- tg-066.webm — File:Making masa, for tortillas in masa mixer.webm; Armando Gómez; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Making_masa,_for_tortillas_in_masa_mixer.webm
+- tg-067.webm — File:Inclined elevator at Shadowbrook Restaurant ascending.gk.webm; Grendelkhan; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Inclined_elevator_at_Shadowbrook_Restaurant_ascending.gk.webm
+- tg-068.webm — File:COB-LED-Lamp supplied by filtered conventional transformer.webm; Hans Haase; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:COB-LED-Lamp_supplied_by_filtered_conventional_transformer.webm
+- tg-069.webm — File:CFA 2022 Alpine Track Pumper.webm; Country Fire Authority; CC BY 3.0; https://commons.wikimedia.org/wiki/File:CFA_2022_Alpine_Track_Pumper.webm
+- tg-070.webm — File:Tuning-Motor-Party-2023-Vyškov-45.webm; Hugo; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Tuning-Motor-Party-2023-Vy%C5%A1kov-45.webm
+- tg-071.webm — File:Aircraft Passenger Boarding Bridges in japan.webm; Project Kei; CC BY-SA 4.0; https://commons.wikimedia.org/wiki/File:Aircraft_Passenger_Boarding_Bridges_in_japan.webm

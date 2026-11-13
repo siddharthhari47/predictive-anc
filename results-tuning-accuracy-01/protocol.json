@@ -1,0 +1,2396 @@
+{
+  "created_utc": "2026-10-26T16:12:28.719489+00:00",
+  "review": 55,
+  "kind": "posthoc_development_diagnosis",
+  "scope": "Every saved v2 menu tone at 30 ms, sigma=1 dB; all 72 rooms remain in the inventory. No chooser retuning, new audio or physical output.",
+  "stages": [
+    "prefix_oracles",
+    "original_tuning_reproduction_and_check_instrumentation"
+  ],
+  "oracle": "Same two native 0/90-degree bases and causal second-order ERB band as compatibility-01; least squares on [warm,prefix) only, known simulated ear, each tone alone. No scored-suffix fitting. This is an unconstrained linear oracle, not necessarily attainable under tuner gain bounds or the digital cap.",
+  "effects": "Both pre-check and final gains; actual capped single-tone prefix and suffix ERB attenuation, projected cancellable-component attenuation, phase/gain errors. Projection geometry replaces an unjustified universal 60-degree harm rule.",
+  "feasibility": "Report original min/max gain and cap clipping separately. Radially clamp oracle gain into the original range and render under the original peak cap as a feasible candidate; this candidate is NOT claimed to be the globally optimal nonlinear capped solution.",
+  "classification": "Phase >60 degrees is a descriptive flag only. Harm = actual capped single-tone ERB attenuation below zero (numerical tolerance 1e-9); retain magnitudes and counts beyond 0.1/0.5/1 dB. Useful-oracle and useful-precheck counts are separately shown at the fixed descriptive grid, not a new pass rule. Require both prefix and scored suffix in an additional persistence table.",
+  "benefit_thresholds_db": [
+    0.1,
+    0.5,
+    1.0,
+    3.0,
+    6.0
+  ],
+  "check_logging": "Run the original tune_by_ear with observational subclasses; preserve RNG draws, intervals, order and settings. Require every summary and setting to reproduce saved scores before interpreting logs. Log original noiseless/noisy A/B levels and sequential on-minus-off, same-interval on/off counterfactuals with prior kept tones, and exact Gaussian-model keep probability conditional on settings and presentations.",
+  "assumptions": "sigma=1 dB per A/B presentation, same=1 dB, independent difference SD=sqrt(2) dB. Sweep clicks use the original reaction/miss/window model; their accuracy is not characterized by this Gaussian comparison calculation. All are simulated assumptions, not measured human acuity.",
+  "aggregation": "Full tone rows plus room and source counts; repeated tones and rooms are dependent. Descriptive only, no inferential confidence intervals or fresh-test claim.",
+  "no_live_changes": true,
+  "cases": [
+    {
+      "case_id": "fresh-005-r0",
+      "source_id": "fresh-005",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-005-r0.json",
+      "metadata_sha256": "7c67c9b5590c0159d0dd842b15ca7abbc82e71b9c961d59c61d01fcedbe9a398",
+      "switches": {
+        "30": [
+          {
+            "row": 4046,
+            "arrival_sample": 81005,
+            "arrival_seconds": 40.5025,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 7014,
+            "arrival_sample": 140705,
+            "arrival_seconds": 70.3525,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 7120,
+            "arrival_sample": 142825,
+            "arrival_seconds": 71.4125,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 2,
+        "200": 2
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-005-r0.json",
+      "score_sha256": "ae8728617df49d34773abc59bb3a7c80ef3c7b0d707706a634b6c59d944d87cb",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-005-r0.npz",
+      "cache_sha256": "89e400311d66e4851530cb8179c91c3eda9e79d49588271a757024ccba035657"
+    },
+    {
+      "case_id": "fresh-005-r1",
+      "source_id": "fresh-005",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-005-r1.json",
+      "metadata_sha256": "28b12d6bec5214ae1f2b4a4d5739fc2af0a654dbe40ab429addf013c1f086fbe",
+      "switches": {
+        "30": [
+          {
+            "row": 7675,
+            "arrival_sample": 153585,
+            "arrival_seconds": 76.7925,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 7792,
+            "arrival_sample": 155925,
+            "arrival_seconds": 77.9625,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 8595,
+            "arrival_sample": 171985,
+            "arrival_seconds": 85.9925,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 8791,
+            "arrival_sample": 175905,
+            "arrival_seconds": 87.9525,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 7056,
+            "arrival_sample": 141545,
+            "arrival_seconds": 70.7725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 7135,
+            "arrival_sample": 143125,
+            "arrival_seconds": 71.5625,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 2,
+        "200": 2
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-005-r1.json",
+      "score_sha256": "a019b9c3cb71a98ba7588af5cbcbcaf7b3ce682be8120a0907d53d760e00ce32",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-005-r1.npz",
+      "cache_sha256": "487a9efbae5556eab4f602346beab05d0b9c34363ac661f8ef889f6e18e62978"
+    },
+    {
+      "case_id": "fresh-005-r2",
+      "source_id": "fresh-005",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-005-r2.json",
+      "metadata_sha256": "dd8b15b071769c6354f4cb72ebc4eb4b828810392a8d5d0ded3f987641fa5c3f",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 7680,
+            "arrival_sample": 154025,
+            "arrival_seconds": 77.0125,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 8947,
+            "arrival_sample": 179365,
+            "arrival_seconds": 89.6825,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-005-r2.json",
+      "score_sha256": "1c6927723326f67ed47e50235dbc4953a23828c62480ef07ca52bb86b20bb775",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-005-r2.npz",
+      "cache_sha256": "7045718d09abdf3ebb73cb1ca2fd598c08b383a47149b64f298ec301fa06268c"
+    },
+    {
+      "case_id": "fresh-010-r0",
+      "source_id": "fresh-010",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-010-r0.json",
+      "metadata_sha256": "bb3a71b718768d58afcd609dcc0773995494c37cb049c3d4f7118fe1873913d1",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-010-r0.json",
+      "score_sha256": "401d5b62ebca88fbd55b08cfb669a1b3ce4a9fe909621b10cd702b4d6396bfbf",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-010-r0.npz",
+      "cache_sha256": "e2856740302b9decec2eb7a47cdda1b16238bf4e233a2e8aea792cac495509b7"
+    },
+    {
+      "case_id": "fresh-010-r1",
+      "source_id": "fresh-010",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-010-r1.json",
+      "metadata_sha256": "7e2a1345159017e55bd6e7663e5b5c464073de38876dcfcbc87431779b57559e",
+      "switches": {
+        "30": [
+          {
+            "row": 2244,
+            "arrival_sample": 44965,
+            "arrival_seconds": 22.4825,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": false
+          },
+          {
+            "row": 2850,
+            "arrival_sample": 57085,
+            "arrival_seconds": 28.5425,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 3625,
+            "arrival_sample": 72925,
+            "arrival_seconds": 36.4625,
+            "from_arm": 2,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-010-r1.json",
+      "score_sha256": "2b936c695438d34b689c1e77f291bfb4d10bc200074a8e819a5934811ce467db",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-010-r1.npz",
+      "cache_sha256": "e43714cafad56c40bfd2b17e1dde310edb4e89fb02e8a55210c27b037252d6e1"
+    },
+    {
+      "case_id": "fresh-010-r2",
+      "source_id": "fresh-010",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-010-r2.json",
+      "metadata_sha256": "47f050dc3b34aae30e9267602b3a5202abf7679fd1c17ee53ffea5fdbd50e67f",
+      "switches": {
+        "30": [
+          {
+            "row": 2911,
+            "arrival_sample": 58305,
+            "arrival_seconds": 29.1525,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 3139,
+            "arrival_sample": 63205,
+            "arrival_seconds": 31.6025,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-010-r2.json",
+      "score_sha256": "0415afd6f4419489cf7205e5f17f0b8712a771affe0a1716f9c07e596e27360c",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-010-r2.npz",
+      "cache_sha256": "915cf3ad9ec366c871f0b05e790e7423786209963e4532a7c0e3f437e467375f"
+    },
+    {
+      "case_id": "fresh-018-r0",
+      "source_id": "fresh-018",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-018-r0.json",
+      "metadata_sha256": "11d89c0ba2770a9a0bcf4fcc300800f7218fbb0e144802e87d6f0c71b42c2e26",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 7045,
+            "arrival_sample": 141325,
+            "arrival_seconds": 70.6625,
+            "from_arm": 0,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-018-r0.json",
+      "score_sha256": "1aeb9afb5b9ad6d72309a4de996cbec0494f40b71a6d8a8242635e6eab75c318",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-018-r0.npz",
+      "cache_sha256": "65f3c37776e406df02f0031c2a280ff55345c8d947cb00b0f91f564439520855"
+    },
+    {
+      "case_id": "fresh-018-r1",
+      "source_id": "fresh-018",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-018-r1.json",
+      "metadata_sha256": "aa7ddbc3ebfa6f2ec197f50f0393057beccad34f5d2dde79b31ab762327c8a3c",
+      "switches": {
+        "30": [
+          {
+            "row": 7059,
+            "arrival_sample": 141265,
+            "arrival_seconds": 70.6325,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 7056,
+            "arrival_sample": 141545,
+            "arrival_seconds": 70.7725,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-018-r1.json",
+      "score_sha256": "c4ff0a6a48156f0b61b63ee67abb349be63d5c9fb24491eb092250352a40112a",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-018-r1.npz",
+      "cache_sha256": "d831c296b5045fffd77ba10e76901aa1b6d9a017daec8b2863197acb3ce69891"
+    },
+    {
+      "case_id": "fresh-018-r2",
+      "source_id": "fresh-018",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-018-r2.json",
+      "metadata_sha256": "3244c71ac753507a855ad4b79e91e9caae78b2537f42152d4c34d92e1548b4db",
+      "switches": {
+        "30": [
+          {
+            "row": 7061,
+            "arrival_sample": 141305,
+            "arrival_seconds": 70.6525,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 7055,
+            "arrival_sample": 141525,
+            "arrival_seconds": 70.7625,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 2,
+      "menu_tones": 2,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-018-r2.json",
+      "score_sha256": "2ae8330c5e05fa8d28a65b7fd9fba04390a56661ef825a16635a7f39fc2563ae",
+      "saved_tones": 2,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-018-r2.npz",
+      "cache_sha256": "d60bfb7dcbf7f3feebb4c1f4b545e31445ae6e743a5deae0b1198ae1bde2a3ea"
+    },
+    {
+      "case_id": "fresh-021-r0",
+      "source_id": "fresh-021",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-021-r0.json",
+      "metadata_sha256": "7d7fee5c0026d0e7ee3410a2cf9cef8dd951227214a52a64cf670a7e2e1f342f",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 7761,
+            "arrival_sample": 155645,
+            "arrival_seconds": 77.8225,
+            "from_arm": 0,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-021-r0.json",
+      "score_sha256": "4e3309b2ac66f1e8009a2920a66a32b72cef6811accdddf1480788d8d08d8513",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-021-r0.npz",
+      "cache_sha256": "520b50c42c8382d01d453b02ffa3ed473be30a724dcf245c8846add143d2c533"
+    },
+    {
+      "case_id": "fresh-021-r1",
+      "source_id": "fresh-021",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-021-r1.json",
+      "metadata_sha256": "6bc4a4524565757403828622f5a3f749e51c9053c1d8887f95656a426c79d954",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-021-r1.json",
+      "score_sha256": "8ad3ab438a20aefd5663ca376ec897a2df300a6a7cd16085956392d3279a693f",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-021-r1.npz",
+      "cache_sha256": "bc0b1a0e20200546200a20c4b6decae468a3e1521d92799db328ef9631a076b7"
+    },
+    {
+      "case_id": "fresh-021-r2",
+      "source_id": "fresh-021",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-021-r2.json",
+      "metadata_sha256": "7c572b8e200854c967c26affa78d9fcad6a3a2933cce93756104b218bb232f49",
+      "switches": {
+        "30": [
+          {
+            "row": 7446,
+            "arrival_sample": 149005,
+            "arrival_seconds": 74.5025,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 0
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-021-r2.json",
+      "score_sha256": "9d741a12e33e28068eabaa806acc8b1612b8db71b0c96a8a2927abfd59f89e3e",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-021-r2.npz",
+      "cache_sha256": "1a8f0330e37d8b7d007c9dc92c2a2afadd33ecc78526f76317e9217ba04c2c96"
+    },
+    {
+      "case_id": "fresh-023-r0",
+      "source_id": "fresh-023",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-023-r0.json",
+      "metadata_sha256": "57303e0218f8e0b3e7d056ca7dab1e0e30bc6700d1ab5cee390f3824b2a0f195",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-023-r0.json",
+      "score_sha256": "562e9280cb1b11f087c62b2a106733a9311dee9c4d65bc84e5e667b9990f7171",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-023-r0.npz",
+      "cache_sha256": "aae77bf888a7d87791b8a8e2fe2b2d7f06639b9c05ab6239ac0ee090e15287e7"
+    },
+    {
+      "case_id": "fresh-023-r1",
+      "source_id": "fresh-023",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-023-r1.json",
+      "metadata_sha256": "c05120b5f5bfb37213c60b6b62746f7a38bb7e36a66f6b66fffb2468e235d8f3",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-023-r1.json",
+      "score_sha256": "282ff2375c47b3fbcb361357deb8551f4413a0eb316292096b85cb7ea312b211",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-023-r1.npz",
+      "cache_sha256": "3c29b81391482ec7d2d03dcf9143a9db464920f24792198fc4aa2c772ee94e51"
+    },
+    {
+      "case_id": "fresh-023-r2",
+      "source_id": "fresh-023",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-023-r2.json",
+      "metadata_sha256": "380b30fdd891e1b714189daf7564d729960d477fdfd8f482eca38f4ed4e77275",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-023-r2.json",
+      "score_sha256": "64d79496f6114ed200da7147388408f027ed86fe9d18f0ad81cf03cba771e6bf",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-023-r2.npz",
+      "cache_sha256": "f0b9cfc58a9f2884a4f69616e82577b2853c43f9e92326f134bae13907180c4b"
+    },
+    {
+      "case_id": "fresh-025-r0",
+      "source_id": "fresh-025",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-025-r0.json",
+      "metadata_sha256": "6cd5bfcf007991f03fdca5abc882f7750da1d8bcfa976a5d1b8697efb83ebf61",
+      "switches": {
+        "30": [
+          {
+            "row": 5162,
+            "arrival_sample": 103325,
+            "arrival_seconds": 51.6625,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 5161,
+            "arrival_sample": 103645,
+            "arrival_seconds": 51.8225,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-025-r0.json",
+      "score_sha256": "d757cf566940aaf43856d30fd9a06cf1d743033d222c515bd2b4622d5c4dad2d",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-025-r0.npz",
+      "cache_sha256": "afce55d0ae24d6202330c9910cdff8ef37aab54711e1f388d7e76d97e3c841c8"
+    },
+    {
+      "case_id": "fresh-025-r1",
+      "source_id": "fresh-025",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-025-r1.json",
+      "metadata_sha256": "3cd09c1df6aa9e79e3530ad2d5e06c77bedeba075cf664c49a8eecac8307f946",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 5162,
+            "arrival_sample": 103665,
+            "arrival_seconds": 51.8325,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-025-r1.json",
+      "score_sha256": "e48f18df22f123a41dda211e5a03c89291df543dee01766bf7119bbc082dda7c",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-025-r1.npz",
+      "cache_sha256": "39498736e0f8c5cb880fdb50319a1ff034978301b6e8b7bc747f94b684a17f21"
+    },
+    {
+      "case_id": "fresh-025-r2",
+      "source_id": "fresh-025",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-025-r2.json",
+      "metadata_sha256": "f774ee886a1a01e191bb2d7aafd101a13c1d3af0145b07cd6dc5312f36f4f320",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 4034,
+            "arrival_sample": 81105,
+            "arrival_seconds": 40.5525,
+            "from_arm": 2,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 5168,
+            "arrival_sample": 103785,
+            "arrival_seconds": 51.8925,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-025-r2.json",
+      "score_sha256": "d7592900fec04c49b3d8c097555d202edde8938d9f3a589a4f8b7c61a351735b",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-025-r2.npz",
+      "cache_sha256": "aeb78084e5331142d1a235d25c4456224fb0f64bd4bb71f21a7f1b942f9df4c7"
+    },
+    {
+      "case_id": "fresh-026-r0",
+      "source_id": "fresh-026",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-026-r0.json",
+      "metadata_sha256": "28bf9709bf2ad2d4ba055ae47712ceb7952e94dc78d5f485807a7aa02c4044b5",
+      "switches": {
+        "30": [
+          {
+            "row": 6233,
+            "arrival_sample": 124745,
+            "arrival_seconds": 62.3725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 6907,
+            "arrival_sample": 138565,
+            "arrival_seconds": 69.2825,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-026-r0.json",
+      "score_sha256": "7a97636c367027b77201f78346979dfae7551448ba170665880e32de8a9e5e68",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-026-r0.npz",
+      "cache_sha256": "b559f989eba4401ead4e2c99a6ed88a17e6f9faa9b0bc0a6111c95bbd0ebec79"
+    },
+    {
+      "case_id": "fresh-026-r1",
+      "source_id": "fresh-026",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-026-r1.json",
+      "metadata_sha256": "e65d0430c2dcba534c969f38999544e8a1434b404fea572f9b203fb71153fba2",
+      "switches": {
+        "30": [
+          {
+            "row": 7183,
+            "arrival_sample": 143745,
+            "arrival_seconds": 71.8725,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 7142,
+            "arrival_sample": 143265,
+            "arrival_seconds": 71.6325,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-026-r1.json",
+      "score_sha256": "01611eb05be51bd2196762556388ec531372c74068de7b34d018461215142621",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-026-r1.npz",
+      "cache_sha256": "72832e21de66974cd4f31805c9074d6dc2e9b886b954732f38015de4548113b5"
+    },
+    {
+      "case_id": "fresh-026-r2",
+      "source_id": "fresh-026",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-026-r2.json",
+      "metadata_sha256": "ab43d16329b24820bb4dfab6c8bf699bb053717172095b568f1b8d2fa81ee0da",
+      "switches": {
+        "30": [
+          {
+            "row": 7173,
+            "arrival_sample": 143545,
+            "arrival_seconds": 71.7725,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 7188,
+            "arrival_sample": 144185,
+            "arrival_seconds": 72.0925,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-026-r2.json",
+      "score_sha256": "79b4ea38dfa83731cf29722b54c5fc9f15a80fd120544d6a1682291bd60c4b3d",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-026-r2.npz",
+      "cache_sha256": "482e2586dfbb82d25927b9ebd83c961e8daa233a046d22217b7014cce5c62d4a"
+    },
+    {
+      "case_id": "fresh-035-r0",
+      "source_id": "fresh-035",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-035-r0.json",
+      "metadata_sha256": "fa693f8ee5bc4602f76a36b108f843628b2a54d7bcf00b168607f6c780fdd66d",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-035-r0.json",
+      "score_sha256": "be358fbc27864cf5825ec1ab37f9ba617f7c81328e798531d7841eb3b508187e",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-035-r0.npz",
+      "cache_sha256": "29cfdf76ed3fdffc038813fdf3799a42e397c1fc1d086ff904cb72c9a0a3e283"
+    },
+    {
+      "case_id": "fresh-035-r1",
+      "source_id": "fresh-035",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-035-r1.json",
+      "metadata_sha256": "efd28b2e3180624062f670000f7c41ee6c57bfbda10449c6e7c45710c9ababca",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-035-r1.json",
+      "score_sha256": "dfac8c975d8c0c0f0c1233702bf5b02910c6ad2a25931a70b583c8f3e45a307f",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-035-r1.npz",
+      "cache_sha256": "5642c90effdf839bcd940baed359449121e313d24d9edcf36c828f8176657b68"
+    },
+    {
+      "case_id": "fresh-035-r2",
+      "source_id": "fresh-035",
+      "cohort": "switch_enriched_seen",
+      "metadata_path": "results-selector-tuning-01\\cache\\fresh-035-r2.json",
+      "metadata_sha256": "3aecc2560e3673f6a4d919db9b723e34c8c344c7cb5a2fef228801c635cf53ec",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 2,
+      "menu_tones": 2,
+      "score_path": "results-selector-tuning-01\\scores\\fresh-035-r2.json",
+      "score_sha256": "4bf02f27abd9bc310bde31505054ffcb2047dcf77edc396a370e5acd59ff3af4",
+      "saved_tones": 2,
+      "cache_path": "results-selector-tuning-01\\cache\\fresh-035-r2.npz",
+      "cache_sha256": "042642cadfd8a1c2db9fa11c8aa5bac721b69bc2a202410e0d42f9583d1f8b1a"
+    },
+    {
+      "case_id": "old-000-r0",
+      "source_id": "old-000",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-000-r0.json",
+      "metadata_sha256": "1e5453e60afeda71e6a8641f5ac088793cdb4acaf71673dd9745e5b5bbd5e4fb",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 2,
+      "menu_tones": 2,
+      "score_path": "results-selector-tuning-01\\scores\\old-000-r0.json",
+      "score_sha256": "e25222d3495cc8191b874bc0c3b98ba7c4d24318b5bf26a6285a5ee235e734b6",
+      "saved_tones": 2,
+      "cache_path": "results-selector-tuning-01\\cache\\old-000-r0.npz",
+      "cache_sha256": "3c0d38d0d6a5f83d405a9bf9d1cc177e6e768ebc57487412530dcea4605d20d4"
+    },
+    {
+      "case_id": "old-000-r1",
+      "source_id": "old-000",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-000-r1.json",
+      "metadata_sha256": "5f22c8674942994572df00cae52deb8e342fb90ebe06aded8d0cb8ce1d054f27",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\old-000-r1.json",
+      "score_sha256": "14b73e356f9f7ca9bd798bc1fdccb7605a85143db337be13d0f054af7ea79fd8",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\old-000-r1.npz",
+      "cache_sha256": "1984de2a9aaad4dc3bb1ad442ed51be48fceb8923056464fd77e983d5155377c"
+    },
+    {
+      "case_id": "old-000-r2",
+      "source_id": "old-000",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-000-r2.json",
+      "metadata_sha256": "9e284a35eb083cbf33d3417f165859b825b839c82519a9fc76949892aacbec41",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 1
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\old-000-r2.json",
+      "score_sha256": "df4f490d5aeec87174d9641a0c6ebfba4a46914aee5f813270afbb7b1352b055",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\old-000-r2.npz",
+      "cache_sha256": "e007b81dbc4285acdbdd442a3ec9dfc93d51f4eebab0000eeb0807f58b518bfd"
+    },
+    {
+      "case_id": "old-001-r0",
+      "source_id": "old-001",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-001-r0.json",
+      "metadata_sha256": "098d1bf65e6faffd0034c46304cb855d3a38af072ec65dcc0fc65ab3d368fd9e",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\old-001-r0.json",
+      "score_sha256": "6f54c5e6fb678d9b34b71ff304c3010a0232cc2c64db218f461fee93c937333b",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\old-001-r0.npz",
+      "cache_sha256": "b0b4675a4ede4a679c6ef038d9c7e9a6e8ec690f0b1a87745a6735d2ffdd1143"
+    },
+    {
+      "case_id": "old-001-r1",
+      "source_id": "old-001",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-001-r1.json",
+      "metadata_sha256": "9b57e4501aa3339c2c791684180a2ca4e170ea636d6c00c5b3eaa3ddc33d4bc6",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 2,
+      "menu_tones": 2,
+      "score_path": "results-selector-tuning-01\\scores\\old-001-r1.json",
+      "score_sha256": "4a6d387f8ceab08d8f942d757e8fb606ece6cabcc7659eae45fa67872c98e7fd",
+      "saved_tones": 2,
+      "cache_path": "results-selector-tuning-01\\cache\\old-001-r1.npz",
+      "cache_sha256": "4595f7d8802ff5cfa92960ef0679ac0f02ff826ac860cee0c5e7c52925cf4a83"
+    },
+    {
+      "case_id": "old-001-r2",
+      "source_id": "old-001",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-001-r2.json",
+      "metadata_sha256": "db67208c5d0ce9e40a800a44140034173a6e4b37c00dead0fe6f1e1e0e2e16f3",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 1
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\old-001-r2.json",
+      "score_sha256": "2c082052209c3bc72aab7177cacbb364a947f2d079b9a73df14258fa1bb67d60",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\old-001-r2.npz",
+      "cache_sha256": "eaf0758c0fcfd33e863a13b3781fdc46f7934544b9f57b351256cef3ab29d079"
+    },
+    {
+      "case_id": "old-002-r0",
+      "source_id": "old-002",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-002-r0.json",
+      "metadata_sha256": "060ffe6d8bab841562029b416c243d6f006a36f2a248ecb55e5d9153ba963c4c",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-002-r0.json",
+      "score_sha256": "79da3278e661251368e1aa5f3fd87230bfd9349386c096f5fac3c4bcc4811cce",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-002-r0.npz",
+      "cache_sha256": "8e249d281c1ba3f941c9b687b047f25b440de13d96a88513ddc4ef5b3c75196c"
+    },
+    {
+      "case_id": "old-002-r1",
+      "source_id": "old-002",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-002-r1.json",
+      "metadata_sha256": "09bf6087c1f44cda2334d0c5d5ec6b2b05f0071368b43ee489da3e5e908de32c",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\old-002-r1.json",
+      "score_sha256": "45d2f9531044a69ecf23da08ddda7365ed9b6f1494c62f12de3bad577c38e515",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\old-002-r1.npz",
+      "cache_sha256": "1ee1052f7b3365b485aad77d6cf79ad67188679cd18f74131ec1b91ec32c9ba7"
+    },
+    {
+      "case_id": "old-002-r2",
+      "source_id": "old-002",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-002-r2.json",
+      "metadata_sha256": "f17245915d09cb0c5f31fab4a5538c35bf5f6f94f9523a3389582b3fd8eaf9b4",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\old-002-r2.json",
+      "score_sha256": "f5af7e1af98c7d92d26f7ca163fda8ab94cc09dba5282b48d01d052e98b7d062",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\old-002-r2.npz",
+      "cache_sha256": "d09dcd1ebdcaafd4bbe853b7708c331aa3855ed65917fa9a73bf56da54d20b3a"
+    },
+    {
+      "case_id": "old-003-r0",
+      "source_id": "old-003",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-003-r0.json",
+      "metadata_sha256": "66732cb13533fb0c2a5f0474696ca2567f7db170f61ea862276aaad734dba761",
+      "switches": {
+        "30": [
+          {
+            "row": 1149,
+            "arrival_sample": 23065,
+            "arrival_seconds": 11.5325,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 1
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\old-003-r0.json",
+      "score_sha256": "ba1812c1949c6e0e65214b5f054bcc6ad11c4df131969f9ecbb825e6330d6f23",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\old-003-r0.npz",
+      "cache_sha256": "54f048b754d342d6322d94849d356e4159d823260a7005ea2fc558c4f02e4866"
+    },
+    {
+      "case_id": "old-003-r1",
+      "source_id": "old-003",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-003-r1.json",
+      "metadata_sha256": "33cdd5814ab62b9cf3dbe816f7c35e1071b4b3a8d734f0018215b6f853f0a7cf",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\old-003-r1.json",
+      "score_sha256": "e2b3a7a7f1f1a7d80caae8e24d782a6867d00fe1c35c2d669234f51b56ee6488",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\old-003-r1.npz",
+      "cache_sha256": "9e3230323bbbb93f149d0749a6f78bf218b644c58225ba4c3de4e24e676f3728"
+    },
+    {
+      "case_id": "old-003-r2",
+      "source_id": "old-003",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-003-r2.json",
+      "metadata_sha256": "062355bcabeee1db4bddf61b7faa72e058cb849adbc222b6e2d24e8ebe5d0143",
+      "switches": {
+        "30": [
+          {
+            "row": 1028,
+            "arrival_sample": 20645,
+            "arrival_seconds": 10.3225,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2118,
+            "arrival_sample": 42445,
+            "arrival_seconds": 21.2225,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 2121,
+            "arrival_sample": 42845,
+            "arrival_seconds": 21.4225,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": false
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 1
+      },
+      "prefix_tones": 2,
+      "menu_tones": 2,
+      "score_path": "results-selector-tuning-01\\scores\\old-003-r2.json",
+      "score_sha256": "7d678f1ac9cffe7448c7331ccfc0039b6fa45c08516851eb41f57e850be0bbd8",
+      "saved_tones": 2,
+      "cache_path": "results-selector-tuning-01\\cache\\old-003-r2.npz",
+      "cache_sha256": "13bcf4bc14a4315d755280db8c50a2044136edbb3557e5fdb016df55d17ba53a"
+    },
+    {
+      "case_id": "old-004-r0",
+      "source_id": "old-004",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-004-r0.json",
+      "metadata_sha256": "af0daa780e5a1387511e8f9fadfbaff6822ffb6ae0a5235b0ed74c606c3e7b04",
+      "switches": {
+        "30": [
+          {
+            "row": 2147,
+            "arrival_sample": 43025,
+            "arrival_seconds": 21.5125,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 2133,
+            "arrival_sample": 43085,
+            "arrival_seconds": 21.5425,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2471,
+            "arrival_sample": 49845,
+            "arrival_seconds": 24.9225,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 2
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\old-004-r0.json",
+      "score_sha256": "a33882d62206367dd87ea671ca13460faa08561a2e184a61b2d83ee3933df599",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\old-004-r0.npz",
+      "cache_sha256": "83d65164c0213f5a6f82fda7118cbabdd66dfa87e7c90cd11dba75f1276720ba"
+    },
+    {
+      "case_id": "old-004-r1",
+      "source_id": "old-004",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-004-r1.json",
+      "metadata_sha256": "e133f649519c9215ddd2b61de740e0f1753f47b82b409141416f2d89e935afe4",
+      "switches": {
+        "30": [
+          {
+            "row": 2138,
+            "arrival_sample": 42845,
+            "arrival_seconds": 21.4225,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2474,
+            "arrival_sample": 49565,
+            "arrival_seconds": 24.7825,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 2104,
+            "arrival_sample": 42505,
+            "arrival_seconds": 21.2525,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2459,
+            "arrival_sample": 49605,
+            "arrival_seconds": 24.8025,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 3,
+        "200": 2
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\old-004-r1.json",
+      "score_sha256": "2751c93ccec43e2781c4f2b57b167a9247b5cf2ec945c6985f17754bf457db07",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\old-004-r1.npz",
+      "cache_sha256": "8cc5fbd2556a579b9bde547336f21e8db110f1cff1c251a1af67200f306bbabc"
+    },
+    {
+      "case_id": "old-004-r2",
+      "source_id": "old-004",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-004-r2.json",
+      "metadata_sha256": "c447996f718e0d215f6d008c58d320a426110cf96e0c3d8d58641f42cc7e5f91",
+      "switches": {
+        "30": [
+          {
+            "row": 2156,
+            "arrival_sample": 43205,
+            "arrival_seconds": 21.6025,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2473,
+            "arrival_sample": 49545,
+            "arrival_seconds": 24.7725,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 2152,
+            "arrival_sample": 43465,
+            "arrival_seconds": 21.7325,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2464,
+            "arrival_sample": 49705,
+            "arrival_seconds": 24.8525,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 2,
+        "200": 3
+      },
+      "prefix_tones": 2,
+      "menu_tones": 2,
+      "score_path": "results-selector-tuning-01\\scores\\old-004-r2.json",
+      "score_sha256": "8a8d07fca736508854b7c86e8b4b35c33ecf551dd3f022e4ee6265e811224cc2",
+      "saved_tones": 2,
+      "cache_path": "results-selector-tuning-01\\cache\\old-004-r2.npz",
+      "cache_sha256": "3d394fe29c81cd6c23f5529056a984bc4229ad957ae879a6b499b91488d416db"
+    },
+    {
+      "case_id": "old-005-r0",
+      "source_id": "old-005",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-005-r0.json",
+      "metadata_sha256": "ff9a0748c5ea0a956c3fd8e7efd02b7e5989564144a385c88ea2c250f4efec71",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-005-r0.json",
+      "score_sha256": "1b08ec76874cc4321df74872343eee6e05ce7a41e3bd0a5c7d95a230b71641b2",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-005-r0.npz",
+      "cache_sha256": "06d246beb88c4357ad38b347e10698ba74c2c075ff13b86a3e02b6ecfcb64af3"
+    },
+    {
+      "case_id": "old-005-r1",
+      "source_id": "old-005",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-005-r1.json",
+      "metadata_sha256": "eeee700903e7b0ce16031c2773195a17f2c3bc4f12a0ed66f1aeb1a632d787ac",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-005-r1.json",
+      "score_sha256": "a59f49f723af9ac73a3a909ea99c6c960911585858d0dd411fbf33d85a2b6ea7",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-005-r1.npz",
+      "cache_sha256": "e6a7d2b44e1a02d25ef3041a0c58f8b0e00f58362fa2aa96f391806dbffcd32f"
+    },
+    {
+      "case_id": "old-005-r2",
+      "source_id": "old-005",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-005-r2.json",
+      "metadata_sha256": "b18f2300dbe006231e634aa27334576ed234182b782ea1298c7188bb20b4acd4",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-005-r2.json",
+      "score_sha256": "b6cb402b6e1d2cc562a332d8f3749f73a6ac06faf4c51c2194a52f53b88e4af6",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-005-r2.npz",
+      "cache_sha256": "8b72cac66f14c9a2a11605325e99effc30fa91c40456bdd428b8522c681272ff"
+    },
+    {
+      "case_id": "old-006-r0",
+      "source_id": "old-006",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-006-r0.json",
+      "metadata_sha256": "e92e97e4a1fe5cb7f7ddc886bb6932b78cb47fe24ab08a9e2ea7bdf6b1819163",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 15306,
+            "arrival_sample": 306545,
+            "arrival_seconds": 153.2725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 16309,
+            "arrival_sample": 326605,
+            "arrival_seconds": 163.3025,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-006-r0.json",
+      "score_sha256": "9593822411e28da92a9c17c6d2b8ce86480c4144733fa8b1ae3623790b81c932",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-006-r0.npz",
+      "cache_sha256": "89ff58dfe3f27340cc70c44c61a63a06b9ffcbfafbbd1b483526c2f9deb69581"
+    },
+    {
+      "case_id": "old-006-r1",
+      "source_id": "old-006",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-006-r1.json",
+      "metadata_sha256": "655b48023b7e015d59f7d0ea922fad7a2437eb2cce9b1891e428b9122ef566e4",
+      "switches": {
+        "30": [
+          {
+            "row": 8468,
+            "arrival_sample": 169445,
+            "arrival_seconds": 84.7225,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 11060,
+            "arrival_sample": 221285,
+            "arrival_seconds": 110.6425,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 8564,
+            "arrival_sample": 171705,
+            "arrival_seconds": 85.8525,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 8777,
+            "arrival_sample": 175965,
+            "arrival_seconds": 87.9825,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 10130,
+            "arrival_sample": 203025,
+            "arrival_seconds": 101.5125,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 11166,
+            "arrival_sample": 223745,
+            "arrival_seconds": 111.8725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 16312,
+            "arrival_sample": 326665,
+            "arrival_seconds": 163.3325,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-006-r1.json",
+      "score_sha256": "695aa76d7f08b4121238c73c057483caac1d5a41cb183797e9b507dc6de1a946",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-006-r1.npz",
+      "cache_sha256": "eb2faa153dd5f1797299d671fbae44986a7b5274531dcee2916d3ceb1f3a57ba"
+    },
+    {
+      "case_id": "old-006-r2",
+      "source_id": "old-006",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-006-r2.json",
+      "metadata_sha256": "d673fe58e3a193fcbdeb76bb67623663e9f91b696130962b0a6a284f0a4ad3ca",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 8033,
+            "arrival_sample": 161085,
+            "arrival_seconds": 80.5425,
+            "from_arm": 2,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 9025,
+            "arrival_sample": 180925,
+            "arrival_seconds": 90.4625,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 9740,
+            "arrival_sample": 195225,
+            "arrival_seconds": 97.6125,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 10033,
+            "arrival_sample": 201085,
+            "arrival_seconds": 100.5425,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 10776,
+            "arrival_sample": 215945,
+            "arrival_seconds": 107.9725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 2
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-006-r2.json",
+      "score_sha256": "a04d68b46907e268529e65b9337017ed32d3d78f6f757a33677cf9f94c204f49",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-006-r2.npz",
+      "cache_sha256": "5c75ce5aa3628b0052dacabc8f6dd6eaa32418b515c71fdbe721b7a7710a69dd"
+    },
+    {
+      "case_id": "old-007-r0",
+      "source_id": "old-007",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-007-r0.json",
+      "metadata_sha256": "2ce619c8487a9e9a7cc2d8db60df19a438ff0c92c08f2c6a347fbc62cf71d1a4",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 2,
+      "menu_tones": 2,
+      "score_path": "results-selector-tuning-01\\scores\\old-007-r0.json",
+      "score_sha256": "2f2a3d9c296d4f650bebcdff984d0fe73f2417c49376f09ec7781d51ebe6cc72",
+      "saved_tones": 2,
+      "cache_path": "results-selector-tuning-01\\cache\\old-007-r0.npz",
+      "cache_sha256": "db1b3e6396c8f65d11e8c9854a1ecba2d7b35401d99006fa149076f44d7bd739"
+    },
+    {
+      "case_id": "old-007-r1",
+      "source_id": "old-007",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-007-r1.json",
+      "metadata_sha256": "053893d4bc3756ebde16ae96633c400f368d076bf9c699c6a8f4a72915d3f119",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\old-007-r1.json",
+      "score_sha256": "911ff290ea63f3d4c98b8d82e9d53de6729f9ac55790b26e0784609cd4625ff7",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\old-007-r1.npz",
+      "cache_sha256": "5b7051e37c9c47ee2a100e5f16f5985511194e0d2f33288c0321e134c774a4c5"
+    },
+    {
+      "case_id": "old-007-r2",
+      "source_id": "old-007",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-007-r2.json",
+      "metadata_sha256": "588e9f0ed6b6fbe08d02fbf9c12dfcbadae38bd2da210db88400253ce5bb7bc8",
+      "switches": {
+        "30": [
+          {
+            "row": 1988,
+            "arrival_sample": 39845,
+            "arrival_seconds": 19.9225,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 3564,
+            "arrival_sample": 71705,
+            "arrival_seconds": 35.8525,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 2,
+      "menu_tones": 2,
+      "score_path": "results-selector-tuning-01\\scores\\old-007-r2.json",
+      "score_sha256": "5e2db7c613c754435598c9d0cabc3573046ac273286551ee3bafe288b0ea467f",
+      "saved_tones": 2,
+      "cache_path": "results-selector-tuning-01\\cache\\old-007-r2.npz",
+      "cache_sha256": "5b5abdff5e85063ccc967d4f6532880f9fb3c31fa3c374d4e6b30e3926896c99"
+    },
+    {
+      "case_id": "old-008-r0",
+      "source_id": "old-008",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-008-r0.json",
+      "metadata_sha256": "742208dde4282a81f05dd33af049b87149d87bee945970e0e9faccbf279cc5d0",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 2308,
+            "arrival_sample": 46585,
+            "arrival_seconds": 23.2925,
+            "from_arm": 0,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 4096,
+            "arrival_sample": 82345,
+            "arrival_seconds": 41.1725,
+            "from_arm": 2,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-008-r0.json",
+      "score_sha256": "1c59b713266ad70ccbb20ae88a2122f7ec764bdeb8b0f23bfec6875919142aa6",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-008-r0.npz",
+      "cache_sha256": "0347f293e13f26afa4a14d8378b56ce3d285dac4dff1f074a5e7d1f291c22ca7"
+    },
+    {
+      "case_id": "old-008-r1",
+      "source_id": "old-008",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-008-r1.json",
+      "metadata_sha256": "688f6ab7616d089d2eb85cbea73511c43b8324d37ba1232ebf7788c923121dc3",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 2302,
+            "arrival_sample": 46465,
+            "arrival_seconds": 23.2325,
+            "from_arm": 0,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 4045,
+            "arrival_sample": 81325,
+            "arrival_seconds": 40.6625,
+            "from_arm": 2,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 4812,
+            "arrival_sample": 96665,
+            "arrival_seconds": 48.3325,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-008-r1.json",
+      "score_sha256": "0548eb7dc2e666b68136967078cc29c9f392641e7815844a186073688ad9b377",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-008-r1.npz",
+      "cache_sha256": "4b403ff640171e3105950911d86b3312ce14c854b2ead48e2893503e8c0b4e29"
+    },
+    {
+      "case_id": "old-008-r2",
+      "source_id": "old-008",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-008-r2.json",
+      "metadata_sha256": "917e78bdcdda2ba5fe54ab13fe47df9b2f1e802c1c5bdf89bbec550c6a7dc1d7",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 4149,
+            "arrival_sample": 83405,
+            "arrival_seconds": 41.7025,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 4936,
+            "arrival_sample": 99145,
+            "arrival_seconds": 49.5725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-008-r2.json",
+      "score_sha256": "6761c7f6d6ccf95165d4dd10e0b54e266462b0ba52dba217682bf4d4a1080d5b",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-008-r2.npz",
+      "cache_sha256": "871ce7e3d3572ad4fe2f5bdcdb918175354449b9d23f011876cd850c3856feee"
+    },
+    {
+      "case_id": "old-009-r0",
+      "source_id": "old-009",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-009-r0.json",
+      "metadata_sha256": "385621f1d0ffb491b46a759c42e45607756e3d9b4c7448e28acb333f5441178f",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 3096,
+            "arrival_sample": 62345,
+            "arrival_seconds": 31.1725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 3817,
+            "arrival_sample": 76765,
+            "arrival_seconds": 38.3825,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\old-009-r0.json",
+      "score_sha256": "4baf6c6acefeff84e0e7060dbdc7d70a5de5a285bc772e72b28d1ab834fd2cc6",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\old-009-r0.npz",
+      "cache_sha256": "9aca9cf0b93fc9662ff8c9e13c696de56daaa0a6c4c10ed5013114cc3ea150ec"
+    },
+    {
+      "case_id": "old-009-r1",
+      "source_id": "old-009",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-009-r1.json",
+      "metadata_sha256": "7285e9e5d91dfacbf6e28e7309fa7d97737fbc6c3583114cb474d81939d40e1e",
+      "switches": {
+        "30": [
+          {
+            "row": 3522,
+            "arrival_sample": 70525,
+            "arrival_seconds": 35.2625,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 3814,
+            "arrival_sample": 76365,
+            "arrival_seconds": 38.1825,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 3311,
+            "arrival_sample": 66645,
+            "arrival_seconds": 33.3225,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 3810,
+            "arrival_sample": 76625,
+            "arrival_seconds": 38.3125,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\old-009-r1.json",
+      "score_sha256": "21102a8fba3da028e1e1588c019f2f4670eddd0ae01b3e5b7a7cea432de8b96a",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\old-009-r1.npz",
+      "cache_sha256": "f3ebf21c9652efe2b6c3e0647d63578aed26aad5cea5047a729ebe16ca7157dc"
+    },
+    {
+      "case_id": "old-009-r2",
+      "source_id": "old-009",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-009-r2.json",
+      "metadata_sha256": "13ba873a1399a2894b30e312e824afa9ea34394550186e2cdf298b9d3013c962",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 3809,
+            "arrival_sample": 76605,
+            "arrival_seconds": 38.3025,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 0
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\old-009-r2.json",
+      "score_sha256": "0c6ff1658d1cc66115edb1e834ef0e3c7fcdf826ecd20e6dead56ea5428c09b9",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\old-009-r2.npz",
+      "cache_sha256": "e9337f734bd9acd2cce2fb07bf2b6e354b6a4a75bafb3fb691108f5791337f5d"
+    },
+    {
+      "case_id": "old-010-r0",
+      "source_id": "old-010",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-010-r0.json",
+      "metadata_sha256": "55eca76be4d2fab2251ced253d71ab78819e560eb21c4c62ae5d5bf38795d08b",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-010-r0.json",
+      "score_sha256": "1132b3287484ac19d0c16c732d2cf53ef8d9766ff2f253bcb15bb441408425ab",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-010-r0.npz",
+      "cache_sha256": "3004f35907cd75e4bdb46ff073b420048e60ac36136097952c5e495c5bd5f9b7"
+    },
+    {
+      "case_id": "old-010-r1",
+      "source_id": "old-010",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-010-r1.json",
+      "metadata_sha256": "b237fe8957e120a638b069222f44e38eaa4762afc0011a38eb0ff01010071876",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 2,
+      "menu_tones": 2,
+      "score_path": "results-selector-tuning-01\\scores\\old-010-r1.json",
+      "score_sha256": "2aa6c4c4b06fa48d7b8d9d82101225cadca74399309f2e711614d6129e0f07c1",
+      "saved_tones": 2,
+      "cache_path": "results-selector-tuning-01\\cache\\old-010-r1.npz",
+      "cache_sha256": "4d5bec6f58d8f08b7dc157a11ea71f79c320fc40c7b225aca8126e988bf7e21d"
+    },
+    {
+      "case_id": "old-010-r2",
+      "source_id": "old-010",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-010-r2.json",
+      "metadata_sha256": "836b31e3bde9f34f245a5b49774f46e6ecb543f67ad71034ce0ef8b195651733",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1,
+      "menu_tones": 1,
+      "score_path": "results-selector-tuning-01\\scores\\old-010-r2.json",
+      "score_sha256": "43d9dfed0512b8b3571874dafdb19c4f20a1fafd3d19193be6e1c35dbc15ab63",
+      "saved_tones": 1,
+      "cache_path": "results-selector-tuning-01\\cache\\old-010-r2.npz",
+      "cache_sha256": "5c54a65f588f80f4dbb8001558899f773877579f60b369bcc088cddc8b0f73c9"
+    },
+    {
+      "case_id": "old-011-r0",
+      "source_id": "old-011",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-011-r0.json",
+      "metadata_sha256": "b45e0dc91e393e23cb97089460a6020796d1450e276f775a980acc3bb6b95e1f",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-011-r0.json",
+      "score_sha256": "05dfde71b790b75b1e4a18979f88a457f631d0871606b445618bcdf48859bcae",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-011-r0.npz",
+      "cache_sha256": "23ee9e2dd582ead4d90ed73c4b298dd91e069dc2fc39af47bc216d28cab1e179"
+    },
+    {
+      "case_id": "old-011-r1",
+      "source_id": "old-011",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-011-r1.json",
+      "metadata_sha256": "fc3fa75febf02c48c5291ace2a713a1db496a4787a50020ef7b004ed09b91331",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-011-r1.json",
+      "score_sha256": "5768960566a46502a20af3d661af28e7114e3b7cc4d83d1af9b079e7d93ec1b9",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-011-r1.npz",
+      "cache_sha256": "c97dde2472a0db2374b5c824508f3391e05ba63e28b1d423210d0b15caf4639a"
+    },
+    {
+      "case_id": "old-011-r2",
+      "source_id": "old-011",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-011-r2.json",
+      "metadata_sha256": "21ddd876a29fce7bba112611faf0e9751418041817ba528da2602ed518ffd58a",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-011-r2.json",
+      "score_sha256": "f3918164f6fca0c72f3fe812a3dad0782784f6d09bc046aa65564fdeaef716f6",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-011-r2.npz",
+      "cache_sha256": "0b82b66be023c0258868319fd4709f43fbdf9d5d366b61a12daa3f1afd75f4b6"
+    },
+    {
+      "case_id": "old-012-r0",
+      "source_id": "old-012",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-012-r0.json",
+      "metadata_sha256": "d80524f8afb4da8581ce2c7562829fb1fb8b01955abb8bf221f23168a22d354a",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-012-r0.json",
+      "score_sha256": "f28fe2d39d1a84abc432a5871b1dc1161f8ebf4ad227ec2a139eb2c5536611d3",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-012-r0.npz",
+      "cache_sha256": "bf8a9286e5c31edc5b00f19665cdae3bd9d2c38c1aea4f51b14d079cd362a707"
+    },
+    {
+      "case_id": "old-012-r1",
+      "source_id": "old-012",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-012-r1.json",
+      "metadata_sha256": "af07544be15c173a1ef588b87f5068960ff905570a5b540b879e024ccba8fef0",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-012-r1.json",
+      "score_sha256": "03df5383cacb588f3e6032901147b1be9e423c65e24ef3d6b680898dc970ac73",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-012-r1.npz",
+      "cache_sha256": "3bfd93d8ab8e4e3300834c59025d8e8593856ea6c69fca104a3c7caeffe86ddb"
+    },
+    {
+      "case_id": "old-012-r2",
+      "source_id": "old-012",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-012-r2.json",
+      "metadata_sha256": "46e2877639c9e8e4e1560d076c69a81f83d51832ad43d61ee099fa6033d57078",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-012-r2.json",
+      "score_sha256": "b3e045cb4bdffa8be18ea0fdbd5ce12dc3af3d77ca33071bf926295c586d6717",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-012-r2.npz",
+      "cache_sha256": "4f69e3f4fc577ea2c38bf43a6c4ca57403321928a937bf88a022f56b91d76b51"
+    },
+    {
+      "case_id": "old-013-r0",
+      "source_id": "old-013",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-013-r0.json",
+      "metadata_sha256": "d43e3eb46c253c65fabcf07e7f7d4aaa68b88d2b0b223becb2878362e135813b",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\old-013-r0.json",
+      "score_sha256": "f3df59918ebd19083dff34bde4cfd4f45f375d2b3a7bb9716d771e0f5bce0543",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\old-013-r0.npz",
+      "cache_sha256": "bf2af9a9bc2ae78c411e8b74feb2ac16b051ed7f90047a3d3b9eff16efdcf94f"
+    },
+    {
+      "case_id": "old-013-r1",
+      "source_id": "old-013",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-013-r1.json",
+      "metadata_sha256": "c801ea6b963f2abe6ccc2d1526266c0f57fbe38cf3b6b6ea34965b8d7e40ba7a",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\old-013-r1.json",
+      "score_sha256": "f58df23a8fd3ab321709de879105d0fff623cdf9ee8a0b2e9f3eb77c488ce36c",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\old-013-r1.npz",
+      "cache_sha256": "322d743c2969ca520f43fee662a4cfed6187a65c6ba1b137d2b1b6e900bb1b46"
+    },
+    {
+      "case_id": "old-013-r2",
+      "source_id": "old-013",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-013-r2.json",
+      "metadata_sha256": "4a76abfbf963aa5638d16db69340b63258133091606b88859bff035363b82eb0",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\old-013-r2.json",
+      "score_sha256": "8ea83c264adc5a449dd8889177a4277ee9f385e73086e603ebcee6ff8cb3708e",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\old-013-r2.npz",
+      "cache_sha256": "6b1517eb88d12e040dc469c6a6b37a3d6d6931a54e88326056cbbfbaba22f60b"
+    },
+    {
+      "case_id": "old-014-r0",
+      "source_id": "old-014",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-014-r0.json",
+      "metadata_sha256": "a0e4ff0e9990452e70e9766c8db686b8bc24630c9032f6884855260976a617ef",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\old-014-r0.json",
+      "score_sha256": "eabe7a4ffe16d2e2ac4b2ea2228f910d974fb3282d300154085f0c24928762f0",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\old-014-r0.npz",
+      "cache_sha256": "8cc0c6af495f7d311b543ee4ef320a5d5430e8f5a7de74050b155a7f0f6c2e18"
+    },
+    {
+      "case_id": "old-014-r1",
+      "source_id": "old-014",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-014-r1.json",
+      "metadata_sha256": "fd3722c935d8f3acbdb81ce1ff91d08e6371a649533cb4df43d4b45deab390db",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\old-014-r1.json",
+      "score_sha256": "6b9a135b2ce1d98294f05f393af8a4d2bc77869165d57d8c244add60884c8ca5",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\old-014-r1.npz",
+      "cache_sha256": "d6fb0a58be24281383e6e15b9dc5bcf07fd5172c54192af3b86f28d9d6df107b"
+    },
+    {
+      "case_id": "old-014-r2",
+      "source_id": "old-014",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-014-r2.json",
+      "metadata_sha256": "beecf131c242a0c6ad30a7fe59750b0d7dce0ecd4b9861f90e4b8bd1dcfbaf14",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 3,
+      "menu_tones": 3,
+      "score_path": "results-selector-tuning-01\\scores\\old-014-r2.json",
+      "score_sha256": "603126f677b99661bc6da1a301037fcddfd0ba46be9dee9a62b89efc9977dd8d",
+      "saved_tones": 3,
+      "cache_path": "results-selector-tuning-01\\cache\\old-014-r2.npz",
+      "cache_sha256": "11598b0a6c670e141bcd1e743a037e3b9728cc0cebc79efa4e168a6964db8075"
+    },
+    {
+      "case_id": "old-015-r0",
+      "source_id": "old-015",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-015-r0.json",
+      "metadata_sha256": "bfab4e75ececc63177a40e656bebcbd28fd195e5707bdc39d4f4fe246d012b2d",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-015-r0.json",
+      "score_sha256": "7c92633912abc5ce17e78b4a643b06b1cead29fdda61eb2fa8d574f2a44ccad1",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-015-r0.npz",
+      "cache_sha256": "48b6a4e543a478b66088b4928f698ee794f1e8b8021be2555cf1667b65ab56d9"
+    },
+    {
+      "case_id": "old-015-r1",
+      "source_id": "old-015",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-015-r1.json",
+      "metadata_sha256": "96e0964fb3b909d6c4ac3a8f3e388a888b4814166865a7ac2ceed75c47b6b492",
+      "switches": {
+        "30": [
+          {
+            "row": 10109,
+            "arrival_sample": 202265,
+            "arrival_seconds": 101.1325,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-015-r1.json",
+      "score_sha256": "a5476add15def4f4a05bb4bb9b436b4ef9b5a9072d3bcfca98a0ac07f52f8501",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-015-r1.npz",
+      "cache_sha256": "8bac8ac5c1c3f71a2c860b8de0ab6c2c2a4e1f77b0afaf23a94f23211be5bf0a"
+    },
+    {
+      "case_id": "old-015-r2",
+      "source_id": "old-015",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-015-r2.json",
+      "metadata_sha256": "2d2b99da0e1de5f940db44840819393c1df0f5350fcf413b1c2446e15ac175e1",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0,
+      "menu_tones": 0,
+      "score_path": "results-selector-tuning-01\\scores\\old-015-r2.json",
+      "score_sha256": "e616a034bc7ab5d8dd0a9db388c425687df63192070b43eb0e31742b81d64746",
+      "saved_tones": 0,
+      "cache_path": "results-selector-tuning-01\\cache\\old-015-r2.npz",
+      "cache_sha256": "1103263e86b1ec03050f0c34fa919af386273675adffa8793b7b2714ea245a65"
+    }
+  ],
+  "code_sha256": {
+    "anc_lab/tuning_accuracy_diagnostic.py": "d042cf3e83a037e545cc831fc7ecf48d8ef9a46d688e19a259d8ba57c794f0ff",
+    "tests/test_tuning_accuracy_diagnostic.py": "08f70ec8f7bd2fc55f4b6a0038e53469296cd2d877217babdf182f1895db2e32",
+    "anc_lab/selector_compatibility.py": "14e987a710f6b2cb019b37aadae19fbb55ea87ecdc68125d1cb3a6ebcff03c61",
+    "anc_lab/selector_room_study.py": "80e5d0f0a0b37b64f7efe6ce3992d45ea550d91b78125ee2ebdbde4b895cabdb",
+    "anc_lab/selector_room_completion.py": "65028eeada177fc7a51d09b33510ba141442ecd93e7d6e3a74709ecacb83a011",
+    "anc_lab/selector_room_scoring.py": "d03b7cfb845165b893906c3ea458a41aa42eec1d033bf567b3d97068fe4446de",
+    "anc_lab/selector_room_stream.py": "6097ef0392631864e598f3d21571ae0ab26e100903c04b7c41727fee58275273",
+    "anc_lab/antihum_study.py": "f5073fec968b5a9cf2ee55317896636f29408c125f127206a0fa667e49a8ed6d",
+    "anc_lab/antihum.py": "599bd571cf75c3c18719540e7c32dd0a1f67f3fca6c761273bce2ce955d01c23",
+    "anc_lab/tuning.py": "0129e314fe6688c2b5b0f31c5f8d07c93aeadf0c50295a79a641b21f2cdf3d9e",
+    "results-release-study-01/release_protocol.json": "7ec16b01bd797c9444731c891ae151840246082bb439794113767dc817cf43a4",
+    "docs/TUNING_ACCURACY_DIAGNOSTIC.md": "fa9b9479059e12cae9d3e460e496bdc6c20de6edd625a3722e795c1cf09a5f88"
+  },
+  "original_results_sha256": "2c54bde410207e530c2effde621ea7b2d480fa96a33c19c15ac602b959865232",
+  "prior_compatibility_sha256": "26dc69ff3326cfb538b2e0924357bbb4d9912736ee5a69cd683f208a0da02f99"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "case-010",
+  "title": "Sistema_de_ventilaci_n.ogg",
+  "cohort": "2026-10-16",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-010.npz",
+  "arrays_sha256": "6e03c3d5f219a7e5d70ee27c715190692ccda88a81717df3bb6fe5f9064a4939",
+  "reference_sha256": "2947c1f2db3a28e5c2efb92c66c5844dc0f0a1c07b53f6780c1cce50c74b9e3f",
+  "seconds": 37.8,
+  "prefix_seconds": 15.12,
+  "counts": {
+    "frames_after_warmup": 3630,
+    "v2_components_before_gate": 8660,
+    "bank_components_before_gate": 11280,
+    "frames_both_gates_open": 3630,
+    "bank_components_without_v2_match": 2723,
+    "eligible_v2_components": 8660,
+    "matched_tone_frames": 8557,
+    "v2_without_bank_match": 103
+  },
+  "all": {
+    "matched_tone_frames": 8557,
+    "mismatch": {
+      "p05": 0.020514150160635857,
+      "p50": 0.18131648343226192,
+      "p95": 1.1247721671265851,
+      "p99": 1.557152745514892,
+      "max": 3.4059863909715316
+    },
+    "ramped_mismatch": {
+      "p05": 0.020514150160635857,
+      "p50": 0.18131648343226192,
+      "p95": 1.1247721671265851,
+      "p99": 1.557152745514892,
+      "max": 3.4059863909715316
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.0212902632830008,
+      "p50": 14.831254250327197,
+      "p95": 33.758929477232655,
+      "p99": 40.65601976929747,
+      "max": 58.6608517193489
+    },
+    "fraction_mismatch_above_0_1": 0.6233493046628491,
+    "fraction_mismatch_above_1": 0.06988430524716606,
+    "v2_energy_weighted_rms_mismatch": 0.08414965365770459,
+    "absolute_phase_difference_deg": {
+      "p05": 0.383628191115562,
+      "p50": 6.984482777865538,
+      "p95": 70.2113799069906,
+      "p99": 112.03943981143492,
+      "max": 175.27990710192094
+    },
+    "amplitude_ratio": {
+      "p05": 0.655533320823458,
+      "p50": 0.987420318748232,
+      "p95": 1.2149809498531616,
+      "p99": 1.514189963486731,
+      "max": 3.1698072088509694
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 4606,
+    "mismatch": {
+      "p05": 0.020175395998085578,
+      "p50": 0.14976733918717866,
+      "p95": 1.1258153908846908,
+      "p99": 1.5267015902623824,
+      "max": 3.0370379900620335
+    },
+    "ramped_mismatch": {
+      "p05": 0.020175395998085578,
+      "p50": 0.14976733918717866,
+      "p95": 1.1258153908846908,
+      "p99": 1.5267015902623824,
+      "max": 3.0370379900620335
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.029341677843496,
+      "p50": 16.491657719859774,
+      "p95": 33.903563357644266,
+      "p99": 41.08668783223219,
+      "max": 58.6608517193489
+    },
+    "fraction_mismatch_above_0_1": 0.6026921406860617,
+    "fraction_mismatch_above_1": 0.0729483282674772,
+    "v2_energy_weighted_rms_mismatch": 0.08666861144452756,
+    "absolute_phase_difference_deg": {
+      "p05": 0.32669527647442953,
+      "p50": 5.818014727995383,
+      "p95": 71.52107041386859,
+      "p99": 108.4778626145473,
+      "max": 174.10587053283908
+    },
+    "amplitude_ratio": {
+      "p05": 0.6358509755745064,
+      "p50": 0.9954550532902587,
+      "p95": 1.2178616943477403,
+      "p99": 1.5935673221605062,
+      "max": 3.1698072088509694
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-010.npz",
+  "ratio_arrays_sha256": "c3ceaaa9a44129c04e7df80352e9beac43c04a2eb01712a8282ef1a83b897e7d"
+}

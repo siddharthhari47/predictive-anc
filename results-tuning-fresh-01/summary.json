@@ -1,0 +1,296 @@
+{
+  "by_sigma": {
+    "1": {
+      "O": {
+        "tone_level_db": {
+          "mean": 0.667541185724275,
+          "ci95": [
+            0.23123179781094436,
+            1.1698721246255452
+          ],
+          "sources": 7
+        },
+        "tone_level_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 7
+        },
+        "band_db_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 7
+        },
+        "max_third_octave_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 7
+        },
+        "counts": {
+          "room_runs": 180,
+          "room_harms": 26,
+          "tones": 320,
+          "kept": 185,
+          "harmful_keeps_prefix": 12,
+          "harmful_keeps_suffix": 13,
+          "useful_keeps": 108
+        }
+      },
+      "SD-s30": {
+        "tone_level_db": {
+          "mean": 0.8085698725734272,
+          "ci95": [
+            0.316202434968566,
+            1.354396478503183
+          ],
+          "sources": 7
+        },
+        "tone_level_minus_O": {
+          "mean": 0.14102868684915235,
+          "ci95": [
+            0.05357674215743121,
+            0.24255914294999303
+          ],
+          "sources": 7
+        },
+        "band_db_minus_O": {
+          "mean": 0.03338573374869891,
+          "ci95": [
+            0.007242577728872531,
+            0.06782535419603937
+          ],
+          "sources": 7
+        },
+        "max_third_octave_minus_O": {
+          "mean": -0.1007217390951176,
+          "ci95": [
+            -0.28029571427245376,
+            0.02557948822884481
+          ],
+          "sources": 7
+        },
+        "counts": {
+          "room_runs": 180,
+          "room_harms": 15,
+          "tones": 320,
+          "kept": 193,
+          "harmful_keeps_prefix": 1,
+          "harmful_keeps_suffix": 0,
+          "useful_keeps": 121
+        },
+        "criteria": {
+          "enough_sources": false,
+          "enough_rooms": false,
+          "tone_level_ci_lower_above_0": true,
+          "harmful_keeps_no_more": true,
+          "harmed_rooms_no_more": true,
+          "whole_room_at_least_minus_0_05": true
+        },
+        "verdict": "inconclusive_too_few_rooms"
+      }
+    },
+    "0.5": {
+      "O": {
+        "tone_level_db": {
+          "mean": 0.7665149189908295,
+          "ci95": [
+            0.2674678236779227,
+            1.3138337848390067
+          ],
+          "sources": 7
+        },
+        "tone_level_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 7
+        },
+        "band_db_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 7
+        },
+        "max_third_octave_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 7
+        },
+        "counts": {
+          "room_runs": 180,
+          "room_harms": 25,
+          "tones": 320,
+          "kept": 186,
+          "harmful_keeps_prefix": 16,
+          "harmful_keeps_suffix": 19,
+          "useful_keeps": 115
+        }
+      },
+      "SD-s30": {
+        "tone_level_db": {
+          "mean": 0.8588413789915357,
+          "ci95": [
+            0.3400396827039856,
+            1.4129656619690436
+          ],
+          "sources": 7
+        },
+        "tone_level_minus_O": {
+          "mean": 0.0923264600007062,
+          "ci95": [
+            0.019745583010777373,
+            0.1718508462381905
+          ],
+          "sources": 7
+        },
+        "band_db_minus_O": {
+          "mean": 0.020193197446056608,
+          "ci95": [
+            0.0071332005527722725,
+            0.03536399498648674
+          ],
+          "sources": 7
+        },
+        "max_third_octave_minus_O": {
+          "mean": -0.033087711992124826,
+          "ci95": [
+            -0.12685182523453647,
+            0.05424490632594634
+          ],
+          "sources": 7
+        },
+        "counts": {
+          "room_runs": 180,
+          "room_harms": 18,
+          "tones": 320,
+          "kept": 196,
+          "harmful_keeps_prefix": 3,
+          "harmful_keeps_suffix": 2,
+          "useful_keeps": 130
+        },
+        "criteria": {
+          "enough_sources": false,
+          "enough_rooms": false,
+          "tone_level_ci_lower_above_0": true,
+          "harmful_keeps_no_more": true,
+          "harmed_rooms_no_more": true,
+          "whole_room_at_least_minus_0_05": true
+        },
+        "verdict": "inconclusive_too_few_rooms"
+      }
+    },
+    "2": {
+      "O": {
+        "tone_level_db": {
+          "mean": 0.5505051829359005,
+          "ci95": [
+            0.2029035554559492,
+            0.9607712916744654
+          ],
+          "sources": 7
+        },
+        "tone_level_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 7
+        },
+        "band_db_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 7
+        },
+        "max_third_octave_minus_O": {
+          "mean": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "sources": 7
+        },
+        "counts": {
+          "room_runs": 180,
+          "room_harms": 17,
+          "tones": 320,
+          "kept": 151,
+          "harmful_keeps_prefix": 16,
+          "harmful_keeps_suffix": 16,
+          "useful_keeps": 83
+        }
+      },
+      "SD-s30": {
+        "tone_level_db": {
+          "mean": 0.604176643730976,
+          "ci95": [
+            0.2351629839329477,
+            1.0030917867427482
+          ],
+          "sources": 7
+        },
+        "tone_level_minus_O": {
+          "mean": 0.05367146079507553,
+          "ci95": [
+            -0.04360645132061637,
+            0.19005517126583102
+          ],
+          "sources": 7
+        },
+        "band_db_minus_O": {
+          "mean": 0.023928102817671496,
+          "ci95": [
+            0.0028525100744768196,
+            0.057057400890813285
+          ],
+          "sources": 7
+        },
+        "max_third_octave_minus_O": {
+          "mean": -0.015949617812164925,
+          "ci95": [
+            -0.07165620899861366,
+            0.03079208445050757
+          ],
+          "sources": 7
+        },
+        "counts": {
+          "room_runs": 180,
+          "room_harms": 22,
+          "tones": 320,
+          "kept": 171,
+          "harmful_keeps_prefix": 14,
+          "harmful_keeps_suffix": 14,
+          "useful_keeps": 91
+        },
+        "criteria": {
+          "enough_sources": false,
+          "enough_rooms": false,
+          "tone_level_ci_lower_above_0": false,
+          "harmful_keeps_no_more": true,
+          "harmed_rooms_no_more": false,
+          "whole_room_at_least_minus_0_05": true
+        },
+        "verdict": "inconclusive_too_few_rooms"
+      }
+    }
+  },
+  "verdict": "inconclusive_too_few_rooms"
+}

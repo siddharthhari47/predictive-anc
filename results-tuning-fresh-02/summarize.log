@@ -1,0 +1,67 @@
+{
+ "verdict": "pass",
+ "sigma1": {
+  "O": {
+   "tone_level_minus_O": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "sources": 14
+   },
+   "band_db_minus_O": {
+    "mean": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "sources": 14
+   },
+   "counts": {
+    "room_runs": 360,
+    "room_harms": 54,
+    "tones": 550,
+    "kept": 278,
+    "harmful_keeps_prefix": 36,
+    "harmful_keeps_suffix": 40,
+    "useful_keeps": 161
+   }
+  },
+  "SD-s30": {
+   "tone_level_minus_O": {
+    "mean": 0.19849680595340766,
+    "ci95": [
+     0.04969577901745586,
+     0.3887217788345061
+    ],
+    "sources": 14
+   },
+   "band_db_minus_O": {
+    "mean": 0.10686093607174654,
+    "ci95": [
+     0.015257525304659543,
+     0.2570572224475194
+    ],
+    "sources": 14
+   },
+   "counts": {
+    "room_runs": 360,
+    "room_harms": 49,
+    "tones": 550,
+    "kept": 296,
+    "harmful_keeps_prefix": 13,
+    "harmful_keeps_suffix": 24,
+    "useful_keeps": 201
+   }
+  }
+ },
+ "criteria": {
+  "enough_sources": true,
+  "enough_rooms": true,
+  "tone_level_ci_lower_above_0": true,
+  "harmful_keeps_no_more": true,
+  "harmed_rooms_no_more": true,
+  "whole_room_at_least_minus_0_05": true
+ }
+}

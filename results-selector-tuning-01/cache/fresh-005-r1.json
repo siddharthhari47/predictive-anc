@@ -1,0 +1,153 @@
+{
+  "source_id": "fresh-005",
+  "case_id": "fresh-005-r1",
+  "file": "File:Peugeot 305, starten, stationair en motor afzetten - SoundCloud - Beeld en Geluid.ogg",
+  "cohort": "switch_enriched_seen",
+  "room_index": 1,
+  "seed": 1583070807,
+  "source_path": "results-selector-fresh-01\\test\\arrays\\fresh-005.npz",
+  "source_sha256": "0e942181e83ad59596baa6a415b37e33b7b6f12a27162cff1e4cccbdd0aa5886",
+  "reference_tones_hz": [
+    44.25,
+    59.25,
+    75.0,
+    90.0,
+    119.5,
+    149.25
+  ],
+  "geometry": {
+    "dims_m": [
+      3.9716430085248233,
+      4.382869331088543,
+      2.6765996226164583
+    ],
+    "rt60_s": 0.31068931790342685,
+    "source": [
+      1.6442184080151996,
+      2.24520968573086,
+      0.3587925243596966
+    ],
+    "mic": [
+      2.4838821013465306,
+      1.2968493986103713,
+      0.9
+    ],
+    "ears": [
+      [
+        2.2171609593292128,
+        0.9256892816783688,
+        1.2
+      ],
+      [
+        2.2010902984630416,
+        0.9137840786425315,
+        1.2
+      ],
+      [
+        2.176984307163784,
+        0.8959262740887756,
+        1.2
+      ],
+      [
+        2.136807654998356,
+        0.8661632664991824,
+        1.2
+      ],
+      [
+        2.0564543506674995,
+        0.806637251319996,
+        1.2
+      ]
+    ],
+    "facing_deg": 64.3790157810544,
+    "move_direction_deg": 216.53117995235496,
+    "earphone_highpass_hz": 103.4119848021173,
+    "source_to_ear_m": 1.6664415023907055,
+    "source_to_mic_m": 1.3774352557470775
+  },
+  "tones": [],
+  "prefix": 72000,
+  "n": 180000,
+  "warm": 3000,
+  "earphone_gain": 1.0,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 62457549,
+      "1.0": 284140773,
+      "2.0": 111533239
+    },
+    "200": {
+      "0.5": 297744309,
+      "1.0": 684121324,
+      "2.0": 11915954
+    }
+  },
+  "switches": {
+    "30": [
+      {
+        "row": 7675,
+        "arrival_sample": 153585,
+        "arrival_seconds": 76.7925,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 7792,
+        "arrival_sample": 155925,
+        "arrival_seconds": 77.9625,
+        "from_arm": 1,
+        "to_arm": 0,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 8595,
+        "arrival_sample": 171985,
+        "arrival_seconds": 85.9925,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 8791,
+        "arrival_sample": 175905,
+        "arrival_seconds": 87.9525,
+        "from_arm": 1,
+        "to_arm": 0,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ],
+    "200": [
+      {
+        "row": 7056,
+        "arrival_sample": 141545,
+        "arrival_seconds": 70.7725,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 7135,
+        "arrival_sample": 143125,
+        "arrival_seconds": 71.5625,
+        "from_arm": 1,
+        "to_arm": 0,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ]
+  },
+  "prefix_switches": {
+    "30": 2,
+    "200": 2
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\fresh-005-r1.npz",
+  "cache_sha256": "487a9efbae5556eab4f602346beab05d0b9c34363ac661f8ef889f6e18e62978",
+  "v2_trace_matches_original": true
+}

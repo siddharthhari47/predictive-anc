@@ -1,0 +1,155 @@
+{
+  "file": "Sistema_de_ventilaci_n.ogg",
+  "room_index": 2,
+  "seed": 2759348175,
+  "reference_tones_hz": [
+    82.25,
+    105.75,
+    120.0,
+    161.75,
+    172.75,
+    240.0
+  ],
+  "source_id": "old-007",
+  "case_id": "old-007-r2",
+  "cohort": "original48",
+  "old_index": 23,
+  "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Sistema_de_ventilaci_n.ogg",
+  "source_sha256": "e99f2f4d3b779701fad26a4958fabc2a9a10010dd614d7a9b4495671ba4ba13c",
+  "geometry": {
+    "dims_m": [
+      4.561717377200057,
+      4.616655516785174,
+      2.8902610370147435
+    ],
+    "rt60_s": 0.3501452478008328,
+    "source": [
+      2.2566804366710365,
+      0.6632958727964848,
+      0.2719635704685606
+    ],
+    "mic": [
+      2.893982899369909,
+      2.088469696965138,
+      0.9
+    ],
+    "ears": [
+      [
+        3.0654242140305636,
+        2.512153394583333,
+        1.2
+      ],
+      [
+        3.049003920271946,
+        2.5235715359767785,
+        1.2
+      ],
+      [
+        3.02437347963402,
+        2.540698748066946,
+        1.2
+      ],
+      [
+        2.983322745237476,
+        2.569244101550559,
+        1.2
+      ],
+      [
+        2.9012212764443883,
+        2.6263348085177847,
+        1.2
+      ]
+    ],
+    "facing_deg": 258.05014688974404,
+    "move_direction_deg": 145.18649727082865,
+    "earphone_highpass_hz": 132.62222863635296,
+    "source_to_ear_m": 2.221169117339566,
+    "source_to_mic_m": 1.6827669520394528
+  },
+  "tones": [
+    {
+      "frequency": 120.04769598475005,
+      "presence": 1.0,
+      "mic_amplitude": 0.013877821049209302,
+      "ear_over_mic": [
+        0.5946211512497193,
+        -0.5724711206085402
+      ],
+      "w_unit_earphone": [
+        0.9730998030199441,
+        0.7551902065144092
+      ],
+      "w": [
+        1.098579335618037,
+        0.8525706744191417
+      ],
+      "earphone_phase_deg": -81.72656709228902
+    },
+    {
+      "frequency": 240.08852006026598,
+      "presence": 0.5,
+      "mic_amplitude": 0.0006785797109464255,
+      "ear_over_mic": [
+        -0.14117141369985886,
+        -0.7955092403335289
+      ],
+      "w_unit_earphone": [
+        -0.6025557506954222,
+        0.6896489961121263
+      ],
+      "w": [
+        -0.680254270134959,
+        0.7785780385601185
+      ],
+      "earphone_phase_deg": 128.7928724718992
+    }
+  ],
+  "prefix": 30240,
+  "n": 75600,
+  "warm": 3000,
+  "earphone_gain": 0.885780181248812,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 707624172,
+      "1.0": 869684189,
+      "2.0": 207132927
+    },
+    "200": {
+      "0.5": 521392051,
+      "1.0": 370142800,
+      "2.0": 774552529
+    }
+  },
+  "switches": {
+    "30": [
+      {
+        "row": 1988,
+        "arrival_sample": 39845,
+        "arrival_seconds": 19.9225,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": true,
+        "complete_200ms_window": true
+      }
+    ],
+    "200": [
+      {
+        "row": 3564,
+        "arrival_sample": 71705,
+        "arrival_seconds": 35.8525,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": true,
+        "complete_200ms_window": true
+      }
+    ]
+  },
+  "prefix_switches": {
+    "30": 0,
+    "200": 0
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\old-007-r2.npz",
+  "cache_sha256": "5b5abdff5e85063ccc967d4f6532880f9fb3c31fa3c374d4e6b30e3926896c99",
+  "v2_trace_matches_original": true
+}

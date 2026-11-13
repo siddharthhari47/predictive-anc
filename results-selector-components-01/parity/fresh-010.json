@@ -1,0 +1,28 @@
+{
+  "id": "fresh-010",
+  "passed": true,
+  "origins": 2950,
+  "exact_choices": true,
+  "max_error_to_saved": {
+    "v2_gated": 3.348432642269472e-13,
+    "fade0.1_linear_gated": 0.0,
+    "causal_L2": 6.525335827234358e-14
+  },
+  "max_error_to_local_core": {
+    "v2_gated": 3.348432642269472e-13,
+    "fade0.1_linear_gated": 0.0,
+    "causal_L2": 6.525335827234358e-14
+  },
+  "unity_tuned_drive_max_error": 8.881784197001252e-16,
+  "chooser_transitions_by_horizon": [
+    1,
+    1
+  ],
+  "mixed_blocks_by_horizon": [
+    10,
+    10
+  ],
+  "ghost_frames": 120,
+  "gate_change_frames": 117,
+  "maximum_absolute_fitted_dc": 0.2187198656768996
+}

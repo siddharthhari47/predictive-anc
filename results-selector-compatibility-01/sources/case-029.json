@@ -1,0 +1,113 @@
+{
+  "id": "case-029",
+  "title": "Photocopie.ogg",
+  "cohort": "former-test-04",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-029.npz",
+  "arrays_sha256": "2374aca3f68c96d79095e52ca8c94ad69155eabd575cb9952f9f26ffede0b757",
+  "reference_sha256": "4456aff5d2752a8b300ccc2e14082e2305ccdef53da1663985311a05531ab2c9",
+  "seconds": 18.4635,
+  "prefix_seconds": 7.385,
+  "counts": {
+    "frames_after_warmup": 1696,
+    "v2_components_before_gate": 2574,
+    "bank_components_before_gate": 2546,
+    "frames_both_gates_open": 1647,
+    "bank_components_without_v2_match": 209,
+    "eligible_v2_components": 2496,
+    "matched_tone_frames": 2257,
+    "frames_bank_only_gate": 45,
+    "v2_without_bank_match": 239,
+    "frames_both_gates_closed": 2,
+    "frames_v2_only_gate": 2
+  },
+  "all": {
+    "matched_tone_frames": 2257,
+    "mismatch": {
+      "p05": 0.06633164184322711,
+      "p50": 0.31570470351906754,
+      "p95": 1.1642866910988792,
+      "p99": 2.1174473325983705,
+      "max": 6.6047155414249445
+    },
+    "ramped_mismatch": {
+      "p05": 0.06657006729145522,
+      "p50": 0.3181093383905558,
+      "p95": 1.2303434612790964,
+      "p99": 2.693547860843747,
+      "max": 18.76856682679355
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.321192560400663,
+      "p50": 10.014378954670075,
+      "p95": 23.565599515543333,
+      "p99": 31.544543994614806,
+      "max": 61.01440832110142
+    },
+    "fraction_mismatch_above_0_1": 0.8985378821444395,
+    "fraction_mismatch_above_1": 0.06911829862649535,
+    "v2_energy_weighted_rms_mismatch": 0.3808176160911606,
+    "absolute_phase_difference_deg": {
+      "p05": 1.1496945930848728,
+      "p50": 15.035857101227101,
+      "p95": 73.37243114057318,
+      "p99": 135.2316730386211,
+      "max": 178.95762048456177
+    },
+    "amplitude_ratio": {
+      "p05": 0.5806351720455106,
+      "p50": 0.9691679695307496,
+      "p95": 1.2978279864628626,
+      "p99": 1.6712097477393397,
+      "max": 6.56952331737907
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 1748,
+    "mismatch": {
+      "p05": 0.07277009661343124,
+      "p50": 0.34620892457580676,
+      "p95": 1.3176781980275203,
+      "p99": 2.2390647160942394,
+      "max": 6.6047155414249445
+    },
+    "ramped_mismatch": {
+      "p05": 0.07353555030934844,
+      "p50": 0.34916872068263527,
+      "p95": 1.4276905255058485,
+      "p99": 3.7695811853166323,
+      "max": 18.76856682679355
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.3961010058107117,
+      "p50": 9.2132354305393,
+      "p95": 22.760983824500016,
+      "p99": 30.265048565498006,
+      "max": 43.91385431688721
+    },
+    "fraction_mismatch_above_0_1": 0.914187643020595,
+    "fraction_mismatch_above_1": 0.08867276887871854,
+    "v2_energy_weighted_rms_mismatch": 0.42681861900646223,
+    "absolute_phase_difference_deg": {
+      "p05": 1.423328753837792,
+      "p50": 16.654740470886402,
+      "p95": 83.16628822622725,
+      "p99": 137.84778243588838,
+      "max": 178.95762048456177
+    },
+    "amplitude_ratio": {
+      "p05": 0.519825659986277,
+      "p50": 0.9519031243238468,
+      "p95": 1.292119077091334,
+      "p99": 1.8006580883131031,
+      "max": 6.56952331737907
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-029.npz",
+  "ratio_arrays_sha256": "9509a9c0e033c6af2c79232134a19bf6afff9df1dbbb1d181ada14d50fecedb8"
+}

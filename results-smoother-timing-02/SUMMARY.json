@@ -1,0 +1,33 @@
+{
+  "live": {
+    "runs": 28,
+    "all_quiet": false,
+    "smoother": "pass",
+    "path": "inconclusive_contended",
+    "worst_smoother_p99_ms": 0.022710998309775927,
+    "worst_smoother_max_ms": 5.077299982076511,
+    "worst_path_p99_ms": 6.030240988766301,
+    "median_path_p99_ms": 4.884451997641007,
+    "worst_block_ms": 25.108100002398714,
+    "blocks": 84000,
+    "over_5ms_blocks": 1011,
+    "over_10ms_blocks": 8,
+    "worst_backlog_ms": 15.108100002398714
+  },
+  "cached_dpss": {
+    "runs": 28,
+    "all_quiet": false,
+    "smoother": "pass",
+    "path": "inconclusive_contended",
+    "worst_smoother_p99_ms": 0.01980700530111773,
+    "worst_smoother_max_ms": 0.4911000141873956,
+    "worst_path_p99_ms": 2.539381010574287,
+    "median_path_p99_ms": 1.5369849890703327,
+    "worst_block_ms": 22.251299989875406,
+    "blocks": 84000,
+    "over_5ms_blocks": 14,
+    "over_10ms_blocks": 6,
+    "worst_backlog_ms": 12.251299989875406
+  },
+  "synthesis_p99_ms_worst": 0.2767100115306673
+}

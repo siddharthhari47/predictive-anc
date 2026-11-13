@@ -1,0 +1,111 @@
+{
+  "id": "fresh-012",
+  "title": "File:Queen Street Mill Northrop Towelling Loom Pegs and lags Unifill 8600.webm",
+  "cohort": "stationary machinery",
+  "acoustic": true,
+  "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-012.npz",
+  "arrays_sha256": "d805991f969c227be219dce650c69d04338550516f55d9aa84256e2a4d63fd4e",
+  "reference_sha256": "8e82938b03471cde6c678c0afeb0b7dbabb93e346a95108976b548f8a0e7ae74",
+  "seconds": 89.9735,
+  "prefix_seconds": 35.989,
+  "counts": {
+    "frames_after_warmup": 8847,
+    "v2_components_before_gate": 597,
+    "bank_components_before_gate": 465,
+    "frames_both_gates_open": 8824,
+    "bank_components_without_v2_match": 83,
+    "eligible_v2_components": 585,
+    "matched_tone_frames": 382,
+    "v2_without_bank_match": 203,
+    "frames_bank_only_gate": 23
+  },
+  "all": {
+    "matched_tone_frames": 382,
+    "mismatch": {
+      "p05": 0.11747088385691316,
+      "p50": 0.4296343568629827,
+      "p95": 1.1647830739337852,
+      "p99": 1.5461550786440454,
+      "max": 1.8466216485258393
+    },
+    "ramped_mismatch": {
+      "p05": 0.11747088385691316,
+      "p50": 0.4296343568629827,
+      "p95": 1.1647830739337852,
+      "p99": 1.5461550786440454,
+      "max": 1.8466216485258393
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.3248414240707083,
+      "p50": 7.3380845392468785,
+      "p95": 18.60139529036625,
+      "p99": 23.861037456837394,
+      "max": 35.822235814844106
+    },
+    "fraction_mismatch_above_0_1": 0.9581151832460733,
+    "fraction_mismatch_above_1": 0.09424083769633508,
+    "v2_energy_weighted_rms_mismatch": 0.7399817753086388,
+    "absolute_phase_difference_deg": {
+      "p05": 1.4979471032234706,
+      "p50": 16.94191130515999,
+      "p95": 69.071658427108,
+      "p99": 101.22768085788266,
+      "max": 156.83054171476886
+    },
+    "amplitude_ratio": {
+      "p05": 0.12479839018686147,
+      "p50": 0.8818815325801026,
+      "p95": 1.618603063774907,
+      "p99": 2.2484266594343287,
+      "max": 2.6921378837977676
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 287,
+    "mismatch": {
+      "p05": 0.09700694794744795,
+      "p50": 0.3133338807913884,
+      "p95": 1.0601563090247974,
+      "p99": 1.3634223418158424,
+      "max": 1.7641090602669405
+    },
+    "ramped_mismatch": {
+      "p05": 0.09700694794744795,
+      "p50": 0.3133338807913884,
+      "p95": 1.0601563090247974,
+      "p99": 1.3634223418158424,
+      "max": 1.7641090602669405
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -0.5073921569189015,
+      "p50": 10.079852846369189,
+      "p95": 20.26702159735099,
+      "p99": 24.09475095675765,
+      "max": 35.822235814844106
+    },
+    "fraction_mismatch_above_0_1": 0.9477351916376306,
+    "fraction_mismatch_above_1": 0.06968641114982578,
+    "v2_energy_weighted_rms_mismatch": 0.37586283744218135,
+    "absolute_phase_difference_deg": {
+      "p05": 1.4923796172242265,
+      "p50": 13.614818496292667,
+      "p95": 68.17663647659003,
+      "p99": 100.98229897226267,
+      "max": 156.83054171476886
+    },
+    "amplitude_ratio": {
+      "p05": 0.2800594240351724,
+      "p50": 0.89783760873584,
+      "p95": 1.3781645388297314,
+      "p99": 1.886514792731349,
+      "max": 2.2656143120665426
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\fresh-012.npz",
+  "ratio_arrays_sha256": "9ad3bb0c10f1691eaa5c237eb4fe25cfd2c368e619e7b28ca8d0bdca87506129"
+}

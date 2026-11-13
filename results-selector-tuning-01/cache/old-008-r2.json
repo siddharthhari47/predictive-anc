@@ -1,0 +1,114 @@
+{
+  "file": "Sounds_made_by_a_fan.wav",
+  "room_index": 2,
+  "seed": 2578468062,
+  "reference_tones_hz": [
+    82.75,
+    165.25,
+    330.75
+  ],
+  "source_id": "old-008",
+  "case_id": "old-008-r2",
+  "cohort": "original48",
+  "old_index": 26,
+  "source_path": "external-audio\\wikimedia-commons-2026-10-16\\Sounds_made_by_a_fan.wav",
+  "source_sha256": "14aeb4433d1f4e113c8f462ec5a1926eafaf572420cb8053a155462137c98707",
+  "geometry": {
+    "dims_m": [
+      3.452841666391912,
+      4.57526549690899,
+      2.858811943990509
+    ],
+    "rt60_s": 0.44512611895237003,
+    "source": [
+      1.4554968692325394,
+      1.1521697190309161,
+      0.5230140094644176
+    ],
+    "mic": [
+      1.7190569733096472,
+      2.529486288050216,
+      0.9
+    ],
+    "ears": [
+      [
+        1.8680232805443857,
+        2.0973878741340743,
+        1.2
+      ],
+      [
+        1.8872525960894264,
+        2.091889381279732,
+        1.2
+      ],
+      [
+        1.9160965694069876,
+        2.0836416419982187,
+        1.2
+      ],
+      [
+        1.9641698582695895,
+        2.0698954098623625,
+        1.2
+      ],
+      [
+        2.0603164359947934,
+        2.0424029455906507,
+        1.2
+      ]
+    ],
+    "facing_deg": 119.10227589715798,
+    "move_direction_deg": 344.04247658737495,
+    "earphone_highpass_hz": 121.91024974367262,
+    "source_to_ear_m": 1.233663419311723,
+    "source_to_mic_m": 1.4520961734046152
+  },
+  "tones": [],
+  "prefix": 44020,
+  "n": 110080,
+  "warm": 3000,
+  "earphone_gain": 1.0,
+  "unreported": 6,
+  "tuning_seeds": {
+    "30": {
+      "0.5": 672547147,
+      "1.0": 100753792,
+      "2.0": 307771657
+    },
+    "200": {
+      "0.5": 612423659,
+      "1.0": 668476192,
+      "2.0": 901022145
+    }
+  },
+  "switches": {
+    "30": [],
+    "200": [
+      {
+        "row": 4149,
+        "arrival_sample": 83405,
+        "arrival_seconds": 41.7025,
+        "from_arm": 1,
+        "to_arm": 0,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      },
+      {
+        "row": 4936,
+        "arrival_sample": 99145,
+        "arrival_seconds": 49.5725,
+        "from_arm": 0,
+        "to_arm": 1,
+        "command_exposed": false,
+        "complete_200ms_window": true
+      }
+    ]
+  },
+  "prefix_switches": {
+    "30": 1,
+    "200": 1
+  },
+  "cache_path": "results-selector-tuning-01\\cache\\old-008-r2.npz",
+  "cache_sha256": "871ce7e3d3572ad4fe2f5bdcdb918175354449b9d23f011876cd850c3856feee",
+  "v2_trace_matches_original": true
+}

@@ -1,0 +1,1236 @@
+{
+  "summary": {
+    "30": {
+      "sources_with_decisions": 6,
+      "exposed_complete_sources": 4,
+      "source_ids": [
+        "old-003",
+        "old-004",
+        "old-007",
+        "old-009"
+      ],
+      "total_switches": 14,
+      "qualifying_switches": 10,
+      "incomplete_windows": 0
+    },
+    "200": {
+      "sources_with_decisions": 6,
+      "exposed_complete_sources": 3,
+      "source_ids": [
+        "old-004",
+        "old-007",
+        "old-009"
+      ],
+      "total_switches": 32,
+      "qualifying_switches": 11,
+      "incomplete_windows": 1
+    }
+  },
+  "cases": [
+    {
+      "case_id": "old-000-r0",
+      "source_id": "old-000",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-000-r0.json",
+      "metadata_sha256": "1e5453e60afeda71e6a8641f5ac088793cdb4acaf71673dd9745e5b5bbd5e4fb",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 2
+    },
+    {
+      "case_id": "old-000-r1",
+      "source_id": "old-000",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-000-r1.json",
+      "metadata_sha256": "5f22c8674942994572df00cae52deb8e342fb90ebe06aded8d0cb8ce1d054f27",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1
+    },
+    {
+      "case_id": "old-000-r2",
+      "source_id": "old-000",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-000-r2.json",
+      "metadata_sha256": "9e284a35eb083cbf33d3417f165859b825b839c82519a9fc76949892aacbec41",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 1
+      },
+      "prefix_tones": 1
+    },
+    {
+      "case_id": "old-001-r0",
+      "source_id": "old-001",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-001-r0.json",
+      "metadata_sha256": "098d1bf65e6faffd0034c46304cb855d3a38af072ec65dcc0fc65ab3d368fd9e",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 3
+    },
+    {
+      "case_id": "old-001-r1",
+      "source_id": "old-001",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-001-r1.json",
+      "metadata_sha256": "9b57e4501aa3339c2c791684180a2ca4e170ea636d6c00c5b3eaa3ddc33d4bc6",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 2
+    },
+    {
+      "case_id": "old-001-r2",
+      "source_id": "old-001",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-001-r2.json",
+      "metadata_sha256": "db67208c5d0ce9e40a800a44140034173a6e4b37c00dead0fe6f1e1e0e2e16f3",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 1
+      },
+      "prefix_tones": 3
+    },
+    {
+      "case_id": "old-002-r0",
+      "source_id": "old-002",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-002-r0.json",
+      "metadata_sha256": "060ffe6d8bab841562029b416c243d6f006a36f2a248ecb55e5d9153ba963c4c",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-002-r1",
+      "source_id": "old-002",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-002-r1.json",
+      "metadata_sha256": "09bf6087c1f44cda2334d0c5d5ec6b2b05f0071368b43ee489da3e5e908de32c",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1
+    },
+    {
+      "case_id": "old-002-r2",
+      "source_id": "old-002",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-002-r2.json",
+      "metadata_sha256": "f17245915d09cb0c5f31fab4a5538c35bf5f6f94f9523a3389582b3fd8eaf9b4",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1
+    },
+    {
+      "case_id": "old-003-r0",
+      "source_id": "old-003",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-003-r0.json",
+      "metadata_sha256": "66732cb13533fb0c2a5f0474696ca2567f7db170f61ea862276aaad734dba761",
+      "switches": {
+        "30": [
+          {
+            "row": 1149,
+            "arrival_sample": 23065,
+            "arrival_seconds": 11.5325,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 1
+      },
+      "prefix_tones": 3
+    },
+    {
+      "case_id": "old-003-r1",
+      "source_id": "old-003",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-003-r1.json",
+      "metadata_sha256": "33cdd5814ab62b9cf3dbe816f7c35e1071b4b3a8d734f0018215b6f853f0a7cf",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1
+    },
+    {
+      "case_id": "old-003-r2",
+      "source_id": "old-003",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-003-r2.json",
+      "metadata_sha256": "062355bcabeee1db4bddf61b7faa72e058cb849adbc222b6e2d24e8ebe5d0143",
+      "switches": {
+        "30": [
+          {
+            "row": 1028,
+            "arrival_sample": 20645,
+            "arrival_seconds": 10.3225,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2118,
+            "arrival_sample": 42445,
+            "arrival_seconds": 21.2225,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 2121,
+            "arrival_sample": 42845,
+            "arrival_seconds": 21.4225,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": false
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 1
+      },
+      "prefix_tones": 2
+    },
+    {
+      "case_id": "old-004-r0",
+      "source_id": "old-004",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-004-r0.json",
+      "metadata_sha256": "af0daa780e5a1387511e8f9fadfbaff6822ffb6ae0a5235b0ed74c606c3e7b04",
+      "switches": {
+        "30": [
+          {
+            "row": 2147,
+            "arrival_sample": 43025,
+            "arrival_seconds": 21.5125,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 2133,
+            "arrival_sample": 43085,
+            "arrival_seconds": 21.5425,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2471,
+            "arrival_sample": 49845,
+            "arrival_seconds": 24.9225,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 2
+      },
+      "prefix_tones": 3
+    },
+    {
+      "case_id": "old-004-r1",
+      "source_id": "old-004",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-004-r1.json",
+      "metadata_sha256": "e133f649519c9215ddd2b61de740e0f1753f47b82b409141416f2d89e935afe4",
+      "switches": {
+        "30": [
+          {
+            "row": 2138,
+            "arrival_sample": 42845,
+            "arrival_seconds": 21.4225,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2474,
+            "arrival_sample": 49565,
+            "arrival_seconds": 24.7825,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 2104,
+            "arrival_sample": 42505,
+            "arrival_seconds": 21.2525,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2459,
+            "arrival_sample": 49605,
+            "arrival_seconds": 24.8025,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 3,
+        "200": 2
+      },
+      "prefix_tones": 3
+    },
+    {
+      "case_id": "old-004-r2",
+      "source_id": "old-004",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-004-r2.json",
+      "metadata_sha256": "c447996f718e0d215f6d008c58d320a426110cf96e0c3d8d58641f42cc7e5f91",
+      "switches": {
+        "30": [
+          {
+            "row": 2156,
+            "arrival_sample": 43205,
+            "arrival_seconds": 21.6025,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2473,
+            "arrival_sample": 49545,
+            "arrival_seconds": 24.7725,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 2152,
+            "arrival_sample": 43465,
+            "arrival_seconds": 21.7325,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 2464,
+            "arrival_sample": 49705,
+            "arrival_seconds": 24.8525,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 2,
+        "200": 3
+      },
+      "prefix_tones": 2
+    },
+    {
+      "case_id": "old-005-r0",
+      "source_id": "old-005",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-005-r0.json",
+      "metadata_sha256": "ff9a0748c5ea0a956c3fd8e7efd02b7e5989564144a385c88ea2c250f4efec71",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-005-r1",
+      "source_id": "old-005",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-005-r1.json",
+      "metadata_sha256": "eeee700903e7b0ce16031c2773195a17f2c3bc4f12a0ed66f1aeb1a632d787ac",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-005-r2",
+      "source_id": "old-005",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-005-r2.json",
+      "metadata_sha256": "b18f2300dbe006231e634aa27334576ed234182b782ea1298c7188bb20b4acd4",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-006-r0",
+      "source_id": "old-006",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-006-r0.json",
+      "metadata_sha256": "e92e97e4a1fe5cb7f7ddc886bb6932b78cb47fe24ab08a9e2ea7bdf6b1819163",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 15306,
+            "arrival_sample": 306545,
+            "arrival_seconds": 153.2725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 16309,
+            "arrival_sample": 326605,
+            "arrival_seconds": 163.3025,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-006-r1",
+      "source_id": "old-006",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-006-r1.json",
+      "metadata_sha256": "655b48023b7e015d59f7d0ea922fad7a2437eb2cce9b1891e428b9122ef566e4",
+      "switches": {
+        "30": [
+          {
+            "row": 8468,
+            "arrival_sample": 169445,
+            "arrival_seconds": 84.7225,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 11060,
+            "arrival_sample": 221285,
+            "arrival_seconds": 110.6425,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 8564,
+            "arrival_sample": 171705,
+            "arrival_seconds": 85.8525,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 8777,
+            "arrival_sample": 175965,
+            "arrival_seconds": 87.9825,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 10130,
+            "arrival_sample": 203025,
+            "arrival_seconds": 101.5125,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 11166,
+            "arrival_sample": 223745,
+            "arrival_seconds": 111.8725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 16312,
+            "arrival_sample": 326665,
+            "arrival_seconds": 163.3325,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-006-r2",
+      "source_id": "old-006",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-006-r2.json",
+      "metadata_sha256": "d673fe58e3a193fcbdeb76bb67623663e9f91b696130962b0a6a284f0a4ad3ca",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 8033,
+            "arrival_sample": 161085,
+            "arrival_seconds": 80.5425,
+            "from_arm": 2,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 9025,
+            "arrival_sample": 180925,
+            "arrival_seconds": 90.4625,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 9740,
+            "arrival_sample": 195225,
+            "arrival_seconds": 97.6125,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 10033,
+            "arrival_sample": 201085,
+            "arrival_seconds": 100.5425,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 10776,
+            "arrival_sample": 215945,
+            "arrival_seconds": 107.9725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 2
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-007-r0",
+      "source_id": "old-007",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-007-r0.json",
+      "metadata_sha256": "2ce619c8487a9e9a7cc2d8db60df19a438ff0c92c08f2c6a347fbc62cf71d1a4",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 2
+    },
+    {
+      "case_id": "old-007-r1",
+      "source_id": "old-007",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-007-r1.json",
+      "metadata_sha256": "053893d4bc3756ebde16ae96633c400f368d076bf9c699c6a8f4a72915d3f119",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1
+    },
+    {
+      "case_id": "old-007-r2",
+      "source_id": "old-007",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-007-r2.json",
+      "metadata_sha256": "588e9f0ed6b6fbe08d02fbf9c12dfcbadae38bd2da210db88400253ce5bb7bc8",
+      "switches": {
+        "30": [
+          {
+            "row": 1988,
+            "arrival_sample": 39845,
+            "arrival_seconds": 19.9225,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 3564,
+            "arrival_sample": 71705,
+            "arrival_seconds": 35.8525,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 2
+    },
+    {
+      "case_id": "old-008-r0",
+      "source_id": "old-008",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-008-r0.json",
+      "metadata_sha256": "742208dde4282a81f05dd33af049b87149d87bee945970e0e9faccbf279cc5d0",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 2308,
+            "arrival_sample": 46585,
+            "arrival_seconds": 23.2925,
+            "from_arm": 0,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 4096,
+            "arrival_sample": 82345,
+            "arrival_seconds": 41.1725,
+            "from_arm": 2,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-008-r1",
+      "source_id": "old-008",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-008-r1.json",
+      "metadata_sha256": "688f6ab7616d089d2eb85cbea73511c43b8324d37ba1232ebf7788c923121dc3",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 2302,
+            "arrival_sample": 46465,
+            "arrival_seconds": 23.2325,
+            "from_arm": 0,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 4045,
+            "arrival_sample": 81325,
+            "arrival_seconds": 40.6625,
+            "from_arm": 2,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 4812,
+            "arrival_sample": 96665,
+            "arrival_seconds": 48.3325,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-008-r2",
+      "source_id": "old-008",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-008-r2.json",
+      "metadata_sha256": "917e78bdcdda2ba5fe54ab13fe47df9b2f1e802c1c5bdf89bbec550c6a7dc1d7",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 4149,
+            "arrival_sample": 83405,
+            "arrival_seconds": 41.7025,
+            "from_arm": 1,
+            "to_arm": 0,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 4936,
+            "arrival_sample": 99145,
+            "arrival_seconds": 49.5725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-009-r0",
+      "source_id": "old-009",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-009-r0.json",
+      "metadata_sha256": "385621f1d0ffb491b46a759c42e45607756e3d9b4c7448e28acb333f5441178f",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 3096,
+            "arrival_sample": 62345,
+            "arrival_seconds": 31.1725,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 3817,
+            "arrival_sample": 76765,
+            "arrival_seconds": 38.3825,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1
+    },
+    {
+      "case_id": "old-009-r1",
+      "source_id": "old-009",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-009-r1.json",
+      "metadata_sha256": "7285e9e5d91dfacbf6e28e7309fa7d97737fbc6c3583114cb474d81939d40e1e",
+      "switches": {
+        "30": [
+          {
+            "row": 3522,
+            "arrival_sample": 70525,
+            "arrival_seconds": 35.2625,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 3814,
+            "arrival_sample": 76365,
+            "arrival_seconds": 38.1825,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": [
+          {
+            "row": 3311,
+            "arrival_sample": 66645,
+            "arrival_seconds": 33.3225,
+            "from_arm": 0,
+            "to_arm": 1,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          },
+          {
+            "row": 3810,
+            "arrival_sample": 76625,
+            "arrival_seconds": 38.3125,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1
+    },
+    {
+      "case_id": "old-009-r2",
+      "source_id": "old-009",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-009-r2.json",
+      "metadata_sha256": "13ba873a1399a2894b30e312e824afa9ea34394550186e2cdf298b9d3013c962",
+      "switches": {
+        "30": [],
+        "200": [
+          {
+            "row": 3809,
+            "arrival_sample": 76605,
+            "arrival_seconds": 38.3025,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": true,
+            "complete_200ms_window": true
+          }
+        ]
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 0
+      },
+      "prefix_tones": 1
+    },
+    {
+      "case_id": "old-010-r0",
+      "source_id": "old-010",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-010-r0.json",
+      "metadata_sha256": "55eca76be4d2fab2251ced253d71ab78819e560eb21c4c62ae5d5bf38795d08b",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-010-r1",
+      "source_id": "old-010",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-010-r1.json",
+      "metadata_sha256": "b237fe8957e120a638b069222f44e38eaa4762afc0011a38eb0ff01010071876",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 2
+    },
+    {
+      "case_id": "old-010-r2",
+      "source_id": "old-010",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-010-r2.json",
+      "metadata_sha256": "836b31e3bde9f34f245a5b49774f46e6ecb543f67ad71034ce0ef8b195651733",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 1
+    },
+    {
+      "case_id": "old-011-r0",
+      "source_id": "old-011",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-011-r0.json",
+      "metadata_sha256": "b45e0dc91e393e23cb97089460a6020796d1450e276f775a980acc3bb6b95e1f",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-011-r1",
+      "source_id": "old-011",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-011-r1.json",
+      "metadata_sha256": "fc3fa75febf02c48c5291ace2a713a1db496a4787a50020ef7b004ed09b91331",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-011-r2",
+      "source_id": "old-011",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-011-r2.json",
+      "metadata_sha256": "21ddd876a29fce7bba112611faf0e9751418041817ba528da2602ed518ffd58a",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-012-r0",
+      "source_id": "old-012",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-012-r0.json",
+      "metadata_sha256": "d80524f8afb4da8581ce2c7562829fb1fb8b01955abb8bf221f23168a22d354a",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-012-r1",
+      "source_id": "old-012",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-012-r1.json",
+      "metadata_sha256": "af07544be15c173a1ef588b87f5068960ff905570a5b540b879e024ccba8fef0",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-012-r2",
+      "source_id": "old-012",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-012-r2.json",
+      "metadata_sha256": "46e2877639c9e8e4e1560d076c69a81f83d51832ad43d61ee099fa6033d57078",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-013-r0",
+      "source_id": "old-013",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-013-r0.json",
+      "metadata_sha256": "d43e3eb46c253c65fabcf07e7f7d4aaa68b88d2b0b223becb2878362e135813b",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 3
+    },
+    {
+      "case_id": "old-013-r1",
+      "source_id": "old-013",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-013-r1.json",
+      "metadata_sha256": "c801ea6b963f2abe6ccc2d1526266c0f57fbe38cf3b6b6ea34965b8d7e40ba7a",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 3
+    },
+    {
+      "case_id": "old-013-r2",
+      "source_id": "old-013",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-013-r2.json",
+      "metadata_sha256": "4a76abfbf963aa5638d16db69340b63258133091606b88859bff035363b82eb0",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 3
+    },
+    {
+      "case_id": "old-014-r0",
+      "source_id": "old-014",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-014-r0.json",
+      "metadata_sha256": "a0e4ff0e9990452e70e9766c8db686b8bc24630c9032f6884855260976a617ef",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 3
+    },
+    {
+      "case_id": "old-014-r1",
+      "source_id": "old-014",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-014-r1.json",
+      "metadata_sha256": "fd3722c935d8f3acbdb81ce1ff91d08e6371a649533cb4df43d4b45deab390db",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 3
+    },
+    {
+      "case_id": "old-014-r2",
+      "source_id": "old-014",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-014-r2.json",
+      "metadata_sha256": "beecf131c242a0c6ad30a7fe59750b0d7dce0ecd4b9861f90e4b8bd1dcfbaf14",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 3
+    },
+    {
+      "case_id": "old-015-r0",
+      "source_id": "old-015",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-015-r0.json",
+      "metadata_sha256": "bfab4e75ececc63177a40e656bebcbd28fd195e5707bdc39d4f4fe246d012b2d",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-015-r1",
+      "source_id": "old-015",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-015-r1.json",
+      "metadata_sha256": "96e0964fb3b909d6c4ac3a8f3e388a888b4814166865a7ac2ceed75c47b6b492",
+      "switches": {
+        "30": [
+          {
+            "row": 10109,
+            "arrival_sample": 202265,
+            "arrival_seconds": 101.1325,
+            "from_arm": 1,
+            "to_arm": 2,
+            "command_exposed": false,
+            "complete_200ms_window": true
+          }
+        ],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 1,
+        "200": 1
+      },
+      "prefix_tones": 0
+    },
+    {
+      "case_id": "old-015-r2",
+      "source_id": "old-015",
+      "cohort": "original48",
+      "metadata_path": "results-selector-tuning-01\\cache\\old-015-r2.json",
+      "metadata_sha256": "2d2b99da0e1de5f940db44840819393c1df0f5350fcf413b1c2446e15ac175e1",
+      "switches": {
+        "30": [],
+        "200": []
+      },
+      "prefix_switches": {
+        "30": 0,
+        "200": 0
+      },
+      "prefix_tones": 0
+    }
+  ]
+}

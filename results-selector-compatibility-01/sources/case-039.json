@@ -1,0 +1,154 @@
+{
+  "id": "case-039",
+  "title": "Sewerage_pumping_station_(Starnberg-Leutstetten_PW83)_c.ogg",
+  "cohort": "former-test-05",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-039.npz",
+  "arrays_sha256": "8fcf3b44e59a427943a3fe422536ef1e301dfd4914437e5fa70487ccb1666e00",
+  "reference_sha256": "04374a6719e3a1f7164b24405b5877f6826c925dd062fa3819d08797fb5ddaac",
+  "seconds": 99.8905,
+  "prefix_seconds": 39.956,
+  "counts": {
+    "frames_after_warmup": 9839,
+    "v2_components_before_gate": 16783,
+    "bank_components_before_gate": 52171,
+    "frames_both_gates_open": 9750,
+    "bank_components_without_v2_match": 36445,
+    "eligible_v2_components": 16587,
+    "matched_tone_frames": 15151,
+    "v2_without_bank_match": 1434,
+    "frames_v2_only_gate": 68,
+    "frames_bank_only_gate": 16,
+    "frames_both_gates_closed": 5,
+    "ambiguous_matches": 2
+  },
+  "all": {
+    "matched_tone_frames": 15151,
+    "mismatch": {
+      "p05": 0.090487426251558,
+      "p50": 0.4283586469645518,
+      "p95": 1.264940708910332,
+      "p99": 1.757061299779663,
+      "max": 4.4785978526347945
+    },
+    "ramped_mismatch": {
+      "p05": 0.0906021854179822,
+      "p50": 0.4299061028230176,
+      "p95": 1.2716496542147069,
+      "p99": 1.7877758819283311,
+      "max": 7.451464130547297
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.0414033421325275,
+      "p50": 7.363849237754264,
+      "p95": 20.868235399779085,
+      "p99": 28.005427607943393,
+      "max": 46.35370247245429
+    },
+    "fraction_mismatch_above_0_1": 0.9389479242294237,
+    "fraction_mismatch_above_1": 0.11451389347237806,
+    "v2_energy_weighted_rms_mismatch": 0.5415768295679176,
+    "absolute_phase_difference_deg": {
+      "p05": 1.5959719358578583,
+      "p50": 19.025322279141857,
+      "p95": 88.2469060150507,
+      "p99": 140.91788128077852,
+      "max": 179.83768771552064
+    },
+    "amplitude_ratio": {
+      "p05": 0.3811665187986405,
+      "p50": 0.9162079567410901,
+      "p95": 1.371249869660327,
+      "p99": 1.9274465154742635,
+      "max": 5.372171755684717
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 8172,
+    "mismatch": {
+      "p05": 0.09890619426495932,
+      "p50": 0.4792249061993017,
+      "p95": 1.3208745887220177,
+      "p99": 1.8179442993066162,
+      "max": 4.383296788429233
+    },
+    "ramped_mismatch": {
+      "p05": 0.09907164718712037,
+      "p50": 0.4805612707967616,
+      "p95": 1.3255953383250183,
+      "p99": 1.8693154140336472,
+      "max": 7.451464130547297
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.4172310435911455,
+      "p50": 6.389212385424245,
+      "p95": 20.095530224918324,
+      "p99": 27.320599848204346,
+      "max": 46.35370247245429
+    },
+    "fraction_mismatch_above_0_1": 0.9489720998531571,
+    "fraction_mismatch_above_1": 0.13729809104258445,
+    "v2_energy_weighted_rms_mismatch": 0.5688996398838029,
+    "absolute_phase_difference_deg": {
+      "p05": 1.9459417411277553,
+      "p50": 22.546689146415826,
+      "p95": 96.438590388757,
+      "p99": 147.69716907009743,
+      "max": 179.83768771552064
+    },
+    "amplitude_ratio": {
+      "p05": 0.35710136723947594,
+      "p50": 0.9023643219601234,
+      "p95": 1.371484547618132,
+      "p99": 1.9597127325631423,
+      "max": 5.372171755684717
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 33,
+    "mismatch": {
+      "p05": 0.22378992604375542,
+      "p50": 0.6918080379845424,
+      "p95": 1.7450865585415973,
+      "p99": 2.509007828324091,
+      "max": 2.839912105739742
+    },
+    "ramped_mismatch": {
+      "p05": 0.22378992604375542,
+      "p50": 0.6918080379845424,
+      "p95": 1.7450865585415973,
+      "p99": 2.509007828324091,
+      "max": 2.839912105739742
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -4.832856277961918,
+      "p50": 3.200287926165655,
+      "p95": 13.003479330922412,
+      "p99": 14.180586483799388,
+      "max": 14.693589288322716
+    },
+    "fraction_mismatch_above_0_1": 1.0,
+    "fraction_mismatch_above_1": 0.24242424242424243,
+    "v2_energy_weighted_rms_mismatch": 0.5530621605936903,
+    "absolute_phase_difference_deg": {
+      "p05": 0.9426278472155829,
+      "p50": 24.82801960030456,
+      "p95": 109.38668284183825,
+      "p99": 123.79891614169185,
+      "max": 129.7444642656233
+    },
+    "amplitude_ratio": {
+      "p05": 0.1403964513700111,
+      "p50": 0.7912079640546539,
+      "p95": 1.785495416879765,
+      "p99": 2.563543940181507,
+      "max": 2.9096494533766344
+    }
+  },
+  "selector_transitions": 1,
+  "transition_origins": [
+    25339
+  ],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-039.npz",
+  "ratio_arrays_sha256": "077a0c09f70b3f708087226a93863f9ca23af8332c5fc23866cc390a50be44b8"
+}

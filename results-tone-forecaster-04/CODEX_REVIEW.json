@@ -1,0 +1,195 @@
+{
+  "study": "04",
+  "reviewed_utc": "2026-10-20T13:08:29.360244+00:00",
+  "candidate": "gcheck_fade8_gated",
+  "all_frozen_questions_pass": false,
+  "primary_questions": {
+    "fewer_synthetic_late_boosts_and_no_more_recording_boosts": true,
+    "tone_gain_above_v2": false
+  },
+  "metrics": {
+    "zero": {
+      "label": "Predict nothing",
+      "tone_median_20ms_db": 0.0,
+      "tone_median_120ms_db": 0.0,
+      "whole_band_median_20ms_db": 0.0,
+      "whole_band_median_120ms_db": 0.0,
+      "recording_band_boost_cases": 0,
+      "recording_whole_band_boost_cases": 0,
+      "synthetic_late_band_boost_cases": 0,
+      "change_late_band_boost_cases": 0,
+      "tone_files": 6,
+      "recording_case_count": 12,
+      "worst_recording_band_amplification_db": 0.0,
+      "worst_recording_whole_band_gain_db": 0.0
+    },
+    "v2_gated": {
+      "label": "v2 (current engine)",
+      "tone_median_20ms_db": 6.4562677148506,
+      "tone_median_120ms_db": 5.3040620673444865,
+      "whole_band_median_20ms_db": 1.1950410458502057,
+      "whole_band_median_120ms_db": 1.040029477937573,
+      "recording_band_boost_cases": 5,
+      "recording_whole_band_boost_cases": 0,
+      "synthetic_late_band_boost_cases": 53,
+      "change_late_band_boost_cases": 10,
+      "tone_files": 6,
+      "recording_case_count": 12,
+      "worst_recording_band_amplification_db": 9.004245929874251,
+      "worst_recording_whole_band_gain_db": -0.009738200743985024
+    },
+    "joint_gated": {
+      "label": "Joint check",
+      "tone_median_20ms_db": 3.2551643730265156,
+      "tone_median_120ms_db": 2.606564452782563,
+      "whole_band_median_20ms_db": 0.6586160870276572,
+      "whole_band_median_120ms_db": 0.5897246424315709,
+      "recording_band_boost_cases": 5,
+      "recording_whole_band_boost_cases": 0,
+      "synthetic_late_band_boost_cases": 27,
+      "change_late_band_boost_cases": 13,
+      "tone_files": 6,
+      "recording_case_count": 12,
+      "worst_recording_band_amplification_db": 6.199758173792839,
+      "worst_recording_whole_band_gain_db": -0.04576065904133824
+    },
+    "gcheck_fade8_gated": {
+      "label": "Frozen fade candidate",
+      "tone_median_20ms_db": 3.2546911594998367,
+      "tone_median_120ms_db": 2.765974871345117,
+      "whole_band_median_20ms_db": 0.7186509718267384,
+      "whole_band_median_120ms_db": 0.5965755403181985,
+      "recording_band_boost_cases": 5,
+      "recording_whole_band_boost_cases": 0,
+      "synthetic_late_band_boost_cases": 14,
+      "change_late_band_boost_cases": 11,
+      "tone_files": 6,
+      "recording_case_count": 12,
+      "worst_recording_band_amplification_db": 6.199758173792839,
+      "worst_recording_whole_band_gain_db": -0.04576065904133824
+    },
+    "prefix_ar": {
+      "label": "Prefix-adapted AR",
+      "tone_median_20ms_db": 3.6016601006375204,
+      "tone_median_120ms_db": 0.8257178160453309,
+      "whole_band_median_20ms_db": 0.1490489608852556,
+      "whole_band_median_120ms_db": -0.010036162808470042,
+      "recording_band_boost_cases": 9,
+      "recording_whole_band_boost_cases": 4,
+      "synthetic_late_band_boost_cases": 82,
+      "change_late_band_boost_cases": 12,
+      "tone_files": 6,
+      "recording_case_count": 12,
+      "worst_recording_band_amplification_db": 17.631745345594705,
+      "worst_recording_whole_band_gain_db": -1.2392941354653177
+    },
+    "online_ar": {
+      "label": "Online AR",
+      "tone_median_20ms_db": 5.099743553295868,
+      "tone_median_120ms_db": 3.546226549084067,
+      "whole_band_median_20ms_db": 1.188090105381336,
+      "whole_band_median_120ms_db": 0.6367527013959029,
+      "recording_band_boost_cases": 8,
+      "recording_whole_band_boost_cases": 2,
+      "synthetic_late_band_boost_cases": 78,
+      "change_late_band_boost_cases": 12,
+      "tone_files": 6,
+      "recording_case_count": 12,
+      "worst_recording_band_amplification_db": 14.855275012011386,
+      "worst_recording_whole_band_gain_db": -0.8666354176709147
+    }
+  },
+  "paired_tone_comparisons_20ms": {
+    "joint_gated": {
+      "wins": 1,
+      "losses": 2,
+      "ties": 3,
+      "two_sided_sign_test_p": 1.0,
+      "file_differences_db": [
+        [
+          "Het_vermalen_van_fruit_in_een_blender_-_SoundCloud_-_marloeskunst.ogg",
+          -2.9587779555896587e-05
+        ],
+        [
+          "Laser_printer,_2015-01-23.ogg",
+          0.0
+        ],
+        [
+          "Photocopie.ogg",
+          0.0
+        ],
+        [
+          "Mobile_lift_stage.ogg",
+          -0.0011759291275978967
+        ],
+        [
+          "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+          0.00022950207423999558
+        ],
+        [
+          "Wiki_Motor_lancha.wav",
+          0.0
+        ]
+      ]
+    },
+    "v2_gated": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0,
+      "two_sided_sign_test_p": 0.6875,
+      "file_differences_db": [
+        [
+          "Het_vermalen_van_fruit_in_een_blender_-_SoundCloud_-_marloeskunst.ogg",
+          0.012712074514551273
+        ],
+        [
+          "Laser_printer,_2015-01-23.ogg",
+          0.13488119776314078
+        ],
+        [
+          "Photocopie.ogg",
+          -0.5057616177602764
+        ],
+        [
+          "Mobile_lift_stage.ogg",
+          -4.851778037219678
+        ],
+        [
+          "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+          -3.9765670813177865
+        ],
+        [
+          "Wiki_Motor_lancha.wav",
+          -11.417636121058921
+        ]
+      ]
+    }
+  },
+  "fresh_files": [
+    "Het_vermalen_van_fruit_in_een_blender_-_SoundCloud_-_marloeskunst.ogg",
+    "Laser_printer,_2015-01-23.ogg",
+    "Photocopie.ogg",
+    "Mobile_lift_stage.ogg",
+    "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+    "Wiki_Motor_lancha.wav"
+  ],
+  "fresh_missing": [
+    "Paisaje_sonoro_-_Aves_y_motor_de_auto.wav",
+    "Cogwheel_loco_Rigi_vsb.ogg"
+  ],
+  "synthetic_scenes": 60,
+  "runtime_seconds": 900.0024182000197,
+  "test_json_sha256": "47e9828f6cdf4753b1738e29fdfac72d218f936ce7845daab2531704de287944",
+  "protocol_sha256": "874e9fd9e25b469d81c4431b4b454069f9404a701afe63b64087ed12ad5073ec",
+  "summary_recomputed_from_saved_scores_for": [
+    "zero",
+    "v2_gated",
+    "joint_gated",
+    "gcheck_fade8_gated",
+    "prefix_ar",
+    "online_ar"
+  ],
+  "models_rerun": false,
+  "engine_changed": false,
+  "claim": "Reference-microphone waveform prediction only; not measured ANC."
+}

@@ -1,0 +1,30 @@
+runtime 3.7 min
+gcheck_cos8in3out|cos12in4out  boosts 1+17=18 near 32 tone 5.35 band 1.58 obj 7.01 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 1}
+gcheck_cos8in3out|cos8         boosts 1+17=18 near 33 tone 5.30 band 1.57 obj 6.98 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 1}
+gcheck_cos8in3out|cos8in3out   boosts 1+18=19 near 33 tone 5.36 band 1.58 obj 7.02 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 2}
+gcheck_cos8in3out|hard         boosts 1+21=22 near 37 tone 5.36 band 1.58 obj 7.05 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 5}
+gcheck_cos8in3out|none         boosts 1+17=18 near 34 tone 5.28 band 1.57 obj 6.96 win<-0.5 6 by family {'standard': 16, 'wander': 0, 'buzz': 1}
+gcheck_cos8|cos12in4out        boosts 1+17=18 near 34 tone 5.29 band 1.56 obj 6.99 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 1}
+gcheck_cos8|cos8               boosts 1+17=18 near 36 tone 5.24 band 1.56 obj 6.97 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 1}
+gcheck_cos8|cos8in3out         boosts 1+18=19 near 35 tone 5.29 band 1.56 obj 7.00 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 2}
+gcheck_cos8|hard               boosts 1+23=24 near 40 tone 5.30 band 1.56 obj 7.04 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 7}
+gcheck_cos8|none               boosts 1+18=19 near 36 tone 5.22 band 1.55 obj 6.94 win<-0.5 6 by family {'standard': 16, 'wander': 1, 'buzz': 1}
+gcheck_hard|cos12in4out        boosts 1+18=19 near 33 tone 5.30 band 1.58 obj 7.01 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 2}
+gcheck_hard|cos8               boosts 1+18=19 near 33 tone 5.25 band 1.57 obj 6.99 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 2}
+gcheck_hard|cos8in3out         boosts 1+18=19 near 33 tone 5.30 band 1.58 obj 7.02 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 2}
+gcheck_hard|hard               boosts 1+21=22 near 38 tone 5.31 band 1.57 obj 7.06 win<-0.5 6 by family {'standard': 15, 'wander': 1, 'buzz': 5}
+gcheck_hard|none               boosts 1+18=19 near 33 tone 5.24 band 1.57 obj 6.96 win<-0.5 6 by family {'standard': 16, 'wander': 0, 'buzz': 2}
+joint|cos12in4out              boosts 1+19=20 near 34 tone 5.54 band 1.60 obj 7.00 win<-0.5 6 by family {'standard': 15, 'wander': 2, 'buzz': 2}
+joint|cos8                     boosts 1+19=20 near 35 tone 5.50 band 1.59 obj 6.98 win<-0.5 6 by family {'standard': 15, 'wander': 2, 'buzz': 2}
+joint|cos8in3out               boosts 1+19=20 near 35 tone 5.55 band 1.60 obj 7.02 win<-0.5 6 by family {'standard': 15, 'wander': 2, 'buzz': 2}
+joint|hard                     boosts 1+24=25 near 40 tone 5.56 band 1.59 obj 7.05 win<-0.5 6 by family {'standard': 15, 'wander': 2, 'buzz': 7}
+joint|none                     boosts 1+20=21 near 35 tone 5.48 band 1.58 obj 6.95 win<-0.5 6 by family {'standard': 16, 'wander': 2, 'buzz': 2}
+v2|cos12in4out                 boosts 8+40=48 near 66 tone 3.23 band 0.98 obj 6.96 win<-0.5 6 by family {'standard': 27, 'wander': 3, 'buzz': 10}
+v2|cos8                        boosts 8+40=48 near 69 tone 3.30 band 0.98 obj 6.99 win<-0.5 6 by family {'standard': 27, 'wander': 3, 'buzz': 10}
+v2|cos8in3out                  boosts 8+40=48 near 67 tone 3.17 band 0.98 obj 6.98 win<-0.5 6 by family {'standard': 27, 'wander': 3, 'buzz': 10}
+v2|hard                        boosts 9+45=54 near 74 tone 3.15 band 0.98 obj 7.02 win<-0.5 6 by family {'standard': 28, 'wander': 7, 'buzz': 10}
+v2|none                        boosts 8+40=48 near 68 tone 3.32 band 0.98 obj 7.01 win<-0.5 6 by family {'standard': 27, 'wander': 3, 'buzz': 10}
+joint                own p99 median 5.35 worst 7.33; paired difference from joint, median +0.00 ms
+gcheck_hard          own p99 median 5.59 worst 7.61; paired difference from joint, median +0.28 ms
+gcheck_cos8          own p99 median 5.62 worst 7.43; paired difference from joint, median +0.22 ms
+gcheck_cos8in3out    own p99 median 5.72 worst 7.55; paired difference from joint, median +0.36 ms

@@ -1,0 +1,154 @@
+{
+  "id": "fresh-034",
+  "title": "File:Two Black Hawk Helicopters depart to deliver Relief Items to Babuyan Claro, Calayan, Cagayan from Lal-Lo, Cagayan - 30 September 2025.webm",
+  "cohort": "transport engine",
+  "acoustic": true,
+  "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-034.npz",
+  "arrays_sha256": "a58c1874cca4a908712f683f685e5c2276291efbd944acd1ac7a050b3ca9b216",
+  "reference_sha256": "4cdf7f986d1f6a0148094464e85fc41bf868c48d20317653f5cd74729e858136",
+  "seconds": 53.7335,
+  "prefix_seconds": 21.493,
+  "counts": {
+    "frames_after_warmup": 5223,
+    "v2_components_before_gate": 19587,
+    "bank_components_before_gate": 22912,
+    "frames_both_gates_open": 5111,
+    "bank_components_without_v2_match": 4797,
+    "eligible_v2_components": 19157,
+    "matched_tone_frames": 17676,
+    "v2_without_bank_match": 1481,
+    "frames_bank_only_gate": 62,
+    "frames_both_gates_closed": 21,
+    "frames_v2_only_gate": 29
+  },
+  "all": {
+    "matched_tone_frames": 17676,
+    "mismatch": {
+      "p05": 0.09113677301375517,
+      "p50": 0.4857862485054456,
+      "p95": 1.2304154824784534,
+      "p99": 1.6872187535489724,
+      "max": 8.918562039031496
+    },
+    "ramped_mismatch": {
+      "p05": 0.09118687115704789,
+      "p50": 0.48761972051804614,
+      "p95": 1.2493158548297045,
+      "p99": 1.871152615068589,
+      "max": 14.46045182964615
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.8010357331589781,
+      "p50": 6.271095696255755,
+      "p95": 20.80612772840975,
+      "p99": 28.472094983287686,
+      "max": 46.86183683221956
+    },
+    "fraction_mismatch_above_0_1": 0.9411065852002716,
+    "fraction_mismatch_above_1": 0.11784340348495134,
+    "v2_energy_weighted_rms_mismatch": 0.49255045100524036,
+    "absolute_phase_difference_deg": {
+      "p05": 2.2312743599609393,
+      "p50": 25.574665971663578,
+      "p95": 94.12416105364453,
+      "p99": 142.28549594336351,
+      "max": 179.4689470052422
+    },
+    "amplitude_ratio": {
+      "p05": 0.3833918129502018,
+      "p50": 0.8865784216241162,
+      "p95": 1.1355166736169262,
+      "p99": 1.520740561910655,
+      "max": 9.8702230926908
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 11917,
+    "mismatch": {
+      "p05": 0.09804379788750472,
+      "p50": 0.5035356848142574,
+      "p95": 1.237863650714868,
+      "p99": 1.6201534525854384,
+      "max": 8.918562039031496
+    },
+    "ramped_mismatch": {
+      "p05": 0.09848600273426243,
+      "p50": 0.5047569266444354,
+      "p95": 1.2505184983423963,
+      "p99": 1.690307856609875,
+      "max": 9.328099670354835
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.853455915012438,
+      "p50": 5.959394924500936,
+      "p95": 20.17159748332097,
+      "p99": 27.91576279531011,
+      "max": 46.86183683221956
+    },
+    "fraction_mismatch_above_0_1": 0.9479734832592095,
+    "fraction_mismatch_above_1": 0.1237727616010741,
+    "v2_energy_weighted_rms_mismatch": 0.5399086961587114,
+    "absolute_phase_difference_deg": {
+      "p05": 2.5098235489217897,
+      "p50": 27.36948185586363,
+      "p95": 94.01706794199984,
+      "p99": 139.44042937477906,
+      "max": 179.4689470052422
+    },
+    "amplitude_ratio": {
+      "p05": 0.4175640097882874,
+      "p50": 0.8871078520513597,
+      "p95": 1.1070884514841945,
+      "p99": 1.4003068616931515,
+      "max": 9.8702230926908
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 224,
+    "mismatch": {
+      "p05": 0.051712611659921984,
+      "p50": 0.43313340044428983,
+      "p95": 1.051079486452411,
+      "p99": 1.2568201681271731,
+      "max": 1.3179841078332806
+    },
+    "ramped_mismatch": {
+      "p05": 0.051712611659921984,
+      "p50": 0.43313340044428983,
+      "p95": 1.051079486452411,
+      "p99": 1.2568201681271731,
+      "max": 1.3179841078332806
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -0.4327111391288346,
+      "p50": 7.26756669934669,
+      "p95": 25.729541640166342,
+      "p99": 30.730999552537497,
+      "max": 31.96244536156791
+    },
+    "fraction_mismatch_above_0_1": 0.90625,
+    "fraction_mismatch_above_1": 0.07142857142857142,
+    "v2_energy_weighted_rms_mismatch": 0.3871682709037356,
+    "absolute_phase_difference_deg": {
+      "p05": 1.3871200016020502,
+      "p50": 23.000977308148837,
+      "p95": 70.69919639279298,
+      "p99": 89.90244004274713,
+      "max": 102.14748957698556
+    },
+    "amplitude_ratio": {
+      "p05": 0.5997574219527164,
+      "p50": 0.9339781609140423,
+      "p95": 1.082174351829692,
+      "p99": 1.1812163468782115,
+      "max": 1.3500766443647187
+    }
+  },
+  "selector_transitions": 2,
+  "transition_origins": [
+    57779,
+    95259
+  ],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\fresh-034.npz",
+  "ratio_arrays_sha256": "ce25a96c92c5d26e1d48605b5c744d8e51397f3998a3c37aa5e68265ea2911e7"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "case-035",
+  "title": "ÖBB_Taurus_Start-Up.ogg",
+  "cohort": "former-test-05",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-035.npz",
+  "arrays_sha256": "f076e4bfb1fb41c97e2a20a78a7bffb5b8c6ff7d45c89ed6da99298547622e7b",
+  "reference_sha256": "d1193eda322e9923d322650e9c95d6139ed5ea67788c3cad75f34a5ac94c5c84",
+  "seconds": 16.9685,
+  "prefix_seconds": 6.787,
+  "counts": {
+    "frames_after_warmup": 1546,
+    "v2_components_before_gate": 659,
+    "bank_components_before_gate": 714,
+    "frames_both_gates_open": 1537,
+    "bank_components_without_v2_match": 125,
+    "eligible_v2_components": 650,
+    "matched_tone_frames": 572,
+    "frames_bank_only_gate": 4,
+    "frames_both_gates_closed": 5,
+    "v2_without_bank_match": 78
+  },
+  "all": {
+    "matched_tone_frames": 572,
+    "mismatch": {
+      "p05": 0.09604230123674695,
+      "p50": 0.41501349157116074,
+      "p95": 1.242329326254749,
+      "p99": 1.6428594927957882,
+      "max": 1.8474544845591578
+    },
+    "ramped_mismatch": {
+      "p05": 0.09604230123674695,
+      "p50": 0.41885616875596876,
+      "p95": 1.2500275467180564,
+      "p99": 1.6556916826916812,
+      "max": 6.798332296409335
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.8847293803335419,
+      "p50": 7.638838628272312,
+      "p95": 20.350759895963886,
+      "p99": 27.70991547537805,
+      "max": 36.13710543156296
+    },
+    "fraction_mismatch_above_0_1": 0.9440559440559441,
+    "fraction_mismatch_above_1": 0.11188811188811189,
+    "v2_energy_weighted_rms_mismatch": 0.597554136253696,
+    "absolute_phase_difference_deg": {
+      "p05": 1.6272968321943497,
+      "p50": 18.137759581194295,
+      "p95": 82.63081403954232,
+      "p99": 112.74896352741953,
+      "max": 155.78304772740893
+    },
+    "amplitude_ratio": {
+      "p05": 0.410350784042124,
+      "p50": 0.9229819076055112,
+      "p95": 1.3495812920254044,
+      "p99": 1.595541318852936,
+      "max": 2.224639899720908
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 255,
+    "mismatch": {
+      "p05": 0.13963233454624635,
+      "p50": 0.6261315972309038,
+      "p95": 1.3984168461055673,
+      "p99": 1.6915116286976466,
+      "max": 1.8474544845591578
+    },
+    "ramped_mismatch": {
+      "p05": 0.13963233454624635,
+      "p50": 0.6399801343712224,
+      "p95": 1.4134842881564347,
+      "p99": 1.7533287575249366,
+      "max": 3.5952101204152336
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.9127285360222857,
+      "p50": 4.066687586755055,
+      "p95": 17.10028053584071,
+      "p99": 22.37588105145764,
+      "max": 27.990583446967978
+    },
+    "fraction_mismatch_above_0_1": 0.9686274509803922,
+    "fraction_mismatch_above_1": 0.23137254901960785,
+    "v2_energy_weighted_rms_mismatch": 0.7696064757873979,
+    "absolute_phase_difference_deg": {
+      "p05": 3.3225797154193617,
+      "p50": 32.961345056229575,
+      "p95": 92.76711808614769,
+      "p99": 122.75829632476646,
+      "max": 155.78304772740893
+    },
+    "amplitude_ratio": {
+      "p05": 0.4760664086029382,
+      "p50": 0.8564248458576966,
+      "p95": 1.35067881665813,
+      "p99": 1.615805061446539,
+      "max": 2.224639899720908
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-035.npz",
+  "ratio_arrays_sha256": "b1eaab825d852d2f07b33b6fa09b80d7ad51ff56c2f54c0cb6180a559fda6942"
+}

@@ -1,0 +1,113 @@
+{
+  "id": "case-031",
+  "title": "Mil_Mi-8MTV-1_helicopter_starting_up.ogg",
+  "cohort": "former-test-04",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-031.npz",
+  "arrays_sha256": "b71744b38e784c63b40a19f613cfc1d78148b768f24347b68acf4ad92331fc63",
+  "reference_sha256": "309b20a9cf2114950ca99d09cb6e2d7aaa237e3f4af1f3e6b7d5a887791296f9",
+  "seconds": 19.2215,
+  "prefix_seconds": 7.6885,
+  "counts": {
+    "frames_after_warmup": 1772,
+    "v2_components_before_gate": 4517,
+    "bank_components_before_gate": 4776,
+    "frames_both_gates_open": 1760,
+    "bank_components_without_v2_match": 708,
+    "eligible_v2_components": 4456,
+    "matched_tone_frames": 3970,
+    "v2_without_bank_match": 486,
+    "frames_bank_only_gate": 5,
+    "frames_both_gates_closed": 1,
+    "frames_v2_only_gate": 6
+  },
+  "all": {
+    "matched_tone_frames": 3970,
+    "mismatch": {
+      "p05": 0.08885052681091414,
+      "p50": 0.6275034191301652,
+      "p95": 1.2874775640270557,
+      "p99": 1.7730998336709736,
+      "max": 2.96439769395688
+    },
+    "ramped_mismatch": {
+      "p05": 0.08934698028720423,
+      "p50": 0.6284188158660637,
+      "p95": 1.29274628898115,
+      "p99": 1.8630693643269607,
+      "max": 6.746705228624455
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.1947926681540864,
+      "p50": 4.047678073017616,
+      "p95": 21.026872502361105,
+      "p99": 27.328562476898263,
+      "max": 47.07065083586709
+    },
+    "fraction_mismatch_above_0_1": 0.9400503778337531,
+    "fraction_mismatch_above_1": 0.16146095717884132,
+    "v2_energy_weighted_rms_mismatch": 0.6964093966575844,
+    "absolute_phase_difference_deg": {
+      "p05": 2.4199843472196534,
+      "p50": 33.69856175945149,
+      "p95": 104.70745880627459,
+      "p99": 156.30743335171317,
+      "max": 179.8499134005629
+    },
+    "amplitude_ratio": {
+      "p05": 0.2650670119287803,
+      "p50": 0.8169672772097177,
+      "p95": 1.2110770019268506,
+      "p99": 1.5425361889081681,
+      "max": 3.8892761612230364
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 3536,
+    "mismatch": {
+      "p05": 0.08685365555351718,
+      "p50": 0.660191747576301,
+      "p95": 1.3112298742913278,
+      "p99": 1.8548767675905657,
+      "max": 2.96439769395688
+    },
+    "ramped_mismatch": {
+      "p05": 0.08699000985049063,
+      "p50": 0.6628901453744476,
+      "p95": 1.3165053426728823,
+      "p99": 1.9074944820555668,
+      "max": 6.746705228624455
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -2.3535754617136067,
+      "p50": 3.6065987657504355,
+      "p95": 21.224238497524563,
+      "p99": 27.428319484441,
+      "max": 47.07065083586709
+    },
+    "fraction_mismatch_above_0_1": 0.9383484162895928,
+    "fraction_mismatch_above_1": 0.17307692307692307,
+    "v2_energy_weighted_rms_mismatch": 0.6964402087931906,
+    "absolute_phase_difference_deg": {
+      "p05": 2.770699592031654,
+      "p50": 36.758695713275245,
+      "p95": 109.0961352709555,
+      "p99": 159.469143505301,
+      "max": 179.8499134005629
+    },
+    "amplitude_ratio": {
+      "p05": 0.2661876499557342,
+      "p50": 0.7982237138684982,
+      "p95": 1.1305811907004766,
+      "p99": 1.4627645048564462,
+      "max": 3.8892761612230364
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-031.npz",
+  "ratio_arrays_sha256": "df1708abc25c2335193deedd6c797598925c328da02f11a81a091947f88425a3"
+}

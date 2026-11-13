@@ -1,0 +1,77 @@
+{
+  "kind": "post_hoc_cross_source_diagnostic",
+  "created_utc": "2026-10-20T13:19:36.596650+00:00",
+  "status": "planned_before_this_diagnostic_run",
+  "purpose": "Check the unchanged study-05 per-tone fade on the already-scored study-04 cohort.",
+  "data_status": "All six recordings were seen in study 04. This is not a new held-out test.",
+  "no_selection_or_retuning": true,
+  "primary_study_results_unchanged": true,
+  "methods": [
+    {
+      "name": "v2",
+      "kind": "v2",
+      "window_seconds": 0.3
+    },
+    {
+      "name": "joint",
+      "kind": "joint",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {}
+    },
+    {
+      "name": "fade0.1_linear",
+      "kind": "react",
+      "nb_tau": 0.0,
+      "lines": true,
+      "options": {
+        "fade_in_seconds": 0.1,
+        "fade_out_seconds": 0.1,
+        "shape": "linear"
+      }
+    }
+  ],
+  "v2": {
+    "selector": {
+      "alpha": 0.01,
+      "acquire": 2,
+      "history": 3,
+      "release": 4
+    },
+    "forecaster": {
+      "window_seconds": 0.3,
+      "release_ratio": 0.5,
+      "release_window_seconds": 0.1
+    },
+    "gate": {
+      "min_gain_db": -1.0,
+      "lookback": 5,
+      "min_matured": 3,
+      "shared_group": 0
+    }
+  },
+  "workers": 6,
+  "source_protocol_sha256": {
+    "04": "874e9fd9e25b469d81c4431b4b454069f9404a701afe63b64087ed12ad5073ec",
+    "05": "d02a63720f48f9765747bc48165ddd962c1c1edfbe3e6e7d6e4257acb2734116"
+  },
+  "source_study04_test_sha256": "47e9828f6cdf4753b1738e29fdfac72d218f936ce7845daab2531704de287944",
+  "input_sha256": {
+    "Het_vermalen_van_fruit_in_een_blender_-_SoundCloud_-_marloeskunst.ogg": "4d788e6fc782d93689d5d22d125ae1ed52426642a6d270d0d2b19dc50edcf7af",
+    "Laser_printer,_2015-01-23.ogg": "74c29bd3f89c7cf621026501cc2dadc84384961f1b5843e1b1bc8bb1305861c7",
+    "Photocopie.ogg": "73d2d1d014d3cf9903c133efb692596ff90ddee15270f8951d46a5ba19ae96f2",
+    "Mobile_lift_stage.ogg": "94fd2edf233a9e1aa5302066ca46f45a34c2cad5d4ee1c5be290e81c04671f13",
+    "Mil_Mi-8MTV-1_helicopter_starting_up.ogg": "e2b19ef89174fefbc201f79f4ee833b0992212d9e9b39a3288f93ebdfb65a77c",
+    "Wiki_Motor_lancha.wav": "7d98978c14e35f4ce11eabf8fe8043ac830d426c5efc9ebc23797a3ac990e8b9"
+  },
+  "metrics": [
+    "20/120 ms tone-bin prediction gain",
+    "20/120 ms whole-band prediction gain",
+    "recording-horizon cases with >=1 dB third-octave amplification",
+    "recording-horizon cases with >0.5 dB whole-band amplification"
+  ],
+  "baseline_consistency": "Recomputed v2/joint score rows must match original study-04 scores.",
+  "scope": "Reference-waveform prediction only; no audio stream, acoustic path or near-ear measurement.",
+  "timing": "Multiprocessing compute measurements do not qualify real-time performance.",
+  "runner_sha256": "763f5fc7a867f90478531906e9bd39afdd6c499c1617f899398ae41fb1238af2"
+}

@@ -1,0 +1,17 @@
+# Compatibility and tuning diagnosis — 24 October 2026
+
+**24 October follow-up diagnostics:** Claude review #53 is tested. The compressor supports a bad accepted tuning setting: best v2/bank phases differ by 4.37 degrees, while accepted v2 is 152.58 degrees from its own prefix optimum. Of 72 primary rooms, 34 had intermittent detections below the menu rule, one had no detection, 11 were fully muted by the final listening check, and 26 kept active settings. Direct comparison of all 78 available recordings finds substantial predictor disagreement on real audio; fixed tuning cannot be assumed interchangeable. Prior room/fresh results remain unchanged. Keep v2 live; next diagnose menu eligibility and tuning acceptance, not a larger switch cohort. Quiet-machine timing and physical ANC remain unvalidated.
+
+[Full report](../results-selector-compatibility-01/REPORT.md) · [Verification](../results-selector-compatibility-01/verification.json) · [Next bounded diagnostic](TUNING_DIAGNOSTIC_NEXT.md)
+
+The three compressor rooms have nine tone comparisons. The harmful 193.914 Hz tone's best prefix phases are 204.27 degrees for v2 and 199.90 for the bank; actual accepted v2 was 51.68, chooser 200.09. This supports a bad accepted setting, but the cause of acceptance has not been isolated. The earlier harm crossing is retained.
+
+The empty-menu count is not equivalent to no detection: 34 of 35 had intermittent detections below 50% prefix presence. The strongest cluster's median presence is 18.8%. The other 11 silent primary rooms were muted by the final on/off check. Gain-limit flags do not explain muting. The same aggregate split holds for chooser-own tuning; individual settings differ.
+
+All 78 decoded references were compared at the native common origin and actual 30 ms output lead. Sixty-five of 71 public acoustic sources have matched active tone pairs; six have none. Median source median RMS |1-r| is 0.428, median source p95 is 1.230. Equal-source mean fraction above 0.1 is 89.7%; near selector changes it is 86.6% across 23 sources. Electrical and personal controls are separate. Missing and ambiguous matches are counted, never replaced by a benign ratio.
+
+The -20log10|1-r| expression assumes perfect pre-switch single-tone cancellation and a common path. With initial residual e, the new residual is r e + (1-r)s. It is not a universal cancellation ceiling or a bound on loss from existing tuning. Large disagreement does not establish which predictor is more accurate. No new switch guard is selected.
+
+The earlier 0.02–0.05 dB results were incremental gains over v2, not total cancellation in every room. The current saved v2 results include 15.27 dB at tone bins / 9.81 dB across 35–350 Hz in one ventilation room, but a zero median across tonal rooms. These are simulated-ear results only.
+
+Four targeted tests pass, and 5,056 numerical audit checks reproduce saved distributions and 18 prefix-oracle fits, maximum discrepancy 2.84e-13. Source/array/code receipts match. No full-suite rerun, new audio download, playback, microphone capture, engine change or physical ANC validation. The research helper snapshot excludes waveform and ratio arrays.

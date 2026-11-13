@@ -1,0 +1,32 @@
+{
+  "file": "WWS_Compressor.ogg",
+  "seconds_of_audio": 125.527,
+  "blocks": 12490,
+  "methods": {
+    "bank_wide_lines": {
+      "own_ms_mean": 0.28448713616319576,
+      "own_ms_p99": 1.5851819935778508,
+      "own_ms_p999": 2.6857742033609067,
+      "own_ms_max": 4.755399997520726,
+      "with_selector_ms_mean": 0.47333840820182055,
+      "with_selector_ms_p99": 6.366580002213571,
+      "with_selector_ms_max": 12.102799999411218,
+      "blocks_over_10ms_with_selector": 7,
+      "real_time_factor": 20.55752366273958
+    },
+    "bank_wide": {
+      "own_ms_mean": 0.06809169789818635,
+      "own_ms_p99": 0.47741000176756593,
+      "own_ms_p999": 0.8784737980167981,
+      "own_ms_max": 1.1272999981883913,
+      "with_selector_ms_mean": 0.24182488236200436,
+      "with_selector_ms_p99": 4.6555999963311425,
+      "with_selector_ms_max": 9.620400000130758,
+      "blocks_over_10ms_with_selector": 0,
+      "real_time_factor": 40.6435385298964
+    },
+    "v2": {
+      "forecast_ms_per_origin": 0.1298728182546642
+    }
+  }
+}

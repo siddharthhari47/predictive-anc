@@ -1,0 +1,111 @@
+{
+  "id": "fresh-039",
+  "title": "File:Steam Locomotive on a Turntable • Höyryveturi Hv1 555 kääntöpöydällä.webm",
+  "cohort": "transport engine",
+  "acoustic": true,
+  "arrays_path": "results-selector-fresh-01\\test\\arrays\\fresh-039.npz",
+  "arrays_sha256": "9cc4d112db6627c7897d1b0a826c85b68c5f865f29f0fc23963fe6ab72e467d9",
+  "reference_sha256": "fa1e5fdc320cc5ac1e0517f6aaa7887094dd928c61bb3310e09e967d6b8caedf",
+  "seconds": 89.9935,
+  "prefix_seconds": 35.997,
+  "counts": {
+    "frames_after_warmup": 8849,
+    "v2_components_before_gate": 4759,
+    "bank_components_before_gate": 4964,
+    "frames_both_gates_open": 8848,
+    "bank_components_without_v2_match": 410,
+    "eligible_v2_components": 4758,
+    "matched_tone_frames": 4553,
+    "v2_without_bank_match": 205,
+    "frames_v2_only_gate": 1
+  },
+  "all": {
+    "matched_tone_frames": 4553,
+    "mismatch": {
+      "p05": 0.07815841066431638,
+      "p50": 0.3833138243354762,
+      "p95": 1.4141449677226472,
+      "p99": 1.8453960558282567,
+      "max": 3.6382037601763466
+    },
+    "ramped_mismatch": {
+      "p05": 0.07815841066431638,
+      "p50": 0.3833138243354762,
+      "p95": 1.4141449677226472,
+      "p99": 1.8453960558282567,
+      "max": 3.6382037601763466
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -3.009878616037012,
+      "p50": 8.328910349880505,
+      "p95": 22.140495656640383,
+      "p99": 28.97523072986879,
+      "max": 47.41799544218466
+    },
+    "fraction_mismatch_above_0_1": 0.9211508895233912,
+    "fraction_mismatch_above_1": 0.13661322205139467,
+    "v2_energy_weighted_rms_mismatch": 0.7784152072075126,
+    "absolute_phase_difference_deg": {
+      "p05": 1.3196524340179883,
+      "p50": 18.20063069849551,
+      "p95": 95.1712518093127,
+      "p99": 153.38331578299136,
+      "max": 179.2515109048643
+    },
+    "amplitude_ratio": {
+      "p05": 0.5839486756356098,
+      "p50": 0.9277729696980601,
+      "p95": 1.2744514547301795,
+      "p99": 1.6205622727888969,
+      "max": 4.631285923160698
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 1243,
+    "mismatch": {
+      "p05": 0.10159393892411209,
+      "p50": 0.612521005087642,
+      "p95": 1.5981323587634302,
+      "p99": 1.8902188729080822,
+      "max": 3.6382037601763466
+    },
+    "ramped_mismatch": {
+      "p05": 0.10159393892411209,
+      "p50": 0.612521005087642,
+      "p95": 1.5981323587634302,
+      "p99": 1.8902188729080822,
+      "max": 3.6382037601763466
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -4.072254375712134,
+      "p50": 4.257580270297608,
+      "p95": 19.86264583097431,
+      "p99": 27.45982751212873,
+      "max": 38.38741024251266
+    },
+    "fraction_mismatch_above_0_1": 0.9501206757843926,
+    "fraction_mismatch_above_1": 0.23893805309734514,
+    "v2_energy_weighted_rms_mismatch": 0.9708332274180821,
+    "absolute_phase_difference_deg": {
+      "p05": 2.408791459575923,
+      "p50": 31.59907681572561,
+      "p95": 114.23528791357988,
+      "p99": 156.48835617790917,
+      "max": 175.18404569684446
+    },
+    "amplitude_ratio": {
+      "p05": 0.5303576606154866,
+      "p50": 0.9055807881909244,
+      "p95": 1.3650746641818043,
+      "p99": 2.0103136665720167,
+      "max": 4.631285923160698
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\fresh-039.npz",
+  "ratio_arrays_sha256": "31c5ed8aa1c9be54ce5da4fd4eac5fb622dfd7f3da4102bc2c5159042b81c4e0"
+}

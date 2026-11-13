@@ -1,0 +1,112 @@
+{
+  "id": "case-038",
+  "title": "Propeller-plane-flying-steady-01.wav",
+  "cohort": "former-test-05",
+  "acoustic": true,
+  "arrays_path": "results-selector-headroom-01\\audit\\arrays\\case-038.npz",
+  "arrays_sha256": "62ae1f4cd4317f934be5faef87544ac79eb632faf418c650d0d6a1808b2f3eb1",
+  "reference_sha256": "6e9ae5b0561a6eaa51e3ed003ed6cd3ec0dcd1d158e0b48c6839d3e8867bd3ed",
+  "seconds": 20.0,
+  "prefix_seconds": 8.0,
+  "counts": {
+    "frames_after_warmup": 1850,
+    "v2_components_before_gate": 10554,
+    "bank_components_before_gate": 13592,
+    "frames_both_gates_open": 1832,
+    "bank_components_without_v2_match": 2989,
+    "eligible_v2_components": 10510,
+    "matched_tone_frames": 10458,
+    "v2_without_bank_match": 52,
+    "frames_v2_only_gate": 2,
+    "frames_both_gates_closed": 16
+  },
+  "all": {
+    "matched_tone_frames": 10458,
+    "mismatch": {
+      "p05": 0.04304122652342635,
+      "p50": 0.320920932109643,
+      "p95": 1.183396958353565,
+      "p99": 1.5091162672149514,
+      "max": 2.966487033245617
+    },
+    "ramped_mismatch": {
+      "p05": 0.04304122652342635,
+      "p50": 0.320920932109643,
+      "p95": 1.183396958353565,
+      "p99": 1.5091162672149514,
+      "max": 2.966487033245617
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.4626089542128307,
+      "p50": 9.872039244010178,
+      "p95": 27.322308319632064,
+      "p99": 34.871576722838924,
+      "max": 56.208106345175665
+    },
+    "fraction_mismatch_above_0_1": 0.8127749091604514,
+    "fraction_mismatch_above_1": 0.11589213998852553,
+    "v2_energy_weighted_rms_mismatch": 0.5273533111378469,
+    "absolute_phase_difference_deg": {
+      "p05": 0.9194615467157,
+      "p50": 15.443364714862707,
+      "p95": 91.16947760813294,
+      "p99": 137.1313159878446,
+      "max": 179.9690804785952
+    },
+    "amplitude_ratio": {
+      "p05": 0.3934150893512627,
+      "p50": 0.9287412825712518,
+      "p95": 1.1084255675510541,
+      "p99": 1.288510441234348,
+      "max": 3.2549199215172884
+    }
+  },
+  "original_scored_suffix": {
+    "matched_tone_frames": 6706,
+    "mismatch": {
+      "p05": 0.056091847371342346,
+      "p50": 0.4390606172151327,
+      "p95": 1.2413368200145185,
+      "p99": 1.580803872890589,
+      "max": 2.966487033245617
+    },
+    "ramped_mismatch": {
+      "p05": 0.056091847371342346,
+      "p50": 0.4390606172151327,
+      "p95": 1.2413368200145185,
+      "p99": 1.580803872890589,
+      "max": 2.966487033245617
+    },
+    "idealized_retained_attenuation_db": {
+      "p05": -1.8777927487039037,
+      "p50": 7.149510340078964,
+      "p95": 25.022017070503473,
+      "p99": 33.113876426619655,
+      "max": 47.815082599979206
+    },
+    "fraction_mismatch_above_0_1": 0.8826424097822845,
+    "fraction_mismatch_above_1": 0.1518043543095735,
+    "v2_energy_weighted_rms_mismatch": 0.5771151906599598,
+    "absolute_phase_difference_deg": {
+      "p05": 1.546460308825944,
+      "p50": 22.654401003842505,
+      "p95": 99.42310141111695,
+      "p99": 145.9931394475786,
+      "max": 179.9690804785952
+    },
+    "amplitude_ratio": {
+      "p05": 0.33357640643610204,
+      "p50": 0.8780208789183681,
+      "p95": 1.0711082473994484,
+      "p99": 1.2171153953929443,
+      "max": 3.2549199215172884
+    }
+  },
+  "near_selector_switch": {
+    "matched_tone_frames": 0
+  },
+  "selector_transitions": 0,
+  "transition_origins": [],
+  "ratio_arrays_path": "results-selector-compatibility-01\\ratios\\case-038.npz",
+  "ratio_arrays_sha256": "9dbbc03885ea1538fd8ac999ea7e7c6a1ffc20f44a153dba90d4c8baa6465216"
+}

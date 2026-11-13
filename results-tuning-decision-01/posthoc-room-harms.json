@@ -1,0 +1,119 @@
+{
+  "label": "POST HOC, written after the frozen verdict; does not change it.",
+  "sigma": 1.0,
+  "arms": {
+    "O": {
+      "harms": 36,
+      "by_criterion": {
+        "third-octave only": 32,
+        "both": 2,
+        "band only": 2
+      },
+      "rooms_harmed": 10,
+      "by_room": {
+        "old-007-r0": 10,
+        "old-001-r2": 7,
+        "old-014-r1": 5,
+        "fresh-035-r0": 4,
+        "old-013-r2": 3,
+        "fresh-035-r2": 2,
+        "old-014-r2": 2,
+        "fresh-035-r1": 1,
+        "old-002-r1": 1,
+        "old-013-r1": 1
+      },
+      "median_third_octave_boost_db": 1.07
+    },
+    "S": {
+      "harms": 47,
+      "by_criterion": {
+        "both": 3,
+        "third-octave only": 40,
+        "band only": 4
+      },
+      "rooms_harmed": 13,
+      "by_room": {
+        "old-007-r0": 10,
+        "old-001-r2": 8,
+        "old-014-r1": 8,
+        "fresh-035-r0": 7,
+        "old-013-r2": 3,
+        "old-013-r1": 2,
+        "old-014-r0": 2,
+        "old-014-r2": 2,
+        "fresh-018-r2": 1,
+        "fresh-035-r1": 1,
+        "fresh-035-r2": 1,
+        "old-000-r1": 1,
+        "old-010-r2": 1
+      },
+      "median_third_octave_boost_db": 1.071
+    },
+    "D": {
+      "harms": 36,
+      "by_criterion": {
+        "third-octave only": 35,
+        "both": 1
+      },
+      "rooms_harmed": 8,
+      "by_room": {
+        "old-007-r0": 10,
+        "old-014-r1": 9,
+        "old-001-r2": 7,
+        "fresh-035-r0": 3,
+        "old-014-r2": 3,
+        "old-014-r0": 2,
+        "old-002-r1": 1,
+        "old-013-r2": 1
+      },
+      "median_third_octave_boost_db": 1.079
+    },
+    "SD": {
+      "harms": 38,
+      "by_criterion": {
+        "third-octave only": 37,
+        "band only": 1
+      },
+      "rooms_harmed": 11,
+      "by_room": {
+        "old-007-r0": 10,
+        "old-001-r2": 7,
+        "old-014-r1": 6,
+        "fresh-035-r0": 5,
+        "old-013-r1": 2,
+        "old-014-r0": 2,
+        "old-014-r2": 2,
+        "fresh-035-r1": 1,
+        "fresh-035-r2": 1,
+        "old-002-r1": 1,
+        "old-013-r2": 1
+      },
+      "median_third_octave_boost_db": 1.104
+    }
+  },
+  "SD_vs_O_paired": {
+    "harmed_in_SD_not_O": 12,
+    "by_room_new": {
+      "fresh-035-r0": 2,
+      "old-013-r1": 2,
+      "old-014-r0": 2,
+      "old-014-r1": 2,
+      "fresh-035-r1": 1,
+      "old-001-r2": 1,
+      "old-002-r1": 1,
+      "old-014-r2": 1
+    },
+    "harmed_in_O_not_SD": 10,
+    "by_room_removed": {
+      "old-013-r2": 2,
+      "fresh-035-r0": 1,
+      "fresh-035-r1": 1,
+      "fresh-035-r2": 1,
+      "old-001-r2": 1,
+      "old-002-r1": 1,
+      "old-013-r1": 1,
+      "old-014-r1": 1,
+      "old-014-r2": 1
+    }
+  }
+}

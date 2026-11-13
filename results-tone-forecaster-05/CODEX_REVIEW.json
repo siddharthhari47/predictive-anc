@@ -1,0 +1,196 @@
+{
+  "study": "05",
+  "reviewed_utc": "2026-10-20T13:13:57.352360+00:00",
+  "candidate": "fade0.1_linear_gated",
+  "all_frozen_questions_pass": true,
+  "primary_questions": {
+    "fewer_change_boosts": true,
+    "no_more_recording_boosts": true,
+    "tone_gain_above_v2": true
+  },
+  "metrics": {
+    "zero": {
+      "label": "Predict nothing",
+      "tone_median_20ms_db": 0.0,
+      "tone_median_120ms_db": 0.0,
+      "whole_band_median_20ms_db": 0.0,
+      "whole_band_median_120ms_db": 0.0,
+      "recording_band_boost_cases": 0,
+      "recording_whole_band_boost_cases": 0,
+      "synthetic_late_band_boost_cases": 0,
+      "change_late_band_boost_cases": 0,
+      "tone_files": 6,
+      "recording_case_count": 14,
+      "worst_recording_band_amplification_db": 0.0,
+      "worst_recording_whole_band_gain_db": 0.0
+    },
+    "v2_gated": {
+      "label": "v2 (current engine)",
+      "tone_median_20ms_db": 0.8526681388037893,
+      "tone_median_120ms_db": 0.6077154172040803,
+      "whole_band_median_20ms_db": 0.11482207849402085,
+      "whole_band_median_120ms_db": 0.005260492843216918,
+      "recording_band_boost_cases": 2,
+      "recording_whole_band_boost_cases": 0,
+      "synthetic_late_band_boost_cases": 47,
+      "change_late_band_boost_cases": 25,
+      "tone_files": 6,
+      "recording_case_count": 14,
+      "worst_recording_band_amplification_db": 11.419244228615895,
+      "worst_recording_whole_band_gain_db": -0.028334777709431637
+    },
+    "joint_gated": {
+      "label": "Joint check",
+      "tone_median_20ms_db": 2.0488514323913583,
+      "tone_median_120ms_db": 0.8771250222777803,
+      "whole_band_median_20ms_db": 0.42466184697342757,
+      "whole_band_median_120ms_db": 0.06425955679955428,
+      "recording_band_boost_cases": 2,
+      "recording_whole_band_boost_cases": 0,
+      "synthetic_late_band_boost_cases": 33,
+      "change_late_band_boost_cases": 25,
+      "tone_files": 6,
+      "recording_case_count": 14,
+      "worst_recording_band_amplification_db": 7.737530869770291,
+      "worst_recording_whole_band_gain_db": -0.05310217584062901
+    },
+    "fade0.1_linear_gated": {
+      "label": "Frozen fade candidate",
+      "tone_median_20ms_db": 2.1955602128971488,
+      "tone_median_120ms_db": 0.8795837305727661,
+      "whole_band_median_20ms_db": 0.4294998636611707,
+      "whole_band_median_120ms_db": 0.07182705003517922,
+      "recording_band_boost_cases": 2,
+      "recording_whole_band_boost_cases": 0,
+      "synthetic_late_band_boost_cases": 22,
+      "change_late_band_boost_cases": 14,
+      "tone_files": 6,
+      "recording_case_count": 14,
+      "worst_recording_band_amplification_db": 3.162532611215341,
+      "worst_recording_whole_band_gain_db": -0.05034775076202611
+    },
+    "prefix_ar": {
+      "label": "Prefix-adapted AR",
+      "tone_median_20ms_db": 5.1057937789696854,
+      "tone_median_120ms_db": 3.2216886492889016,
+      "whole_band_median_20ms_db": -0.2087729529732042,
+      "whole_band_median_120ms_db": -0.2767817350067241,
+      "recording_band_boost_cases": 12,
+      "recording_whole_band_boost_cases": 2,
+      "synthetic_late_band_boost_cases": 79,
+      "change_late_band_boost_cases": 24,
+      "tone_files": 6,
+      "recording_case_count": 14,
+      "worst_recording_band_amplification_db": 8.284899051789168,
+      "worst_recording_whole_band_gain_db": -0.8069042959371482
+    },
+    "online_ar": {
+      "label": "Online AR",
+      "tone_median_20ms_db": 5.971421128778613,
+      "tone_median_120ms_db": 2.930611145669086,
+      "whole_band_median_20ms_db": 1.1611444406906384,
+      "whole_band_median_120ms_db": 0.13780034165958627,
+      "recording_band_boost_cases": 11,
+      "recording_whole_band_boost_cases": 1,
+      "synthetic_late_band_boost_cases": 75,
+      "change_late_band_boost_cases": 25,
+      "tone_files": 6,
+      "recording_case_count": 14,
+      "worst_recording_band_amplification_db": 6.520104632682707,
+      "worst_recording_whole_band_gain_db": -0.9879218840202162
+    }
+  },
+  "paired_tone_comparisons_20ms": {
+    "joint_gated": {
+      "wins": 4,
+      "losses": 2,
+      "ties": 0,
+      "two_sided_sign_test_p": 0.6875,
+      "file_differences_db": [
+        [
+          "Ventilador.ogg",
+          0.6454425804929471
+        ],
+        [
+          "Akkuschrauber_–_Cordless_Screwdriver.ogg",
+          0.03510160837873155
+        ],
+        [
+          "ÖBB_Taurus_Start-Up.ogg",
+          0.003936459903241207
+        ],
+        [
+          "Elektrorasur-01.ogg",
+          -0.04054775183372006
+        ],
+        [
+          "Propeller-plane-flying-steady-01.wav",
+          -0.46978384393587724
+        ],
+        [
+          "Sewerage_pumping_station_(Starnberg-Leutstetten_PW83)_c.ogg",
+          0.33396531284530084
+        ]
+      ]
+    },
+    "v2_gated": {
+      "wins": 2,
+      "losses": 4,
+      "ties": 0,
+      "two_sided_sign_test_p": 0.6875,
+      "file_differences_db": [
+        [
+          "Ventilador.ogg",
+          -0.6531934444700447
+        ],
+        [
+          "Akkuschrauber_–_Cordless_Screwdriver.ogg",
+          -0.1793512636880505
+        ],
+        [
+          "ÖBB_Taurus_Start-Up.ogg",
+          0.08580348230119983
+        ],
+        [
+          "Elektrorasur-01.ogg",
+          -0.11735901062305887
+        ],
+        [
+          "Propeller-plane-flying-steady-01.wav",
+          -3.1901261658300015
+        ],
+        [
+          "Sewerage_pumping_station_(Starnberg-Leutstetten_PW83)_c.ogg",
+          2.8031431588097777
+        ]
+      ]
+    }
+  },
+  "fresh_files": [
+    "Ventilador.ogg",
+    "Akkuschrauber_–_Cordless_Screwdriver.ogg",
+    "ÖBB_Taurus_Start-Up.ogg",
+    "Son_démarrage_Mp14-8.ogg",
+    "Elektrorasur-01.ogg",
+    "Propeller-plane-flying-steady-01.wav",
+    "Sewerage_pumping_station_(Starnberg-Leutstetten_PW83)_c.ogg"
+  ],
+  "fresh_missing": [
+    "Noise-Pollution-Filters-Bird-Communities-Based-on-Vocal-Frequency-pone.0027052.s001.ogg"
+  ],
+  "synthetic_scenes": 84,
+  "runtime_seconds": 149.2514002000098,
+  "test_json_sha256": "0a098b6a4c9514b1f2247877ad969d9735ac9afec2241cc4c7e4f193e4d4df60",
+  "protocol_sha256": "d02a63720f48f9765747bc48165ddd962c1c1edfbe3e6e7d6e4257acb2734116",
+  "summary_recomputed_from_saved_scores_for": [
+    "zero",
+    "v2_gated",
+    "joint_gated",
+    "fade0.1_linear_gated",
+    "prefix_ar",
+    "online_ar"
+  ],
+  "models_rerun": false,
+  "engine_changed": false,
+  "claim": "Reference-microphone waveform prediction only; not measured ANC."
+}
