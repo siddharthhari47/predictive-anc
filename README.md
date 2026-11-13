@@ -1,13 +1,8 @@
 # Predictive ANC lab
 
-> **26 October tuning diagnosis:** Claude review #55 is completed on all 78 eligible v2 tones. Six of 40 kept tones make their individual auditory band louder during tuning. Ten of 38 muted tones have at least 1 dB of potential prefix benefit, but only three had already found such a setting. Final checks can also mistake changing background sound for an anti-hum effect. Original tuning reproduces in all 37 eligible rooms. Keep v2 live; next isolate better search from better comparison evidence, before widening the menu. These are seen-data simulated-ear diagnostics; quiet-machine timing and physical ANC remain unvalidated. Read [current tuning diagnosis](docs/TUNING_ACCURACY_STATUS.md). Earlier next-step statements below are historical.
+**A working offline research project, not a validated ANC product.** The engineering goal is software prediction of stationary fan/AC/engine tones using an existing reference microphone and ordinary earphones. The idea is that a steady hum repeats, so a program hearing it through a microphone could predict it a little ahead and play the opposite sound early enough to cover the earphones' output delay. The first deliverable tests whether prediction can survive output delay, timing uncertainty, and acoustic paths.
 
-**24 October follow-up diagnostics:** Claude review #53 is tested. The compressor supports a bad accepted tuning setting: best v2/bank phases differ by 4.37 degrees, while accepted v2 is 152.58 degrees from its own prefix optimum. Of 72 primary rooms, 34 had intermittent detections below the menu rule, one had no detection, 11 were fully muted by the final listening check, and 26 kept active settings. Direct comparison of all 78 available recordings finds substantial predictor disagreement on real audio; fixed tuning cannot be assumed interchangeable. Prior room/fresh results remain unchanged. Keep v2 live; next diagnose menu eligibility and tuning acceptance, not a larger switch cohort. Quiet-machine timing and physical ANC remain unvalidated. See [the compatibility checkpoint](docs/SELECTOR_COMPATIBILITY_STATUS.md).
-
-
-**Latest research, 21 October 2026:** The fresh L2 test is complete: **pass frozen offline criteria**. 35/40 sources were scored, 25 with reference tones. Mean paired gain over v2 at 20 ms: **+0.536 dB**, 95% source-bootstrap interval **+0.121 to +1.043 dB**. See [fresh-test report](results-selector-fresh-01/REPORT.md).
-
-**A working offline research project, not a validated ANC product.** The engineering goal is software prediction of stationary fan/AC/engine tones using an existing reference microphone and ordinary earphones. The first deliverable tests whether prediction can survive output delay, timing uncertainty, and acoustic paths.
+**Where it stands, 13 November 2026:** No real-world ANC has been demonstrated. All the gains so far are offline, scored on recordings and in simulated rooms built from real hum recordings, and even there the tuning sometimes makes the band around a hum louder instead of quieter. Live tries on 6 November against a room fan gave no quieting. That fan's 200 Hz hum sat only 2.5 dB above the noise in its band and wandered, so the best linear predictor removed just 1.9 dB of the band at a 50 ms look-ahead ([fan predictability](results-fan-predictability-02/REPORT.md)). The fan in the current room is a broadband whoosh with no hum the laptop microphone can find. The next test uses a steady 200 Hz tone from a phone as a stand-in hum: first an input-only recording through both microphones, then a `tune` session on it. A pure tone is the easiest case, so a failure there would point at playback or stability rather than prediction. The dated status notes that used to open this page are in [the README history](docs/README_HISTORY.md).
 
 Open [the generated visual report](results/report.html), [initial findings and verification](docs/INITIAL_FINDINGS.md), [full experiment notes](results/REPORT.md), or [the project plan](docs/PLAN.md).
 
@@ -21,19 +16,15 @@ A laptop microphone hears the hum, not what reaches your ear. For one steady ton
 .\.venv\Scripts\python.exe -m anc_lab tune
 ```
 
-It plays nothing until every readiness box is ticked and Start is pressed, caps the output, and stores no audio. It runs the smoothed engine by default; add `--engine v2` for the earlier one, or `--engine faint` (or `tune-faint.bat`) to also listen for weak, slightly wobbly hums such as a fan heard by a laptop mic. That option takes about 9 s to lock on and did not pass its frozen test (`results-faint-tones-02/REPORT.md`). It has not been tried by anyone yet. In simulation it helped only where one tone clearly stands out (13 dB at the tones on a ventilation recording, about nothing on most others), and its final check switches off any tone it cannot show to help. All quieting figures are simulated; nothing has been measured at an ear.
+It plays nothing until every readiness box is ticked and Start is pressed, caps the output, and stores no audio. It runs the smoothed engine by default; add `--engine v2` for the earlier one, or `--engine faint` (or `tune-faint.bat`) to also listen for weak, slightly wobbly hums such as a fan heard by a laptop mic. That option takes about 9 s to lock on and did not pass its frozen test (`results-faint-tones-02/REPORT.md`). Live tries with it on 6 November made a room fan no quieter. In simulation it helped only where one tone clearly stands out (13 dB at the tones on a ventilation recording, about nothing on most others), and its final check switches off any tone it cannot show to help. All quieting figures are simulated; nothing has been measured at an ear.
 
-`tune --mic earbuds` (or `tune-earbud-mic.bat`, which also adds the faint detector) listens through the earbuds' own microphone, the input Windows calls "Headset Microphone (...)", instead of the laptop's. It is the earbuds' call microphone, not one inside the ear; it may filter out steady noise the way call microphones do, and it does not shorten the delay. Bluetooth hands-free microphones are never used. Nobody has listened through it yet.
+`tune --mic earbuds` (or `tune-earbud-mic.bat`, which also adds the faint detector) listens through the earbuds' own microphone, the input Windows calls "Headset Microphone (...)", instead of the laptop's. It is the earbuds' call microphone, not one inside the ear; it may filter out steady noise the way call microphones do, and it does not shorten the delay. Bluetooth hands-free microphones are never used. `tune` has not been run with it yet. Two input-only recordings through it on 12 November (`results-live-listen-03`, taken before the listener was ready, and `results-live-listen-04`) never showed a hum, though the fan in that room had none to show. In the first, 62% of the samples were exact digital silence, which looks like call noise reduction at work.
 
 `tune --mask` (or `mask-hum.bat`) opens a hum masker instead. It plays soft noise one hearing band wide around each hum it finds, so the hum stands out less, with a level slider and the same readiness boxes, output cap and time limit. It adds sound rather than cancelling anything, so earphone delay and pitch wander do not matter. Tested offline only; nobody has listened to it yet.
 
-## Continue in the Claude desktop app
+## Notes for the AI agents
 
-The user prefers the desktop app. Open Claude, choose **Code**, select **Local**, then **Select folder** and choose this project directory. Paste this into the app's prompt box:
-
-> Read CLAUDE.md, docs/SELECTOR_COMPATIBILITY_STATUS.md and docs/CONTINUATION_STATUS.md. Continue the existing project from the latest completed result and its stated next step. Keep the continuation offline.
-
-Read [the handoff](docs/CLAUDE_HANDOFF.md) for context. The app session uses the existing code, reports, local recordings and environment. The user does not need to start a terminal session. Preparing the handoff does not itself start Claude or record audio. See the [official desktop guide](https://code.claude.com/docs/en/desktop-quickstart).
+The hands-on work is done by AI coding agents (Codex and Claude Code). [CLAUDE.md](CLAUDE.md) and the handoff, status and review files in `docs/` are their working notes. CLAUDE.md also sets the project's rules: choices are frozen before untouched test data is scored, failed experiments are kept, the microphone is opened only after the listener says they are ready, and only `tune` plays sound, started by the listener.
 
 ## Goal 1: a real microphone experiment
 
@@ -54,7 +45,7 @@ To evaluate an existing 30-second mono recording:
 python -m anc_lab assess --input recordings/fan.wav --out results-new-assessment
 ```
 
-A matching capture sidecar is required for the report's live-capture quality flag. Imported recordings without it still receive numerical metrics, with unverified provenance clearly marked. A local `.venv` with access to this machine's existing scientific packages and the optional capture dependency has been prepared; it is excluded from the downloadable source archive.
+A matching capture sidecar is required for the report's live-capture quality flag. Imported recordings without it still receive numerical metrics, with unverified provenance clearly marked.
 
 ## Run it
 
@@ -133,10 +124,10 @@ docs/           plan, mathematical contract, validation protocol, sources
 results/        completed benchmark, JSON/CSV metrics, figures, local HTML report
 ```
 
-To regenerate just the report: `python -m anc_lab report --out results`.
+To regenerate just the report after a benchmark run: `python -m anc_lab report --out results`. It reads `results/example_signals.npz`, which the benchmark writes and the repository leaves out.
 
 ## Research context
 
-The brief continues the user's “DSP sound quality improvement” conversation: predict repeatable environmental noise and play synchronized anti-noise through existing earphones, eventually including Bluetooth. Only the prior user messages were readable in the imported preview; this project's explicit brief supplies the detailed scope. Prior assistant output was unavailable, so no technical claims from it were assumed.
+The project continues an earlier conversation titled “DSP sound quality improvement”: predict repeatable environmental noise and play synchronized anti-noise through existing earphones, eventually including Bluetooth. Only the questions in that conversation could be read, not the replies, so this project's own brief sets the detailed scope and no technical claims from the replies were assumed.
 
 Primary implementation references and their implications are recorded in [SOURCES.md](docs/SOURCES.md). This repository deliberately starts with stationary, narrowband conditions. Sudden events, general broadband cancellation, moving listeners, music mixing, phone deployment and wireless calibration remain future work.

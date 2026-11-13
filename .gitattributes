@@ -1,3 +1,7 @@
 # Store every file byte for byte. Results record the sha256 of their code and inputs,
 # so git must not change line endings on commit or checkout.
 * -text
+
+# The report.html pages are written by the benchmark and study commands. Marking them
+# generated keeps them out of GitHub's language bar, which otherwise reads mostly HTML.
+*.html linguist-generated
