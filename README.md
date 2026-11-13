@@ -131,3 +131,7 @@ To regenerate just the report after a benchmark run: `python -m anc_lab report -
 The project continues an earlier conversation titled “DSP sound quality improvement”: predict repeatable environmental noise and play synchronized anti-noise through existing earphones, eventually including Bluetooth. Only the questions in that conversation could be read, not the replies, so this project's own brief sets the detailed scope and no technical claims from the replies were assumed.
 
 Primary implementation references and their implications are recorded in [SOURCES.md](docs/SOURCES.md). This repository deliberately starts with stationary, narrowband conditions. Sudden events, general broadband cancellation, moving listeners, music mixing, phone deployment and wireless calibration remain future work.
+
+## License
+
+Proprietary. Copyright © 2026 Siddharth Hariharan. All rights reserved. Published for portfolio review only; see [LICENSE](LICENSE). This is not open source, and no permission is granted to use, copy, modify, deploy, or redistribute this code.
